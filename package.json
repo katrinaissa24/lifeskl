@@ -1,0 +1,16 @@
+{
+  "name": "lifeskl",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter @lifeskl/web dev",
+    "build": "pnpm --filter @lifeskl/web build",
+    "start": "pnpm --filter @lifeskl/web start",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "packageManager": "pnpm@11.3.0"
+}

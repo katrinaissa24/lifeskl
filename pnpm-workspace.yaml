@@ -1,0 +1,8 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+# Approve dependencies that need to run install/build scripts. sharp is the
+# native image-resizing library Next.js uses for image optimization.
+allowBuilds:
+  sharp: true
