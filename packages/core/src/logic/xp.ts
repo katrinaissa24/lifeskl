@@ -1,5 +1,3 @@
-import type { Lesson, UserProgress } from "../types";
-
 /** Cumulative XP required to reach each level. Index = level - 1. */
 const LEVEL_THRESHOLDS = [0, 50, 120, 220, 360, 540, 760, 1020, 1320, 1660];
 
@@ -32,39 +30,19 @@ function daysBetween(fromISO: string, toISO: string): number {
 }
 
 /**
- * Pure progress update. Returns a NEW UserProgress with the lesson's XP added
- * and the streak recomputed.
+ * Pure streak math, shared by web and (later) mobile. `todayISO` is passed in
+ * rather than read from the clock so this stays trivially testable.
  *
- * `todayISO` is passed in (never read from the system clock here) so this stays
- * a pure function — trivial to unit-test and identical on web and mobile.
+ * Same day → unchanged; consecutive day → +1; gap → reset to 1.
  */
-export function completeLesson(
-  progress: UserProgress,
-  lesson: Lesson,
+export function nextStreakDays(
+  lastActiveDate: string | null,
   todayISO: string,
-): UserProgress {
-  const alreadyDone = progress.completedLessonIds.includes(lesson.id);
-
-  let streakDays = progress.streakDays;
-  if (progress.lastActiveDate === null) {
-    streakDays = 1;
-  } else {
-    const gap = daysBetween(progress.lastActiveDate, todayISO);
-    if (gap === 0) {
-      streakDays = Math.max(streakDays, 1); // same day, streak unchanged
-    } else if (gap === 1) {
-      streakDays = streakDays + 1; // consecutive day, streak grows
-    } else if (gap > 1) {
-      streakDays = 1; // missed a day, streak resets
-    }
-  }
-
-  return {
-    xp: progress.xp + (alreadyDone ? 0 : lesson.xp),
-    streakDays,
-    completedLessonIds: alreadyDone
-      ? progress.completedLessonIds
-      : [...progress.completedLessonIds, lesson.id],
-    lastActiveDate: todayISO,
-  };
+  currentStreak: number,
+): number {
+  if (lastActiveDate === null) return 1;
+  const gap = daysBetween(lastActiveDate, todayISO);
+  if (gap === 0) return Math.max(currentStreak, 1);
+  if (gap === 1) return currentStreak + 1;
+  return 1;
 }

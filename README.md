@@ -12,10 +12,13 @@ same shared package.
 ```
 lifeskl/
 ├── apps/
-│   ├── web/            # Next.js web app — frontend + backend (API routes)
+│   ├── web/            # Next.js web app (landing, auth, dashboard, lessons)
 │   └── mobile/         # (later) Expo React Native app — iOS + Android
 ├── packages/
-│   └── core/           # shared TypeScript: types, curriculum data, XP/streak logic
+│   └── core/           # shared TypeScript: domain types + XP/streak logic
+├── supabase/
+│   ├── migrations/     # SQL schema (run in the Supabase SQL Editor)
+│   └── seed.sql        # starter courses + lessons
 ├── package.json        # workspace root + scripts
 ├── pnpm-workspace.yaml # tells pnpm where the workspaces are
 └── tsconfig.base.json  # TS settings every package extends
@@ -27,8 +30,8 @@ This is the important mental model:
 
 | Layer                              | Shared?  | Where it lives                         |
 | ---------------------------------- | -------- | -------------------------------------- |
-| Types, curriculum, business logic  | ✅ Yes   | `packages/core`                        |
-| API / backend                      | ✅ Yes   | `apps/web/src/app/api` (both call it)  |
+| Types, XP/streak logic             | ✅ Yes   | `packages/core`                        |
+| Backend (DB, auth, RLS)            | ✅ Yes   | Supabase (both clients call it)        |
 | UI components                      | ❌ No    | web uses HTML; mobile uses RN `<View>` |
 
 Web React and React Native **do not share UI components** — `<div>` doesn't
@@ -37,7 +40,14 @@ exactly what `packages/core` holds. That's where the real time savings are.
 
 ## Getting started
 
-Prereqs: Node 20+ and pnpm (`npm install -g pnpm`).
+Prereqs: Node 20+, pnpm (`npm install -g pnpm`), and a free Supabase project.
+
+1. **Connect Supabase** — copy `apps/web/.env.example` to `apps/web/.env.local`
+   and fill in your Project URL and anon/publishable key (Supabase Dashboard →
+   Project Settings → API).
+2. **Create the schema** — in the Supabase SQL Editor, run
+   `supabase/migrations/0001_init.sql`, then `supabase/seed.sql`.
+3. **Run it:**
 
 ```bash
 pnpm install            # install everything for all workspaces
@@ -53,14 +63,24 @@ pnpm typecheck          # type-check every package
 
 ## How it's wired
 
-- **Frontend** — `apps/web/src/app/page.tsx` renders the skill path;
-  `apps/web/src/app/lesson/[lessonId]/` is the interactive lesson player.
-- **Backend** — `apps/web/src/app/api/tracks` and `.../api/progress` are Next.js
-  Route Handlers. This is your API. The mobile app will call these same URLs.
-- **Shared core** — `packages/core` exports the `Track`/`Lesson`/`Exercise`
-  types, the seed `TRACKS` curriculum, and pure functions like `completeLesson`
-  and `levelInfo`. Both the frontend and the backend import from here, so they
-  can never disagree about XP or streak math.
+- **Design system** — the "Grape" theme lives in
+  `apps/web/src/app/globals.css`: design tokens + component primitives
+  (buttons, cards, chips, lesson UI), also mapped into Tailwind utilities.
+  Every new screen should build from these.
+- **Frontend** — `/` is the marketing landing page; `/dashboard` is the
+  signed-in classroom (courses + lessons from the DB);
+  `/lesson/[lessonId]` plays a lesson's content blocks.
+- **Backend** — Supabase: Postgres (courses, lessons, profiles, friendships,
+  all behind row-level security) + Auth (email/password; a DB trigger
+  auto-creates a profile on signup). The schema lives in
+  `supabase/migrations/`.
+- **Lesson content** — each lesson's `content` column is a JSONB array of
+  blocks (`material`, `multiple_choice`, `true_false`, …) so one lesson can
+  mix enriched reading with interactive questions. New delivery formats are
+  new block types — no schema change.
+- **Shared core** — `packages/core` exports the domain types and pure
+  XP/level/streak math. The future mobile app imports the same package and
+  talks to the same Supabase project.
 
 ## Adding the mobile app (when you're ready)
 
@@ -100,11 +120,12 @@ hand.
 
 ## Next steps (roughly in order)
 
-1. **Persistence** — swap the in-memory store in `api/progress` for a real
-   database (Postgres + Prisma, or Supabase) and wire the lesson player to POST
-   to it.
-2. **Auth** — add accounts (e.g. NextAuth / Clerk / Supabase Auth) so progress
-   is per-user.
-3. **More content** — grow `packages/core/src/data/curriculum.ts`; consider
-   moving it into the database.
+1. **Progress tracking** — a `lesson_completions` table + a security-definer
+   RPC that awards XP and feeds the streak when a lesson is finished (the
+   player UI is already in place; it just doesn't persist yet).
+2. **Friends UI** — search profiles, send/accept requests (the `friendships`
+   table and its RLS policies are ready).
+3. **More content & block types** — grow the catalog in the DB; add new
+   lesson block types (ordering, matching, fill-in-the-blank) to
+   `packages/core` and the player.
 4. **Mobile** — scaffold `apps/mobile` with Expo as described above.

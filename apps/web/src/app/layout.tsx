@@ -1,19 +1,28 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+import { Bricolage_Grotesque, DM_Sans } from "next/font/google";
 import "./globals.css";
 
+const bricolage = Bricolage_Grotesque({
+  subsets: ["latin"],
+  variable: "--font-bricolage",
+});
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-dm-sans",
+});
+
 export const metadata: Metadata = {
-  title: "LifeSkl — Duolingo for life skills",
+  title: "LIFESKL — The life skills school misses",
   description:
-    "Learn the stuff school skipped, one bite-sized lesson at a time.",
+    "Money, work, health, and the everyday admin of being a person — taught in five-minute, hands-on lessons.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
-      <body className="min-h-screen bg-slate-50 text-slate-900 antialiased">
-        {children}
-      </body>
+    <html lang="en" className={`${bricolage.variable} ${dmSans.variable}`}>
+      <body>{children}</body>
     </html>
   );
 }
