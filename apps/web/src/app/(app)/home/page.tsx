@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { levelInfo } from "@lifeskl/core";
+import { CourseBadge } from "@/components/CourseBadge";
+import { Icon, type IconName } from "@/components/Icon";
 import {
   buildJourney,
   getCompletions,
@@ -19,6 +21,17 @@ function timeAgo(iso: string): string {
   if (hours < 24) return `${hours}h ago`;
   const days = Math.round(hours / 24);
   return days === 1 ? "yesterday" : `${days}d ago`;
+}
+
+function Stat({ icon, value, label }: { icon: IconName; value: string; label: string }) {
+  return (
+    <div className="card stat-card">
+      <span className="big">
+        <Icon name={icon} size={26} strokeWidth={2.4} /> {value}
+      </span>
+      <span className="lbl">{label}</span>
+    </div>
+  );
 }
 
 export default async function HomePage() {
@@ -75,7 +88,7 @@ export default async function HomePage() {
 
       {activeCourse && nextLesson ? (
         <div className="continue-card">
-          <span className="emoji">{activeCourse.emoji}</span>
+          <CourseBadge slug={activeCourse.slug} title={activeCourse.title} size={56} />
           <div className="grow">
             <div className="eyebrow" style={{ color: "rgba(255,255,255,.8)" }}>
               Continue · {activeCourse.title}
@@ -97,7 +110,7 @@ export default async function HomePage() {
         </div>
       ) : activeCourse ? (
         <div className="continue-card">
-          <span className="emoji">🏆</span>
+          <span className="emoji"><Icon name="trophy" size={44} /></span>
           <div className="grow">
             <h2>{activeCourse.title} — complete!</h2>
             <p className="sub">
@@ -110,7 +123,7 @@ export default async function HomePage() {
         </div>
       ) : (
         <div className="continue-card">
-          <span className="emoji">🚀</span>
+          <span className="emoji"><Icon name="map" size={44} /></span>
           <div className="grow">
             <h2>Pick your first course</h2>
             <p className="sub">
@@ -124,22 +137,10 @@ export default async function HomePage() {
       )}
 
       <div className="stat-grid">
-        <div className="card stat-card">
-          <span className="big">🔥 {streakDays}</span>
-          <span className="lbl">day streak</span>
-        </div>
-        <div className="card stat-card">
-          <span className="big">⚡ {xp}</span>
-          <span className="lbl">total XP</span>
-        </div>
-        <div className="card stat-card">
-          <span className="big">📚 {completions.length}</span>
-          <span className="lbl">lessons done</span>
-        </div>
-        <div className="card stat-card">
-          <span className="big">🎯 {accuracy === null ? "—" : `${accuracy}%`}</span>
-          <span className="lbl">accuracy</span>
-        </div>
+        <Stat icon="flame" value={String(streakDays)} label="day streak" />
+        <Stat icon="bolt" value={String(xp)} label="total XP" />
+        <Stat icon="book" value={String(completions.length)} label="lessons done" />
+        <Stat icon="target" value={accuracy === null ? "—" : `${accuracy}%`} label="accuracy" />
       </div>
 
       <section className="home-sec">
@@ -164,7 +165,9 @@ export default async function HomePage() {
           <div className="card card-pad" style={{ paddingTop: 12, paddingBottom: 12 }}>
             {recent.map((c) => (
               <div className="activity-row" key={`${c.lessonId}-${c.completedAt}`}>
-                <span>✅</span>
+                <span style={{ color: "var(--good)" }}>
+                  <Icon name="check" size={20} strokeWidth={3} />
+                </span>
                 <span>
                   {lessonTitle.get(c.lessonId) ?? "A lesson"}
                   <span className="muted" style={{ fontWeight: 500 }}>
@@ -193,14 +196,13 @@ export default async function HomePage() {
                 className="card card-hover mini-course"
                 key={course.id}
               >
-                <span style={{ fontSize: "1.7rem" }}>{course.emoji}</span>
+                <CourseBadge slug={course.slug} title={course.title} size={40} />
                 <span className="t">
                   {course.title}
                   <span className="d">
                     {course.lessons.length === 0
                       ? "Coming soon"
                       : `${done}/${course.lessons.length} lessons`}
-                    {isActive && " · active"}
                   </span>
                 </span>
                 {isActive && <span className="chip chip-accent">Active</span>}

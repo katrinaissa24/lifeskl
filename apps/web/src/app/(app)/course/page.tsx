@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import type { ReactNode } from "react";
 import { redirect } from "next/navigation";
-import type { JourneyLesson } from "@/lib/data";
+import { CourseBadge } from "@/components/CourseBadge";
+import { Icon } from "@/components/Icon";
+import { enrollInCourse } from "@/lib/actions";
 import {
   buildJourney,
   getCompletions,
@@ -11,52 +13,9 @@ import {
 } from "@/lib/data";
 import { createClient } from "@/lib/supabase/server";
 import { CourseSwitcher } from "./CourseSwitcher";
+import { LessonNode } from "./LessonNode";
 
 export const metadata: Metadata = { title: "Course — LIFESKL" };
-
-/** Winding-path horizontal offsets, repeating like a gentle S-curve. */
-const WAVE = [0, 56, 84, 56, 0, -56, -84, -56];
-
-function JourneyNode({
-  lesson,
-  index,
-  showStartChip,
-}: {
-  lesson: JourneyLesson;
-  index: number;
-  showStartChip: boolean;
-}) {
-  const offset = WAVE[index % WAVE.length];
-  const icon =
-    lesson.state === "done" ? "⭐" : lesson.state === "current" ? "▶" : "🔒";
-
-  const node = (
-    <div
-      className={`j-node ${lesson.state}`}
-      style={{ transform: `translateX(${offset}px)` }}
-    >
-      <span className={`j-btn ${lesson.state}`}>
-        {showStartChip && <span className="j-start-chip">Start here</span>}
-        <span style={lesson.state === "current" ? { color: "#fff" } : undefined}>
-          {icon}
-        </span>
-      </span>
-      <span className="j-title">{lesson.title}</span>
-      <span className="j-xp">
-        {lesson.state === "done" ? "Completed · tap to review" : `+${lesson.xpReward} XP`}
-      </span>
-    </div>
-  );
-
-  if (lesson.state === "locked") {
-    return <div className="j-row">{node}</div>;
-  }
-  return (
-    <Link className="j-row" href={`/lesson/${lesson.id}`}>
-      {node}
-    </Link>
-  );
-}
 
 export default async function CoursePage() {
   const supabase = await createClient();
@@ -75,7 +34,7 @@ export default async function CoursePage() {
   const activeCourse =
     courses.find((c) => c.id === profile?.activeCourseId) ?? null;
 
-  // Not enrolled anywhere yet → the switcher modal IS the page.
+  // Not enrolled anywhere yet → a simple enroll list.
   if (!activeCourse) {
     return (
       <>
@@ -91,7 +50,7 @@ export default async function CoursePage() {
         <div style={{ maxWidth: 560, marginTop: 18 }}>
           {courses.map((course) => (
             <EnrollRow key={course.id} courseId={course.id}>
-              <span className="emoji">{course.emoji}</span>
+              <CourseBadge slug={course.slug} title={course.title} size={44} />
               <span className="t" style={{ flex: 1 }}>
                 {course.title}
                 <span className="d">
@@ -118,20 +77,18 @@ export default async function CoursePage() {
   return (
     <>
       <div className="course-top">
-        <div>
-          <div className="eyebrow">Your course</div>
-          <h1>
-            {activeCourse.emoji} {activeCourse.title}
-          </h1>
-          <p className="muted" style={{ fontWeight: 500, marginTop: 6 }}>
-            {activeCourse.description}
-          </p>
+        <div className="row" style={{ gap: 16, alignItems: "center" }}>
+          <CourseBadge slug={activeCourse.slug} title={activeCourse.title} size={52} />
+          <div>
+            <div className="eyebrow">Your course</div>
+            <h1>{activeCourse.title}</h1>
+          </div>
         </div>
         <CourseSwitcher
           courses={courses}
           activeCourseId={activeCourse.id}
           enrolledIds={enrolledIds}
-          label="⇄ Switch course"
+          label="Switch course"
         />
       </div>
 
@@ -163,6 +120,7 @@ export default async function CoursePage() {
         ) : (
           units.map((unit) => {
             const unitLessons = journey.filter((l) => l.unit === unit);
+            const unitDone = unitLessons.every((l) => l.state === "done");
             return (
               <section key={unit}>
                 <div className="unit-band">
@@ -170,11 +128,15 @@ export default async function CoursePage() {
                   <span className="t">
                     {unitLessons.length}{" "}
                     {unitLessons.length === 1 ? "lesson" : "lessons"}
-                    {unitLessons.every((l) => l.state === "done") && " · ⭐ complete"}
                   </span>
+                  {unitDone && (
+                    <span style={{ marginLeft: "auto", color: "var(--good)" }}>
+                      <Icon name="check" size={20} strokeWidth={3} />
+                    </span>
+                  )}
                 </div>
                 {unitLessons.map((lesson) => (
-                  <JourneyNode
+                  <LessonNode
                     key={lesson.id}
                     lesson={lesson}
                     index={journey.findIndex((j) => j.id === lesson.id)}
@@ -191,9 +153,6 @@ export default async function CoursePage() {
 }
 
 // Server-action enroll row for the not-yet-enrolled state.
-import { enrollInCourse } from "@/lib/actions";
-import type { ReactNode } from "react";
-
 function EnrollRow({
   courseId,
   children,

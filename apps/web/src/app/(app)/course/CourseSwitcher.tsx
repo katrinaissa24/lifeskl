@@ -2,6 +2,8 @@
 
 import { useState, useTransition } from "react";
 import type { CourseWithLessons } from "@lifeskl/core";
+import { CourseBadge } from "@/components/CourseBadge";
+import { Icon } from "@/components/Icon";
 import { enrollInCourse } from "@/lib/actions";
 
 /**
@@ -38,8 +40,9 @@ export function CourseSwitcher({
         type="button"
         className="btn btn-out btn-sm switch-fab"
         onClick={() => setOpen(true)}
+        style={{ gap: 8 }}
       >
-        {label}
+        <Icon name="map" size={16} /> {label}
       </button>
 
       {open && (
@@ -78,7 +81,7 @@ export function CourseSwitcher({
                   onClick={() => pick(course.id)}
                   style={empty ? { opacity: 0.55 } : undefined}
                 >
-                  <span className="emoji">{course.emoji}</span>
+                  <CourseBadge slug={course.slug} title={course.title} size={40} />
                   <span className="t" style={{ flex: 1 }}>
                     {course.title}
                     <span className="d">

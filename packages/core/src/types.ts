@@ -20,6 +20,34 @@ export interface Profile {
   /** Course the learner is currently working through, or null. */
   activeCourseId: string | null;
   createdAt: string | null;
+  /** What the learner picked in onboarding (free-form goal key/label). */
+  goal: string | null;
+  /** Has the learner finished the first-run onboarding flow? */
+  onboarded: boolean;
+}
+
+// --------------------------------------------------------------- social
+
+export interface Friend {
+  id: string;
+  username: string;
+  displayName: string | null;
+  xp: number;
+  streakDays: number;
+}
+
+export interface FriendRequest {
+  /** The profile that sent the request. */
+  fromId: string;
+  fromUsername: string;
+  createdAt: string;
+}
+
+/** One day's worth of XP, for the profile activity chart. */
+export interface XpDay {
+  /** ISO date (YYYY-MM-DD). */
+  date: string;
+  xp: number;
 }
 
 // ----------------------------------------------------------------- courses

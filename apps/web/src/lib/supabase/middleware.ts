@@ -8,6 +8,10 @@ const PROTECTED_PREFIXES = [
   "/course",
   "/lesson",
   "/profile",
+  "/settings",
+  "/notifications",
+  "/onboarding",
+  "/u/",
 ];
 const AUTH_PAGES = ["/login", "/signup"];
 

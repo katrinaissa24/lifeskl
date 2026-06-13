@@ -2,15 +2,33 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { levelInfo } from "@lifeskl/core";
+import { AddFriend } from "@/components/AddFriend";
+import { CourseBadge } from "@/components/CourseBadge";
+import { FriendsList } from "@/components/FriendsList";
+import { Icon, type IconName } from "@/components/Icon";
+import { XpChart } from "@/components/XpChart";
 import {
   getCompletions,
   getCoursesWithLessons,
   getEnrolledCourseIds,
+  getFriends,
   getProfile,
+  getXpPerDay,
 } from "@/lib/data";
 import { createClient } from "@/lib/supabase/server";
 
 export const metadata: Metadata = { title: "Profile — LIFESKL" };
+
+function Stat({ icon, value, label }: { icon: IconName; value: string; label: string }) {
+  return (
+    <div className="card stat-card">
+      <span className="big">
+        <Icon name={icon} size={26} strokeWidth={2.4} /> {value}
+      </span>
+      <span className="lbl">{label}</span>
+    </div>
+  );
+}
 
 export default async function ProfilePage() {
   const supabase = await createClient();
@@ -19,12 +37,15 @@ export default async function ProfilePage() {
   } = await supabase.auth.getUser();
   if (!user) redirect("/login");
 
-  const [profile, courses, completions, enrolledIds] = await Promise.all([
-    getProfile(user.id),
-    getCoursesWithLessons(),
-    getCompletions(user.id),
-    getEnrolledCourseIds(user.id),
-  ]);
+  const [profile, courses, completions, enrolledIds, friends, xpDays] =
+    await Promise.all([
+      getProfile(user.id),
+      getCoursesWithLessons(),
+      getCompletions(user.id),
+      getEnrolledCourseIds(user.id),
+      getFriends(user.id),
+      getXpPerDay(user.id, 14),
+    ]);
 
   const username = profile?.username ?? "learner";
   const xp = profile?.xp ?? 0;
@@ -55,12 +76,29 @@ export default async function ProfilePage() {
         <div>
           <h1>@{username}</h1>
           {joined && <p className="joined">Learning since {joined}</p>}
+          {profile?.goal && (
+            <p className="joined" style={{ color: "var(--accent-d)", fontWeight: 700 }}>
+              Goal: {profile.goal}
+            </p>
+          )}
         </div>
-        <span className="spacer" />
-        <span className="chip chip-accent">Level {level}</span>
+        <div className="prof-actions">
+          <span className="chip chip-accent">Level {level}</span>
+          <Link href="/settings" className="btn btn-ghost btn-sm" aria-label="Settings" title="Settings">
+            <Icon name="gear" size={20} />
+          </Link>
+        </div>
       </div>
 
-      <div className="level-strip">
+      <section className="home-sec" style={{ marginTop: 22 }}>
+        <h3 style={{ display: "flex", alignItems: "center", gap: 8 }}>
+          <Icon name="users" size={20} /> Friends
+        </h3>
+        <FriendsList friends={friends} />
+        <AddFriend />
+      </section>
+
+      <div className="level-strip" style={{ marginTop: 26 }}>
         <div className="meta">
           <span>Level {level}</span>
           <span>
@@ -74,31 +112,20 @@ export default async function ProfilePage() {
         </div>
       </div>
 
+      <section className="home-sec">
+        <h3>Activity</h3>
+        <div className="card card-pad">
+          <XpChart days={xpDays} />
+        </div>
+      </section>
+
       <div className="stat-grid">
-        <div className="card stat-card">
-          <span className="big">🔥 {profile?.streakDays ?? 0}</span>
-          <span className="lbl">day streak</span>
-        </div>
-        <div className="card stat-card">
-          <span className="big">⚡ {xp}</span>
-          <span className="lbl">total XP</span>
-        </div>
-        <div className="card stat-card">
-          <span className="big">📚 {completions.length}</span>
-          <span className="lbl">lessons done</span>
-        </div>
-        <div className="card stat-card">
-          <span className="big">🎯 {accuracy === null ? "—" : `${accuracy}%`}</span>
-          <span className="lbl">accuracy</span>
-        </div>
-        <div className="card stat-card">
-          <span className="big">💯 {perfects}</span>
-          <span className="lbl">perfect lessons</span>
-        </div>
-        <div className="card stat-card">
-          <span className="big">🗺️ {enrolledCourses.length}</span>
-          <span className="lbl">courses enrolled</span>
-        </div>
+        <Stat icon="flame" value={String(profile?.streakDays ?? 0)} label="day streak" />
+        <Stat icon="bolt" value={String(xp)} label="total XP" />
+        <Stat icon="book" value={String(completions.length)} label="lessons done" />
+        <Stat icon="target" value={accuracy === null ? "—" : `${accuracy}%`} label="accuracy" />
+        <Stat icon="medal" value={String(perfects)} label="perfect lessons" />
+        <Stat icon="map" value={String(enrolledCourses.length)} label="courses" />
       </div>
 
       <section className="home-sec">
@@ -127,7 +154,7 @@ export default async function ProfilePage() {
                   className="card card-hover mini-course"
                   key={course.id}
                 >
-                  <span style={{ fontSize: "1.7rem" }}>{course.emoji}</span>
+                  <CourseBadge slug={course.slug} title={course.title} size={40} />
                   <span className="t">
                     {course.title}
                     <span className="d">
