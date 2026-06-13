@@ -8,20 +8,17 @@ import {
   buildJourney,
   getCompletions,
   getCoursesWithLessons,
+  getCurrentUser,
   getEnrolledCourseIds,
   getProfile,
 } from "@/lib/data";
-import { createClient } from "@/lib/supabase/server";
 import { CourseSwitcher } from "./CourseSwitcher";
 import { LessonNode } from "./LessonNode";
 
 export const metadata: Metadata = { title: "Course — LIFESKL" };
 
 export default async function CoursePage() {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const user = await getCurrentUser();
   if (!user) redirect("/login");
 
   const [profile, courses, completions, enrolledIds] = await Promise.all([

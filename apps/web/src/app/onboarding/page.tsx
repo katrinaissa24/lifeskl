@@ -1,7 +1,6 @@
 import { redirect } from "next/navigation";
-import { getCoursesWithLessons, getProfile } from "@/lib/data";
+import { getCoursesWithLessons, getCurrentUser, getProfile } from "@/lib/data";
 import { isSupabaseConfigured } from "@/lib/supabase/env";
-import { createClient } from "@/lib/supabase/server";
 import { OnboardingFlow } from "./OnboardingFlow";
 
 export const metadata = { title: "Welcome — LIFESKL" };
@@ -11,10 +10,7 @@ export const metadata = { title: "Welcome — LIFESKL" };
 export default async function OnboardingPage() {
   if (!isSupabaseConfigured) redirect("/login");
 
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const user = await getCurrentUser();
   if (!user) redirect("/login");
 
   const [profile, courses] = await Promise.all([

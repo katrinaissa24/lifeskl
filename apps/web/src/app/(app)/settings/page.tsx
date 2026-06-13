@@ -7,18 +7,15 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 import { unenrollCourse } from "@/lib/actions";
 import {
   getCoursesWithLessons,
+  getCurrentUser,
   getEnrolledCourseIds,
   getProfile,
 } from "@/lib/data";
-import { createClient } from "@/lib/supabase/server";
 
 export const metadata: Metadata = { title: "Settings — LIFESKL" };
 
 export default async function SettingsPage() {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const user = await getCurrentUser();
   if (!user) redirect("/login");
 
   const [profile, courses, enrolledIds] = await Promise.all([

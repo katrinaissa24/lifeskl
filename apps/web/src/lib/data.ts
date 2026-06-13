@@ -11,10 +11,41 @@ import type {
   XpDay,
 } from "@lifeskl/core";
 import { LESSON_BLOCK_TYPES } from "@lifeskl/core";
+import type { User } from "@supabase/supabase-js";
+import { unstable_cache } from "next/cache";
+import { cache } from "react";
+import { createPublicClient } from "@/lib/supabase/public";
 import { createClient } from "@/lib/supabase/server";
 
 // Server-side fetchers. Supabase returns snake_case rows; everything leaves
 // this file as the camelCase types from @lifeskl/core.
+//
+// Two layers of caching keep navigation cheap:
+//   * React `cache()` dedupes a fetch within a single server render, so the
+//     shared (app) layout and the page it wraps never hit Supabase twice for
+//     the same data (profile, completions, the signed-in user, …).
+//   * `unstable_cache` caches the public, non-user-specific catalog/lesson
+//     content across requests, so page transitions don't re-run the big
+//     courses⋈lessons join every time.
+
+// How long the public catalog/lesson cache stays warm before revalidating.
+// Content is seeded out-of-band (SQL), so it's effectively static; the tag
+// lets it be busted on demand if that ever changes.
+const CATALOG_REVALIDATE_SECONDS = 300;
+const CATALOG_TAG = "catalog";
+
+/**
+ * The signed-in Supabase user, memoized per request. `auth.getUser()` is a
+ * network round-trip to the auth server, and the layout + page both need it —
+ * `cache()` collapses that to a single call.
+ */
+export const getCurrentUser = cache(async (): Promise<User | null> => {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  return user;
+});
 
 interface CourseRow {
   id: string;
@@ -123,82 +154,105 @@ function parseSummaryPoints(value: unknown): string[] {
 const LESSON_SUMMARY_COLS =
   "id, slug, title, description, xp_reward, sort_order, unit, is_published";
 
-export async function getCoursesWithLessons(): Promise<CourseWithLessons[]> {
-  const supabase = await createClient();
-  const { data, error } = await supabase
-    .from("courses")
-    .select(
-      `id, slug, title, description, emoji, sort_order, lessons(${LESSON_SUMMARY_COLS})`,
-    )
-    .eq("is_published", true)
-    .order("sort_order")
-    .order("sort_order", { referencedTable: "lessons" });
+// The catalog and lesson content are public (anon-readable) and the same for
+// everyone, so they're fetched with the cookieless client and cached across
+// requests. The outer `cache()` adds request-level single-flight so concurrent
+// callers (layout + page) share one promise.
 
-  if (error || !data) return [];
+const loadCoursesWithLessons = unstable_cache(
+  async (): Promise<CourseWithLessons[]> => {
+    const supabase = createPublicClient();
+    const { data, error } = await supabase
+      .from("courses")
+      .select(
+        `id, slug, title, description, emoji, sort_order, lessons(${LESSON_SUMMARY_COLS})`,
+      )
+      .eq("is_published", true)
+      .order("sort_order")
+      .order("sort_order", { referencedTable: "lessons" });
 
-  return (data as (CourseRow & { lessons: LessonRow[] | null })[]).map(
-    (row) => ({
+    if (error || !data) return [];
+
+    return (data as (CourseRow & { lessons: LessonRow[] | null })[]).map(
+      (row) => ({
+        ...mapCourse(row),
+        lessons: (row.lessons ?? [])
+          .filter((l) => l.is_published !== false)
+          .map(mapLessonSummary),
+      }),
+    );
+  },
+  ["courses-with-lessons"],
+  { revalidate: CATALOG_REVALIDATE_SECONDS, tags: [CATALOG_TAG] },
+);
+
+export const getCoursesWithLessons = cache(loadCoursesWithLessons);
+
+const loadCourseWithLessons = unstable_cache(
+  async (courseId: string): Promise<CourseWithLessons | null> => {
+    const supabase = createPublicClient();
+    const { data, error } = await supabase
+      .from("courses")
+      .select(
+        `id, slug, title, description, emoji, sort_order, lessons(${LESSON_SUMMARY_COLS})`,
+      )
+      .eq("id", courseId)
+      .eq("is_published", true)
+      .order("sort_order", { referencedTable: "lessons" })
+      .maybeSingle();
+
+    if (error || !data) return null;
+
+    const row = data as unknown as CourseRow & { lessons: LessonRow[] | null };
+    return {
       ...mapCourse(row),
       lessons: (row.lessons ?? [])
         .filter((l) => l.is_published !== false)
         .map(mapLessonSummary),
-    }),
-  );
-}
+    };
+  },
+  ["course-with-lessons"],
+  { revalidate: CATALOG_REVALIDATE_SECONDS, tags: [CATALOG_TAG] },
+);
 
-export async function getCourseWithLessons(
-  courseId: string,
-): Promise<CourseWithLessons | null> {
-  const supabase = await createClient();
-  const { data, error } = await supabase
-    .from("courses")
-    .select(
-      `id, slug, title, description, emoji, sort_order, lessons(${LESSON_SUMMARY_COLS})`,
-    )
-    .eq("id", courseId)
-    .eq("is_published", true)
-    .order("sort_order", { referencedTable: "lessons" })
-    .maybeSingle();
+export const getCourseWithLessons = cache(loadCourseWithLessons);
 
-  if (error || !data) return null;
+const loadLessonWithCourse = unstable_cache(
+  async (
+    lessonId: string,
+  ): Promise<{ lesson: Lesson; course: Course } | null> => {
+    const supabase = createPublicClient();
+    const { data, error } = await supabase
+      .from("lessons")
+      .select(
+        "id, course_id, slug, title, description, xp_reward, sort_order, unit, content, summary_points, courses(id, slug, title, description, emoji, sort_order)",
+      )
+      .eq("id", lessonId)
+      .eq("is_published", true)
+      .maybeSingle();
 
-  const row = data as unknown as CourseRow & { lessons: LessonRow[] | null };
-  return {
-    ...mapCourse(row),
-    lessons: (row.lessons ?? [])
-      .filter((l) => l.is_published !== false)
-      .map(mapLessonSummary),
-  };
-}
+    if (error || !data) return null;
 
-export async function getLessonWithCourse(
-  lessonId: string,
-): Promise<{ lesson: Lesson; course: Course } | null> {
-  const supabase = await createClient();
-  const { data, error } = await supabase
-    .from("lessons")
-    .select(
-      "id, course_id, slug, title, description, xp_reward, sort_order, unit, content, summary_points, courses(id, slug, title, description, emoji, sort_order)",
-    )
-    .eq("id", lessonId)
-    .eq("is_published", true)
-    .maybeSingle();
+    const row = data as unknown as LessonRow & { courses: CourseRow };
+    return {
+      lesson: {
+        ...mapLessonSummary(row),
+        courseId: row.course_id ?? row.courses.id,
+        content: parseBlocks(row.content),
+        summaryPoints: parseSummaryPoints(row.summary_points),
+      },
+      course: mapCourse(row.courses),
+    };
+  },
+  ["lesson-with-course"],
+  { revalidate: CATALOG_REVALIDATE_SECONDS, tags: [CATALOG_TAG] },
+);
 
-  if (error || !data) return null;
+export const getLessonWithCourse = cache(loadLessonWithCourse);
 
-  const row = data as unknown as LessonRow & { courses: CourseRow };
-  return {
-    lesson: {
-      ...mapLessonSummary(row),
-      courseId: row.course_id ?? row.courses.id,
-      content: parseBlocks(row.content),
-      summaryPoints: parseSummaryPoints(row.summary_points),
-    },
-    course: mapCourse(row.courses),
-  };
-}
-
-export async function getProfile(userId: string): Promise<Profile | null> {
+export const getProfile = cache(async (
+  userId: string,
+): Promise<Profile | null> => {
   const supabase = await createClient();
   const { data, error } = await supabase
     .from("profiles")
@@ -208,11 +262,11 @@ export async function getProfile(userId: string): Promise<Profile | null> {
 
   if (error || !data) return null;
   return mapProfile(data as ProfileRow);
-}
+});
 
-export async function getProfileByUsername(
+export const getProfileByUsername = cache(async (
   username: string,
-): Promise<Profile | null> {
+): Promise<Profile | null> => {
   const supabase = await createClient();
   const { data, error } = await supabase
     .from("profiles")
@@ -222,10 +276,10 @@ export async function getProfileByUsername(
 
   if (error || !data) return null;
   return mapProfile(data as ProfileRow);
-}
+});
 
 /** Accepted friends (the other side of the edge), via the 0003 RPC. */
-export async function getFriends(userId: string): Promise<Friend[]> {
+export const getFriends = cache(async (userId: string): Promise<Friend[]> => {
   const supabase = await createClient();
   const { data, error } = await supabase.rpc("accepted_friends", {
     p_user: userId,
@@ -238,12 +292,12 @@ export async function getFriends(userId: string): Promise<Friend[]> {
     xp: r.xp,
     streakDays: r.streak_days,
   }));
-}
+});
 
 /** Incoming pending friend requests for the signed-in user. */
-export async function getFriendRequests(
+export const getFriendRequests = cache(async (
   userId: string,
-): Promise<FriendRequest[]> {
+): Promise<FriendRequest[]> => {
   const supabase = await createClient();
   const { data, error } = await supabase
     .from("friendships")
@@ -267,7 +321,7 @@ export async function getFriendRequests(
       createdAt: r.created_at,
     };
   });
-}
+});
 
 /**
  * XP earned per day over the last `days` days (oldest → newest), zero-filled.
@@ -311,10 +365,10 @@ export const DAILY_XP_GOAL = 30;
  * XP per day for any user via the security-definer RPC (so it works on other
  * people's public profiles too). Falls back to an empty zero-filled series.
  */
-export async function getXpPerDay(
+export const getXpPerDay = cache(async (
   userId: string,
   days = 14,
-): Promise<XpDay[]> {
+): Promise<XpDay[]> => {
   const supabase = await createClient();
   const { data, error } = await supabase.rpc("xp_per_day", {
     p_user: userId,
@@ -328,11 +382,11 @@ export async function getXpPerDay(
     date: r.day,
     xp: r.xp,
   }));
-}
+});
 
-export async function getCompletions(
+export const getCompletions = cache(async (
   userId: string,
-): Promise<LessonCompletion[]> {
+): Promise<LessonCompletion[]> => {
   const supabase = await createClient();
   const { data, error } = await supabase
     .from("lesson_completions")
@@ -349,9 +403,11 @@ export async function getCompletions(
     totalCount: row.total_count,
     xpEarned: row.xp_earned,
   }));
-}
+});
 
-export async function getEnrolledCourseIds(userId: string): Promise<string[]> {
+export const getEnrolledCourseIds = cache(async (
+  userId: string,
+): Promise<string[]> => {
   const supabase = await createClient();
   const { data, error } = await supabase
     .from("course_enrollments")
@@ -360,7 +416,7 @@ export async function getEnrolledCourseIds(userId: string): Promise<string[]> {
 
   if (error || !data) return [];
   return (data as { course_id: string }[]).map((r) => r.course_id);
-}
+});
 
 // ------------------------------------------------------------ derived views
 

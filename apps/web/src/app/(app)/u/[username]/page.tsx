@@ -5,12 +5,12 @@ import { FriendsList } from "@/components/FriendsList";
 import { Icon, type IconName } from "@/components/Icon";
 import { XpChart } from "@/components/XpChart";
 import {
+  getCurrentUser,
   getFriends,
   getProfile,
   getProfileByUsername,
   getXpPerDay,
 } from "@/lib/data";
-import { createClient } from "@/lib/supabase/server";
 
 export async function generateMetadata({
   params,
@@ -40,17 +40,16 @@ export default async function PublicProfilePage({
 }: {
   params: Promise<{ username: string }>;
 }) {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const { username } = await params;
+  const [user, profile] = await Promise.all([
+    getCurrentUser(),
+    getProfileByUsername(username),
+  ]);
   if (!user) redirect("/login");
 
-  const { username } = await params;
   const me = await getProfile(user.id);
   if (me?.username === username.toLowerCase()) redirect("/profile");
 
-  const profile = await getProfileByUsername(username);
   if (!profile) notFound();
 
   const [friends, xpDays] = await Promise.all([

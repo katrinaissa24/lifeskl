@@ -1,7 +1,6 @@
 import { notFound, redirect } from "next/navigation";
-import { getLessonWithCourse } from "@/lib/data";
+import { getCurrentUser, getLessonWithCourse } from "@/lib/data";
 import { isSupabaseConfigured } from "@/lib/supabase/env";
-import { createClient } from "@/lib/supabase/server";
 import { LessonPlayer } from "./LessonPlayer";
 
 // Server component: loads the lesson (content blocks and all) from Supabase
@@ -13,14 +12,13 @@ export default async function LessonPage({
 }) {
   if (!isSupabaseConfigured) redirect("/login");
 
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-  if (!user) redirect("/login");
-
+  // Auth check and the (cached, public) lesson fetch run together — no waterfall.
   const { lessonId } = await params;
-  const found = await getLessonWithCourse(lessonId);
+  const [user, found] = await Promise.all([
+    getCurrentUser(),
+    getLessonWithCourse(lessonId),
+  ]);
+  if (!user) redirect("/login");
   if (!found) notFound();
 
   return <LessonPlayer course={found.course} lesson={found.lesson} />;
