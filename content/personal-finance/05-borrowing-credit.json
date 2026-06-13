@@ -1,0 +1,168 @@
+{
+  "slug": "borrowing-credit",
+  "title": "Borrowing & credit: the real price of 'buy now'",
+  "description": "Borrow like you've read the fine print — because you have.",
+  "unit": 3,
+  "sortOrder": 5,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Interest is the rent you pay on borrowed money — APR is its yearly price",
+    "Pay your card in full each month and interest is $0; carry a balance and it's around 20–25% APR",
+    "Minimum payments are the slowest, priciest way out — $1,000 can become ~$1,450",
+    "Payday loans run around 390% APR, and rollovers are the trap",
+    "Snowball = smallest balance first; avalanche = highest APR first"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Borrowed money is rented money",
+      "body": "Someday you'll want something big — a car, a degree, maybe a home — before you've saved the full price. That's what borrowing is for, and it isn't evil. It's a tool.\n\nBut borrowed money is rented money. The rent is called **interest**, and the lender always collects.\n\nMaster one question before borrowing anything: \"What will this REALLY cost me by the end?\""
+    },
+    {
+      "type": "material",
+      "title": "The borrowing toolkit",
+      "body": "- **Credit card** — borrow up to a limit, repay monthly. Pay the FULL balance and interest is $0. Carry a balance and you pay around 20–25% APR (typical card rates)\n- **Loans** — student loans, car loans, mortgages. Borrowed once, repaid in installments\n- **APR** — the yearly price of borrowing. Borrow $1,000 at 10% APR and you owe about $100 in interest per year\n\nHigher APR = more expensive money. Always check it before you sign."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each way of borrowing to what it really is.",
+      "pairs": [
+        { "left": "Credit card", "right": "Reusable borrowing, repaid monthly" },
+        { "left": "Student loan", "right": "Pays for school, often lower APR" },
+        { "left": "Mortgage", "right": "Long-term loan for a home" },
+        { "left": "Payday loan", "right": "Tiny loan, enormous fees" }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "You borrow $1,000 at 10% APR. After one year, the interest comes to $___.",
+      "answer": "100",
+      "accept": ["$100", "100$"],
+      "hint": "10% of $1,000.",
+      "explanation": "APR is the yearly price of borrowing: 10% of $1,000 = $100 in interest per year."
+    },
+    {
+      "type": "true_false",
+      "prompt": "If you pay your credit card's full balance every month, using it costs you $0 in interest.",
+      "answer": true,
+      "explanation": "That's the cheat code: use the card, pay in full every month, build history — and never pay the 20–25% APR."
+    },
+    {
+      "type": "material",
+      "title": "The minimum-payment trap",
+      "body": "Leila buys a $1,000 laptop on her credit card.\n\nPays it off that month? Total cost: $1,000. Done.\n\nPays only the $30 minimum at 20% APR? The unpaid balance keeps growing interest. Clearing it takes about four years, and the laptop ends up costing roughly $1,450.\n\nMinimum payments are designed to keep you in debt comfortably — not to get you out. The card company profits from every month you stay.",
+      "image": "/illustrations/debt-trap.svg",
+      "imageAlt": "A spiral showing a balance shrinking slowly under minimum payments"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the cheapest way to get it?",
+      "context": "You want a $1,000 laptop for school. You have no savings yet, but you can set aside $200 a month.",
+      "options": [
+        "Buy it now on a credit card and pay the $30 minimum",
+        "Take a payday loan for the full $1,000",
+        "Save $200 a month and buy it in 5 months",
+        "Take a 5% student loan and repay it over a year"
+      ],
+      "correctIndex": 2,
+      "explanation": "Saving costs zero interest — just patience. The 5% loan is a decent runner-up; minimum payments quietly turn $1,000 into roughly $1,450."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word turns this sentence into a lie. Tap it.",
+      "sentence": "Paying only the minimum is the fastest way to clear a credit card.",
+      "wrongWord": "fastest",
+      "correctWord": "slowest",
+      "explanation": "Minimum payments mostly cover interest, so the balance barely moves. It's the slowest — and most expensive — way out."
+    },
+    {
+      "type": "material",
+      "title": "Payday loans: the quicksand",
+      "body": "Payday loans hand you cash fast — at brutal prices.\n\nKarim borrows $500. The fee: $75 every two weeks. He can't repay in time, so he rolls it over… four times. Two months later he owes $800 for a $500 loan. That pace works out to roughly 390% APR.\n\nCompare that to a typical credit card (20–25% APR) or a student loan (~5%) and the trap is obvious: payday lenders profit most when you CAN'T pay them back."
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "Karim borrows $500 at a $75 fee per two weeks, then rolls it over for two months — four fee cycles. Slide to what he owes in total.",
+      "min": 500,
+      "max": 900,
+      "step": 25,
+      "answer": 800,
+      "tolerance": 50,
+      "unitPrefix": "$",
+      "explanation": "$500 + (4 × $75) = $800. Each rollover adds another fee while the original debt never shrinks."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Best move?",
+      "context": "Your car needs a $200 repair today. You have no savings, but you do have a credit card and a paycheck coming in three weeks.",
+      "options": [
+        "Charge $200 to the card and pay it off in full next bill",
+        "Payday loan: $200 now, $250 due in two weeks",
+        "Skip the repair and hope the noise stops"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pay the card in full when the bill arrives and the interest is $0. The payday loan charges $50 for two weeks — and gets uglier if you slip."
+    },
+    {
+      "type": "material",
+      "title": "Two ways out of debt",
+      "body": "Got several debts? Pick a strategy:\n- **Snowball** — pay minimums on everything, then throw every spare dollar at the SMALLEST BALANCE first. Quick wins keep you motivated\n- **Avalanche** — same setup, but target the HIGHEST APR first. Saves the most money in interest\n\nSay you owe: store card $200 at 22%, credit card $500 at 27%, student loan $1,000 at 5%.\n\nSnowball attacks the $200 store card. Avalanche attacks the 27% credit card. Either beats paying randomly."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "You're using the AVALANCHE method. Which debt gets every spare dollar first?",
+      "context": "Your debts: store card $200 at 22% APR, credit card $500 at 27% APR, student loan $1,000 at 5% APR.",
+      "options": [
+        "The $200 store card",
+        "The $500 credit card",
+        "The $1,000 student loan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Avalanche targets the highest APR — the 27% card — to save the most interest. (Snowball would pick the $200 store card: smallest balance.)"
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Build a debt payoff plan. Put the steps in order.",
+      "steps": [
+        "List every debt with its balance and APR",
+        "Choose your strategy: snowball or avalanche",
+        "Keep paying the minimum on every debt",
+        "Throw every spare dollar at your target debt"
+      ],
+      "explanation": "Know what you owe, pick a target, protect yourself from late fees — then attack one debt at a time until it's gone."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Smart borrowing or debt trap?",
+      "categories": ["Smart borrowing", "Debt trap"],
+      "items": [
+        { "text": "Paying your card in full every month", "category": 0 },
+        { "text": "Rolling over a payday loan", "category": 1 },
+        { "text": "Checking the APR before you sign", "category": 0 },
+        { "text": "Paying only the minimum for years", "category": 1 },
+        { "text": "A 5% student loan for a degree", "category": 0 },
+        { "text": "Financing $300 sneakers in '4 easy payments'", "category": 1 }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "How to smell a debt trap",
+      "body": "Predatory lenders advertise everywhere — DMs, ads, flyers near campus. The tells:\n- **\"No credit check!\"** — real lenders check whether you can repay\n- **Fees instead of APR** — \"$75 per two weeks\" sounds small; as a yearly rate it's gigantic\n- **Rollovers offered upfront** — they're planning for you to get stuck\n- **Pressure to act NOW** — good deals survive a day of thinking\n\nLet's see if you can spot them in the wild."
+    },
+    {
+      "type": "spot_scam",
+      "prompt": "This ad slid into your DMs. Tap all 4 red flags.",
+      "messageFrom": "QwikCa$h Loans <approval@instant-money-4u.biz>",
+      "messageSubject": "You're PRE-APPROVED for $500!",
+      "segments": [
+        { "text": "Hey friend! Tight week? Good news —" },
+        { "text": "you're PRE-APPROVED for $500. No credit check, no questions asked!", "flag": "Real lenders check whether you can repay. 'No credit check' means the trap IS the business model." },
+        { "text": "Cash hits your account in 10 minutes." },
+        { "text": "Just a small $75 service fee every two weeks until you repay.", "flag": "$75 per two weeks on $500 is roughly 390% APR. 'Small fee' is doing a lot of lying here." },
+        { "text": "Can't pay yet? No stress — roll it over as many times as you like!", "flag": "Rollovers stack fee after fee while the debt never shrinks. That's the quicksand." },
+        { "text": "Offer expires at MIDNIGHT — claim your cash now!", "flag": "Fake urgency exists to stop you from thinking. A real deal survives a night's sleep." }
+      ],
+      "explanation": "Need cash fast? A payment plan, extra shifts, or a credit card paid in full next month all beat 390% APR."
+    }
+  ]
+}

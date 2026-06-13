@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A winding road with milestone flags toward a big goal">
+  <!-- road -->
+  <path d="M24 176 C90 176 70 120 140 116 C210 112 190 60 280 44" stroke="#181016" stroke-width="22" stroke-linecap="round"/>
+  <path d="M24 176 C90 176 70 120 140 116 C210 112 190 60 280 44" stroke="#fffdf8" stroke-width="3" stroke-dasharray="10 12" stroke-linecap="round"/>
+  <!-- milestones -->
+  <g>
+    <circle cx="24" cy="176" r="9" fill="#6b46ff" stroke="#181016" stroke-width="3"/>
+    <text x="40" y="196" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#4a3f47">today</text>
+  </g>
+  <g>
+    <line x1="140" y1="116" x2="140" y2="84" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+    <path d="M140 84 L162 91 L140 98 Z" fill="#ff6f9c" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="116" y="146" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#4a3f47">6 months</text>
+  </g>
+  <g>
+    <line x1="280" y1="44" x2="280" y2="12" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+    <path d="M280 12 L302 19 L280 26 Z" fill="#1f8a5b" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="240" y="72" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#4a3f47">5 years</text>
+  </g>
+  <!-- star goal -->
+  <path d="M280 44 m0 0" fill="none"/>
+  <text x="304" y="48" font-family="Arial, sans-serif" font-size="18">⭐</text>
+</svg>

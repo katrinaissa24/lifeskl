@@ -1,0 +1,176 @@
+{
+  "slug": "savings-accounts-interest",
+  "title": "Savings accounts & interest: park it right",
+  "description": "Put your money where it's safe, insured, and quietly growing.",
+  "unit": 2,
+  "sortOrder": 4,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Explain interest both ways: banks pay savers and charge borrowers",
+    "Match the account to the goal: regular, CD, money market, or online",
+    "Check for FDIC insurance — up to $250,000 per depositor, per bank",
+    "Compound correctly: $100 at 5% becomes $105, then $110.25",
+    "Pick CD terms that mature BEFORE you need the money"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The shoebox problem",
+      "body": "Stash your cash in a shoebox and it's safe from exactly one thing: you spending it. It earns nothing — and thanks to **inflation** (prices creeping up), every year that same pile buys a little less.\n\nA savings account flips the script: the bank pays YOU for parking money there. That payment is called **interest**, and choosing the right account decides how hard your money works while it sits."
+    },
+    {
+      "type": "material",
+      "title": "Interest flows two ways",
+      "body": "Interest is a two-way street, and you want to be on the receiving end:\n- When you **save**, the bank pays you interest for holding your money.\n- When you **borrow**, you pay the bank interest for using theirs.\n\nThe basic math is friendly: park $100 in an account paying 2% a year, and twelve months later you have $102. Not life-changing — yet. The real magic shows up later in this lesson."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word flips this sentence wrong. Tap it.",
+      "sentence": "Banks reward borrowers with interest for keeping money parked in savings.",
+      "wrongWord": "borrowers",
+      "correctWord": "savers",
+      "explanation": "Savers get paid interest; borrowers pay it. Which side of that flow you're on changes everything."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Park $100 at 2% yearly interest. After one year you have $___.",
+      "answer": "102",
+      "accept": ["$102", "102$"],
+      "explanation": "2% of $100 is $2, so $100 + $2 = $102. Small — but the shoebox paid you $0."
+    },
+    {
+      "type": "material",
+      "title": "Anytime money vs. locked money",
+      "body": "**Regular savings account** — open one almost anywhere, deposit or withdraw anytime, earn a little interest. The default home for an emergency fund.\n\n**Certificate of Deposit (CD)** — you promise the bank your money for a set term (3 months, 1 year, 5 years...) and earn a higher rate in return. Break the deal early and you pay a penalty. Golden rule: pick a term that ends BEFORE you'll need the money."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Taking money out of a CD before its term ends usually costs you a penalty.",
+      "answer": true,
+      "explanation": "That's the trade: a higher rate in exchange for locking it up. Match the term to your timeline and you'll never pay it."
+    },
+    {
+      "type": "material",
+      "title": "Two more parking spots",
+      "body": "**Money market account** — wants a higher minimum balance, pays better interest than regular savings, and still lets you reach the money (with some limits). Good for bigger balances you'd only touch in a real emergency.\n\n**Online savings account** — no branches means lower costs for the bank, which usually means the best rates of the bunch. Runs entirely from an app. Always compare rates before picking: online banks often win."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each account to its superpower.",
+      "pairs": [
+        { "left": "Regular savings", "right": "Withdraw anytime, modest interest" },
+        { "left": "CD", "right": "Higher rate, locked until a date" },
+        { "left": "Money market", "right": "Big balances, still reachable" },
+        { "left": "Online savings", "right": "App-only, often the best rates" }
+      ]
+    },
+    {
+      "type": "categorize",
+      "prompt": "Pick the best parking spot for each situation.",
+      "categories": ["Regular savings", "CD", "Money market"],
+      "items": [
+        { "text": "Emergency fund you might need tomorrow", "category": 0 },
+        { "text": "Tuition due in exactly one year", "category": 1 },
+        { "text": "First $50 from a new part-time job", "category": 0 },
+        { "text": "Gift money untouched until graduation in 2 years", "category": 1 },
+        { "text": "$8,000 you want growing but reachable", "category": 2 },
+        { "text": "Big savings you'd only tap in a true emergency", "category": 2 }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Where should the money live?",
+      "context": "You're saving for college tuition that's due in exactly 2 years.",
+      "options": [
+        "A 5-year CD — longest term, highest rate",
+        "A savings account, or a CD that matures within the 2 years",
+        "Your checking account, next to spending money",
+        "Cash in your backpack"
+      ],
+      "correctIndex": 1,
+      "explanation": "A CD works for a 2-year goal IF the term ends before the bill arrives — a 5-year lock means penalties. Checking leaks, and backpacks get lost."
+    },
+    {
+      "type": "material",
+      "title": "The $250,000 safety net",
+      "body": "What if the bank itself goes under? In the U.S., that's what the **FDIC** (Federal Deposit Insurance Corporation) is for: if an insured bank fails, your money is protected up to **$250,000 per depositor, per bank**.\n\nYour shoebox offers no such deal. Neither does your sock drawer, your wallet, or your cousin's \"totally safe\" app. Look for FDIC insurance before you open any account."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "If an insured bank fails, the FDIC protects your money up to $___,000 per depositor, per bank.",
+      "answer": "250",
+      "accept": ["$250", "250,000", "$250,000"],
+      "explanation": "Up to $250,000 per depositor, per insured bank. Boring, official — and exactly why banks beat shoeboxes."
+    },
+    {
+      "type": "material",
+      "title": "Compound interest: the snowball",
+      "body": "Here's the magic: **compound interest** means the interest you earn starts earning interest of its own.\n\n$100 at 5% a year:\n- Year 1: $100 + $5 = **$105**\n- Year 2: 5% of $105 is $5.25 → **$110.25**\n\nEach year the snowball is a little bigger, so each year it picks up more snow. Slow at first, unstoppable later — the longer you leave it rolling, the harder it works.",
+      "image": "/illustrations/compound-growth.svg",
+      "imageAlt": "Snowball rolling downhill, growing larger as it goes"
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the compound-interest snowball in motion — order the chain.",
+      "steps": [
+        "You deposit $100",
+        "The bank pays interest on your $100",
+        "That interest joins your balance",
+        "Next year's interest is calculated on the bigger balance"
+      ],
+      "explanation": "Interest joins the pile, then the whole pile earns more interest. That loop is the entire trick."
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "You park $100 at 5% compound interest and ignore it for 10 years. Where does it land?",
+      "min": 100,
+      "max": 250,
+      "step": 1,
+      "answer": 163,
+      "tolerance": 8,
+      "unitPrefix": "$",
+      "explanation": "Simple interest would add $5 × 10 = $50. Compounding gets you to about $163, because every year's interest starts earning too."
+    },
+    {
+      "type": "decision_path",
+      "title": "Park It Right",
+      "intro": "Same money, different parking spots. Two years on the clock — collect interest, dodge penalties, and don't get scammed.",
+      "stat": { "name": "Interest earned", "emoji": "💰", "start": 0 },
+      "steps": [
+        {
+          "situation": "Your $200 emergency fund needs a home — and you might need it on short notice.",
+          "options": [
+            { "text": "Online savings account", "delta": 8, "feedback": "Insured, reachable in a day, and the rate beats the branch down the street. Emergency money should earn while it waits.", "best": true },
+            { "text": "A shoebox labeled DO NOT OPEN", "delta": 0, "feedback": "Interest earned: zero. And inflation quietly shrank what that $200 can buy." },
+            { "text": "A 5-year CD for the juicy rate", "delta": -4, "feedback": "Then your bike tire blew in March. The early-withdrawal penalty ate the extra interest — and then some." }
+          ]
+        },
+        {
+          "situation": "A $300 tuition payment is due in exactly one year.",
+          "options": [
+            { "text": "A 1-year CD that matures the week before the bill", "delta": 12, "feedback": "Term matches timeline: better rate, zero chance of an early-exit penalty.", "best": true },
+            { "text": "Checking account, next to your spending money", "delta": 0, "feedback": "It earned nothing — and $40 of it mysteriously became bubble tea. Separate accounts protect goals." },
+            { "text": "A 5-year CD — even juicier rate", "delta": -6, "feedback": "You had to break it at month 12, and the penalty wiped out the rate advantage." }
+          ]
+        },
+        {
+          "situation": "Your savings have grown into serious money. You want it growing — but reachable if life swings.",
+          "options": [
+            { "text": "Money market account", "delta": 20, "feedback": "Higher interest than regular savings, still reachable in an emergency. That's exactly its job.", "best": true },
+            { "text": "Leave it all in regular savings", "delta": 6, "feedback": "Totally safe — but at this balance, a money market would pay you noticeably more for the same safety." },
+            { "text": "Under the mattress, old-school", "delta": -10, "feedback": "Zero interest, zero FDIC protection, and inflation took a bite. The mattress always loses." }
+          ]
+        },
+        {
+          "situation": "An app ad screams: \"GUARANTEED 20% monthly returns! Not a bank — no boring rules or insurance!\"",
+          "options": [
+            { "text": "Hard pass — your money stays FDIC-insured", "delta": 10, "feedback": "Boring is a feature. 'Guaranteed' high returns with no insurance is the oldest scam recipe there is.", "best": true },
+            { "text": "Move everything — 20% a month!", "delta": -60, "feedback": "Too good to be true means it isn't true. With no FDIC, nobody owes you that money back." },
+            { "text": "Move just half, to be safe", "delta": -30, "feedback": "Half a scam is still a scam. 'Diversifying' into a con just shrinks the con's paperwork." }
+          ]
+        }
+      ],
+      "outro": "Right account, right timeline, FDIC on the door. Parked like that, money doesn't just sit — it works."
+    }
+  ]
+}

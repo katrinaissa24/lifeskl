@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A card balance spiraling bigger when paying only the minimum">
+  <!-- spiral -->
+  <path d="M160 100 m0 -8 a8 8 0 1 1 -8 8 a16 16 0 1 1 16 -16 a28 28 0 1 1 -28 28 a42 42 0 1 1 42 -42 a58 58 0 1 1 -58 58 a74 74 0 1 1 74 -74"
+        stroke="#ff6f9c" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- card sliding in -->
+  <g transform="rotate(-14 70 50)">
+    <rect x="28" y="28" width="84" height="54" rx="8" fill="#6b46ff" stroke="#181016" stroke-width="3"/>
+    <rect x="28" y="42" width="84" height="11" fill="#181016"/>
+    <rect x="36" y="62" width="30" height="8" rx="3" fill="#efe9ff"/>
+  </g>
+  <!-- growing amounts -->
+  <g font-family="Arial, sans-serif" font-weight="800" fill="#181016">
+    <text x="226" y="42"  font-size="14">$500</text>
+    <text x="248" y="84"  font-size="16" fill="#c2185b">$620</text>
+    <text x="240" y="170" font-size="19" fill="#c2185b">$700+</text>
+  </g>
+  <text x="50" y="178" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#4a3f47">"just the minimum…"</text>
+</svg>

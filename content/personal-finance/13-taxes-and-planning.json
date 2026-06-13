@@ -1,0 +1,183 @@
+{
+  "slug": "taxes-and-planning",
+  "title": "Taxes and long-term planning",
+  "description": "See where your paycheck really goes — and make the after-tax part work harder.",
+  "unit": 7,
+  "sortOrder": 13,
+  "xpReward": 30,
+  "summaryPoints": [
+    "Five taxes to know: income, payroll, sales, property, capital gains",
+    "Gross is the offer; net is reality — budget on the $1,700, not the $2,000",
+    "A tax refund is your own overpaid money coming back — plan it like a paycheck",
+    "Starting to invest 10 years earlier roughly doubles the result (≈$380k vs ≈$180k)",
+    "Review your money plan once a year and give every raise a job"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The disappearing paycheck",
+      "body": "Your first paycheck comes with a plot twist: the number in your contract is not the number that lands in your bank account.\n\nA chunk goes to taxes — the shared bill for schools, roads, hospitals, and the firefighters you hopefully never need.\n\nYou can't skip taxes, but you can understand them. People who do plan better, dodge nasty surprises, and keep more of what they work for."
+    },
+    {
+      "type": "material",
+      "title": "The five taxes you'll actually meet",
+      "body": "- **Income tax** — a slice of what you earn from a job or business; earning more can mean a bigger slice\n- **Payroll tax** — taken from your paycheck automatically to fund Social Security and Medicare\n- **Sales tax** — added at the register on things you buy; small per item, adds up fast\n- **Property tax** — yearly, on a house or land you own, based on its value\n- **Capital gains tax** — on the profit when you sell an investment for more than you paid"
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each tax to what it actually hits.",
+      "pairs": [
+        { "left": "Income tax", "right": "A slice of what you earn" },
+        { "left": "Payroll tax", "right": "Paycheck deduction for Social Security, Medicare" },
+        { "left": "Sales tax", "right": "Added at the register when buying" },
+        { "left": "Property tax", "right": "Yearly tax on a home you own" },
+        { "left": "Capital gains tax", "right": "Tax on profit from selling investments" }
+      ]
+    },
+    {
+      "type": "true_false",
+      "prompt": "Sales tax comes out of your paycheck before you ever see the money.",
+      "answer": false,
+      "explanation": "Sales tax hits at the register when you buy things. Income and payroll taxes are the ones deducted from your paycheck."
+    },
+    {
+      "type": "material",
+      "title": "Gross vs net: the only paycheck math that matters",
+      "body": "**Gross income** is what you earn. **Net income** is what survives.\n\nSay your job pays $2,000 a month gross. Income and payroll taxes take about $300, so roughly $1,700 actually lands in your account.\n\nThat missing $300 was never yours to spend — which is why every budget should start from NET. Budget on gross and you're planning with ghost money.",
+      "image": "/illustrations/paycheck.svg",
+      "imageAlt": "Payslip showing gross pay shrinking to net pay"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Gross pay $2,000, taxes take $300 — your net pay is $___.",
+      "answer": "1700",
+      "accept": ["$1,700", "1,700", "$1700", "1700$"],
+      "explanation": "$2,000 − $300 = $1,700. That's the real number — the one your budget gets built on."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Gross or net?",
+      "categories": ["Gross income", "Net income"],
+      "items": [
+        { "text": "The big number on the job offer", "category": 0 },
+        { "text": "What actually hits your bank account", "category": 1 },
+        { "text": "$2,000 in our example", "category": 0 },
+        { "text": "$1,700 in our example", "category": 1 },
+        { "text": "Pay before taxes come out", "category": 0 },
+        { "text": "The number to build your budget on", "category": 1 }
+      ]
+    },
+    {
+      "type": "budget_builder",
+      "prompt": "Payday! Your job pays $2,500 gross, but $2,200 lands in your account. Budget the REAL number: cover every need, save $200, then enjoy the rest.",
+      "income": 2200,
+      "categories": [
+        { "name": "Rent", "emoji": "🏠", "kind": "need", "required": 900 },
+        { "name": "Transport", "emoji": "🚌", "kind": "need", "required": 200 },
+        { "name": "Food", "emoji": "🍜", "kind": "need", "required": 300 },
+        { "name": "Phone & internet", "emoji": "📱", "kind": "need", "required": 100 },
+        { "name": "Savings", "emoji": "🏦", "kind": "savings" },
+        { "name": "Fun", "emoji": "🎉", "kind": "want" },
+        { "name": "Clothes", "emoji": "👕", "kind": "want" }
+      ],
+      "savingsTarget": 200,
+      "explanation": "Needs $1,500, savings $200, and $500 genuinely free — because you budgeted from the $2,200 that exists, not the $2,500 that doesn't."
+    },
+    {
+      "type": "material",
+      "title": "Planning beyond the paycheck",
+      "body": "Taxes shrink today's paycheck, so planning has to stretch tomorrow's:\n- **Emergency fund** — 3–6 months of expenses, your first line of defense\n- **Retirement** — yes, already. Compound growth pays interest on your interest, and it worships an early start.\n\n$100 a month at 7% average growth:\n- Start at 20 → about **$380,000** by 65\n- Start at 30 → about **$180,000**\n\nSame habit, ten years earlier — roughly double the money.",
+      "image": "/illustrations/compound-growth.svg",
+      "imageAlt": "Snowball rolling downhill, growing as it goes"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Two friends invest $100 a month at 7% until age 65. Ava starts at 20, Ben at 30. How do they compare?",
+      "options": [
+        "About the same — Ben can easily catch up",
+        "Ava ends with roughly double Ben: about $380k vs $180k",
+        "Ben ends richer — later money is worth more",
+        "Ava ends with about 10% more"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ten extra years of compounding roughly doubles the pile: about $380,000 vs $180,000. Time in the market is the cheat code."
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "You invest $100 a month from age 20 at 7% average growth. Slide to roughly what you'd have at 65.",
+      "min": 50000,
+      "max": 500000,
+      "step": 10000,
+      "answer": 380000,
+      "tolerance": 30000,
+      "unitPrefix": "$",
+      "explanation": "You'd deposit just $54,000 over 45 years — compounding turns it into roughly $380,000. The money does most of the lifting."
+    },
+    {
+      "type": "material",
+      "title": "Review yearly, win quietly",
+      "body": "Money plans aren't tattoos — they're meant to be redrawn. Once a year, ask:\n- Did my income change? (New job, raise, more hours?)\n- Am I on pace for my goals — or did the goals change?\n- Where did money leak, and what gets priority next year?\n\nPair the yearly review with monthly habits: track spending, pay cards in full, keep learning, and actually celebrate wins. Consistency beats intensity."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word breaks this rule. Tap it.",
+      "sentence": "Always build your budget around your gross income.",
+      "wrongWord": "gross",
+      "correctWord": "net",
+      "explanation": "Gross is the headline; net is what exists. Budgeting on gross means planning with $300 you'll never see."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What IS that money?",
+      "context": "A $1,000 tax refund hits your account in April.",
+      "options": [
+        "A bonus from the government — pure fun money",
+        "Interest the government paid you for waiting",
+        "Your own overpaid taxes coming back to you",
+        "Free money that doesn't need a plan"
+      ],
+      "correctIndex": 2,
+      "explanation": "You overpaid through the year; the refund is a repayment, not a gift. Treat it like a paycheck — plan it: save some, invest some, enjoy some."
+    },
+    {
+      "type": "decision_path",
+      "title": "The Year of Smart Choices",
+      "intro": "Twelve months of real-life money calls. Grow your stability.",
+      "stat": { "name": "Stability", "emoji": "🌱", "start": 40 },
+      "steps": [
+        {
+          "situation": "Your job pays $2,800 gross; $2,200 lands. After fixed costs of $1,500, you have $700 left this month.",
+          "options": [
+            { "text": "Save $200, invest $100, keep $400 for yourself", "delta": 20, "feedback": "Net-income math with a plan — needs, future, and fun all get a cut.", "best": true },
+            { "text": "Spend it all — saving starts next month", "delta": -15, "feedback": "'Next month' is where savings plans go to die." },
+            { "text": "Pull it all out as cash — banks have fees", "delta": -10, "feedback": "Mattress money earns nothing and can't be replaced if it's lost or stolen." }
+          ]
+        },
+        {
+          "situation": "April surprise: a $1,000 tax refund — your own overpaid money — arrives.",
+          "options": [
+            { "text": "Save half, invest half", "delta": 20, "feedback": "A year of overpaid taxes, finally put to work instead of vaporized.", "best": true },
+            { "text": "Straight to a new phone", "delta": -10, "feedback": "An impulse phone today, while every goal stays stuck at zero." },
+            { "text": "Lend it to a friend who 'promises' to repay", "delta": -15, "feedback": "Unplanned loans to friends often cost the money AND the friendship." }
+          ]
+        },
+        {
+          "situation": "Five-year vision: you want a car, college savings, and a trip abroad — but your budget can truly feed only two.",
+          "options": [
+            { "text": "Fund car + college now; open a travel fund later", "delta": 20, "feedback": "Priorities mean 'not yet,' not 'never.' Two funded goals beat three starving ones.", "best": true },
+            { "text": "Split every dollar three ways and hope", "delta": -5, "feedback": "Spread too thin, all three goals crawl. Focus moves the needle." },
+            { "text": "Travel now — you're only young once", "delta": -15, "feedback": "The car and college get pricier when they're funded by future debt." }
+          ]
+        },
+        {
+          "situation": "December review: your income went up $150 a month this year.",
+          "options": [
+            { "text": "Re-run the budget and raise your savings rate", "delta": 15, "feedback": "The yearly review catches drift — new income gets a job before lifestyle eats it.", "best": true },
+            { "text": "Let the extra quietly blend into spending", "delta": -10, "feedback": "Lifestyle creep: the silent raise-eater." }
+          ]
+        }
+      ],
+      "outro": "Taxes shrink the paycheck; planning grows what's left. Budget on net, start early, review yearly."
+    }
+  ]
+}

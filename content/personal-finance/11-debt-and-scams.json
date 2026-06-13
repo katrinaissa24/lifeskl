@@ -1,0 +1,161 @@
+{
+  "slug": "debt-and-scams",
+  "title": "Debt traps and scams",
+  "description": "Spot the traps that eat paychecks — minimum payments, payday loans, and scammers in costume.",
+  "unit": 6,
+  "sortOrder": 11,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Pay credit cards in full — minimum payments can turn a $500 purchase into $700+",
+    "Payday loans are a trap: borrow $200, owe $250 just two weeks later",
+    "Scams share two tells: too good to be true, and in a big hurry",
+    "Never pay an upfront fee or share a PIN to 'claim' or 'activate' anything",
+    "Verify through a door YOU open: the official app, the listed number"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Two traps, one rule",
+      "body": "Money has two kinds of predators: **debt traps**, which you walk into, and **scams**, which are thrown at you.\n\nBoth run on the same fuel — speed. Sign now, claim now, buy now, act before you think. So both have the same antidote: slow down and run the numbers.\n\nBy the end of this lesson you'll be able to smell pressure-money from across the room."
+    },
+    {
+      "type": "material",
+      "title": "The minimum payment trap",
+      "body": "A credit card is a loan in your pocket. Pay the full balance every month and it costs you nothing. Carry a balance, and interest — around 20–25% APR — starts feeding.\n\nThe sneakiest setting is the **minimum payment**. It feels helpful ('only $15 this month!') but it's designed to stretch your debt across years: a $500 shopping spree paid in minimums can quietly end up costing over $700.",
+      "image": "/illustrations/debt-trap.svg",
+      "imageAlt": "Spiral of minimum payments pulling money downward"
+    },
+    {
+      "type": "true_false",
+      "prompt": "If you pay your credit card balance in full every month, the borrowed money costs you nothing in interest.",
+      "answer": true,
+      "explanation": "Full payment by the due date means no interest at all. The trap only springs when a balance rolls over — that's when 20–25% APR kicks in."
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "A $500 shopping spree on a credit card, paying only minimums. Slide to roughly what it could cost you in total.",
+      "min": 500,
+      "max": 900,
+      "step": 20,
+      "answer": 700,
+      "tolerance": 40,
+      "unitPrefix": "$",
+      "explanation": "Minimums stretch a $500 purchase across years while interest piles up — past $700 in total. The slowest, most expensive way to pay."
+    },
+    {
+      "type": "material",
+      "title": "Payday loans and borrowing rules",
+      "body": "**Payday loans** are the sharpest trap of all: borrow $200 today, owe $250 in two weeks. Can't pay? Borrow again — and now the cycle owns you.\n\n**Student and car loans** can be smart — they buy things that grow your future. But only with a repayment plan you've actually run the numbers on.\n\nThe borrowing rules:\n- Only borrow what you can realistically repay\n- Know the interest rate and schedule BEFORE signing\n- Never borrow on impulse for a want"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the move?",
+      "context": "You want an $800 phone. You've saved $200. A friend says a payday loan can get you the rest today.",
+      "options": [
+        "Take the payday loan — you'll figure out repayment",
+        "Put the missing $600 on a credit card and pay minimums",
+        "Keep saving until you can buy it outright"
+      ],
+      "correctIndex": 2,
+      "explanation": "Payday fees are brutal ($200 borrowed → $250 owed in two weeks) and minimums quietly inflate the price. Patience is the only option that charges no interest."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Payday loan math: borrow $200 today, owe $___ just two weeks later.",
+      "answer": "250",
+      "accept": ["$250", "250$"],
+      "hint": "Add $50 in fees.",
+      "explanation": "A $50 fee on $200 in 14 days is far steeper than even credit card rates — and many borrowers re-borrow to cover it. That's the cycle."
+    },
+    {
+      "type": "material",
+      "title": "Scams are costumes",
+      "body": "Every scam plays the same trick — grab your money or your info — in a different outfit:\n- **Phishing** — fake 'bank' messages asking you to log in or 'verify'\n- **Fake jobs** — amazing pay, no interview, then an upfront 'training fee'\n- **Prize scams** — you 'won' something, but must pay or share details to claim it\n- **Marketplace scams** — pay first, product never existed\n\nThe tell under every costume: too good to be true, and in a big hurry.",
+      "image": "/illustrations/scam-alert.svg",
+      "imageAlt": "Phishing hook reaching for a phone"
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each scam to its tell-tale sign.",
+      "pairs": [
+        { "left": "Phishing", "right": "Fake bank message wants your login" },
+        { "left": "Fake job", "right": "Upfront fee before you start" },
+        { "left": "Prize scam", "right": "Pay to claim what you 'won'" },
+        { "left": "Marketplace scam", "right": "Pay now, item never ships" }
+      ]
+    },
+    {
+      "type": "spot_scam",
+      "prompt": "A dream job lands in your inbox. Tap all 3 red flags.",
+      "messageFrom": "HR Department <careers@quickhire-payroll.top>",
+      "messageSubject": "You're HIRED — $45/hr remote position",
+      "segments": [
+        { "text": "Hi! We reviewed your profile and you're a perfect fit for our team." },
+        { "text": "No interview needed — you start tomorrow at $45/hr for simple data entry.", "flag": "Real jobs don't skip interviews or overpay for easy work. That's the bait." },
+        { "text": "To activate your work account, send a one-time $60 training fee", "flag": "Legit employers pay YOU. Any upfront fee means the 'job' is the scam." },
+        { "text": "via gift cards within the next 2 hours.", "flag": "Gift cards plus a countdown: untraceable money collected under panic pressure." },
+        { "text": "Welcome aboard — we're excited to work with you!" }
+      ],
+      "explanation": "Jobs that chase you, skip interviews, and charge entry fees aren't jobs. Look the company up and call its listed number — or just delete."
+    },
+    {
+      "type": "material",
+      "title": "Your anti-trap toolkit",
+      "body": "Five habits that keep both predators hungry:\n- **Budget first** — planned money doesn't borrow on impulse\n- **Card rule** — only charge what you can pay in full this month\n- **Even a tiny emergency fund** — $50–$100 stops a surprise from becoming a loan\n- **Check statements weekly** — fraud caught early is fraud reversed\n- **Strong, unique passwords** on every money account"
+    },
+    {
+      "type": "categorize",
+      "prompt": "Scam red flag or perfectly normal?",
+      "categories": ["Red flag", "Normal"],
+      "items": [
+        { "text": "Pay a fee to unlock your prize", "category": 0 },
+        { "text": "A receipt emailed after you buy something", "category": 1 },
+        { "text": "Seller accepts gift cards only", "category": 0 },
+        { "text": "An interview before a job offer", "category": 1 },
+        { "text": "Reply in 10 minutes or lose the deal", "category": 0 },
+        { "text": "A stranger 'overpays' you and asks for a refund", "category": 0 },
+        { "text": "Your bank app asks for your password when YOU open it", "category": 1 }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Smartest use of the card?",
+      "context": "You just got your first credit card. You want $100 of new clothes and need $50 of groceries before payday next week.",
+      "options": [
+        "Charge everything, pay the minimum next month",
+        "Groceries on the card — paid in full on payday — and keep saving cash for the clothes",
+        "Clothes on the card now; groceries can wait a week",
+        "Charge both and worry about it later"
+      ],
+      "correctIndex": 1,
+      "explanation": "Needs first, and only charge what you can clear in full. That keeps the card a convenience instead of a debt machine."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this dangerously wrong. Tap it.",
+      "sentence": "Minimum payments are the fastest way to escape credit card debt.",
+      "wrongWord": "fastest",
+      "correctWord": "slowest",
+      "explanation": "Minimums mostly feed interest — they're designed to keep you in debt longer, not get you out."
+    },
+    {
+      "type": "material",
+      "title": "Before you tap reply",
+      "body": "One habit defeats nearly every scam: **verify through a door YOU open**.\n\nMessage from 'your bank'? Open the real app yourself. Surprise job offer? Look the company up and call its listed number. 'You won'? Ask yourself: did I even enter?\n\nNobody legitimate pressures you to skip that check — the more urgent the message, the more suspicious you should be.\n\nFinal exam: a 'prize' text is about to land. Find every red flag."
+    },
+    {
+      "type": "spot_scam",
+      "prompt": "This text says you won $500. Tap all 3 red flags.",
+      "messageFrom": "PRIZE-DESK <claims@win-now-rewards.icu>",
+      "messageSubject": "FINAL NOTICE: your $500 is waiting",
+      "segments": [
+        { "text": "Congratulations! Your number was chosen in our $500 customer giveaway." },
+        { "text": "You must claim within 30 minutes or the prize will be forfeited.", "flag": "Manufactured urgency — real organizations don't give 30-minute deadlines." },
+        { "text": "To receive the funds, reply with your bank account number and card PIN.", "flag": "No real prize ever needs your account number or PIN. That's the theft itself." },
+        { "text": "Or claim instantly here: win-now-rewards.icu/claim500", "flag": "A sketchy, unfamiliar domain — links like this exist to steal logins or install junk." },
+        { "text": "Thank you for being a loyal customer." }
+      ],
+      "explanation": "You can't win a contest you never entered. 'Free money' that needs your bank info first isn't free — it's bait. Delete, block, move on."
+    }
+  ]
+}

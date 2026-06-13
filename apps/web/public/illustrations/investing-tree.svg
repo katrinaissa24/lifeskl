@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A money tree growing from a planted coin">
+  <!-- ground -->
+  <path d="M20 168 Q160 152 300 168" stroke="#181016" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- seed coin -->
+  <circle cx="70" cy="160" r="13" fill="#efe9ff" stroke="#181016" stroke-width="3"/>
+  <text x="70" y="165" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#4a2ed1" text-anchor="middle">$</text>
+  <path d="M70 144 q2 -10 10 -14" stroke="#1f8a5b" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- tree -->
+  <path d="M200 166 L200 96 M200 124 L172 100 M200 112 L228 90" stroke="#181016" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="200" cy="74"  r="30" fill="#1f8a5b" stroke="#181016" stroke-width="3"/>
+  <circle cx="166" cy="92"  r="22" fill="#1f8a5b" stroke="#181016" stroke-width="3"/>
+  <circle cx="236" cy="84"  r="22" fill="#1f8a5b" stroke="#181016" stroke-width="3"/>
+  <!-- coin fruit -->
+  <g font-family="Arial, sans-serif" font-size="11" font-weight="800" text-anchor="middle">
+    <circle cx="186" cy="70" r="9" fill="#f5c542" stroke="#181016" stroke-width="2.5"/><text x="186" y="74" fill="#181016">$</text>
+    <circle cx="216" cy="62" r="9" fill="#f5c542" stroke="#181016" stroke-width="2.5"/><text x="216" y="66" fill="#181016">$</text>
+    <circle cx="238" cy="90" r="9" fill="#f5c542" stroke="#181016" stroke-width="2.5"/><text x="238" y="94" fill="#181016">$</text>
+    <circle cx="166" cy="96" r="9" fill="#f5c542" stroke="#181016" stroke-width="2.5"/><text x="166" y="100" fill="#181016">$</text>
+  </g>
+  <text x="60" y="190" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#4a3f47">plant early</text>
+  <text x="186" y="190" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#4a3f47">harvest later</text>
+</svg>

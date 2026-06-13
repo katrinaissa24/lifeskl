@@ -1,0 +1,180 @@
+{
+  "slug": "financial-goals",
+  "title": "Financial goals: from \"someday\" to a deadline",
+  "description": "Turn 'I want money' into a plan with a number and a date.",
+  "unit": 1,
+  "sortOrder": 2,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Sort goals by distance: short-term (under 1 year), medium (1–5), long (5+)",
+    "Build SMART goals: Specific, Measurable, Achievable, Relevant, Time-bound",
+    "Spot the opportunity cost — what every purchase quietly costs you later",
+    "Balance the split: needs covered, goals fed, some fun always",
+    "Launch a goal in 5 steps: pick, plan, track, stick, celebrate"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Money goes where you point it",
+      "body": "Money is a tool. Use a hammer with no plan and you'll smash a thumb; use money with no goal and it quietly leaks into snacks, rides, and 2 a.m. checkout carts.\n\nHere's the trick: money goes where you tell it to go. Give it no destination and it scatters. A clear goal — with a number and a deadline — is what turns \"I want stuff someday\" into \"I'm getting this, by then.\""
+    },
+    {
+      "type": "material",
+      "title": "Three distances of goal",
+      "body": "Goals come in three distances:\n- **Short-term (under 1 year)** — $80 sneakers, a $150 prom outfit. Quick wins, quick saving.\n- **Medium-term (1–5 years)** — a $500 trip with friends, a $3,000 used car. These need a real plan.\n- **Long-term (5+ years)** — college, an apartment, even retirement. These shape your life, not just your month.\n\nWatch out: if every dollar chases short-term wins, the long-term dreams never get fed.",
+      "image": "/illustrations/roadmap.svg",
+      "imageAlt": "Winding road with milestone flags marking short, medium, and long-term goals"
+    },
+    {
+      "type": "categorize",
+      "prompt": "Goal sorter: how far away is each goal?",
+      "categories": ["Short-term (under 1 yr)", "Medium-term (1–5 yrs)", "Long-term (5+ yrs)"],
+      "items": [
+        { "text": "$80 sneakers", "category": 0 },
+        { "text": "$150 prom outfit", "category": 0 },
+        { "text": "$500 trip with friends", "category": 1 },
+        { "text": "$5,000 used car", "category": 1 },
+        { "text": "College tuition", "category": 2 },
+        { "text": "Retirement fund", "category": 2 }
+      ]
+    },
+    {
+      "type": "true_false",
+      "prompt": "If you only chase short-term goals, the long-term ones eventually fund themselves.",
+      "answer": false,
+      "explanation": "Long-term goals only grow if you feed them on purpose. Every dollar that chases quick wins is a dollar college never meets."
+    },
+    {
+      "type": "material",
+      "title": "The SMART upgrade",
+      "body": "\"I want money\" is a wish. SMART makes it a plan:\n- **S**pecific — name it: \"a $600 phone\"\n- **M**easurable — numbers: \"$50 a month\"\n- **A**chievable — realistic for YOUR income\n- **R**elevant — it actually matters to you\n- **T**ime-bound — deadline: \"12 months\"\n\nNot SMART: \"I want to be rich someday.\"\nSMART: \"I'll save $50 a month for 12 months to buy a $600 phone.\"\n\nOnly one of those can actually fail or succeed — and that's exactly why it works.",
+      "image": "/illustrations/smart-goals.svg",
+      "imageAlt": "SMART acronym shown as a ladder of five rungs"
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Decode SMART — match each letter to its meaning.",
+      "pairs": [
+        { "left": "Specific", "right": "Clear and detailed" },
+        { "left": "Measurable", "right": "Has real numbers" },
+        { "left": "Achievable", "right": "Realistic for your income" },
+        { "left": "Relevant", "right": "Actually matters to you" },
+        { "left": "Time-bound", "right": "Comes with a deadline" }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which of these is a SMART goal?",
+      "options": [
+        "I want to be rich someday",
+        "I'll try to save more money soon",
+        "I'll save $50 a month for 12 months to buy a $600 phone",
+        "I want a car eventually"
+      ],
+      "correctIndex": 2,
+      "explanation": "It's specific, measurable, achievable, relevant, and has a deadline. The other three can't fail OR succeed — there's nothing to measure."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word is lying about SMART. Tap it.",
+      "sentence": "The M in SMART means your goal is Manageable.",
+      "wrongWord": "Manageable",
+      "correctWord": "Measurable",
+      "explanation": "M is for Measurable — your goal needs numbers ($600 total, $50 a month) so you always know whether you're on track."
+    },
+    {
+      "type": "material",
+      "title": "The hidden price tag",
+      "body": "Every purchase has a price tag you can see — and a hidden one you can't. The hidden one is **opportunity cost**: whatever you gave up by choosing this instead.\n\nBuy $100 sneakers today and you didn't just spend $100 — you un-bought next month's concert tickets. $40 of takeout this week is $40 that never reaches the laptop fund.\n\nThe sharpest money question there is: \"If I buy this now, what am I losing later?\""
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "What you give up when you choose one thing over another is called ___ cost.",
+      "answer": "opportunity",
+      "accept": ["Opportunity", "OPPORTUNITY"],
+      "hint": "It's the chance you missed.",
+      "explanation": "Opportunity cost is the hidden price tag — sneakers today can quietly cost you concert tickets next month."
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "That $5 school-day snack habit runs about $100 a month. Slide to a full year's damage.",
+      "min": 200,
+      "max": 2400,
+      "step": 100,
+      "answer": 1200,
+      "tolerance": 100,
+      "unitPrefix": "$",
+      "explanation": "About $100 a month × 12 = $1,200 a year — a whole laptop, eaten one snack at a time."
+    },
+    {
+      "type": "material",
+      "title": "Balance (so you don't burn out)",
+      "body": "If you only save, life feels like punishment. If you only spend, future-you inherits the bill. The move is balance.\n\nSay $100 lands in your pocket:\n- $30 covers needs (transport, school stuff)\n- $50 feeds a goal\n- $20 is guilt-free fun\n\nYour split can look different — the rule is that all three get fed. Then start tiny: one small goal, a weekly amount, somewhere to track it. Win that, and bigger goals stop feeling impossible."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which choice respects both your goal AND your balance?",
+      "context": "After needs, you have $100 left this month. Your SMART goal: $100 concert tickets in two months — $50 a month.",
+      "options": [
+        "Put $50 toward the tickets, keep $50 for fun and flexibility",
+        "Drop the whole $100 on designer shoes you just spotted",
+        "Lock all $100 away and have zero fun this month",
+        "Skip this month and save $100 next month instead"
+      ],
+      "correctIndex": 0,
+      "explanation": "It feeds the goal exactly on schedule and leaves room to live. The shoes would cost you the concert — opportunity cost in action."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Launch your first goal — put the steps in order.",
+      "steps": [
+        "Pick one short-term goal, like $100 sneakers",
+        "Set the weekly amount — $10 for 10 weeks",
+        "Track progress in an app, a notebook, or a jar",
+        "Stick to the plan — no early raids",
+        "Celebrate the win, then aim bigger"
+      ],
+      "explanation": "Start small on purpose: quick wins build the muscle. Win one goal and the $1,000 ones stop looking impossible."
+    },
+    {
+      "type": "decision_path",
+      "title": "Operation Sneakers",
+      "intro": "Your SMART goal: $100 sneakers in 10 weeks — $10 a week. Each choice covers a stretch of the journey. Protect the plan.",
+      "stat": { "name": "Sneaker fund", "emoji": "👟", "start": 0 },
+      "steps": [
+        {
+          "situation": "Weeks 1–2: your Saturday job pays $25 a week. The plan says $10 a week into the jar.",
+          "options": [
+            { "text": "Deposit $10 each week, enjoy the rest", "delta": 20, "feedback": "Right on plan — and there's still money to live on. Achievable plans are the ones that survive.", "best": true },
+            { "text": "Go hard: save all $25 week one, then nothing", "delta": 25, "feedback": "More money, broken rhythm. All-or-nothing plans usually land on 'nothing' by week three." },
+            { "text": "Skip the first weeks — you'll catch up later", "delta": 0, "feedback": "'I'll catch up' is the official slogan of goals that never happen." }
+          ]
+        },
+        {
+          "situation": "Weeks 3–5: a hoodie you kind of want hits a flash sale — $30.",
+          "options": [
+            { "text": "Ask \"what does this cost me later?\" — then pass", "delta": 30, "feedback": "That question is your opportunity-cost radar. Three more deposits land; the sneakers stay on schedule.", "best": true },
+            { "text": "Buy it with sneaker-jar money", "delta": 0, "feedback": "You saved $30 these weeks and spent $30 on a maybe-want. Net progress: zero." },
+            { "text": "Buy it AND pause saving to recover", "delta": -30, "feedback": "The jar went backward and the streak broke. The hoodie's real price keeps growing." }
+          ]
+        },
+        {
+          "situation": "Weeks 6–8: your cousin offers a used gaming headset — $50, \"this week only.\"",
+          "options": [
+            { "text": "Pass — it's not the goal you chose", "delta": 30, "feedback": "R is for Relevant. A deal on something you weren't saving for is just a well-dressed detour.", "best": true },
+            { "text": "Grab it — deals don't wait", "delta": -20, "feedback": "You saved $30 and spent $50. The 'deal' dragged your goal backward by two whole weeks." }
+          ]
+        },
+        {
+          "situation": "Weeks 9–10: you're $20 from the finish line, and the sneakers just restocked.",
+          "options": [
+            { "text": "Make the last two deposits, then buy them", "delta": 20, "feedback": "Goal: $100. Saved: $100. On time, on plan — celebrate it, then pick the next target.", "best": true },
+            { "text": "Close enough — borrow the last $20 to buy now", "delta": 0, "feedback": "Borrowing at the finish line turns a win into a debt. It was only two weeks away." },
+            { "text": "Never buy them — keep saving forever", "delta": 20, "feedback": "A full jar with no win doesn't build the habit. Celebrating is what makes the next goal easier." }
+          ]
+        }
+      ],
+      "outro": "Best path: $100 in 10 weeks, zero detours funded by your goal. Pick it, make it SMART, guard it, celebrate it."
+    }
+  ]
+}

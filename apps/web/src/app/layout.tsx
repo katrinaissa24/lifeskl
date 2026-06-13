@@ -19,9 +19,19 @@ export const metadata: Metadata = {
     "Money, work, health, and the everyday admin of being a person — taught in five-minute, hands-on lessons.",
 };
 
+// Applied before first paint so dark mode never flashes light.
+const THEME_SCRIPT = `(function(){try{var t=localStorage.getItem('lifeskl-theme');if(t==='dark'||t==='light'){document.documentElement.dataset.theme=t;}}catch(e){}})();`;
+
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className={`${bricolage.variable} ${dmSans.variable}`}>
+    <html
+      lang="en"
+      className={`${bricolage.variable} ${dmSans.variable}`}
+      suppressHydrationWarning
+    >
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+      </head>
       <body>{children}</body>
     </html>
   );

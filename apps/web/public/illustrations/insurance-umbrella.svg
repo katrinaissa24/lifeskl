@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="One umbrella shielding health, car, home and family">
+  <!-- umbrella -->
+  <path d="M40 96 C56 30 264 30 280 96 C252 78 228 78 210 96 C196 80 178 80 164 96 C150 80 132 80 118 96 C100 78 70 78 40 96 Z" fill="#6b46ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="160" y1="46" x2="160" y2="30" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <line x1="160" y1="96" x2="160" y2="128" stroke="#181016" stroke-width="3"/>
+  <path d="M160 128 q0 14 -14 12" stroke="#181016" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- protected icons -->
+  <g>
+    <rect x="44"  y="138" width="52" height="44" rx="8" fill="#e3f5ec" stroke="#181016" stroke-width="3"/>
+    <text x="70"  y="168" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">💊</text>
+    <rect x="110" y="138" width="52" height="44" rx="8" fill="#efe9ff" stroke="#181016" stroke-width="3"/>
+    <text x="136" y="168" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">🚗</text>
+    <rect x="176" y="138" width="52" height="44" rx="8" fill="#ffe6ee" stroke="#181016" stroke-width="3"/>
+    <text x="202" y="168" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">🏠</text>
+    <rect x="242" y="138" width="52" height="44" rx="8" fill="#fffdf8" stroke="#181016" stroke-width="3"/>
+    <text x="268" y="168" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">❤️</text>
+  </g>
+</svg>

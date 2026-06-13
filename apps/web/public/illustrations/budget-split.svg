@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="Income splitting into needs, wants and savings jars">
+  <!-- coin source -->
+  <circle cx="160" cy="34" r="22" fill="#6b46ff" stroke="#181016" stroke-width="3"/>
+  <text x="160" y="42" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">$</text>
+  <!-- streams -->
+  <path d="M150 54 C120 86 80 92 72 118" stroke="#181016" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <path d="M160 58 L160 118" stroke="#181016" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <path d="M170 54 C200 86 240 92 248 118" stroke="#181016" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <!-- jars -->
+  <g>
+    <rect x="40" y="122" width="64" height="56" rx="8" fill="#efe9ff" stroke="#181016" stroke-width="3"/>
+    <rect x="48" y="146" width="48" height="32" rx="6" fill="#6b46ff"/>
+    <rect x="36" y="114" width="72" height="10" rx="4" fill="#fffdf8" stroke="#181016" stroke-width="3"/>
+    <text x="72" y="194" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#181016" text-anchor="middle">Needs 50%</text>
+  </g>
+  <g>
+    <rect x="128" y="122" width="64" height="56" rx="8" fill="#ffe6ee" stroke="#181016" stroke-width="3"/>
+    <rect x="136" y="156" width="48" height="22" rx="6" fill="#ff6f9c"/>
+    <rect x="124" y="114" width="72" height="10" rx="4" fill="#fffdf8" stroke="#181016" stroke-width="3"/>
+    <text x="160" y="194" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#181016" text-anchor="middle">Wants 30%</text>
+  </g>
+  <g>
+    <rect x="216" y="122" width="64" height="56" rx="8" fill="#e3f5ec" stroke="#181016" stroke-width="3"/>
+    <rect x="224" y="162" width="48" height="16" rx="6" fill="#1f8a5b"/>
+    <rect x="212" y="114" width="72" height="10" rx="4" fill="#fffdf8" stroke="#181016" stroke-width="3"/>
+    <text x="248" y="194" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#181016" text-anchor="middle">Savings 20%</text>
+  </g>
+</svg>

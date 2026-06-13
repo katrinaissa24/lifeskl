@@ -52,7 +52,7 @@ export function SignupForm() {
 
     if (data.session) {
       // Email confirmation is disabled — user is signed in immediately.
-      router.push("/dashboard");
+      router.push("/home");
       router.refresh();
       return;
     }
@@ -69,7 +69,7 @@ export function SignupForm() {
         <h1>Check your inbox</h1>
         <p className="muted" style={{ fontWeight: 500, marginTop: 8 }}>
           We sent a confirmation link to <strong>{email}</strong>. Click it and
-          you&apos;ll land in your dashboard, ready for lesson one.
+          you&apos;ll land on your home page, ready for lesson one.
         </p>
       </div>
     );

@@ -1,0 +1,185 @@
+{
+  "slug": "basics-of-investing",
+  "title": "The basics of investing",
+  "description": "Plant money today, pick fruit for decades — starting with $5.",
+  "unit": 4,
+  "sortOrder": 7,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Investing puts money to work; spending makes it vanish",
+    "Stocks = owning, bonds = lending, funds = a basket of both",
+    "Stocks return about 7–10% a year on average — with big swings",
+    "Starting at 18 instead of 30 can roughly double your final pot",
+    "Emergency fund first, then small automatic investments"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Plant it, don't just park it",
+      "body": "Spend $10 on a game skin and it's gone forever. Invest that $10 and it has a shot at becoming $15, $20, or more — because investing means using money today to grow more money tomorrow.\n\nThink of it like planting a tree. You bury a seed (your cash), water it (add a little regularly), and wait. Years later it's dropping fruit — money your money made — while you do absolutely nothing.",
+      "image": "/illustrations/investing-tree.svg",
+      "imageAlt": "A money tree growing from a planted seed"
+    },
+    {
+      "type": "material",
+      "title": "Why not just save?",
+      "body": "Savings accounts keep money safe, but barely grow it:\n- $100 saved at 1% interest → $101 after a year\n- $100 invested in the stock market → historically around 7–10% a year ON AVERAGE, so maybe $108\n\nThe catch: \"on average\" hides wild swings. Some years stocks jump 20%, some years they drop 20%. Investing trades a smooth ride for a faster one — which is why it's for money you won't need soon."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Investing in the stock market is basically gambling.",
+      "answer": false,
+      "explanation": "Gambling is a bet where the odds are against you. Owning diversified investments for years means owning real businesses that grow — though betting everything on one hot stock IS closer to gambling."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Why invest at all when savings accounts are safer?",
+      "options": [
+        "Investing is guaranteed to beat savings",
+        "Banks charge fees on savings accounts",
+        "Investing has much higher growth potential over time",
+        "Savings accounts are actually riskier"
+      ],
+      "correctIndex": 2,
+      "explanation": "No guarantees — markets swing — but historically investments have grown far faster than savings. You're trading some safety for growth."
+    },
+    {
+      "type": "material",
+      "title": "The big three",
+      "body": "Almost every investment you'll meet is one of these:\n- **Stocks** — you own a tiny slice of a company. Nike does well, your slice is worth more. Some even pay you a cut of profits (dividends).\n- **Bonds** — you LEND money to a company or government, and they pay you back with interest. Slower, steadier.\n- **Mutual funds & ETFs** — baskets holding many stocks and bonds at once, so one company's bad year can't wreck you."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each investing word to what it really is.",
+      "pairs": [
+        { "left": "Stock", "right": "Owning a slice of a company" },
+        { "left": "Bond", "right": "A loan you give, repaid with interest" },
+        { "left": "Mutual fund", "right": "A basket of many investments" },
+        { "left": "Dividend", "right": "Profit a company shares with you" }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "A $1,000 government bond pays 3% simple yearly interest. After 5 years you collect $___ in total.",
+      "answer": "1150",
+      "accept": ["$1,150", "1,150", "$1150"],
+      "hint": "That's $30 a year, five times, plus your $1,000 back.",
+      "explanation": "$1,000 × 3% = $30 a year. Five years = $150 in interest, plus your original $1,000 back = $1,150."
+    },
+    {
+      "type": "material",
+      "title": "Risk and reward: a package deal",
+      "body": "There's no prize without a price:\n- **High risk, high potential reward** — individual stocks, crypto. Could double, could halve.\n- **Low risk, low reward** — government bonds, savings. Slow, steady, boring.\n\nThe pro move isn't picking one extreme — it's **diversifying**: spreading money across different investments so one flop can't take you down. That's exactly what funds do for you automatically."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Higher risk or lower risk?",
+      "categories": ["Higher risk", "Lower risk"],
+      "items": [
+        { "text": "Shares of one single company", "category": 0 },
+        { "text": "Government bonds", "category": 1 },
+        { "text": "Cryptocurrency", "category": 0 },
+        { "text": "A savings account", "category": 1 },
+        { "text": "A stranger's \"guaranteed 10x\" coin", "category": 0 },
+        { "text": "A diversified index fund", "category": 1 }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the smart move for long-term money?",
+      "context": "Three months after you start investing, the market drops 15%. Your $500 is now $425.",
+      "options": [
+        "Sell everything before it falls further",
+        "Stay invested — markets have recovered from every crash so far",
+        "Move it all into crypto to win it back fast",
+        "Sell now, wait for the bottom, buy back in"
+      ],
+      "correctIndex": 1,
+      "explanation": "Selling in a panic locks in the loss. Historically, investors who stayed put rode the recovery — and timing the bottom almost never works."
+    },
+    {
+      "type": "material",
+      "title": "Time is your superpower",
+      "body": "Compound growth means your earnings start earning. It's a snowball rolling downhill: tiny at first, unstoppable later.\n\n$50 a month at about 7% average growth:\n- Start at 18 → roughly $230,000 by 65\n- Start at 30 → roughly $100,000 by 65\n\nSame habit, same monthly amount — starting 12 years earlier more than doubles the pot. The biggest investing advantage you will ever have is being young."
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "You invest $100 once at 7% average growth and ignore it for 30 years. Slide to where it lands.",
+      "min": 100,
+      "max": 1000,
+      "step": 20,
+      "answer": 760,
+      "tolerance": 40,
+      "unitPrefix": "$",
+      "explanation": "At 7%, money doubles roughly every 10 years: $100 → $200 → $400 → about $760 after 30. The last decade earns more than the first two combined."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word turns this into terrible advice. Tap it.",
+      "sentence": "Putting all your eggs in one basket is the safest way to invest.",
+      "wrongWord": "safest",
+      "correctWord": "riskiest",
+      "explanation": "One basket means one bad drop breaks everything. Diversification exists so a single flop can't wipe you out."
+    },
+    {
+      "type": "material",
+      "title": "Starting with pocket change",
+      "body": "You don't need $10,000 — you need a habit:\n- **Micro-investing apps** let you start with $5–$10\n- **Low-cost index funds and ETFs** buy you the whole market in one move\n- **Automate it** — small and consistent beats big and occasional\n\nTwo rules before your first dollar goes in: build a small emergency fund FIRST (so a surprise bill never forces you to sell), and treat anything promising fast guaranteed riches as a scam — because it is."
+    },
+    {
+      "type": "true_false",
+      "prompt": "You should invest your emergency fund so it grows instead of sitting in savings.",
+      "answer": false,
+      "explanation": "Emergency money must be there the day you need it. If a crash and a car repair hit the same week, an invested emergency fund forces you to sell at a loss."
+    },
+    {
+      "type": "decision_path",
+      "title": "The $1,000 Year",
+      "intro": "You've got $1,000 and 12 months. Beat the market's mood swings and end the year ahead.",
+      "stat": { "name": "Portfolio", "emoji": "💼", "start": 1000 },
+      "steps": [
+        {
+          "situation": "January. Time to put your $1,000 to work. How do you spread it?",
+          "options": [
+            { "text": "All-in on one hot tech stock", "delta": -80, "feedback": "It spiked, then sank. One company means one bad headline can sink you." },
+            { "text": "Split it: stocks, bonds, and an index fund", "delta": 60, "feedback": "Diversified. No single flop can take you out — and the mix still grows.", "best": true },
+            { "text": "Keep it all in cash for now", "delta": -20, "feedback": "Zero risk, zero growth — and inflation quietly shrank what your cash can buy." }
+          ]
+        },
+        {
+          "situation": "April. Tech boom! The stock slice of your portfolio jumps 20%.",
+          "options": [
+            { "text": "Sell everything and lock in the win", "delta": 20, "feedback": "You banked a small win, but now you're out of the market — and re-entering is scary." },
+            { "text": "Hold your plan, trim just a little profit", "delta": 120, "feedback": "You stayed invested for the growth and skimmed a bit of profit. Balanced.", "best": true },
+            { "text": "Move everything into tech — it's clearly winning", "delta": -60, "feedback": "Chasing a spike is how people buy at the top. It cooled off right after." }
+          ]
+        },
+        {
+          "situation": "August. Market crash — stocks plunge 15% in a week and your feed is pure panic.",
+          "options": [
+            { "text": "Sell it all before it gets worse", "delta": -150, "feedback": "You locked in the loss. The market recovered within months; your sold shares didn't." },
+            { "text": "Stay invested, keep monthly contributions going", "delta": 80, "feedback": "Every crash so far has eventually recovered — and you bought the dip on autopilot.", "best": true },
+            { "text": "Stop looking AND stop contributing for a while", "delta": -10, "feedback": "Not selling helps, but pausing contributions means skipping the discount aisle." }
+          ]
+        },
+        {
+          "situation": "October. Interest rates rise: bonds now pay more, and stocks dip 5%.",
+          "options": [
+            { "text": "Dump all stocks, go 100% bonds", "delta": -40, "feedback": "Overcorrection. You traded long-term growth for a small bump in safety." },
+            { "text": "Nudge a little more into bonds, keep the mix", "delta": 40, "feedback": "A light rebalance keeps your plan on target without abandoning growth.", "best": true },
+            { "text": "Change nothing, never look again", "delta": 0, "feedback": "Doing nothing beats panicking, but a small rebalance would've kept your mix on plan." }
+          ]
+        },
+        {
+          "situation": "December. Your car needs a $200 repair — this can't wait.",
+          "options": [
+            { "text": "Sell stocks (still recovering from the crash)", "delta": -280, "feedback": "You sold low and turned the crash into a real, permanent loss. Ouch." },
+            { "text": "Withdraw from your bond slice", "delta": -200, "feedback": "Safer assets are your shock absorber — stable value, no fire sale required.", "best": true },
+            { "text": "Credit card at 24% APR, leave investments alone", "delta": -250, "feedback": "That interest costs more than your investments earn. The math loses every time." }
+          ]
+        }
+      ],
+      "outro": "Finish above $1,000 and you beat a chaotic year. The winning moves were boring on purpose: diversify, hold through the panic, rebalance lightly, and let bonds absorb the emergencies."
+    }
+  ]
+}

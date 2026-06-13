@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="Snowball rolling downhill, growing as it goes">
+  <!-- hill -->
+  <path d="M0 60 L320 188 L0 188 Z" fill="#efe9ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- snowballs growing -->
+  <circle cx="46"  cy="64"  r="14" fill="#fffdf8" stroke="#181016" stroke-width="3"/>
+  <circle cx="124" cy="106" r="24" fill="#fffdf8" stroke="#181016" stroke-width="3"/>
+  <circle cx="232" cy="142" r="38" fill="#fffdf8" stroke="#181016" stroke-width="3"/>
+  <!-- dollar signs scale up -->
+  <g font-family="Arial, sans-serif" font-weight="800" fill="#6b46ff" text-anchor="middle">
+    <text x="46"  y="70"  font-size="14">$</text>
+    <text x="124" y="114" font-size="22">$$</text>
+    <text x="232" y="152" font-size="30">$$$</text>
+  </g>
+  <!-- motion arcs -->
+  <path d="M70 52 q14 -16 32 -10" stroke="#ff6f9c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M158 92 q18 -18 40 -8" stroke="#ff6f9c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="22" y="30" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#4a3f47">year 1</text>
+  <text x="262" y="92" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#4a3f47">year 10</text>
+</svg>
