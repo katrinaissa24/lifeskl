@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A phishing hook trying to grab a phone message">
+  <!-- phone -->
+  <rect x="98" y="26" width="124" height="160" rx="14" fill="#fffdf8" stroke="#181016" stroke-width="3"/>
+  <rect x="98" y="26" width="124" height="26" rx="13" fill="#181016"/>
+  <!-- message bubble -->
+  <rect x="112" y="66" width="96" height="58" rx="8" fill="#efe9ff" stroke="#181016" stroke-width="2.5"/>
+  <text x="120" y="84" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#181016">YOU WON $500!</text>
+  <text x="120" y="100" font-family="Arial, sans-serif" font-size="10" fill="#4a3f47">claim now → bit.ly/</text>
+  <text x="120" y="113" font-family="Arial, sans-serif" font-size="10" fill="#4a3f47">free-cash-4u</text>
+  <!-- hook through the bubble -->
+  <path d="M186 8 L186 92 a14 14 0 1 1 -22 -11" stroke="#ff6f9c" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M162 76 l6 12 l-13 1 Z" fill="#ff6f9c"/>
+  <!-- alert sign -->
+  <g>
+    <path d="M262 84 L294 140 L230 140 Z" fill="#f5c542" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+    <text x="262" y="132" font-family="Arial, sans-serif" font-size="26" font-weight="800" fill="#181016" text-anchor="middle">!</text>
+  </g>
+  <text x="40" y="178" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#4a3f47" transform="rotate(-4 40 178)">too good to be true?</text>
+</svg>

@@ -2,7 +2,13 @@ import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 import { isSupabaseConfigured, SUPABASE_ANON_KEY, SUPABASE_URL } from "./env";
 
-const PROTECTED_PREFIXES = ["/dashboard", "/lesson", "/profile"];
+const PROTECTED_PREFIXES = [
+  "/dashboard",
+  "/home",
+  "/course",
+  "/lesson",
+  "/profile",
+];
 const AUTH_PAGES = ["/login", "/signup"];
 
 /**
@@ -57,7 +63,7 @@ export async function updateSession(request: NextRequest) {
 
   if (user && isAuthPage) {
     const url = request.nextUrl.clone();
-    url.pathname = "/dashboard";
+    url.pathname = "/home";
     const redirect = NextResponse.redirect(url);
     supabaseResponse.cookies
       .getAll()

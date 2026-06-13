@@ -1,0 +1,153 @@
+{
+  "slug": "needs-vs-wants",
+  "title": "Needs vs wants (and the ads that blur them)",
+  "description": "Tell needs from wants before the ads decide for you.",
+  "unit": 5,
+  "sortOrder": 9,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Run the un-blur test: survivable without it = want",
+    "Split income 50/30/20 — needs, wants, savings",
+    "Use the 24-hour rule to outlast impulse buys",
+    "When a budget doesn't fit, cut wants — never needs or savings",
+    "$60 saved a month is $720 a year of options"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The backpack problem",
+      "body": "Money is a backpack with limited space. Stuff it with shiny rocks — impulse buys, upgrades you didn't need — and there's no room left for water and food: the stuff that actually gets you through the trip.\n\nSpending wisely isn't \"never buy fun things.\" It's packing on purpose: essentials first, then the extras that genuinely make the trip better. Every dollar you spend is a choice about what no longer fits."
+    },
+    {
+      "type": "material",
+      "title": "Needs vs wants",
+      "body": "**Needs** keep you alive, healthy, and functioning:\n- Groceries (not nightly takeout)\n- Rent and utilities\n- Transport to school or work\n- Basic weather-right clothes\n- Healthcare and medicine\n\n**Wants** make life nicer, but you'd survive without them: streaming, gaming, designer anything, the new phone when yours works fine.\n\nThe line moves with context: a winter coat when yours ripped is a need. A third pair of sneakers is not.",
+      "image": "/illustrations/needs-wants.svg",
+      "imageAlt": "A two-pan balance scale weighing needs against wants"
+    },
+    {
+      "type": "categorize",
+      "prompt": "Need or want? Some of these are sneaky.",
+      "categories": ["Need", "Want"],
+      "items": [
+        { "text": "Winter coat when yours ripped", "category": 0 },
+        { "text": "Third pair of sneakers", "category": 1 },
+        { "text": "Groceries for the week", "category": 0 },
+        { "text": "Takeout three nights a week", "category": 1 },
+        { "text": "Bus card to get to school", "category": 0 },
+        { "text": "Newest phone when yours works fine", "category": 1 },
+        { "text": "Medicine when you're sick", "category": 0 },
+        { "text": "Concert tickets", "category": 1 }
+      ]
+    },
+    {
+      "type": "true_false",
+      "prompt": "Wants are bad, and a smart budgeter cuts them all out.",
+      "answer": false,
+      "explanation": "Wants are the fun part — they're half the reason budgets exist. Trouble only starts when wants crowd out needs and savings."
+    },
+    {
+      "type": "material",
+      "title": "Why the line gets blurry",
+      "body": "Companies spend billions making wants FEEL like needs:\n- Ads whisper you \"need\" the new phone to stay connected (your texts send fine)\n- Social media serves nonstop vacations and hauls — FOMO is the product\n- Friends all have the same sneakers, and suddenly yours feel \"broken\"\n\nThe un-blur test is one question: can I live without this and stay safe and healthy? If yes, it's a want. Buy it if it fits your budget — just never let it cosplay as a need."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word ruins the un-blur test. Tap it.",
+      "sentence": "If you can live without it and stay safe and healthy, it's a need.",
+      "wrongWord": "need",
+      "correctWord": "want",
+      "explanation": "Survivable-without means want. Wants are allowed — they just don't get to skip the line in front of needs and savings."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What is the ad actually doing?",
+      "context": "An ad says: \"Everyone's already on the XPhone 17. Don't get left behind.\" Your phone works fine.",
+      "options": [
+        "Informing you about a genuine need",
+        "Dressing a want up as a need using FOMO",
+        "Helping you compare prices",
+        "Reminding you to check your budget"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Left behind\" is pure social pressure. A working phone means the upgrade is a want — maybe a fine one, but a want."
+    },
+    {
+      "type": "material",
+      "title": "The 50/30/20 rule",
+      "body": "A dead-simple way to split every paycheck:\n- **50% → Needs** — rent, food, transport, healthcare, bills\n- **30% → Wants** — hobbies, takeout, entertainment\n- **20% → Savings** — emergencies, big goals, future you\n\nEarn $600 a month? That's $300 for needs, $180 for wants, $120 for savings.\n\nIt's not a law — it's a starting grid you adjust to your life. The point is that wants and savings get planned slots instead of fighting over leftovers."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "You earn $600 a month. Under 50/30/20, your savings slot is $___.",
+      "answer": "120",
+      "accept": ["$120", "120$"],
+      "hint": "Savings gets the smallest slice: 20%.",
+      "explanation": "20% of $600 = $120. Needs get $300, wants get $180."
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "Takeout at $10 a time, three times a week. Slide to what that costs over a 4-week month.",
+      "min": 30,
+      "max": 300,
+      "step": 10,
+      "answer": 120,
+      "tolerance": 20,
+      "unitPrefix": "$",
+      "explanation": "$10 × 3 × 4 = $120 a month — on a $600 income, that one habit eats your entire savings slot."
+    },
+    {
+      "type": "material",
+      "title": "Zoe's quiet flex",
+      "body": "Zoe earns $200 a month tutoring. Her split:\n- Needs: $80 (bus card, school lunches, phone bill)\n- Wants: $60 (eating out, one subscription, movie nights)\n- Savings: $60\n\nNothing dramatic — she still eats out, still streams. But after a year she's sitting on $720, while her friend who spent every dollar on fast food and gaming has $0.\n\nWhen an emergency hits — or an opportunity — Zoe gets to say yes. That's what savings actually buys: options."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Zoe saves $60 every month. After a full year she has $___.",
+      "answer": "720",
+      "accept": ["$720", "720$"],
+      "explanation": "$60 × 12 = $720 — built from small, boring, repeated wins."
+    },
+    {
+      "type": "material",
+      "title": "Taming the want monster",
+      "body": "Four moves that keep wants in their lane:\n- **The 24-hour rule** — want it? Wait a day. The urge usually fades; if it doesn't, buy it guilt-free from your wants budget\n- **Track spending for a week** — you can't fix what you can't see\n- **Give fun a budget** — a set wants amount each month, spent shamelessly\n- **Save up for big wants** — stack toward them monthly instead of swiping a credit card\n\nWant a $600 laptop in 6 months? That's $100 a month. Goals beat impulses when they have a number."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What does the 24-hour rule say?",
+      "context": "Limited-edition sneakers, $90. Your thumb is hovering over \"buy now.\"",
+      "options": [
+        "Buy immediately — limited means now or never",
+        "Put them on a credit card so it doesn't count yet",
+        "Wait a day; if you still want them AND they fit your wants budget, go for it",
+        "Never buy sneakers again"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Limited edition\" is urgency bait. A day later the urge often fades — and if it doesn't, you buy with a plan instead of a pulse."
+    },
+    {
+      "type": "true_false",
+      "prompt": "If your income is $1,000 and your spending is $1,150, you have a budget deficit.",
+      "answer": true,
+      "explanation": "Spending more than you earn = deficit. The fix almost always starts with trimming wants — needs and savings stay protected."
+    },
+    {
+      "type": "budget_builder",
+      "prompt": "You earn $1,000 this month, but the full wishlist costs $1,170. Cover every need, save at least $100 — then trim the wants ($120 eating out, $100 entertainment, $120 clothes) to fit what's left.",
+      "income": 1000,
+      "categories": [
+        { "name": "Rent", "emoji": "🏠", "kind": "need", "required": 400 },
+        { "name": "Groceries", "emoji": "🛒", "kind": "need", "required": 200 },
+        { "name": "Phone bill", "emoji": "📱", "kind": "need", "required": 50 },
+        { "name": "Transport", "emoji": "🚌", "kind": "need", "required": 80 },
+        { "name": "Savings", "emoji": "🏦", "kind": "savings" },
+        { "name": "Eating out", "emoji": "🍔", "kind": "want" },
+        { "name": "Entertainment", "emoji": "🎮", "kind": "want" },
+        { "name": "Clothes", "emoji": "👕", "kind": "want" }
+      ],
+      "savingsTarget": 100,
+      "explanation": "Needs ($730) plus savings ($100) leaves $170 for wants — but the wishlist asked for $340. Balancing means cutting wants, never needs or savings. That's the whole skill."
+    }
+  ]
+}

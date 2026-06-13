@@ -1,0 +1,194 @@
+{
+  "slug": "financial-roadmap",
+  "title": "Your financial roadmap",
+  "description": "Point your money at the life you actually want.",
+  "unit": 7,
+  "sortOrder": 12,
+  "xpReward": 30,
+  "summaryPoints": [
+    "Sort goals by distance: short (under 1 yr), medium (1–5 yrs), long (5+ yrs)",
+    "Plan in four steps: set goals, estimate costs, make a timeline, budget monthly",
+    "Price the WHOLE goal — a car also costs insurance, fuel, and repairs",
+    "$50 a month at 7% from age 20 grows to roughly $190,000 by 65",
+    "Review the plan every few months and adjust without panic"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Driving with a map",
+      "body": "Nobody plans to be broke at 30. But most people don't plan NOT to be — and that's usually enough.\n\nA financial roadmap is just decisions made early: what you want, what it costs, and when you want it. It covers the expected (a car, a degree) and cushions the unexpected (a lost job, a medical bill).\n\nWith a plan, you stop reacting to money problems and start steering toward goals. Same income — totally different trajectory.",
+      "image": "/illustrations/roadmap.svg",
+      "imageAlt": "A winding road with milestone flags along the way"
+    },
+    {
+      "type": "true_false",
+      "prompt": "A financial plan only helps with things you can predict, like tuition — not surprises.",
+      "answer": false,
+      "explanation": "Half the point of a plan is the cushion: an emergency fund turns surprises into inconveniences instead of crises."
+    },
+    {
+      "type": "material",
+      "title": "Goals come in three distances",
+      "body": "- **Short-term (under 1 year)** — a jacket, a trip, your starter emergency fund\n- **Medium-term (1–5 years)** — a car, tuition, clearing a credit card\n- **Long-term (5+ years)** — a home, a business, retirement\n\nVague goals evaporate. Make them specific: \"Save $2,000 for a laptop in 10 months by putting away $200 a month.\" Now it's not a wish — it's a schedule."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Short, medium, or long-term goal?",
+      "categories": ["Short (<1 yr)", "Medium (1–5 yrs)", "Long (5+ yrs)"],
+      "items": [
+        { "text": "Concert tickets for this summer", "category": 0 },
+        { "text": "A used car in two years", "category": 1 },
+        { "text": "Retirement", "category": 2 },
+        { "text": "A starter emergency fund by December", "category": 0 },
+        { "text": "Paying off a credit card in 18 months", "category": 1 },
+        { "text": "A home down payment in 8 years", "category": 2 }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Goal: save $2,000 for a laptop in 10 months. That's $___ a month.",
+      "answer": "200",
+      "accept": ["$200", "200$"],
+      "hint": "Divide the goal by the months.",
+      "explanation": "$2,000 ÷ 10 = $200. A deadline turns a dream into a monthly bill you can actually plan around."
+    },
+    {
+      "type": "material",
+      "title": "The four-step plan",
+      "body": "Every roadmap gets built the same way:\n1. **Set goals** — what do you want in 1, 5, 10 years?\n2. **Estimate costs** — tuition rises yearly; cars need insurance and repairs; retirement needs decades\n3. **Make a timeline** — emergency fund in 6 months, car down payment in 2 years, and so on\n4. **Budget for it** — a fixed amount toward each goal, every month, like a bill\n\nThe budget is where the roadmap stops being a poster and starts being a vehicle."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Assemble the roadmap. Put the four steps in order.",
+      "steps": [
+        "Set goals for 1, 5, and 10 years out",
+        "Estimate what each goal will cost",
+        "Put the goals on a timeline",
+        "Budget a monthly amount toward each goal"
+      ],
+      "explanation": "Decide the destination, price it, schedule it, then fund it — each step feeds the next one."
+    },
+    {
+      "type": "budget_builder",
+      "prompt": "First full-time paycheck: $1,800 after taxes. Cover your needs, put at least $200 into the Future Fund, then enjoy the rest guilt-free.",
+      "income": 1800,
+      "categories": [
+        { "name": "Rent share", "emoji": "🏠", "kind": "need", "required": 600 },
+        { "name": "Food", "emoji": "🍜", "kind": "need", "required": 250 },
+        { "name": "Transport", "emoji": "🚌", "kind": "need", "required": 100 },
+        { "name": "Future Fund", "emoji": "🏦", "kind": "savings" },
+        { "name": "Going out", "emoji": "🎉", "kind": "want" },
+        { "name": "Clothes", "emoji": "👟", "kind": "want" }
+      ],
+      "savingsTarget": 200,
+      "explanation": "Needs ($950) first, Future You ($200) second — and the remaining $650 is genuinely yours to enjoy."
+    },
+    {
+      "type": "material",
+      "title": "Big tickets: college & cars",
+      "body": "**College:** compare aid offers, hunt scholarships, earn while you study, and save ahead — every dollar saved early is a dollar (plus interest) you don't have to borrow later.\n\n**A car:** the sticker price is just the entry fee. Real cost = price + insurance + fuel + maintenance. Save a down payment, and check your credit score first — it sets your loan's APR."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the smartest way to shrink the bill?",
+      "context": "College is coming, and the price tag is scary.",
+      "options": [
+        "Borrow the full amount — future you can deal with it",
+        "Compare aid offers, chase scholarships, and save early",
+        "Pick the most famous school no matter the cost"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aid offers differ wildly, scholarships are free money, and early savings shrink what you borrow — and the interest on it."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the real cost of owning a car?",
+      "options": [
+        "The sticker price",
+        "The sticker price minus resale value",
+        "Price plus insurance, fuel, and maintenance",
+        "Whatever the monthly loan payment is"
+      ],
+      "correctIndex": 2,
+      "explanation": "The purchase is just the entry fee — insurance, fuel, and repairs ride along every month. Budget for the whole animal."
+    },
+    {
+      "type": "material",
+      "title": "Retirement: the early-bird discount",
+      "body": "Retirement feels like science fiction at 18. That's exactly why starting now wins.\n\nPut away just $50 a month from age 20, growing at 7% a year, and by 65 you're sitting on roughly **$190,000** — even though you only deposited $27,000 of it. Compounding contributes the rest.\n\nStart the same plan at 40 and you'd need to save several times as much each month to catch up. Time is the one ingredient you can't buy back.",
+      "image": "/illustrations/compound-growth.svg",
+      "imageAlt": "A snowball rolling downhill, growing as it goes"
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "Save $50 a month from age 20 to 65 at 7% average growth. Slide to where it lands.",
+      "min": 25000,
+      "max": 250000,
+      "step": 5000,
+      "answer": 190000,
+      "tolerance": 15000,
+      "unitPrefix": "$",
+      "explanation": "Roughly $190,000 — from only $27,000 of deposits. The other ~$163,000 is compounding doing the heavy lifting."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word is holding this sentence back. Tap it.",
+      "sentence": "The secret weapon of retirement saving is starting late.",
+      "wrongWord": "late",
+      "correctWord": "early",
+      "explanation": "Time multiplies money. The same $50 a month is worth several times more started at 20 than at 40."
+    },
+    {
+      "type": "material",
+      "title": "Plans bend — that's the point",
+      "body": "A roadmap isn't carved in stone. Every few months, check in:\n- Did your income change?\n- New priority? Goals are allowed to change — you're allowed to change\n- Overspending anywhere?\n\nAdjust the numbers and keep rolling. Flexible planning means adapting without panic — the plan serves you, not the other way around."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Once your financial plan is set, changing it means you've failed.",
+      "answer": false,
+      "explanation": "Reviewing and adjusting every few months IS the plan. Life moves; good plans move with it."
+    },
+    {
+      "type": "decision_path",
+      "title": "Future You: 18 to 30",
+      "intro": "Play twelve years of money choices. Every decision moves your Stability — end strong and Future You says thanks.",
+      "stat": { "name": "Stability", "emoji": "🌱", "start": 50 },
+      "steps": [
+        {
+          "situation": "Age 18, first real paycheck: $1,800 a month after taxes. It feels infinite.",
+          "options": [
+            { "text": "Spend it all — you're only young once", "delta": -20, "feedback": "Fun month, fragile life. One surprise bill and you're borrowing." },
+            { "text": "Auto-save $200 a month, enjoy the rest", "delta": 20, "feedback": "Consistency beats intensity: $2,400 a year saved, and you still have a life.", "best": true },
+            { "text": "Save $900 a month, live on instant noodles", "delta": -5, "feedback": "Extreme plans usually collapse by month three. Sustainable beats heroic." }
+          ]
+        },
+        {
+          "situation": "Age 21. You've saved $5,500, and a better job across town means you need wheels.",
+          "options": [
+            { "text": "New car: $20,000 on a 5-year loan", "delta": -25, "feedback": "New cars lose around 20% of their value in year one — and the loan piles interest on top." },
+            { "text": "Used car: $5,000, paid in cash", "delta": 20, "feedback": "No loan, no interest, and $500 still in the bank. A car's job is transport, not status.", "best": true },
+            { "text": "Keep riding the bus and keep saving", "delta": 5, "feedback": "Cheapest option — solid if the bus really covers the new job. Just don't let it cost you the opportunity." }
+          ]
+        },
+        {
+          "situation": "Age 23: you move into your first apartment, $700 a month. It's completely empty.",
+          "options": [
+            { "text": "Furnish everything this weekend on a credit card", "delta": -20, "feedback": "Instant comfort, lingering balance — at card APRs, that sofa gets expensive." },
+            { "text": "Buy the basics now, add pieces month by month with cash", "delta": 15, "feedback": "A mattress and a pan to start. Slow furnishing keeps the move debt-free.", "best": true },
+            { "text": "Postpone the move a year and grow your emergency fund", "delta": 10, "feedback": "Also wise — patience builds a cushion. Just make sure the goal stays a goal, not a forever-delay." }
+          ]
+        },
+        {
+          "situation": "Age 27. Out of nowhere: a $1,200 medical bill.",
+          "options": [
+            { "text": "Credit card, minimum payments", "delta": -25, "feedback": "The minimum-payment treadmill can stretch $1,200 into years of interest." },
+            { "text": "Pay it from your emergency fund", "delta": 20, "feedback": "THIS is why the fund exists. A crisis just got downgraded to an inconvenience.", "best": true },
+            { "text": "Ignore the bill", "delta": -35, "feedback": "Unpaid bills go to collections and wreck your credit. Surprises don't expire — they compound." }
+          ]
+        }
+      ],
+      "outro": "Age 30: a cushion in the bank, no debt dragging behind you, options everywhere. Planning was never about less fun — it's about buying Future You freedom."
+    }
+  ]
+}

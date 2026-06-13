@@ -1,0 +1,179 @@
+{
+  "slug": "credit-scores",
+  "title": "Credit scores: the number that follows you",
+  "description": "Three digits that decide what borrowing costs you.",
+  "unit": 3,
+  "sortOrder": 6,
+  "xpReward": 25,
+  "summaryPoints": [
+    "A credit score (300–850) is your borrowing track record as one number",
+    "Payment history (35%) and amounts owed (30%) drive most of your score",
+    "Keep card usage under 30% of your limit — $300 on a $1,000 card",
+    "A low score makes the exact same loan cost thousands more",
+    "Build credit with a small card paid in full, on time, every month"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Your financial GPA",
+      "body": "Lend a friend your bike and get it back late, muddy, with a flat — you'll think twice next time. Banks think the same way, except they keep receipts.\n\nYour **credit score** is a number from 300 to 850 that sums up how reliably you've repaid borrowed money. High score: lenders compete for you. Low score: doors close and prices rise.\n\nThink of it as your financial GPA — except this one follows you to loans, apartments, and sometimes jobs.",
+      "image": "/illustrations/credit-score.svg",
+      "imageAlt": "A gauge sweeping from 300 to 850"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Credit scores usually run from 300 up to ___.",
+      "answer": "850",
+      "hint": "It's not a round 1,000.",
+      "explanation": "The standard scale tops out at 850. Around 650 is average; 750+ opens the best doors."
+    },
+    {
+      "type": "material",
+      "title": "The report and the score",
+      "body": "Banks, landlords, and phone companies don't know you personally, so they check two things:\n- **Credit report** — your full borrowing history: accounts, payments, slip-ups\n- **Credit score** — that history compressed into one number\n\nThe report is the transcript; the score is the GPA. You can check both yourself for free — and you should, because reports contain mistakes more often than you'd think, and you can dispute errors."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Checking your own credit score lowers it.",
+      "answer": false,
+      "explanation": "Self-checks are 'soft' inquiries — totally harmless. Only hard inquiries from lenders (when you apply for credit) can shave off a few points."
+    },
+    {
+      "type": "material",
+      "title": "The five ingredients",
+      "body": "Your score is a recipe with five ingredients:\n- **Payment history (35%)** — do you pay on time? The biggest slice by far\n- **Amounts owed (30%)** — how much of your available credit you're using. Under 30% of your limit is the sweet spot\n- **Length of history (15%)** — older accounts mean more evidence\n- **Credit mix (10%)** — handling different types (card + loan) responsibly\n- **New credit (10%)** — lots of recent applications looks desperate\n\nNotice what's NOT in there: your salary, your savings, your follower count."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each ingredient to its share of your score.",
+      "pairs": [
+        { "left": "Payment history", "right": "35% — paying on time" },
+        { "left": "Amounts owed", "right": "30% — credit you're using" },
+        { "left": "Length of history", "right": "15% — age of accounts" },
+        { "left": "New credit", "right": "10% — recent applications" }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "If you could only do ONE thing for your score, what should it be?",
+      "options": [
+        "Earn a higher salary",
+        "Pay every bill on time",
+        "Open lots of credit cards",
+        "Check your score every week"
+      ],
+      "correctIndex": 1,
+      "explanation": "Payment history is 35% of the score — the single biggest factor. (Salary isn't even part of the formula.)"
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "Your card's limit is $1,000. To follow the 30% rule, keep your balance under…",
+      "min": 0,
+      "max": 1000,
+      "step": 50,
+      "answer": 300,
+      "tolerance": 50,
+      "unitPrefix": "$",
+      "explanation": "30% of $1,000 = $300. Below that you look in control; near the limit you look maxed out and risky."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word here is sabotage. Tap it.",
+      "sentence": "To protect your credit history, close your oldest credit card.",
+      "wrongWord": "close",
+      "correctWord": "keep",
+      "explanation": "Length of history is 15% of your score. Your oldest account is doing quiet, valuable work — let it live."
+    },
+    {
+      "type": "material",
+      "title": "What the number costs you",
+      "body": "Same $15,000 car, same five-year loan:\n- Score 780 → about 4% APR → roughly $1,600 in interest\n- Score 600 → about 12% APR → roughly $5,000 in interest\n\nThat's $3,400+ extra for the exact same car.\n\nIt doesn't stop there: landlords check scores before renting to you, the best credit cards (cash back, travel perks) want high scores, and some employers review your credit report — though not the score itself — when hiring."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Roughly how much MORE does Sara pay for the same car?",
+      "context": "Ali (score 780) gets a $15,000 car loan at 4%. Sara (score 600) gets the same loan at 12%. Both repay over five years.",
+      "options": [
+        "About $340",
+        "About $1,600",
+        "About $3,400",
+        "About $5,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ali pays about $1,600 in interest; Sara pays about $5,000. Same car, same price tag — a $3,400 penalty for the lower score."
+    },
+    {
+      "type": "material",
+      "title": "Building it from nothing",
+      "body": "No history yet? Everyone starts with zero evidence. The playbook:\n- Start small: a student card or a secured card (you deposit money first)\n- Put one small regular bill on it — a subscription works\n- Pay the FULL balance on time, every month, forever\n- Keep usage under 30% of your limit\n- Don't close your oldest account — age helps\n\nBoring? Completely. That's the point: lenders adore boring."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Build credit from zero. Put the moves in order.",
+      "steps": [
+        "Open a student or secured card",
+        "Put one small monthly bill on it",
+        "Pay the full balance on time each month",
+        "Let the account age — don't close it"
+      ],
+      "explanation": "Start small, create a payment rhythm, then let time do the compounding. On-time history plus account age is the engine."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Does it help or hurt your score?",
+      "categories": ["Helps", "Hurts"],
+      "items": [
+        { "text": "Paying every bill on time", "category": 0 },
+        { "text": "Using $900 of a $1,000 limit", "category": 1 },
+        { "text": "Keeping usage under 30%", "category": 0 },
+        { "text": "Applying for 5 cards in 2 months", "category": 1 },
+        { "text": "Keeping your oldest card open", "category": 0 },
+        { "text": "Ignoring errors on your credit report", "category": 1 }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Myths that wreck scores",
+      "body": "Two popular myths, both expensive:\n\n**\"You need to carry debt to build credit.\"** Wrong — you need payment HISTORY, not debt. Use a card, pay it off in full monthly. Interest paid: $0. History built: yes.\n\n**\"Paying the minimum means I'm fine.\"** It dodges late fees, but interest keeps piling onto the balance — you can pay every month and still sink deeper."
+    },
+    {
+      "type": "true_false",
+      "prompt": "As long as you make the minimum payment, your balance can't grow.",
+      "answer": false,
+      "explanation": "Minimums avoid late fees, but interest can add more than you paid — the balance creeps UP while you technically 'stay current'."
+    },
+    {
+      "type": "decision_path",
+      "title": "Credit Score Adventure",
+      "intro": "You're starting at 650 — dead average. Three moments, one goal: hit 750.",
+      "stat": { "name": "Credit score", "emoji": "📈", "start": 650 },
+      "steps": [
+        {
+          "situation": "Your $50 phone bill is due on the 10th. It's the 8th — and concert tickets drop today.",
+          "options": [
+            { "text": "Pay the bill now, tickets with what's left", "delta": 20, "feedback": "On-time payment — that feeds the biggest score factor (35%).", "best": true },
+            { "text": "Tickets first, pay the bill on the 15th", "delta": -40, "feedback": "Five days late. Payment history takes the biggest, fastest hits." },
+            { "text": "Skip the bill this month", "delta": -100, "feedback": "A missed payment can sit on your report for years. Brutal trade for a concert." }
+          ]
+        },
+        {
+          "situation": "Your first credit card arrives: $1,000 limit. The $200 sneakers you've wanted are right there.",
+          "options": [
+            { "text": "Buy them, pay the full $200 when the bill comes", "delta": 30, "feedback": "History built, $0 interest, utilization stays low. Textbook.", "best": true },
+            { "text": "Buy them, pay only the $20 minimum", "delta": -20, "feedback": "Interest starts growing on the rest, and the lingering balance raises your utilization." },
+            { "text": "Celebrate with a $1,000 shopping spree", "delta": -70, "feedback": "A maxed-out card screams risk — amounts owed is 30% of your score." }
+          ]
+        },
+        {
+          "situation": "You apply for an apartment and the landlord runs a credit check. A friend suggests: 'Open a few new cards first so you look richer.'",
+          "options": [
+            { "text": "Apply as you are — your record speaks", "delta": 50, "feedback": "On-time payments and low balances are exactly what landlords want. Approved!", "best": true },
+            { "text": "Open 3 new cards the week before", "delta": -40, "feedback": "A burst of applications looks desperate — and dings your score right when it's being checked." },
+            { "text": "Pay a site $99 to 'instantly boost' your score", "delta": -30, "feedback": "Instant-boost services range from useless to scam. Nobody legit can rewrite your history overnight." }
+          ]
+        }
+      ],
+      "outro": "650 → 750 isn't luck: pay on time, keep balances low, don't chase new credit. Small boring moves, big number."
+    }
+  ]
+}

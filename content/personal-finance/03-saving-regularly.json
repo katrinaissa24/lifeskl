@@ -1,0 +1,182 @@
+{
+  "slug": "saving-regularly",
+  "title": "Saving regularly: pay yourself first",
+  "description": "Make saving automatic — small, weekly, unstoppable.",
+  "unit": 2,
+  "sortOrder": 3,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Pay yourself first: savings move before any spending happens",
+    "Start an emergency fund — $200–$500 covers most student surprises",
+    "Consistency beats size: $10 a week is $520 in a year",
+    "Saving earns you interest; borrowing makes you pay it",
+    "Automate the transfer so the habit survives weak moments"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "When life swings, savings block",
+      "body": "Your phone screen cracks. The class-trip deposit is due Friday. Your charger dies the week of finals.\n\nWithout savings, every one of those is a scramble — borrowing, stress, maybe debt. With savings, they're just... Tuesday. Annoying, handled, done.\n\nSaving isn't really about money. It's about security, freedom, and sleeping fine — and it's built with tiny weekly moves, not heroic ones."
+    },
+    {
+      "type": "material",
+      "title": "Pay yourself first",
+      "body": "Most people save backwards: spend all month, then save \"whatever's left.\" Spoiler — nothing is ever left.\n\n**Pay yourself first** flips it: the moment money arrives, a slice goes straight to savings, BEFORE any spending. Think of it as a bill from your future self — as non-negotiable as your phone plan.\n\nEarn $100 from a weekend shift? $10 moves instantly. Whatever happens to the other $90, you're still building."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word wrecks this advice. Tap it.",
+      "sentence": "To build savings that actually stick, pay yourself last.",
+      "wrongWord": "last",
+      "correctWord": "first",
+      "explanation": "Pay yourself FIRST — savings move the moment money arrives, before spending gets a vote."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What does \"pay yourself first\" actually mean?",
+      "options": [
+        "Buy yourself something nice before paying any bills",
+        "Move a slice to savings before spending on anything else",
+        "Ask your parents to match whatever you save",
+        "Keep all your money in checking so it's ready to spend"
+      ],
+      "correctIndex": 1,
+      "explanation": "Savings go first, like a bill addressed to future-you. Spending happens with what remains — not the other way around."
+    },
+    {
+      "type": "material",
+      "title": "Your safety net",
+      "body": "An **emergency fund** is money with one job: absorbing life's surprises — busted headphones, a surprise fee, a $70 charger the week of finals.\n\nAdults aim for 3–6 months of living expenses (a long-term project, not a weekend one). As a student, even $200–$500 makes you quietly powerful: small disasters stop being disasters, and nobody has to be begged or borrowed from.\n\nOne rule: it's for emergencies. A sneaker drop is not an emergency.",
+      "image": "/illustrations/emergency-fund.svg",
+      "imageAlt": "Umbrella sheltering a piggy bank from rain"
+    },
+    {
+      "type": "true_false",
+      "prompt": "Emergency funds are only for adults with full-time jobs and bills.",
+      "answer": false,
+      "explanation": "Emergencies don't check your age. A student with $200 set aside replaces a broken charger; a student with $0 borrows for it."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the move that keeps the habit alive?",
+      "context": "You get $50 for your birthday. You want $40 headphones, and you've promised yourself you save $20 from every cash gift.",
+      "options": [
+        "Buy the headphones — gifts don't count",
+        "Spend all $50; you'll save double next time",
+        "Save the $20 first, then put the rest toward the headphones",
+        "Hold the whole $50 and never buy the headphones"
+      ],
+      "correctIndex": 2,
+      "explanation": "Save $20, keep $30 — the headphones just need one more small gift or shift. An unbroken habit is worth more than fast headphones."
+    },
+    {
+      "type": "material",
+      "title": "Small beats big (if it's steady)",
+      "body": "Nobody fails at saving because they can't save BIG. They fail because they never start small.\n\n- $5 a week → $260 in a year\n- $10 a week → $520\n- $20 a week → $1,040\n\nNo single deposit feels impressive. The streak is what's impressive — each week plants a seed, and a year later there's a whole garden where the excuses used to be."
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "Pay yourself first: $10 a week, every week, for one year. Where do you land?",
+      "min": 200,
+      "max": 1200,
+      "step": 20,
+      "answer": 520,
+      "tolerance": 40,
+      "unitPrefix": "$",
+      "explanation": "$10 × 52 weeks = $520 — over half a grand, built from deposits that barely hurt."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Just $5 a week for a whole year stacks up to $___.",
+      "answer": "260",
+      "accept": ["$260", "260$"],
+      "hint": "There are 52 weeks in a year.",
+      "explanation": "$5 × 52 = $260. Tiny deposit, real money — consistency does the heavy lifting."
+    },
+    {
+      "type": "material",
+      "title": "Interest picks a side",
+      "body": "Interest is extra money that flows between you and the bank — and it picks a side. Make sure it's yours.\n\nBorrow $100 on a credit card and drag out the payback, and fees plus interest can push it to $120 or more. Save $100 in the right account, and it quietly grows toward $105 and beyond.\n\nSame $100: one version costs you extra, the other PAYS you extra. Savers get paid; borrowers pay."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Why does saving beat borrowing?",
+      "options": [
+        "Saving earns you interest; borrowing makes you pay it",
+        "Borrowing is faster, so it's actually better",
+        "Saving means you can never buy fun things",
+        "Borrowing is free as long as you pay it back eventually"
+      ],
+      "correctIndex": 0,
+      "explanation": "Interest always flows — savers receive it, borrowers pay it (plus fees). Same money, opposite directions."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each idea to what it really means.",
+      "pairs": [
+        { "left": "Pay yourself first", "right": "Save before you spend anything" },
+        { "left": "Emergency fund", "right": "Cash ready for surprises" },
+        { "left": "Interest when saving", "right": "The bank pays you" },
+        { "left": "Interest when borrowing", "right": "You pay the bank" },
+        { "left": "Consistency", "right": "Small amounts, every single week" }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "What savings actually buy",
+      "body": "The best stuff savings buy isn't stuff:\n- **Less stress** — surprises lose their fangs\n- **Confidence** — you've got your own back\n- **Independence** — no begging, no IOUs\n\nEven $100 saved feels completely different from $0.\n\nOne trick makes the habit survive weak moments: keep savings in a separate account from spending money. Out of sight, out of cart."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Set up a saving habit that runs itself. Order the steps.",
+      "steps": [
+        "Open a savings account, separate from spending money",
+        "Pick your slice — say 10% of everything you earn",
+        "Automate the transfer for every payday",
+        "Start small and protect the streak"
+      ],
+      "explanation": "Account first, then the rule, then the robot, then the rhythm. Once it's automatic, willpower is optional."
+    },
+    {
+      "type": "decision_path",
+      "title": "The Surprise-Proof Month",
+      "intro": "Four paydays, $50 a week from your part-time job. Build a cushion before life starts swinging.",
+      "stat": { "name": "Savings", "emoji": "🛟", "start": 0 },
+      "steps": [
+        {
+          "situation": "Payday #1: $50 lands. The plan says save $10 first.",
+          "options": [
+            { "text": "Move $10 to savings before anything else", "delta": 10, "feedback": "Paid yourself first. The other $40 can do whatever — the foundation is already laid.", "best": true },
+            { "text": "Spend first, save whatever survives till Friday", "delta": 2, "feedback": "Friday-you found $2. 'Whatever's left' is how $10 plans become $2 realities." },
+            { "text": "Week one is a free pass — start next week", "delta": 0, "feedback": "There's always a reason to start 'next week.' Streaks start with week one." }
+          ]
+        },
+        {
+          "situation": "Payday #2: friends are going to a concert — tickets are $35.",
+          "options": [
+            { "text": "Save your $10 first, concert with the rest", "delta": 10, "feedback": "Both! Saving isn't anti-fun — $10 hits the jar and you're still singing along.", "best": true },
+            { "text": "Skip saving this week: concert plus snacks", "delta": 0, "feedback": "One 'just this once' becomes two. The skip costs $10 now and the habit later." },
+            { "text": "Skip the concert, save $25 to get ahead", "delta": 25, "feedback": "The jar's thrilled, but all-sacrifice saving usually snaps. Sustainable beats heroic." }
+          ]
+        },
+        {
+          "situation": "Payday #3: your phone case cracks. A basic one is $10; the deluxe is $30.",
+          "options": [
+            { "text": "$10 to savings first, basic case with what's left", "delta": 10, "feedback": "Need handled, streak alive. Deluxe cases are wants wearing a disguise.", "best": true },
+            { "text": "Deluxe case, skip saving this week", "delta": 0, "feedback": "The case didn't need to cost your streak. Wants are fine — after you've paid yourself." },
+            { "text": "Deluxe case now, borrow $20 from a friend", "delta": -10, "feedback": "Now next payday is already spoken for. Borrowing flips the whole game against you." }
+          ]
+        },
+        {
+          "situation": "Disaster: your headphones die the night before an online exam. A replacement is $25.",
+          "options": [
+            { "text": "Buy them from your cushion, no drama", "delta": -25, "feedback": "THIS is why the jar exists. No panic, no debt — swipe, replace, back to studying.", "best": true },
+            { "text": "Borrow $25 from your cousin — \"make it $30 next week\"", "delta": 0, "feedback": "That $5 markup is 20% interest for a single week. No-cushion emergencies always cost extra." },
+            { "text": "Skip it and pray your laptop mic behaves", "delta": 0, "feedback": "Savings exist so emergencies can't wreck the stuff that matters — like your grade." }
+          ]
+        }
+      ],
+      "outro": "Best path: you saved $30, the emergency cost $25, and you finished with money left and zero debt. That's the superpower — refill the jar next week and keep rolling."
+    }
+  ]
+}

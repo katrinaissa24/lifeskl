@@ -1,0 +1,153 @@
+{
+  "slug": "what-is-a-budget",
+  "title": "What is a budget (and why you need one)",
+  "description": "Give every dollar a job before the month starts.",
+  "unit": 1,
+  "sortOrder": 1,
+  "xpReward": 20,
+  "summaryPoints": [
+    "A budget gives every dollar a job: needs, wants, or savings",
+    "Cover needs first, then savings, then fun — in that order",
+    "Fixed expenses stay the same each month; variable ones change",
+    "Small leaks sink budgets: $5 a school day is about $100 a month",
+    "Leftover money isn't bonus money — it's your emergency fund and goals"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Your money bar",
+      "body": "Think of a video game where your character has a money bar instead of a health bar. Every choice — new sneakers, saving for a trip, a snack run — moves that bar.\n\nPersonal finance is just learning to play that bar well: earning, spending, saving, and eventually investing. Nobody is born good at it. It's a skill, and it's learnable."
+    },
+    {
+      "type": "material",
+      "title": "The five jobs of money",
+      "body": "Almost everything you'll ever do with money lands in one of five buckets:\n- **Budgeting** — planning where it goes before it goes\n- **Saving** — parking some now for later\n- **Investing** — putting money to work so it grows\n- **Managing debt** — borrowing on purpose, paying back on time\n- **Insurance** — paying a little so a disaster can't wipe you out",
+      "image": "/illustrations/budget-split.svg",
+      "imageAlt": "Income splitting into needs, wants, and savings jars"
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each money job to what it actually means.",
+      "pairs": [
+        { "left": "Budgeting", "right": "Planning spending ahead" },
+        { "left": "Saving", "right": "Parking money for later" },
+        { "left": "Investing", "right": "Making money grow" },
+        { "left": "Insurance", "right": "Protection from big losses" }
+      ]
+    },
+    {
+      "type": "true_false",
+      "prompt": "Having a budget means cutting all fun spending.",
+      "answer": false,
+      "explanation": "A budget isn't punishment — it plans fun ON PURPOSE so you can enjoy it without guilt."
+    },
+    {
+      "type": "material",
+      "title": "Why bother?",
+      "body": "Managed badly, money runs out before the month does: a broken laptop before exams becomes a crisis, and late fees stack up.\n\nManaged well, the same income pays bills on time, absorbs surprises, and quietly builds toward bigger things — a car, a trip, a degree.\n\nThe tool that flips you from the first group to the second is a budget: a plan for your money, made before the month starts."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the budget move that makes that survivable?",
+      "context": "Your laptop dies a week before final exams. The repair is $90.",
+      "options": [
+        "Having an emergency cushion saved up",
+        "Paying with a payday loan",
+        "Ignoring it and hoping it fixes itself",
+        "Buying a new laptop on a credit card"
+      ],
+      "correctIndex": 0,
+      "explanation": "A budget that saves a little every month turns emergencies into inconveniences instead of debt."
+    },
+    {
+      "type": "material",
+      "title": "What's inside a budget",
+      "body": "Every budget has the same skeleton:\n- **Income** — everything coming in each month\n- **Fixed expenses** — same every month (rent, internet, subscriptions)\n- **Variable expenses** — change month to month (groceries, gas, fun)\n- **Savings** — paid like a bill, not an afterthought\n\nExample month: income $3,000. Fixed costs $1,740, variable $300. That's $2,040 out — leaving $960 to put to work."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Income $3,000. Total expenses $2,040. The leftover is $___.",
+      "answer": "960",
+      "accept": ["$960", "960$"],
+      "explanation": "$3,000 − $2,040 = $960. That leftover isn't 'free money' — it's what funds your goals."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Fixed or variable expense?",
+      "categories": ["Fixed", "Variable"],
+      "items": [
+        { "text": "Rent", "category": 0 },
+        { "text": "Groceries", "category": 1 },
+        { "text": "Streaming subscription", "category": 0 },
+        { "text": "Gas for the car", "category": 1 },
+        { "text": "Phone plan", "category": 0 },
+        { "text": "Eating out", "category": 1 }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "The order of operations",
+      "body": "When money lands, it gets spent in this order:\n- **Needs first** — rent, food, transport, school stuff\n- **Savings second** — even 10% counts; small is fine, skipping isn't\n- **Wants last** — fun money you can spend guilt-free\n\nAnd track what you spend for at least one week — including the small stuff. Tiny purchases are where budgets quietly die."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word ruins this sentence. Tap it.",
+      "sentence": "In a good budget, every dollar you earn gets a vacation.",
+      "wrongWord": "vacation",
+      "correctWord": "job",
+      "explanation": "Money doesn't just disappear — it goes where you tell it. Give every dollar a job."
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "A $5 snack every school day (about 20 days). Slide to what that costs per month.",
+      "min": 20,
+      "max": 300,
+      "step": 10,
+      "answer": 100,
+      "tolerance": 20,
+      "unitPrefix": "$",
+      "explanation": "$5 × 20 school days = $100 a month. In a year that's $1,200 — a laptop, gone in crumbs."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Best move?",
+      "context": "Surprise! Your bike needs a $50 repair. You have $60 of flexible money left this month, and your $50 concert savings is already set aside.",
+      "options": [
+        "Pay the $50 repair from the $60 — fun money takes the hit",
+        "Raid the concert savings",
+        "Put the repair on a credit card and pay it 'later'",
+        "Skip the repair and walk for a month"
+      ],
+      "correctIndex": 0,
+      "explanation": "Surprises come out of flexible spending first, so your goals stay untouched. That's the budget absorbing the hit for you."
+    },
+    {
+      "type": "budget_builder",
+      "prompt": "Your first budget. You earn $500 this month. Cover every need exactly, put at least $50 toward the concert fund, then treat yourself with what's left.",
+      "income": 500,
+      "categories": [
+        { "name": "Rent share", "emoji": "🏠", "kind": "need", "required": 200 },
+        { "name": "Food", "emoji": "🍜", "kind": "need", "required": 100 },
+        { "name": "Internet", "emoji": "📶", "kind": "need", "required": 40 },
+        { "name": "Concert fund", "emoji": "🏦", "kind": "savings" },
+        { "name": "Snacks", "emoji": "🍿", "kind": "want" },
+        { "name": "Movie night", "emoji": "🎬", "kind": "want" }
+      ],
+      "savingsTarget": 50,
+      "explanation": "Needs ($340) first, savings goal ($50) second, and the last $110 is genuinely guilt-free fun."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the smartest move?",
+      "context": "You want to save $50 for a concert, but after bills you only have $30 left this month.",
+      "options": [
+        "Save the $30 now, save the last $20 next month",
+        "Skip saving — $30 isn't enough anyway",
+        "Borrow $20 from a friend to hit $50 today",
+        "Spend the $30 on something else"
+      ],
+      "correctIndex": 0,
+      "explanation": "Partial progress beats no progress, and borrowing for a want builds exactly the wrong habit. Consistency is the whole game."
+    }
+  ]
+}

@@ -13,7 +13,7 @@ export function AppNav({
   return (
     <nav className="nav nav-app">
       <div className="wrap nav-inner">
-        <Link className="logo" href="/dashboard">
+        <Link className="logo" href="/home">
           <span className="dot" />
           LIFE<em>SKL</em>
         </Link>

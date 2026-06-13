@@ -1,0 +1,190 @@
+{
+  "slug": "protecting-your-money",
+  "title": "Protecting your money",
+  "description": "Build the safety net before life takes a swing.",
+  "unit": 6,
+  "sortOrder": 10,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Insurance trades a small premium for protection from giant losses — it never makes you money",
+    "Health, auto, renters, life: each type covers one specific kind of disaster",
+    "An emergency fund is 3–6 months of expenses in a separate, easy-to-reach account",
+    "Real banks never ask for logins or PINs through links — verify through official apps",
+    "Protection is a budget line item, not an afterthought"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The level you can't skip",
+      "body": "You've learned to earn, budget, save, even invest. Here's the plot twist: none of it is safe yet.\n\nOne bad day — a crash, an illness, a scam — can erase years of careful progress if nothing is standing guard. That's what financial protection is: the difference between a rough week and years of debt.\n\nThis level is about defense: insurance, emergency funds, and scam-proofing. Less flashy than investing. Way more important than it looks."
+    },
+    {
+      "type": "material",
+      "title": "Insurance: the group deal",
+      "body": "Insurance is a group deal: lots of people each pay a small regular fee — a **premium** — into a shared pool. When disaster hits one of them, the pool pays the giant bill.\n\nThe big four:\n- **Health** — medical bills, so one illness isn't a financial catastrophe\n- **Auto** — crash costs (your car AND other people's), usually required by law\n- **Renters/Homeowners** — your home and belongings after fire, theft, disasters\n- **Life** — money for the people who depend on you if you die",
+      "image": "/illustrations/insurance-umbrella.svg",
+      "imageAlt": "Umbrella shielding a house, a car, and a heart"
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match the situation to the insurance built for it.",
+      "pairs": [
+        { "left": "Broke your arm at soccer practice", "right": "Health insurance" },
+        { "left": "Laptop stolen from your first apartment", "right": "Renters insurance" },
+        { "left": "Fender-bender on the drive to school", "right": "Auto insurance" },
+        { "left": "Family relying on your income", "right": "Life insurance" }
+      ]
+    },
+    {
+      "type": "true_false",
+      "prompt": "Insurance is a way to make money over time.",
+      "answer": false,
+      "explanation": "Insurance never earns you money — it stops one giant, unpredictable loss from wiping you out. That protection IS the product."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "You pay $40 a month for health insurance and never get sick all year. Did you waste $480?",
+      "options": [
+        "Yes — you got nothing back",
+        "No — you bought protection from a bill that could've been thousands",
+        "Yes — you should have invested it instead",
+        "No — the company refunds unused premiums"
+      ],
+      "correctIndex": 1,
+      "explanation": "A premium buys certainty: a small known cost instead of a huge unknown one. 'Nothing happened' is the good outcome."
+    },
+    {
+      "type": "material",
+      "title": "Your personal backup: the emergency fund",
+      "body": "Insurance covers the big named disasters. For everything else, there's your **emergency fund** — money YOU set aside, ready the moment life misbehaves.\n\n- **Size:** 3–6 months of living expenses (build toward it — any start counts)\n- **Where:** a separate savings account you can reach fast but don't touch daily\n- **For:** job loss, car repairs, medical surprises, emergency travel\n\nWithout one, surprises land on a credit card and become debt. With one, you just pay — and move on.",
+      "image": "/illustrations/emergency-fund.svg",
+      "imageAlt": "Umbrella protecting a piggy bank from rain"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "The classic emergency fund target is ___ to 6 months of living expenses.",
+      "answer": "3",
+      "accept": ["three"],
+      "hint": "It's the smaller end of the range.",
+      "explanation": "3–6 months of expenses covers most job losses and big surprises. Start small — the habit matters more than the starting size."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the fund actually for?",
+      "context": "You have $500 in your emergency fund. Same week: your car needs a $400 repair, and friends invite you on a $400 weekend trip.",
+      "options": [
+        "Put the trip on a credit card and pay cash for the repair",
+        "The trip — the car has lasted this long",
+        "The repair — then build the fund back up",
+        "Split it: $250 to each and hope"
+      ],
+      "correctIndex": 2,
+      "explanation": "A trip is a want; a working car is a need. This is exactly the moment the fund exists for — use it, skip the trip, refill it. Zero debt involved."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Who handles it: insurance or your emergency fund?",
+      "categories": ["Insurance", "Emergency fund"],
+      "items": [
+        { "text": "Hospital bill after a bad fall", "category": 0 },
+        { "text": "You crash into a parked car", "category": 0 },
+        { "text": "Laptop dies the week before finals", "category": 1 },
+        { "text": "Your work hours get cut for a month", "category": 1 },
+        { "text": "Apartment fire ruins your furniture", "category": 0 },
+        { "text": "Last-minute flight home for a family emergency", "category": 1 }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Scam-proofing 101",
+      "body": "Scammers don't pick locks — they ask you to open the door. Four habits keep it shut:\n- **Strong, unique passwords** for every money account (one leak shouldn't open them all)\n- **Check your statements** — catch weird charges in days, not months\n- **Doubt 'too good to be true'** — prizes, deals, and urgent warnings are bait\n- **Shred documents** with personal info before binning them\n\nRecovering from fraud takes months. Preventing it takes minutes."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Best move?",
+      "context": "An email that looks like your bank says your account is locked and asks you to click a link and log in.",
+      "options": [
+        "Click the link — it looks official",
+        "Forward it to friends so they're warned",
+        "Reply and ask if it's really the bank",
+        "Delete it and contact your bank through its official app or number"
+      ],
+      "correctIndex": 3,
+      "explanation": "Real banks never ask you to log in through an emailed link. Going through the official app means YOU choose who you're talking to."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "A 'your account is suspended!' text just landed. Put the smart response in order.",
+      "steps": [
+        "Pause — don't click the link or reply",
+        "Open your bank's official app yourself",
+        "Check whether anything is actually wrong",
+        "Delete and report the message"
+      ],
+      "explanation": "Slow is safe. You verify through a door YOU open — never the one the message hands you."
+    },
+    {
+      "type": "material",
+      "title": "Protection is a line item",
+      "body": "Protection isn't a vibe — it's a line in your budget.\n- Write your financial goals down (future-you forgets)\n- Treat insurance and emergency savings like bills, paid every month\n- See big costs coming — school, moving out, a car — and start saving early\n\nA student who saves a little toward college every month borrows far less later. Planned money is cheap; panicked money is expensive."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word turns this into bad advice. Tap it.",
+      "sentence": "Keep your emergency fund somewhere separate and hard to reach.",
+      "wrongWord": "hard",
+      "correctWord": "easy",
+      "explanation": "Emergencies move fast. The fund lives in a separate account so you don't spend it casually — but you must be able to reach it quickly when it counts."
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "Your living costs are $1,000 a month. Slide to the smallest emergency fund that hits the 3-month mark.",
+      "min": 500,
+      "max": 6000,
+      "step": 250,
+      "answer": 3000,
+      "tolerance": 250,
+      "unitPrefix": "$",
+      "explanation": "3 × $1,000 = $3,000 minimum — and $6,000 reaches the comfy six-month end of the range."
+    },
+    {
+      "type": "decision_path",
+      "title": "The Year Nothing Could Shake You",
+      "intro": "Twelve months, four curveballs. Build your defenses before life swings.",
+      "stat": { "name": "Security", "emoji": "🛡️", "start": 50 },
+      "steps": [
+        {
+          "situation": "New job! It offers health insurance for $40 a month out of your paycheck.",
+          "options": [
+            { "text": "Enroll — $40 for a giant safety net", "delta": 20, "feedback": "One ER visit can cost thousands. $40 a month is the cheap version of that bill.", "best": true },
+            { "text": "Skip it — you never get sick", "delta": -25, "feedback": "Nobody plans to get sick. That's the whole point of insurance." },
+            { "text": "Decide at the end of the year", "delta": -10, "feedback": "Unprotected months are exactly when surprises love to show up." }
+          ]
+        },
+        {
+          "situation": "You get $300 in birthday money.",
+          "options": [
+            { "text": "Start an emergency fund with it", "delta": 20, "feedback": "The first $300 of your 3-month cushion. Future-you just exhaled.", "best": true },
+            { "text": "New sneakers — protection can wait", "delta": -10, "feedback": "Wants are fine WHEN the safety net exists. It doesn't yet." }
+          ]
+        },
+        {
+          "situation": "A caller says you won a $1,000 gift card — just confirm your card number to claim it.",
+          "options": [
+            { "text": "Hang up", "delta": 15, "feedback": "Real prizes never need your card number. Hanging up costs you nothing.", "best": true },
+            { "text": "Give the number — it's a PRIZE", "delta": -40, "feedback": "That 'prize' just funded a shopping spree on your card." },
+            { "text": "Ask them to call back later", "delta": -10, "feedback": "Scammers love a second chance. Hang up and block." }
+          ]
+        },
+        {
+          "situation": "Your bike — your ride to work — breaks. The fix is $120.",
+          "options": [
+            { "text": "Pay from the emergency fund, refill it next month", "delta": 15, "feedback": "This is exactly the job the fund was hired for. No debt, no drama.", "best": true },
+            { "text": "Put it on a credit card and pay minimums", "delta": -20, "feedback": "A $120 problem just signed up to grow interest." }
+          ]
+        }
+      ],
+      "outro": "Insurance for the big stuff, a fund for the rest, and a healthy distrust of 'free' — that's a year nothing could shake."
+    }
+  ]
+}

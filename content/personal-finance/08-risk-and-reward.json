@@ -1,0 +1,188 @@
+{
+  "slug": "risk-and-reward",
+  "title": "Risk and reward: the balancing act",
+  "description": "Match every dollar to its deadline — and keep your cool when markets wobble.",
+  "unit": 4,
+  "sortOrder": 8,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Risk and reward scale together — no big gains without big swings",
+    "Diversify so one bad bet bruises instead of breaks",
+    "Match money to deadlines: 1–3 years safe, 5+ years growth",
+    "More runway = more risk you can afford; tilt safer as goals get close",
+    "Rebalance occasionally — and stop checking daily"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The balancing act",
+      "body": "Investing runs on one trade: **risk** (the chance you lose money) against **reward** (the growth you might get). They're welded together — you can't crank one without the other.\n\nPicture a skate ramp. The higher you climb, the bigger the trick — and the harder the fall. Stocks are the tall ramp: they can double your money or drop hard. Bonds are the mellow ramp: small tricks, soft landings.\n\nStrategy is just choosing your ramp on purpose.",
+      "image": "/illustrations/needs-wants.svg",
+      "imageAlt": "A two-pan balance scale, weighing risk against reward"
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word breaks this rule. Tap it.",
+      "sentence": "The bigger the potential reward, the smaller the risk you're usually taking.",
+      "wrongWord": "smaller",
+      "correctWord": "bigger",
+      "explanation": "Risk and reward scale together. Anyone promising big rewards with tiny risk is selling something — usually to you."
+    },
+    {
+      "type": "material",
+      "title": "Diversification: don't bet the backpack",
+      "body": "Diversification means spreading money across different investments so one disaster can't flatten you.\n\nSay you split $1,000: $500 stocks, $300 bonds, $200 mutual fund. A rough month hits — stocks drop 20%, bonds gain 3%, the fund gains 5%:\n- Stocks: −$100\n- Bonds: +$9\n- Fund: +$10\n\nNet damage: −$81. All-in on stocks, that same month costs you $200. Same crash, less than half the bruise."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "In that rough month, the $500 stock slice alone lost $___.",
+      "answer": "100",
+      "accept": ["$100", "100$"],
+      "explanation": "$500 × 20% = $100. The bonds and fund clawing back $19 of it is diversification doing its job."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What does a strategist do?",
+      "context": "Stocks drop 12% in a week. Your goal is 20+ years away, and your group chat is screaming \"SELL.\"",
+      "options": [
+        "Sell now, buy back in when it feels safe",
+        "Stay invested and keep the monthly auto-invest running",
+        "Move everything into crypto for a fast rebound",
+        "Check the portfolio hourly until it recovers"
+      ],
+      "correctIndex": 1,
+      "explanation": "With decades of runway, dips are discounts. \"Buy back when it feels safe\" usually means buying back at a higher price."
+    },
+    {
+      "type": "material",
+      "title": "Age is an asset",
+      "body": "The younger you are, the more risk you can afford — not because you're braver, but because you have TIME. A crash at 18 has decades to recover. A crash at 60 hits right before the money is needed.\n\nTypical tilts:\n- **18-year-old:** 70% stocks, 20% bonds, 10% funds — growth mode\n- **50-year-old:** 30% stocks, 50% bonds, 20% funds — protect mode\n\nYour mix should slowly get safer as your deadline gets closer."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each investor profile to its typical mix.",
+      "pairs": [
+        { "left": "Conservative", "right": "60% bonds, 20% funds, 20% stocks" },
+        { "left": "Balanced", "right": "40% stocks, 30% bonds, 30% funds" },
+        { "left": "Aggressive", "right": "70% stocks, 20% funds, 10% bonds" }
+      ]
+    },
+    {
+      "type": "true_false",
+      "prompt": "An 18-year-old can usually afford a more stock-heavy, risky mix than a 50-year-old.",
+      "answer": true,
+      "explanation": "Time is the recovery tool. Decades of runway let young investors ride out crashes that would derail someone close to their goal."
+    },
+    {
+      "type": "material",
+      "title": "Match money to its deadline",
+      "body": "Before you pick an investment, ask the money one question: WHEN do I need you back?\n- **1–3 years** (laptop, summer trip) → safer spots: savings, bonds. A crash the month before you buy would hurt too much.\n- **5+ years** (college, a car, someday-retirement) → growth assets: stocks, funds. There's time to recover from dips.\n\nThe mistake isn't picking risky or safe — it's mismatching: gambling next year's laptop money, or parking 40-year retirement money in a savings account."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Where does this money belong?",
+      "categories": ["Safer assets", "Growth assets"],
+      "items": [
+        { "text": "Laptop fund you'll spend next year", "category": 0 },
+        { "text": "Retirement money, 45 years away", "category": 1 },
+        { "text": "Summer trip 18 months out", "category": 0 },
+        { "text": "College fund, 10 years away", "category": 1 },
+        { "text": "Your emergency fund", "category": 0 },
+        { "text": "Dream-travel fund for your 30s", "category": 1 }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the move?",
+      "context": "Your target mix is 60% stocks. After a huge rally, stocks have swollen to 80% of your portfolio.",
+      "options": [
+        "Nothing — let the winners keep winning",
+        "Sell ALL the stocks and lock in every gain",
+        "Sell some stocks and top up bonds and funds back toward 60%",
+        "Buy even more stocks — momentum is real"
+      ],
+      "correctIndex": 2,
+      "explanation": "At 80% you're carrying far more risk than you chose. Rebalancing quietly sells high and buys low — on schedule, not on emotion."
+    },
+    {
+      "type": "material",
+      "title": "Volatility, the wiggle",
+      "body": "Volatility is how violently a price wiggles. Stocks wiggle hard — up 3% Tuesday, down 4% Friday. Bonds barely twitch.\n\nHere's the secret: short-term wiggles are NOISE if your goal is years away. The investors who get hurt are the ones who stare at every wiggle and react to it.\n\nSo no, don't check your portfolio every day. Check it like you check your height — occasionally, expecting slow change."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Checking your portfolio every day helps a long-term investor make better decisions.",
+      "answer": false,
+      "explanation": "Daily noise triggers panic moves, and panic moves are what actually lose money. Long-term plans need occasional check-ins, not surveillance."
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "Crash test: your $800 stock slice drops 15%. Slide to what it's worth now.",
+      "min": 400,
+      "max": 800,
+      "step": 20,
+      "answer": 680,
+      "tolerance": 40,
+      "unitPrefix": "$",
+      "explanation": "15% of $800 is $120, leaving $680. Feel that sting in practice mode — so the real thing doesn't shake you into selling."
+    },
+    {
+      "type": "material",
+      "title": "Your first strategy, five moves",
+      "body": "Every solid starter strategy is the same five moves:\n- **Know your risk tolerance** — how big a dip can you watch without selling?\n- **Set goals with dates** — the date picks the asset\n- **Diversify** — stocks, bonds, funds; never one basket\n- **Start small and automate** — even $5–$10 a week builds the habit\n- **Review occasionally** — rebalance when life or markets shift\n\nAnd before move one: emergency fund in savings. Practice apps with fake money make great training wheels."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Build your first investment strategy. Put the moves in order.",
+      "steps": [
+        "Figure out your risk tolerance",
+        "Set goals with timelines",
+        "Diversify across stocks, bonds, and funds",
+        "Start small with automatic deposits",
+        "Review and rebalance now and then"
+      ],
+      "explanation": "Know yourself, then your targets, then spread the risk, then start the habit — and check in occasionally. Each step shapes the next one."
+    },
+    {
+      "type": "decision_path",
+      "title": "The Goal Matcher",
+      "intro": "Different pots of money, one year of market chaos. Match each move to the right goal and rack up strategy points.",
+      "stat": { "name": "Strategy score", "emoji": "🎯", "start": 0 },
+      "steps": [
+        {
+          "situation": "You're saving for a laptop you'll buy NEXT YEAR. Where does that money live?",
+          "options": [
+            { "text": "Stocks — squeeze out extra growth", "delta": -20, "feedback": "A 15% dip next spring could shrink the fund right before checkout. Wrong ramp for a short trip." },
+            { "text": "Savings or short-term bonds", "delta": 25, "feedback": "Money with a near deadline belongs somewhere boring. Boring is the feature.", "best": true },
+            { "text": "Crypto — get there faster", "delta": -30, "feedback": "Could double, could halve. Next-year money can't survive a \"could halve.\"" }
+          ]
+        },
+        {
+          "situation": "Now your long-term pot — 10+ years until you touch it. How do you tilt it?",
+          "options": [
+            { "text": "Growth-heavy: mostly stocks and funds, some bonds", "delta": 25, "feedback": "Decades of runway means time to outride every dip. Growth mode is right here.", "best": true },
+            { "text": "All bonds — keep it perfectly safe", "delta": -10, "feedback": "Safe from crashes, but also safe from growing. Over decades, that costs a fortune." },
+            { "text": "100% in the one company you love", "delta": -25, "feedback": "That's loyalty, not strategy. One bad earnings call shouldn't decide your future." }
+          ]
+        },
+        {
+          "situation": "Markets drop 10% in a month. Your long-term pot is down and your stomach hurts.",
+          "options": [
+            { "text": "Sell before it gets worse", "delta": -25, "feedback": "You sold low and turned a paper dip into a real loss." },
+            { "text": "Stick to the plan, keep auto-investing", "delta": 25, "feedback": "The deadline is decades away — this dip is a discount, not a disaster.", "best": true },
+            { "text": "Borrow money to buy MORE of the dip", "delta": -15, "feedback": "Right instinct, wrong fuel. Investing borrowed money turns a dip into a debt problem." }
+          ]
+        },
+        {
+          "situation": "A year of gains later, stocks have grown to 85% of your portfolio. Your target was 60%.",
+          "options": [
+            { "text": "Let it ride — never touch a winner", "delta": -15, "feedback": "Your risk quietly ballooned past what you chose. The mix drifted; your plan didn't." },
+            { "text": "Rebalance: trim stocks, top up bonds and funds", "delta": 25, "feedback": "Sell a little high, buy a little low, sleep fine. That's maintenance, not market timing.", "best": true },
+            { "text": "Sell ALL the stocks — gains are gains", "delta": -10, "feedback": "Overcorrected. Locking the whole pot out of growth mode isn't balance either." }
+          ]
+        }
+      ],
+      "outro": "A perfect run scores 100. Notice the pattern: the right answer was never the exciting one — it was matching every dollar to its deadline."
+    }
+  ]
+}
