@@ -130,7 +130,7 @@ export default async function HomePage() {
               Enroll in a course and start building real-life skills today.
             </p>
           </div>
-          <Link className="btn btn-lg" href="/course">
+          <Link className="btn btn-lg" href="/course?switch=1">
             Choose a course →
           </Link>
         </div>

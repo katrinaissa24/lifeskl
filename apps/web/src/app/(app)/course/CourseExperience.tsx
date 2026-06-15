@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useTransition } from "react";
+import { setActiveCourseBySlug } from "@/lib/actions";
 import { CourseBadge } from "@/components/CourseBadge";
 import { Icon } from "@/components/Icon";
 import { buildJourney } from "@/lib/journey";
@@ -25,12 +26,20 @@ export function CourseExperience() {
   const [activeSlug, setActiveSlug] = useState(fallback.slug);
   const [completed, setCompleted] = useState<string[]>([]);
   const [switcherOpen, setSwitcherOpen] = useState(false);
+  const [, startTransition] = useTransition();
 
   useEffect(() => {
     setMounted(true);
     const stored = getActiveCourseSlug();
     if (stored && getLocalCourse(stored)) setActiveSlug(stored);
     setCompleted(getCompletedLessonIds());
+    // Arriving from the top bar's "Enroll in a new course" opens the picker.
+    if (
+      typeof window !== "undefined" &&
+      new URLSearchParams(window.location.search).get("switch") === "1"
+    ) {
+      setSwitcherOpen(true);
+    }
     return subscribeProgress(() => setCompleted(getCompletedLessonIds()));
   }, []);
 
@@ -55,6 +64,11 @@ export function CourseExperience() {
     setActiveSlug(slug);
     setActiveCourseSlug(slug);
     setSwitcherOpen(false);
+    // Mirror the choice into the account (enroll + make active) so the top bar,
+    // home and settings reflect it. No-op for guests / unconfigured Supabase.
+    startTransition(async () => {
+      await setActiveCourseBySlug(slug);
+    });
   }
 
   return (
