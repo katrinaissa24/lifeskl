@@ -6,11 +6,11 @@ import { respondToFriendRequest } from "@/lib/actions";
 import {
   DAILY_XP_GOAL,
   getCompletions,
+  getCurrentUser,
   getFriendRequests,
   getProfile,
   xpEarnedToday,
 } from "@/lib/data";
-import { createClient } from "@/lib/supabase/server";
 
 export const metadata: Metadata = { title: "Notifications — LIFESKL" };
 
@@ -23,10 +23,7 @@ function timeAgo(iso: string): string {
 }
 
 export default async function NotificationsPage() {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const user = await getCurrentUser();
   if (!user) redirect("/login");
 
   const [profile, requests, completions] = await Promise.all([

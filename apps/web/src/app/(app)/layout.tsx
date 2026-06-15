@@ -5,6 +5,7 @@ import {
   DAILY_XP_GOAL,
   getCompletions,
   getCoursesWithLessons,
+  getCurrentUser,
   getEnrolledCourseIds,
   getFriendRequests,
   getProfile,
@@ -12,7 +13,6 @@ import {
 } from "@/lib/data";
 import { LOCAL_COURSES } from "@/lib/localCatalog";
 import { isSupabaseConfigured } from "@/lib/supabase/env";
-import { createClient } from "@/lib/supabase/server";
 
 // Shared chrome for every signed-in page (home / course / profile /
 // notifications): top bar + desktop sidebar + mobile bottom tab bar.
@@ -32,23 +32,24 @@ export default async function AppLayout({ children }: { children: ReactNode }) {
   let pendingCount = 0;
 
   if (isSupabaseConfigured) {
-    const supabase = await createClient();
-    const {
-      data: { user },
-    } = await supabase.auth.getUser();
+    const user = await getCurrentUser();
 
     if (user) {
-      const profile = await getProfile(user.id);
+      // Everything the shell needs in one parallel batch — no waterfall. These
+      // reads are memoized, so the page rendered inside this layout reuses them
+      // instead of hitting Supabase again.
+      const [profile, dbCourses, ids, completions, requests] =
+        await Promise.all([
+          getProfile(user.id),
+          getCoursesWithLessons(),
+          getEnrolledCourseIds(user.id),
+          getCompletions(user.id),
+          getFriendRequests(user.id),
+        ]);
 
       // First-run: send brand-new accounts through onboarding before the app.
       if (profile && !profile.onboarded) redirect("/onboarding");
 
-      const [dbCourses, ids, completions, requests] = await Promise.all([
-        getCoursesWithLessons(),
-        getEnrolledCourseIds(user.id),
-        getCompletions(user.id),
-        getFriendRequests(user.id),
-      ]);
       const todayISO = new Date().toISOString().slice(0, 10);
 
       username = profile?.username ?? user.email?.split("@")[0] ?? "learner";

@@ -10,12 +10,12 @@ import { XpChart } from "@/components/XpChart";
 import {
   getCompletions,
   getCoursesWithLessons,
+  getCurrentUser,
   getEnrolledCourseIds,
   getFriends,
   getProfile,
   getXpPerDay,
 } from "@/lib/data";
-import { createClient } from "@/lib/supabase/server";
 
 export const metadata: Metadata = { title: "Profile — LIFESKL" };
 
@@ -31,10 +31,7 @@ function Stat({ icon, value, label }: { icon: IconName; value: string; label: st
 }
 
 export default async function ProfilePage() {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const user = await getCurrentUser();
   if (!user) redirect("/login");
 
   const [profile, courses, completions, enrolledIds, friends, xpDays] =
