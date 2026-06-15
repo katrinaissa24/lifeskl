@@ -2,6 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
+import { isSupabaseConfigured } from "@/lib/supabase/env";
 import { createClient } from "@/lib/supabase/server";
 
 /**
@@ -56,6 +57,47 @@ export async function setActiveCourse(courseId: string) {
 
   revalidatePath("/home");
   revalidatePath("/course");
+}
+
+/**
+ * Local-first bridge: the /course switcher works in slug space (the bundled
+ * catalog), but the rest of the app — top bar, home, settings — is account-
+ * driven and keyed by the database course id. When a signed-in learner picks a
+ * course there, mirror it into the account so they're actually enrolled and it
+ * becomes active everywhere. A safe no-op for guests or when Supabase isn't
+ * configured: the page keeps working from local storage alone.
+ */
+export async function setActiveCourseBySlug(slug: string) {
+  if (!isSupabaseConfigured) return;
+
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return;
+
+  const { data: course } = await supabase
+    .from("courses")
+    .select("id")
+    .eq("slug", slug)
+    .maybeSingle();
+  const courseId = (course as { id: string } | null)?.id;
+  if (!courseId) return;
+
+  await supabase
+    .from("course_enrollments")
+    .upsert(
+      { user_id: user.id, course_id: courseId },
+      { onConflict: "user_id,course_id", ignoreDuplicates: true },
+    );
+  await supabase
+    .from("profiles")
+    .update({ active_course_id: courseId })
+    .eq("id", user.id);
+
+  revalidatePath("/home");
+  revalidatePath("/course");
+  revalidatePath("/settings");
 }
 
 /** Leave a course (settings only). Clears it as active if it was. */

@@ -75,7 +75,7 @@ function CourseSwitcher({
 
   if (!active) {
     return (
-      <Link href="/course" className="course-switch">
+      <Link href="/course?switch=1" className="course-switch">
         <button type="button">
           <span className="course-badge" style={{ width: 34, height: 34, background: "var(--accent-sft)", color: "var(--accent-d)", borderRadius: 9, fontSize: 16 }}>
             <Icon name="plus" size={18} />
@@ -116,7 +116,7 @@ function CourseSwitcher({
             </div>
           )}
           <div className="cs-divider" />
-          <Link href="/course" className="cs-item cs-enroll" onClick={() => setOpen(false)}>
+          <Link href="/course?switch=1" className="cs-item cs-enroll" onClick={() => setOpen(false)}>
             <span className="course-badge" style={{ width: 30, height: 30, background: "var(--accent-sft)", color: "var(--accent-d)", borderRadius: 8, fontSize: 14 }}>
               <Icon name="plus" size={16} />
             </span>
