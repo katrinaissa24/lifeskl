@@ -1,0 +1,292 @@
+{
+  "slug": "a-healthy-brain",
+  "title": "Fuel your brain",
+  "description": "Sleep, move, eat, repeat — the body work that powers the mind.",
+  "unit": 7,
+  "sortOrder": 17,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Protect 8–10 hours of sleep — it's when your brain locks in the day's learning",
+    "Keep a steady sleep schedule instead of trying to 'catch up' on weekends",
+    "Move daily — even a short walk boosts memory, focus and mood",
+    "Feed your brain steady fuel: whole foods, protein, and water, not sugar crashes",
+    "Take real breaks and go easy on late caffeine — small habits compound"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The hungriest organ you own",
+      "body": "Your brain is about 2% of your body weight — but it burns roughly **20% of your energy**. It's the diva of your whole system.\n\nSo here's the twist nobody tells you before exams: how you treat your **body** is how you treat your **brain**. Sleep, food, movement, water. Boring? Maybe. But it's the cheat code under every study tip you've ever heard.",
+      "image": "/illustrations/healthy-brain.svg",
+      "imageAlt": "A brain ringed by sleep, water and exercise icons"
+    },
+    {
+      "type": "material",
+      "title": "Sleep is the heavyweight",
+      "body": "While you sleep, your brain replays the day and **locks in what you learned** — that's called consolidation. It also flushes out waste built up while you were awake.\n\nTeens need roughly **8–10 hours**. Pull an all-nighter before an exam and you wreck the exact thing you stayed up for: your recall, your focus, and your mood all tank."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Pulling an all-nighter before a big exam helps you remember more.",
+      "answer": false,
+      "explanation": "Sleep is when your brain consolidates memory. Skip it and you sabotage recall, focus and mood — the opposite of what you wanted."
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "Roughly how many hours of sleep does a teen brain need each night?",
+      "min": 4,
+      "max": 12,
+      "step": 1,
+      "answer": 9,
+      "tolerance": 1,
+      "unitPrefix": "",
+      "explanation": "Teens need about 8–10 hours — right in the middle is 9. That's the window where memory and mood actually recharge."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the smartest move the night before?",
+      "context": "Your exam is at 9am tomorrow. It's already 11pm and you feel mostly ready.",
+      "options": [
+        "Get a full night's sleep",
+        "Stay up until 3am cramming every chapter again",
+        "Skip sleep and rely on energy drinks at the exam",
+        "Study until you fall asleep at your desk"
+      ],
+      "correctIndex": 0,
+      "explanation": "A rested brain recalls and focuses far better than a crammed, exhausted one. Sleep IS studying."
+    },
+    {
+      "type": "material",
+      "title": "The weekend 'catch-up' myth",
+      "body": "Tempting plan: run on 5 hours all week, then sleep till noon Saturday to 'pay it back.' Problem — **sleep debt doesn't fully repay**.\n\nA **consistent** sleep and wake time beats the crash-and-binge cycle every time. And late-night screens? The light and the endless scroll push your sleep later. Wind down first, then bed."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Sleeping in on weekends fully makes up for a week of short nights.",
+      "answer": false,
+      "explanation": "Sleep debt doesn't fully repay. A steady schedule all week beats trying to bank sleep on Saturday."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this advice backwards. Tap it.",
+      "sentence": "Late-night phone scrolling improves your sleep.",
+      "wrongWord": "improves",
+      "correctWord": "wrecks",
+      "explanation": "Screen light and stimulation delay sleep — and sleep is when your brain locks in the day’s learning."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Pick ONE brain-healthy habit to start this week — and say why it'd actually fit your life.",
+      "context": "Not all of them. One. The one you'd actually keep.",
+      "chips": [
+        "Earlier bedtime",
+        "Daily walk",
+        "More water",
+        "Phone out of the bedroom",
+        "Real breaks"
+      ],
+      "placeholder": "This week I'll try… because…",
+      "explanation": "One habit you'll keep beats five you'll quit by Wednesday. Small and consistent wins."
+    },
+    {
+      "type": "material",
+      "title": "Move it to remember it",
+      "body": "You don't need a gym. Even a **short walk** pumps more blood to your brain and releases BDNF — a protein that helps neurons grow and connect.\n\nThe payoff: better memory, sharper focus, lower stress, and a better mood. Regular movement is even linked to **better grades**. Stuck on a problem? Walk around the block and let your brain breathe."
+    },
+    {
+      "type": "material",
+      "title": "Steady fuel, steady focus",
+      "body": "Your brain runs on a **steady drip of glucose** — so feed it whole foods: protein, fruit and veg, healthy fats. And **water** — even mild dehydration dents your focus.\n\nWatch the trap: a big sugary or heavy-carb snack right before studying spikes you, then crashes you mid-chapter. Caffeine in small amounts can sharpen you, but too much or too late steals the sleep you actually need."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Helps your brain, or hurts it?",
+      "categories": [
+        "Helps",
+        "Hurts"
+      ],
+      "items": [
+        {
+          "text": "A full night's sleep",
+          "category": 0
+        },
+        {
+          "text": "A short walk before studying",
+          "category": 0
+        },
+        {
+          "text": "Drinking water through the day",
+          "category": 0
+        },
+        {
+          "text": "Pulling an all-nighter",
+          "category": 1
+        },
+        {
+          "text": "A huge energy drink at midnight",
+          "category": 1
+        },
+        {
+          "text": "Skipping meals all day",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each habit to what it does for your brain.",
+      "pairs": [
+        {
+          "left": "8–10 hours of sleep",
+          "right": "Locks in memory"
+        },
+        {
+          "left": "A short walk",
+          "right": "Boosts focus and mood"
+        },
+        {
+          "left": "Drinking water",
+          "right": "Prevents focus dips"
+        },
+        {
+          "left": "Real breaks",
+          "right": "Lowers stress"
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Even mild dehydration hurts your focus, so keep drinking ___ through the day.",
+      "answer": "water",
+      "accept": [
+        "Water"
+      ],
+      "hint": "It's free and comes out of a tap.",
+      "explanation": "Your brain is mostly water, and even being slightly low on it makes concentrating harder."
+    },
+    {
+      "type": "material",
+      "title": "Breaks aren't slacking",
+      "body": "Chronic stress quietly shrinks your focus and memory. Pushing for six hours with zero breaks isn't grit — it's how your brain fries out.\n\n**Real downtime** recharges you: friends, a walk outside, a hobby, time in nature. And the big secret — none of this works as a one-time hero move. It **compounds**. Small daily habits beat one heroic cram every single time."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put together a brain-friendly study evening, in order.",
+      "steps": [
+        "Eat a real meal with some protein",
+        "Study in focused blocks with short breaks",
+        "Put the phone away and wind down",
+        "Get a full night's sleep"
+      ],
+      "explanation": "Fuel up, work in breaks, wind down off-screen, then sleep to lock it all in. That's the full loop."
+    },
+    {
+      "type": "decision_path",
+      "title": "Exam-week wellbeing",
+      "intro": "Five days of exams ahead. Every day you make one choice — and your Brainpower carries the weight. Treat your body right and walk into the finals sharp. Start at 60.",
+      "stat": {
+        "name": "Brainpower",
+        "emoji": "🧠",
+        "start": 60
+      },
+      "steps": [
+        {
+          "situation": "Monday night. You're done studying. What now?",
+          "options": [
+            {
+              "text": "Sleep about 9 hours",
+              "delta": 20,
+              "feedback": "Your brain spends the night locking in everything you reviewed. This is the move.",
+              "best": true
+            },
+            {
+              "text": "One more all-nighter to be safe",
+              "delta": -25,
+              "feedback": "Recall, focus and mood all tank tomorrow. You studied — then erased it."
+            },
+            {
+              "text": "Bed at 2am after some scrolling",
+              "delta": -10,
+              "feedback": "Screen light pushed your sleep later and shaved hours you needed."
+            }
+          ]
+        },
+        {
+          "situation": "Tuesday afternoon, brain feels foggy.",
+          "options": [
+            {
+              "text": "Grab a huge energy drink",
+              "delta": -10,
+              "feedback": "A jolt now, a crash later, and trouble sleeping tonight. Net loss."
+            },
+            {
+              "text": "Take a short walk outside",
+              "delta": 15,
+              "feedback": "More blood flow, more BDNF — focus and mood snap back. Cheapest upgrade there is.",
+              "best": true
+            },
+            {
+              "text": "Power through, no break, for six more hours",
+              "delta": -15,
+              "feedback": "No breaks means rising stress and a fried, foggier brain."
+            }
+          ]
+        },
+        {
+          "situation": "Wednesday. You skipped lunch cramming. It's 4pm.",
+          "options": [
+            {
+              "text": "Skip eating, just keep going",
+              "delta": -15,
+              "feedback": "An empty, dehydrated brain can't concentrate — you're studying on fumes."
+            },
+            {
+              "text": "Crush a candy bar and a soda",
+              "delta": -5,
+              "feedback": "Quick spike, then a crash mid-chapter. Not the fuel you need."
+            },
+            {
+              "text": "Eat real food and drink water",
+              "delta": 15,
+              "feedback": "Steady glucose and hydration bring your focus right back online.",
+              "best": true
+            }
+          ]
+        },
+        {
+          "situation": "Thursday evening, stress is climbing.",
+          "options": [
+            {
+              "text": "Study six hours straight, no breaks",
+              "delta": -15,
+              "feedback": "Chronic stress shrinks focus and memory. Burnout isn't grit."
+            },
+            {
+              "text": "Take a real break with friends or a walk",
+              "delta": 15,
+              "feedback": "Downtime lowers stress and recharges focus. Breaks aren't slacking.",
+              "best": true
+            }
+          ]
+        },
+        {
+          "situation": "Friday, the night before your last final.",
+          "options": [
+            {
+              "text": "Wind down off-screen and sleep early",
+              "delta": 20,
+              "feedback": "Rested brain, sharp recall. You walk in calm and ready.",
+              "best": true
+            },
+            {
+              "text": "Cram till 4am on energy drinks",
+              "delta": -25,
+              "feedback": "Exhausted and jittery is the worst exam-day combo. The habits compound — both ways."
+            }
+          ]
+        }
+      ],
+      "outro": "See the pattern? No single heroic night saved you — the daily choices stacked up. That's how a healthy brain is built: small, steady, every day."
+    }
+  ]
+}

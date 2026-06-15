@@ -1,0 +1,21 @@
+{
+  "slug": "personal-finance",
+  "title": "Personal Finance",
+  "description": "Budgets, saving, credit, investing, scams & taxes — money skills for real life.",
+  "emoji": "💵",
+  "sortOrder": 0,
+  "illustrations": [
+    "/illustrations/budget-split.svg",
+    "/illustrations/smart-goals.svg",
+    "/illustrations/emergency-fund.svg",
+    "/illustrations/compound-growth.svg",
+    "/illustrations/credit-score.svg",
+    "/illustrations/debt-trap.svg",
+    "/illustrations/investing-tree.svg",
+    "/illustrations/needs-wants.svg",
+    "/illustrations/insurance-umbrella.svg",
+    "/illustrations/scam-alert.svg",
+    "/illustrations/roadmap.svg",
+    "/illustrations/paycheck.svg"
+  ]
+}

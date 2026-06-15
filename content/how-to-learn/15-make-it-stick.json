@@ -1,0 +1,304 @@
+{
+  "slug": "make-it-stick",
+  "title": "Make it stick",
+  "description": "The study habits science backs — and the popular ones that fail.",
+  "unit": 6,
+  "sortOrder": 15,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Test yourself instead of rereading — pulling answers out beats putting them back in",
+    "Spread study across days; spacing crushes cramming for what you'll remember",
+    "Mix topics and problem types instead of grinding one in a long block",
+    "Trust a little difficulty — easy studying feels great and teaches almost nothing",
+    "Use flashcards right and teach it to someone to find the gaps you didn't know you had"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Two students, one exam",
+      "body": "Two friends study the same chapter for the same hours. One rereads it five times and highlights until the page glows. The other closes the book and tries to remember it, gets stuff wrong, goes back, tries again.\n\nThe highlighter feels like the genius. The exam disagrees.\n\nFeeling like you know something and actually knowing it are two different things — and most study habits are built on the feeling."
+    },
+    {
+      "type": "material",
+      "title": "The big one: test yourself",
+      "body": "The single strongest move is **retrieval practice** — pulling an answer out of your head instead of reading it back in.\n\nThis is the **testing effect**: every time you struggle to recall something, you make it easier to recall next time. Rereading just feels familiar.\n\nSo close the notes and ask yourself the question first. Self-testing isn't how you check that you learned — it's how you learn.",
+      "image": "/illustrations/forgetting-curve.svg",
+      "imageAlt": "A decay curve lifted back up by review spikes"
+    },
+    {
+      "type": "true_false",
+      "prompt": "Rereading your notes a few more times is one of the strongest ways to make them stick.",
+      "answer": false,
+      "explanation": "Rereading builds familiarity, not recall. Testing yourself — forcing the answer out — is what actually cements it."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which study session is most likely to make the material stick?",
+      "context": "You have one hour with a chapter you need for Friday's test.",
+      "options": [
+        "Reread the chapter three times slowly",
+        "Read it once, then close it and quiz yourself on it",
+        "Highlight every important sentence in two colors",
+        "Copy the chapter out word for word"
+      ],
+      "correctIndex": 1,
+      "explanation": "Quizzing yourself is retrieval practice — the testing effect. Rereading, highlighting, and copying all feel productive but mostly build false familiarity."
+    },
+    {
+      "type": "material",
+      "title": "Space it out",
+      "body": "Cramming the whole thing the night before stuffs it into short-term memory, where it leaks out fast.\n\n**Spaced practice** — the same total hours spread across several days — beats cramming for what you actually keep. Each time you come back after a gap, you reload the memory and make it stronger.\n\nSame effort. Wildly different results. The only change is when you do it."
+    },
+    {
+      "type": "material",
+      "title": "Mix it up",
+      "body": "Most people study in blocks: all of topic A, then all of topic B. Feels smooth, because once you're in A's groove you barely think.\n\n**Interleaving** — mixing topics and problem types in one session — feels messier and works better. Jumping between problems forces you to figure out which approach fits, which is exactly what a test demands.\n\nThe struggle is the point."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Science-backed winner, or popular method that mostly feels like working?",
+      "categories": [
+        "Proven winner",
+        "Feels-good myth"
+      ],
+      "items": [
+        {
+          "text": "Quizzing yourself from memory",
+          "category": 0
+        },
+        {
+          "text": "Spreading study across several days",
+          "category": 0
+        },
+        {
+          "text": "Rereading the chapter again",
+          "category": 1
+        },
+        {
+          "text": "Highlighting everything in the textbook",
+          "category": 1
+        },
+        {
+          "text": "Mixing different problem types together",
+          "category": 0
+        },
+        {
+          "text": "Cramming it all the night before",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word is backwards. Tap it.",
+      "sentence": "Studying one topic in a single long block beats mixing topics together.",
+      "wrongWord": "beats",
+      "correctWord": "loses to",
+      "explanation": "Interleaving — mixing topics and problem types — beats blocking one type, because it makes you choose the right approach each time."
+    },
+    {
+      "type": "material",
+      "title": "Make it mean something",
+      "body": "**Elaboration** is asking why and how, then linking the idea to other ideas and to your own life. A fact tied to ten other things has ten ways back into your memory.\n\nPair it with **concrete examples** and **dual coding** — words plus a visual, like a diagram or a sketch. Two channels remember better than one.\n\nVague facts float away. Connected ones stick."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each technique to what it actually does for you.",
+      "pairs": [
+        {
+          "left": "Retrieval practice",
+          "right": "Strengthens memory by recalling it"
+        },
+        {
+          "left": "Spaced practice",
+          "right": "Beats cramming by adding gaps"
+        },
+        {
+          "left": "Interleaving",
+          "right": "Mixes topics so you pick the right approach"
+        },
+        {
+          "left": "Elaboration",
+          "right": "Links ideas by asking why and how"
+        },
+        {
+          "left": "Dual coding",
+          "right": "Pairs words with visuals"
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "If it feels hard, you're learning",
+      "body": "Here's the twist: a little effort is a good sign. These are **desirable difficulties** — when studying feels slightly effortful, you're usually learning. When it feels easy and smooth, it tends to slide right back out.\n\nThat's why rereading is a trap. It's comfortable, so your brain says \"got it.\" The discomfort of testing yourself is your brain actually building something."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Your friend says, \"Rereading feels so easy, I clearly know this.\" What's the catch?",
+      "options": [
+        "Easy and smooth often means it'll be forgotten fast",
+        "Easy means it's perfectly learned and locked in",
+        "Feeling matched to a learning style is what matters",
+        "Rereading is fine as long as you use two highlighters"
+      ],
+      "correctIndex": 0,
+      "explanation": "Smoothness is an illusion of competence. A little difficulty — desirable difficulty — is the sign real learning is happening."
+    },
+    {
+      "type": "material",
+      "title": "Flashcards, done right",
+      "body": "Flashcards are great or useless depending on how you use them.\n\n- **Actually recall** the answer before you flip — don't peek and nod\n- **Keep the ones you miss** in the deck longer; retire only what you truly know\n\nAnd the ultimate gap-finder: **teach it to someone** (the Feynman technique). The moment you explain it out loud, every fuzzy spot you were hiding from yourself shows up."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Build one smart study session, start to finish.",
+      "steps": [
+        "Read the material once to get the gist",
+        "Close it and quiz yourself from memory",
+        "Check answers and keep the ones you missed",
+        "Mix in problems from other topics",
+        "Explain it out loud to a friend"
+      ],
+      "explanation": "Get the gist, then retrieve, fix your misses, interleave, and teach — each step adds difficulty that makes the learning stick."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Spreading the same study hours across several days instead of one is called ___ practice.",
+      "answer": "spaced",
+      "accept": [
+        "Spaced",
+        "spacing"
+      ],
+      "hint": "It's about adding gaps between sessions.",
+      "explanation": "Spaced practice spreads the work out so each return trip reloads and strengthens the memory — far better than cramming."
+    },
+    {
+      "type": "spaced_planner",
+      "prompt": "You learned this chapter today. Tap the review days that beat forgetting.",
+      "topic": "Today's chapter",
+      "points": [
+        {
+          "label": "Same day",
+          "day": 0,
+          "recommended": true
+        },
+        {
+          "label": "Next day",
+          "day": 1,
+          "recommended": true
+        },
+        {
+          "label": "Day 3",
+          "day": 3,
+          "recommended": true
+        },
+        {
+          "label": "Day 7",
+          "day": 7,
+          "recommended": true
+        },
+        {
+          "label": "Cram night before",
+          "day": 13,
+          "recommended": false
+        }
+      ],
+      "explanation": "Expanding gaps (1, 3, 7 days…) reset the forgetting curve each time. One cram session the night before doesn't."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Pick one habit you'll swap this week. What's the old move, and what will you do instead?",
+      "context": "Be honest about the one that feels productive but probably isn't.",
+      "chips": [
+        "Stop rereading, start self-testing",
+        "Spread it across days",
+        "Mix my topics",
+        "Teach it to a friend"
+      ],
+      "placeholder": "Instead of ___, I'll ___",
+      "explanation": "Naming the swap is how it actually happens. Test yourself, space it out, mix it up."
+    },
+    {
+      "type": "decision_path",
+      "title": "The week before the exam",
+      "intro": "Seven days out. Every choice moves your Mastery. Get it as high as you can.",
+      "stat": {
+        "name": "Mastery",
+        "emoji": "🎯",
+        "start": 50
+      },
+      "steps": [
+        {
+          "situation": "It's Monday. How do you set up the week?",
+          "options": [
+            {
+              "text": "Space practice across all seven days",
+              "delta": 20,
+              "feedback": "Spacing beats cramming for what you'll keep — strong start.",
+              "best": true
+            },
+            {
+              "text": "Plan to cram the night before",
+              "delta": -20,
+              "feedback": "Cramming fills short-term memory that leaks out by the exam."
+            }
+          ]
+        },
+        {
+          "situation": "First study block. What's your main move?",
+          "options": [
+            {
+              "text": "Reread the textbook chapters",
+              "delta": -15,
+              "feedback": "Rereading feels productive but mostly builds false familiarity."
+            },
+            {
+              "text": "Self-test with past papers",
+              "delta": 20,
+              "feedback": "Retrieval practice — the testing effect in action.",
+              "best": true
+            },
+            {
+              "text": "Highlight everything important",
+              "delta": -15,
+              "feedback": "Highlighting is comfortable and teaches almost nothing."
+            }
+          ]
+        },
+        {
+          "situation": "You've got three shaky topics. How do you drill them?",
+          "options": [
+            {
+              "text": "Mix all three topics together",
+              "delta": 20,
+              "feedback": "Interleaving forces you to pick the right approach each time.",
+              "best": true
+            },
+            {
+              "text": "Study one topic in a long block",
+              "delta": -10,
+              "feedback": "Blocking feels smooth but doesn't build the choosing skill a test needs."
+            }
+          ]
+        },
+        {
+          "situation": "Night before. One hour left. Best use of it?",
+          "options": [
+            {
+              "text": "Reread your whole notebook once more",
+              "delta": -15,
+              "feedback": "Passive rereading the night before is the comfort trap."
+            },
+            {
+              "text": "Explain the hardest topic to a friend",
+              "delta": 20,
+              "feedback": "Teaching it (the Feynman technique) exposes the gaps you were hiding.",
+              "best": true
+            }
+          ]
+        }
+      ],
+      "outro": "Test yourself, space it out, mix it up — then teach it. That's how it sticks."
+    }
+  ]
+}

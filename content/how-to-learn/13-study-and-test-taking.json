@@ -1,0 +1,240 @@
+{
+  "slug": "study-and-test-taking",
+  "title": "Study to learn, then ace the test",
+  "description": "Practice like the test, then read questions like a detective.",
+  "unit": 5,
+  "sortOrder": 13,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Quiz yourself with practice problems and past papers — recognition isn't knowing",
+    "Mix problem types and space practice across days instead of cramming",
+    "Read every question carefully and watch for words like 'not', 'all', and 'except'",
+    "Budget your time: easy first, flag the hard one, answer everything, then check",
+    "Treat a returned test as a free study guide — review every miss and find why"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Re-reading is a trap",
+      "body": "You highlight the notes. You read them again. It all looks familiar, so you feel ready.\n\nThen the exam asks you to actually do the thing, and your brain goes blank.\n\nThat gap has a name: recognizing something is not the same as knowing it. The fix isn't reading harder — it's switching from study-to-recognize to study-to-**learn**."
+    },
+    {
+      "type": "material",
+      "title": "Test yourself, not your notes",
+      "body": "The single most powerful study tool is **practice testing**: pulling answers out of your head instead of rereading them in.\n\nDo practice problems and past papers under test-like conditions — phone away, timer on. It builds memory AND makes the real exam feel familiar.\n\nSolve enough that on test day you think: wait, I've basically seen this one before.",
+      "image": "/illustrations/test-calm.svg",
+      "imageAlt": "A student taking a calm deep breath before an exam"
+    },
+    {
+      "type": "true_false",
+      "prompt": "Re-reading your notes until they feel familiar is the best way to prepare.",
+      "answer": false,
+      "explanation": "Familiar isn't the same as known. Pulling answers from memory with practice problems beats rereading every time."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which study tool actually builds memory the most?",
+      "options": [
+        "Doing practice problems from memory",
+        "Reading the chapter a third time",
+        "Highlighting the important lines",
+        "Copying the notes out neatly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Retrieving answers under test-like conditions strengthens memory and makes the real exam familiar. The other three just feel productive."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Study-to-learn or study-to-recognize?",
+      "categories": [
+        "Study to learn",
+        "Study to recognize"
+      ],
+      "items": [
+        {
+          "text": "Doing a past paper with a timer",
+          "category": 0
+        },
+        {
+          "text": "Rereading highlighted notes",
+          "category": 1
+        },
+        {
+          "text": "Quizzing yourself with the book closed",
+          "category": 0
+        },
+        {
+          "text": "Watching the lecture again at 2x",
+          "category": 1
+        },
+        {
+          "text": "Redoing problems you got wrong",
+          "category": 0
+        },
+        {
+          "text": "Skimming the chapter summary",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Mix it up, spread it out",
+      "body": "Two upgrades make practice stick:\n\n**Interleave** — mix problem types instead of drilling 20 of the same kind in a row. Switching forces you to figure out which method fits, the exact skill the test demands.\n\n**Space** — spread practice across days. Cramming feels productive at 1 a.m., but it fades fast. A little today, a little in two days, a little next week beats one giant night."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this advice backwards. Tap it.",
+      "sentence": "Spreading study across several days works worse than one big cram.",
+      "wrongWord": "worse",
+      "correctWord": "better",
+      "explanation": "Spaced practice beats cramming — the same hours spread out stick far longer."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each study strategy to why it works.",
+      "pairs": [
+        {
+          "left": "Practice testing",
+          "right": "Builds memory by retrieving"
+        },
+        {
+          "left": "Interleaving",
+          "right": "Teaches which method fits"
+        },
+        {
+          "left": "Spacing",
+          "right": "Beats forgetting over time"
+        },
+        {
+          "left": "Past papers",
+          "right": "Makes the exam feel familiar"
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Plan backward from the date",
+      "body": "Don't plan from today forward — plan from the exam backward.\n\nStart at the test date and walk back: what do you want to know cold the night before? The week before? Now? That tells you what to practice today, and it spaces your sessions automatically.\n\nA returned or practice test you bombed isn't a verdict. It's a map of exactly what to hit next."
+    },
+    {
+      "type": "material",
+      "title": "Test day: be a detective",
+      "body": "Walk in calm, then read like a detective.\n\n- Read the instructions and **each question** carefully\n- Hunt for trap words: **not**, **except**, **always**, **all**\n- Do easy questions first to bank points\n- Hit a brutal one? Flag it, move on, come back\n- On multiple-choice, eliminate the obviously wrong options\n- Answer everything (unless wrong answers cost points), show your work, leave time to check"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the smartest move?",
+      "context": "Question 4 is brutal. You've spent six minutes and you're stuck, with 25 questions to go.",
+      "options": [
+        "Keep grinding until you crack it",
+        "Flag it, move on, come back later",
+        "Guess randomly and never return to it",
+        "Leave the whole rest of the section blank"
+      ],
+      "correctIndex": 1,
+      "explanation": "Don't pour all your time into one question. Bank the easy points first, then return to the hard one with whatever time is left."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put a smart test-day routine in order.",
+      "steps": [
+        "Read the instructions and each question carefully",
+        "Answer the easy questions first",
+        "Flag the hard ones and come back to them",
+        "Use leftover time to check your work"
+      ],
+      "explanation": "Read first so you don't misread, bank easy points, circle back to the hard ones, then check before you hand it in."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "On multiple-choice you don't know, first ___ the options that are clearly wrong.",
+      "answer": "eliminate",
+      "accept": [
+        "cross out",
+        "remove"
+      ],
+      "hint": "Cut the obvious losers to boost your odds.",
+      "explanation": "Eliminating wrong options turns a wild guess into a much better one — fewer choices, better odds."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Smart test-day habit or weak one?",
+      "categories": [
+        "Smart",
+        "Weak"
+      ],
+      "items": [
+        {
+          "text": "Skimming questions to save time",
+          "category": 1
+        },
+        {
+          "text": "Showing your work as you go",
+          "category": 0
+        },
+        {
+          "text": "Sinking all your time into question one",
+          "category": 1
+        },
+        {
+          "text": "Eliminating wrong multiple-choice options",
+          "category": 0
+        },
+        {
+          "text": "Leaving time at the end to check",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "A graded test is a gift",
+      "body": "Most people glance at the score and shove the test in a bag. Huge waste.\n\nA returned test is a free study guide for the next one. Go through every miss and ask why: careless slip? misread the question? or genuinely didn't know it?\n\nThen look for **patterns** — and redo the problems you got wrong, from scratch, until they're easy."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "How should you use a returned test?",
+      "steps": [
+        "Look at every question you got wrong",
+        "Figure out WHY you missed each one",
+        "Spot patterns across your mistakes",
+        "Redo the missed problems from scratch"
+      ],
+      "explanation": "Finding the why turns mistakes into targets, and redoing them from scratch is the practice testing that actually fixes the gap."
+    },
+    {
+      "type": "spaced_planner",
+      "prompt": "Your exam is in about two weeks. Tap the review days that beat forgetting.",
+      "topic": "Material for the exam in 2 weeks",
+      "points": [
+        {
+          "label": "Today",
+          "day": 0,
+          "recommended": true
+        },
+        {
+          "label": "In 2 days",
+          "day": 2,
+          "recommended": true
+        },
+        {
+          "label": "In 5 days",
+          "day": 5,
+          "recommended": true
+        },
+        {
+          "label": "In 9 days",
+          "day": 9,
+          "recommended": true
+        },
+        {
+          "label": "Night before only",
+          "day": 13,
+          "recommended": false
+        }
+      ],
+      "explanation": "Expanding intervals (today, +2, +5, +9) keep resetting the forgetting curve so it sticks. Cramming the night before alone doesn't."
+    }
+  ]
+}

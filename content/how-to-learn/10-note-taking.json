@@ -1,0 +1,172 @@
+{
+  "slug": "note-taking",
+  "title": "Notes that actually work",
+  "description": "Cornell, mind maps, and why your laptop might be hurting you.",
+  "unit": 4,
+  "sortOrder": 10,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Capture main ideas in your own words instead of transcribing every word",
+    "Pick a method that fits the material: Cornell, outline, or mind map",
+    "Review notes within 24 hours to beat the forgetting curve",
+    "Use abbreviations, symbols, and white space to keep up and stay readable",
+    "Turn Cornell notes into a self-quiz by covering the page and answering the cues"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Why notes even exist",
+      "body": "Your notes have two jobs, and most people only think about one.\n\nJob one: keep your brain **awake and active** while someone talks at you for an hour. Writing forces you to listen for what matters.\n\nJob two: hand future-you something worth studying from at 11pm the night before the exam.\n\nGreat notes do both. A wall of copied text does neither.",
+      "image": "/illustrations/note-taking.svg",
+      "imageAlt": "A Cornell-style notebook with a pen"
+    },
+    {
+      "type": "material",
+      "title": "The forgetting curve is real",
+      "body": "Here's the brutal part: within about an hour of hearing something new, you've already lost roughly **half** of it. That's the forgetting curve, and it doesn't care how interesting the class was.\n\nNotes are how you fight back. But only if you actually go back to them. Notes plus a quick review beat the curve. Notes you never reopen are just decoration."
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "Roughly what percent of new info do you forget within an hour if you never review it?",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "answer": 50,
+      "tolerance": 10,
+      "explanation": "About half is gone within an hour. A quick review the same day resets that curve."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Typing out every single word the teacher says, word for word, is the best way to learn it.",
+      "answer": false,
+      "explanation": "Verbatim transcribing skips the thinking. You learn when you paraphrase and decide what actually matters."
+    },
+    {
+      "type": "material",
+      "title": "Method 1: Cornell",
+      "body": "Split your page into three zones:\n- A **narrow left column** for cues — keywords and questions\n- A **wide right column** for the actual notes during class\n- A **summary strip** along the bottom\n\nDuring class you only write in the right column. Afterward you fill the cue column and summary. Then you self-quiz: cover the notes, read a cue, and answer from memory."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the narrow left 'cue' column in Cornell notes actually for?",
+      "options": [
+        "Cue words and questions you use to quiz yourself later",
+        "Copying the slides word for word",
+        "Doodles so you don't get bored",
+        "The date and the teacher's name"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cue column turns your notes into flashcards: cover the right side, read a cue, recall the answer."
+    },
+    {
+      "type": "material",
+      "title": "Methods 2 and 3",
+      "body": "**Outline** — an indented hierarchy. Main points sit on the left, sub-points tucked underneath. Clean and fast for lectures that are already organized.\n\n**Mind map** — a visual web. Central idea in the middle, branches shooting out to related ideas. Great when topics connect in messy, non-linear ways — like how three causes feed one event."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each note method to when it shines.",
+      "pairs": [
+        {
+          "left": "Cornell",
+          "right": "Built-in cues for self-quizzing"
+        },
+        {
+          "left": "Outline",
+          "right": "Clear main points and sub-points"
+        },
+        {
+          "left": "Mind map",
+          "right": "Messy, connected ideas"
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Pen beats laptop (usually)",
+      "body": "Sounds backwards, but handwriting often wins for memory. Here's why: you **can't write fast enough** to copy everything down.\n\nSo your brain is forced to listen, decide what matters, and reword it. That processing is the learning.\n\nLaptop typists tend to keep up too well — they transcribe word for word, skip the thinking, and remember less. The slowness is the feature."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Handwriting often beats typing because you can't write fast enough, so you're forced to ___ ideas in your own words.",
+      "answer": "paraphrase",
+      "accept": [
+        "reword",
+        "rephrase"
+      ],
+      "hint": "Put it in your own words.",
+      "explanation": "Paraphrasing forces your brain to process the idea, and that processing is what makes it stick."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "Tap the word that makes this bad advice.",
+      "sentence": "Reviewing your notes within a week locks in the most memory.",
+      "wrongWord": "week",
+      "correctWord": "day",
+      "explanation": "Most forgetting happens fast, so a quick review within a day is when notes pay off most."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Smart note habit or weak one?",
+      "categories": [
+        "Smart",
+        "Weak"
+      ],
+      "items": [
+        {
+          "text": "Reword ideas in your own words",
+          "category": 0
+        },
+        {
+          "text": "Type the lecture word for word",
+          "category": 1
+        },
+        {
+          "text": "Use abbreviations and symbols",
+          "category": 0
+        },
+        {
+          "text": "Leave white space to add to later",
+          "category": 0
+        },
+        {
+          "text": "Review within 24 hours",
+          "category": 0
+        },
+        {
+          "text": "Never reopen the notes",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Class just ended. What's the move that fights the forgetting curve most?",
+      "context": "You've got messy notes and a free 20 minutes before your next thing.",
+      "options": [
+        "Recopy everything neatly in a new color",
+        "Edit and review the notes within 24 hours while it's fresh",
+        "Wait until the night before the exam to look at them",
+        "Photograph the board and never open it again"
+      ],
+      "correctIndex": 1,
+      "explanation": "Editing and reviewing within a day, while the material is fresh, locks it in before the curve drops you."
+    },
+    {
+      "type": "material",
+      "title": "The whole game in one habit",
+      "body": "If you remember nothing else: notes are step one, not the finish line.\n\nCapture main ideas in **your own words**, use abbreviations and symbols, and leave white space so future-you can add to it. Then edit and review within 24 hours.\n\nThe winners aren't the people with the prettiest notes. They're the ones who actually go back and quiz themselves with them."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the Cornell workflow in order.",
+      "steps": [
+        "Take notes in the wide main column during class",
+        "Within 24 hours, add cue words and questions in the left margin",
+        "Write a short summary at the bottom of the page",
+        "Quiz yourself by covering the notes and answering the cues"
+      ],
+      "explanation": "Notes during class, cues and summary soon after while it's fresh, then self-quizzing turns the page into a study tool."
+    }
+  ]
+}

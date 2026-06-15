@@ -1,0 +1,262 @@
+{
+  "slug": "growth-mindset",
+  "title": "Growth vs. fixed mindset",
+  "description": "The story you tell yourself after a setback changes the outcome.",
+  "unit": 1,
+  "sortOrder": 2,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Catch the fixed-mindset voice and add 'yet' to it",
+    "Read mistakes as information about your next move, not a verdict on you",
+    "Swap 'I'm just bad at this' for changing your strategy and effort",
+    "Praise the process you used, not how 'smart' you are",
+    "Turn a setback into growth: name the feeling, find the mistake, change one thing, retry"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Same grade, two stories",
+      "body": "Two people fail the same math quiz. One thinks, \"I'm just bad at math.\" The other thinks, \"I haven't cracked this method yet.\"\n\nSame red marks. Totally different next move. The first person closes the book. The second pulls up the questions they missed.\n\nThe story you tell yourself after a stumble quietly decides what you do next — and what you do next is what actually changes the grade.",
+      "image": "/illustrations/growth-mindset.svg",
+      "imageAlt": "A sprout growing up a staircase of arrows"
+    },
+    {
+      "type": "material",
+      "title": "Fixed vs. growth",
+      "body": "Psychologist Carol Dweck named these two stories.\n\nA **fixed mindset** says your ability is set — you've either \"got it\" or you don't. So you dodge hard stuff, quit when it bites, and feel like effort proves you're not smart.\n\nA **growth mindset** says ability grows with effort and a better strategy. So you lean into challenges, push through, and treat effort as the actual path to getting good."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Which mindset is talking?",
+      "categories": [
+        "Fixed",
+        "Growth"
+      ],
+      "items": [
+        {
+          "text": "\"If I have to try this hard, I'm clearly not smart.\"",
+          "category": 0
+        },
+        {
+          "text": "\"This is tough — which means I'm actually learning.\"",
+          "category": 1
+        },
+        {
+          "text": "\"I'll skip the hard question so I don't look dumb.\"",
+          "category": 0
+        },
+        {
+          "text": "\"The teacher's feedback shows me exactly what to fix.\"",
+          "category": 1
+        },
+        {
+          "text": "\"That criticism just proves I'll never get it.\"",
+          "category": 0
+        },
+        {
+          "text": "\"They aced it — I'll ask how they studied.\"",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "prompt": "\"I'm just not a math person\" is a growth-mindset thing to say.",
+      "answer": false,
+      "explanation": "That sentence treats your ability as fixed and final. Growth mindset would add 'yet' — you're not a math person YET."
+    },
+    {
+      "type": "material",
+      "title": "The power of 'yet'",
+      "body": "One tiny word flips the whole sentence.\n\n\"I can't solve these.\" slams the door. \"I can't solve these **yet**.\" leaves it open — it turns a verdict into a stage you're moving through.\n\n'Yet' isn't a magic spell. It just reminds you that where you are today is a checkpoint, not your ceiling. The work still has to happen — but now you actually believe it's worth doing."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "Tap the word that turns this into a fixed-mindset trap.",
+      "sentence": "When work feels hard, the smartest move is to quit.",
+      "wrongWord": "quit",
+      "correctWord": "persist",
+      "explanation": "A growth mindset treats “hard” as a cue to push on and change tactics — not a reason to bail."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Reframe each fixed thought into its growth version.",
+      "pairs": [
+        {
+          "left": "\"I'm terrible at this.\"",
+          "right": "\"I'm not good at this yet.\""
+        },
+        {
+          "left": "\"I give up.\"",
+          "right": "\"Let me try a different way.\""
+        },
+        {
+          "left": "\"This is good enough.\"",
+          "right": "\"Is this really my best?\""
+        },
+        {
+          "left": "\"She's just a genius.\"",
+          "right": "\"What can I learn from her?\""
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Mistakes are data",
+      "body": "A fixed mindset reads a wrong answer as a verdict: \"See? Proof I'm not cut out for this.\"\n\nA growth mindset reads the exact same wrong answer as **information**: \"Okay — I mixed up the formula on step two. Now I know what to drill.\"\n\nNothing about the mistake changed. One person buries it; the other mines it. Your missed questions are basically a free study guide for what to fix next."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the most growth-minded next move?",
+      "context": "You just got a failing grade back on a science test.",
+      "options": [
+        "Decide science isn't your subject and stop trying",
+        "Go through the test and figure out which mistakes you made and why",
+        "Tell yourself the grade doesn't matter and forget it",
+        "Wait and hope the next test is easier"
+      ],
+      "correctIndex": 1,
+      "explanation": "Treating the test as data — finding the specific mistakes — is how you turn a bad grade into a plan."
+    },
+    {
+      "type": "material",
+      "title": "It's not just 'believe in yourself'",
+      "body": "Here's the catch people miss: growth mindset is **not** toxic positivity.\n\nIt's not chanting \"I believe in myself\" at a problem and expecting it to dissolve. Faith without a new plan is just a louder way to stay stuck.\n\nGrowth mindset means doing something different: changing your **strategy**, putting in real **effort**, and **asking for help** when you're stuck. Belief points you at the work — it doesn't replace it."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which one is an actual growth-mindset move — not just toxic positivity?",
+      "options": [
+        "Repeat 'I'm great at this' until the problem feels easier",
+        "Try a new study method and ask a classmate to explain the part you missed",
+        "Tell yourself failing was secretly a win",
+        "Avoid the topic so you can keep feeling confident"
+      ],
+      "correctIndex": 1,
+      "explanation": "Growth mindset is about changing strategy, effort, and getting help — not just feeling good about being stuck."
+    },
+    {
+      "type": "material",
+      "title": "Praise the process",
+      "body": "How people praise you shapes which mindset you grow.\n\n\"You're so smart!\" feels great — but it praises a **trait**. The hidden message: success means being smart, so a struggle must mean you're not. That makes hard things scary.\n\n\"You found a clever way to tackle that.\" praises the **process** — the strategy, the effort, the grind. That's the part you can actually repeat. So aim your own self-talk at what you did, not what you are."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Your friend nailed a tough essay. Which comment grows their mindset?",
+      "options": [
+        "\"You're a natural writer, it's just in you.\"",
+        "\"You're so smart, this stuff comes easy to you.\"",
+        "\"The way you reworked that intro three times really paid off.\"",
+        "\"You're way more talented than the rest of us.\""
+      ],
+      "correctIndex": 2,
+      "explanation": "Praising the process — the reworking and effort — points to something they can repeat. Praising 'natural talent' makes the next hard thing feel threatening."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "You bombed something. Put the steps for turning it into growth in order.",
+      "steps": [
+        "Name the feeling — yeah, that sucked",
+        "Find the specific mistake you made",
+        "Change one strategy for next time",
+        "Try again with the new approach"
+      ],
+      "explanation": "Feel it, then diagnose it, then fix one concrete thing, then retry. Skipping straight to 'try harder' without finding the actual mistake just repeats it."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Name one subject you've called yourself 'bad at'. Rewrite it as a 'not yet' sentence.",
+      "context": "Be specific — the realer the example, the more it sticks.",
+      "chips": [
+        "Math",
+        "Writing",
+        "A language",
+        "Public speaking"
+      ],
+      "placeholder": "I'm not good at ___ yet, but I can…",
+      "explanation": "Saying it in 'yet' language reopens the door. That's the first move every time."
+    },
+    {
+      "type": "decision_path",
+      "title": "The Setback",
+      "intro": "You just bombed a quiz you thought you'd ace. Comeback meter starts at 50 — get it as high as you can.",
+      "stat": {
+        "name": "Comeback meter",
+        "emoji": "🔥",
+        "start": 50
+      },
+      "steps": [
+        {
+          "situation": "The grade hits your screen. First reaction?",
+          "options": [
+            {
+              "text": "\"Okay, that stung. What can I learn from it?\"",
+              "delta": 20,
+              "feedback": "You named the feeling and stayed curious. That's the doorway to growth.",
+              "best": true
+            },
+            {
+              "text": "\"I'm just bad at this subject.\"",
+              "delta": -20,
+              "feedback": "That's the fixed-mindset verdict — it ends the story before it starts."
+            }
+          ]
+        },
+        {
+          "situation": "Now, what do you actually do with the quiz?",
+          "options": [
+            {
+              "text": "Shove it in your bag and never look again",
+              "delta": -20,
+              "feedback": "Burying the mistake means you'll make it again."
+            },
+            {
+              "text": "Go through each wrong answer and figure out why",
+              "delta": 25,
+              "feedback": "Mistakes are data. Now you know exactly what to fix.",
+              "best": true
+            },
+            {
+              "text": "Just promise yourself to 'try harder' next time",
+              "delta": -5,
+              "feedback": "Trying harder at the same wrong method mostly repeats the result."
+            }
+          ]
+        },
+        {
+          "situation": "You're stuck on the topic you keep missing. Move?",
+          "options": [
+            {
+              "text": "Ask your teacher or a classmate to explain it differently",
+              "delta": 25,
+              "feedback": "Asking for help is a growth move, not a weakness.",
+              "best": true
+            },
+            {
+              "text": "Keep re-reading the same notes alone, frustrated",
+              "delta": -10,
+              "feedback": "Same input, same confusion. Growth means changing the approach."
+            }
+          ]
+        },
+        {
+          "situation": "Next unit looks even harder. What now?",
+          "options": [
+            {
+              "text": "Avoid it so you don't risk failing again",
+              "delta": -20,
+              "feedback": "Dodging challenges is the fixed-mindset trap that keeps you stuck."
+            },
+            {
+              "text": "Lean in — hard means there's real learning here",
+              "delta": 20,
+              "feedback": "Challenges are where ability actually grows. That's the whole game.",
+              "best": true
+            }
+          ]
+        }
+      ],
+      "outro": "Same setback, better story. The choices after the stumble are what move the meter."
+    }
+  ]
+}

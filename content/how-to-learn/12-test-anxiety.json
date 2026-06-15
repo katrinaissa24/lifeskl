@@ -1,0 +1,248 @@
+{
+  "slug": "test-anxiety",
+  "title": "Calm under exam pressure",
+  "description": "Nerves are normal — here's how to keep them from tanking your score.",
+  "unit": 5,
+  "sortOrder": 12,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Read a little stress as fuel — moderate nerves actually sharpen focus",
+    "Use box breathing (in 4, hold 4, out 4, hold 4) to reset a racing heart",
+    "Brain-dump facts, do the easy questions first, and skip-and-return when you blank",
+    "Sleep beats cramming the night before — it locks in memory and lowers nerves",
+    "Talk back to catastrophe thoughts: one test does not define you"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The blank-screen moment",
+      "body": "You studied. You knew this. Then the paper lands, your heart starts pounding, and your brain goes white. Sound familiar?\n\nThat freeze isn't proof you're dumb or lazy. It's your nervous system overreacting to a threat that isn't actually a tiger. The good news: you can train it to calm down — and this lesson is the drill.",
+      "image": "/illustrations/test-calm.svg",
+      "imageAlt": "A student taking a calm deep breath before an exam"
+    },
+    {
+      "type": "material",
+      "title": "A little stress is your friend",
+      "body": "Here's the twist most people miss: a bit of nerves makes you sharper. Moderate arousal wakes up your focus and reaction time — that's why a calm, slightly-buzzed state beats total chill.\n\nThe problem is only **too much**. Past a certain point, the curve flips: more stress means worse performance, not better. The goal isn't zero nerves — it's keeping them in the helpful zone."
+    },
+    {
+      "type": "true_false",
+      "prompt": "All stress is bad for your test performance.",
+      "answer": false,
+      "explanation": "A moderate amount of stress actually sharpens focus and reaction time — it's only too much that tanks your score."
+    },
+    {
+      "type": "material",
+      "title": "Why you 'blank'",
+      "body": "When anxiety spikes too high, it hijacks your **working memory** — the mental scratchpad you use to hold a question, juggle steps, and pull up answers.\n\nThat's the exact tool a test demands. So when panic floods in, the resource you need most goes offline. That's the blank. It's not that the knowledge vanished — your brain just can't reach it while it's busy screaming 'danger'."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Why does intense panic make you go blank on a test?",
+      "options": [
+        "It hijacks your working memory, the resource the test needs",
+        "It permanently erases what you studied",
+        "It means you never really learned the material",
+        "It only happens to people who didn't study"
+      ],
+      "correctIndex": 0,
+      "explanation": "High anxiety floods your working memory, so the knowledge is still there — you just can't reach it in the moment."
+    },
+    {
+      "type": "categorize",
+      "prompt": "On exam day, does this calm you down or wind you up?",
+      "categories": [
+        "Calms you",
+        "Winds you up"
+      ],
+      "items": [
+        {
+          "text": "Slow box breathing",
+          "category": 0
+        },
+        {
+          "text": "Reading everyone's panic in the group chat",
+          "category": 1
+        },
+        {
+          "text": "A solid night's sleep",
+          "category": 0
+        },
+        {
+          "text": "Cramming in the hallway minutes before",
+          "category": 1
+        },
+        {
+          "text": "Doing a few easy questions first",
+          "category": 0
+        },
+        {
+          "text": "Comparing how much others 'studied'",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "The real fix: be ready",
+      "body": "In-the-moment tricks help, but the deepest cure for test anxiety is being **genuinely prepared**.\n\nSpaced practice plus practice tests under realistic conditions — timer on, phone away — do two things at once: they cement the material, and they make the real exam feel familiar instead of terrifying. Confidence isn't a personality trait. It's a side effect of having already done the thing."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this advice backfire. Tap it.",
+      "sentence": "The best long-term cure for test anxiety is luck.",
+      "wrongWord": "luck",
+      "correctWord": "preparation",
+      "explanation": "Real, spaced preparation builds the confidence and familiarity that calm exam nerves."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each calming move to what it actually does.",
+      "pairs": [
+        {
+          "left": "Box breathing",
+          "right": "Slows your nervous system down"
+        },
+        {
+          "left": "Brain dump",
+          "right": "Frees up working memory fast"
+        },
+        {
+          "left": "Easy questions first",
+          "right": "Builds early momentum"
+        },
+        {
+          "left": "Reframe nerves as energy",
+          "right": "Turns dread into focus"
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Your in-the-moment kit",
+      "body": "Panic rising mid-exam? Run the drill:\n- **Box breathe** — in for 4, hold 4, out 4, hold 4. It signals your body that you're safe.\n- **Reframe** the buzz as excitement and energy, not danger.\n- **Brain dump** formulas and facts onto scrap paper the second you start.\n- **Easy first** to build momentum.\n- **Blank? Skip it.** Move on and circle back — the answer often surfaces later."
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "In box breathing, how many seconds do you hold for on each phase?",
+      "min": 0,
+      "max": 12,
+      "step": 1,
+      "answer": 4,
+      "tolerance": 0,
+      "unitSuffix": "s",
+      "explanation": "Box breathing is in 4, hold 4, out 4, hold 4 — four seconds per phase, like the four sides of a box."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put your in-exam game plan in the smartest order.",
+      "steps": [
+        "Take a few slow box breaths to settle",
+        "Brain-dump key formulas and facts onto scrap paper",
+        "Answer the easy questions first for momentum",
+        "Skip anything you blank on and come back later"
+      ],
+      "explanation": "Calm first, offload memory, ride easy wins, then mop up the hard ones — momentum carries you through."
+    },
+    {
+      "type": "material",
+      "title": "The night before",
+      "body": "Tempted to pull an all-nighter? Don't. **Sleep beats cramming**, every time.\n\nSleep consolidates everything you studied into long-term memory and dials your anxiety down. An all-nighter does the opposite — it wrecks recall and leaves you frayed. So eat something, sleep, and arrive early.\n\nAnd when the thought 'I'll fail everything' shows up — challenge it. One test does not define you."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "It's the night before a big exam. What's the smartest move?",
+      "options": [
+        "Pull an all-nighter to cover every last topic",
+        "Get a full night's sleep",
+        "Skip dinner so you can study longer",
+        "Stay up reading the panic in the group chat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sleep consolidates what you studied into memory and lowers anxiety, while all-nighters wreck recall."
+    },
+    {
+      "type": "true_false",
+      "prompt": "If you bomb one test, it proves you're just bad at the subject.",
+      "answer": false,
+      "explanation": "One result doesn't define you — catastrophic thoughts like that fuel anxiety, so challenge them instead of believing them."
+    },
+    {
+      "type": "decision_path",
+      "title": "Exam morning",
+      "intro": "Your big exam is tomorrow at 9am. Stack the choices that walk you in calm and ready.",
+      "stat": {
+        "name": "Readiness",
+        "emoji": "🧘",
+        "start": 50
+      },
+      "steps": [
+        {
+          "situation": "It's 11pm the night before. You still feel a little shaky on two topics.",
+          "options": [
+            {
+              "text": "Sleep a full 8 hours",
+              "delta": 25,
+              "feedback": "Sleep locks your studying into memory and lowers anxiety — the single best night-before move.",
+              "best": true
+            },
+            {
+              "text": "Pull an all-nighter to cover them",
+              "delta": -30,
+              "feedback": "All-nighters wreck recall and leave you frayed. You'd lose more than you gain."
+            }
+          ]
+        },
+        {
+          "situation": "It's 7:30am. You're up and have time before you leave.",
+          "options": [
+            {
+              "text": "Skip breakfast, you're too nervous",
+              "delta": -15,
+              "feedback": "An empty tank amplifies the jitters. Even something small helps."
+            },
+            {
+              "text": "Eat a real breakfast",
+              "delta": 15,
+              "feedback": "Fuel steadies your focus and blood sugar — skipping it makes the nerves worse.",
+              "best": true
+            }
+          ]
+        },
+        {
+          "situation": "You've got 20 minutes before you head out the door.",
+          "options": [
+            {
+              "text": "Run a few quick practice questions to warm up",
+              "delta": 15,
+              "feedback": "A light warm-up primes your brain without overloading it — like stretching before a run.",
+              "best": true
+            },
+            {
+              "text": "Doom-scroll the group chat to see who's panicking",
+              "delta": -20,
+              "feedback": "Other people's panic is contagious and tells you nothing useful. Stay in your own lane."
+            }
+          ]
+        },
+        {
+          "situation": "You arrive and the paper is being handed out. Your heart starts to race.",
+          "options": [
+            {
+              "text": "Frantically cram notes in the hallway",
+              "delta": -20,
+              "feedback": "Last-second cramming spikes panic and crowds out the memory you need. Breathe instead."
+            },
+            {
+              "text": "Take a few slow box breaths",
+              "delta": 20,
+              "feedback": "Box breathing tells your nervous system you're safe and brings working memory back online.",
+              "best": true
+            }
+          ]
+        }
+      ],
+      "outro": "Sleep, fuel, a gentle warm-up, and a few breaths — that's a calm brain walking in ready. You've got this."
+    }
+  ]
+}

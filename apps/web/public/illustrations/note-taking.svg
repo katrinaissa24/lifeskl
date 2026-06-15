@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A Cornell-style notebook with a pen">
+  <!-- notebook shadow -->
+  <rect x="38" y="22" width="246" height="162" rx="6" fill="#e8e0f8"/>
+  <!-- notebook body -->
+  <rect x="32" y="16" width="246" height="162" rx="6" fill="#fffdf8" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- spiral binding left edge -->
+  <rect x="32" y="16" width="14" height="162" rx="4" fill="#efe9ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- spiral rings -->
+  <circle cx="39" cy="40"  r="5" fill="#fffdf8" stroke="#181016" stroke-width="2.5"/>
+  <circle cx="39" cy="60"  r="5" fill="#fffdf8" stroke="#181016" stroke-width="2.5"/>
+  <circle cx="39" cy="80"  r="5" fill="#fffdf8" stroke="#181016" stroke-width="2.5"/>
+  <circle cx="39" cy="100" r="5" fill="#fffdf8" stroke="#181016" stroke-width="2.5"/>
+  <circle cx="39" cy="120" r="5" fill="#fffdf8" stroke="#181016" stroke-width="2.5"/>
+  <circle cx="39" cy="140" r="5" fill="#fffdf8" stroke="#181016" stroke-width="2.5"/>
+  <circle cx="39" cy="160" r="5" fill="#fffdf8" stroke="#181016" stroke-width="2.5"/>
+  <!-- Cornell left cue column (tint) -->
+  <rect x="46" y="16" width="60" height="131" fill="#efe9ff"/>
+  <!-- Cornell vertical divider line -->
+  <line x1="106" y1="16" x2="106" y2="147" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Cornell summary strip at bottom -->
+  <rect x="46" y="147" width="232" height="31" fill="#efe9ff"/>
+  <!-- Cornell horizontal divider line -->
+  <line x1="46" y1="147" x2="278" y2="147" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Summary label -->
+  <text x="162" y="167" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#4a3f47" text-anchor="middle">Summary</text>
+  <!-- Summary lines -->
+  <line x1="116" y1="167" x2="248" y2="167" stroke="#4a3f47" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+  <!-- Cue column label -->
+  <text x="76" y="32" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#4a2ed1" text-anchor="middle">Cues</text>
+  <!-- Cue column lines -->
+  <line x1="54" y1="46" x2="98" y2="46" stroke="#4a2ed1" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  <line x1="54" y1="64" x2="98" y2="64" stroke="#4a2ed1" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  <line x1="54" y1="82" x2="98" y2="82" stroke="#4a2ed1" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  <line x1="54" y1="100" x2="98" y2="100" stroke="#4a2ed1" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  <line x1="54" y1="118" x2="98" y2="118" stroke="#4a2ed1" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  <!-- Notes area label -->
+  <text x="192" y="32" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#4a3f47" text-anchor="middle">Notes</text>
+  <!-- Notes area lines -->
+  <line x1="114" y1="46" x2="270" y2="46" stroke="#181016" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+  <line x1="114" y1="64" x2="270" y2="64" stroke="#181016" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+  <line x1="114" y1="82" x2="270" y2="82" stroke="#181016" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+  <line x1="114" y1="100" x2="270" y2="100" stroke="#181016" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+  <line x1="114" y1="118" x2="270" y2="118" stroke="#181016" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+  <line x1="114" y1="136" x2="270" y2="136" stroke="#181016" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+  <!-- Pen resting diagonally on notebook (accent #6b46ff) -->
+  <!-- pen body -->
+  <rect x="214" y="54" width="12" height="82" rx="4" fill="#6b46ff" stroke="#181016" stroke-width="2.5" stroke-linejoin="round" transform="rotate(22, 220, 95)"/>
+  <!-- pen grip -->
+  <rect x="214" y="112" width="12" height="18" rx="2" fill="#4a2ed1" stroke="#181016" stroke-width="2.5" stroke-linejoin="round" transform="rotate(22, 220, 95)"/>
+  <!-- pen tip -->
+  <path d="M220 138 L215 150 L225 150 Z" fill="#181016" stroke="#181016" stroke-width="1.5" stroke-linejoin="round" transform="rotate(22, 220, 95)"/>
+  <!-- pen clip -->
+  <rect x="222" y="56" width="3" height="52" rx="1.5" fill="#4a2ed1" stroke="#181016" stroke-width="1.5" stroke-linejoin="round" transform="rotate(22, 220, 95)"/>
+</svg>

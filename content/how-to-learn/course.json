@@ -1,0 +1,24 @@
+{
+  "slug": "how-to-learn",
+  "title": "How to Learn",
+  "description": "Study smarter, not harder — mindset, time, focus, memory & test skills backed by science.",
+  "emoji": "🧠",
+  "sortOrder": 1,
+  "illustrations": [
+    "/illustrations/brain-spark.svg",
+    "/illustrations/growth-mindset.svg",
+    "/illustrations/priority-matrix.svg",
+    "/illustrations/procrastination.svg",
+    "/illustrations/critical-thinking.svg",
+    "/illustrations/metacognition.svg",
+    "/illustrations/bloom-pyramid.svg",
+    "/illustrations/active-listening.svg",
+    "/illustrations/note-taking.svg",
+    "/illustrations/active-reading.svg",
+    "/illustrations/test-calm.svg",
+    "/illustrations/memory-stages.svg",
+    "/illustrations/forgetting-curve.svg",
+    "/illustrations/focus-target.svg",
+    "/illustrations/healthy-brain.svg"
+  ]
+}

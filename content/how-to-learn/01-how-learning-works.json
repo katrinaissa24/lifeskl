@@ -1,0 +1,192 @@
+{
+  "slug": "how-learning-works",
+  "title": "How learning actually works",
+  "description": "Your brain isn't fixed — learning is a skill you can build.",
+  "unit": 1,
+  "sortOrder": 1,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Treat learning as a skill you build, not a talent you're stuck with",
+    "Add 'yet' when you catch yourself saying 'I'm bad at this'",
+    "Chase the struggle — effort and mistakes are what grow your brain",
+    "Skip the 'learning styles' trap: match the method to the material",
+    "Quiz yourself instead of rereading, and protect sleep and movement"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Your brain is wet clay",
+      "body": "Ever watched someone do something hard — solve the equation, nail the song, write the essay — and thought they were just born with it? Mostly, no.\n\nLearning is a **skill**, not a fixed talent handed out at birth. Your brain isn't set in stone. It's more like wet clay: every time you practice, it reshapes itself a little.",
+      "image": "/illustrations/brain-spark.svg",
+      "imageAlt": "A brain with a lightning spark, representing neuroplasticity"
+    },
+    {
+      "type": "material",
+      "title": "Neuroplasticity, minus the jargon",
+      "body": "Here's the science word: **neuroplasticity**. It means your brain physically rewires when you practice — it grows and strengthens the connections between neurons.\n\nThat's why the thing that felt impossible in week one feels easy by week six. You didn't get smarter in some magic way. You built the wiring."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Your brain is basically fixed — you're born with a set amount of ability and that's that.",
+      "answer": false,
+      "explanation": "Thanks to neuroplasticity, your brain rewires with practice. Ability isn't a fixed quantity — it's something you build."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "The brain's ability to physically rewire itself with practice is called ___.",
+      "answer": "neuroplasticity",
+      "accept": [
+        "neuro-plasticity",
+        "neural plasticity"
+      ],
+      "hint": "Neuro + a word that means 'bendable'.",
+      "explanation": "Neuroplasticity is why practice changes you — the connections between neurons literally grow stronger."
+    },
+    {
+      "type": "material",
+      "title": "The honest reframe",
+      "body": "When you say \"I'm bad at math,\" your brain hears a verdict: case closed, don't bother trying.\n\nSwap it for the truth: **you haven't built that connection — yet.** One tiny word turns a dead end into a road. \"Bad at it\" is permanent. \"Not yet\" is just where you are today."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word slams the door shut. Tap it.",
+      "sentence": "I am not bad at this I just have not built that connection forever",
+      "wrongWord": "forever",
+      "correctWord": "yet",
+      "explanation": "Swap \"forever\" for \"yet\" and the sentence flips: \"I just haven't built that connection yet.\" That one word turns a verdict into a to-do."
+    },
+    {
+      "type": "material",
+      "title": "Struggle is the workout",
+      "body": "Here's the plot twist: the **struggle** is where the growth happens. Researchers call it desirable difficulty.\n\nPractice that feels easy barely changes your brain — like lifting a feather at the gym. The stuff that makes you furrow your brow and go \"wait, what?\" is the heavy lifting that builds real wiring."
+    },
+    {
+      "type": "material",
+      "title": "Mistakes are the good part",
+      "body": "And mistakes? Gold.\n\nA wrong answer you stop and think about grows your brain **more** than a right answer you got on the first try. The error forces your brain to notice the gap and rebuild the connection stronger.\n\nSo bombing a practice question isn't failing. It's the rep that counts most."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which one grows your brain the most?",
+      "context": "You've got an hour to study. Three ways to spend it:",
+      "options": [
+        "Reread the chapter you already understand",
+        "Wrestle with a hard problem, get it wrong, then figure out why",
+        "Copy your notes out neatly in a new color",
+        "Watch a video on a topic you've already mastered"
+      ],
+      "correctIndex": 1,
+      "explanation": "Desirable difficulty plus a mistake you think through is the heaviest workout your brain can get. Comfort barely moves the needle."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each learning idea to what it actually means.",
+      "pairs": [
+        {
+          "left": "Neuroplasticity",
+          "right": "The brain rewires with practice"
+        },
+        {
+          "left": "Desirable difficulty",
+          "right": "Useful struggle that grows you"
+        },
+        {
+          "left": "Retrieval practice",
+          "right": "Quizzing yourself to remember"
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Two myths to drop",
+      "body": "You've probably heard you're a \"visual learner,\" or \"right-brained and creative.\" Both ideas sound great. Both fall apart under the evidence.\n\nThere's no proof that matching lessons to a personal \"learning style\" helps. The real move: **match the method to the material.** Learning a dance? Move. Learning a map? Look at it. The subject decides, not a label on you."
+    },
+    {
+      "type": "true_false",
+      "prompt": "You learn best by sticking to your one personal 'learning style' — like visual or auditory.",
+      "answer": false,
+      "explanation": "Learning styles aren't backed by evidence. Match the method to the material: a map wants your eyes, a dance wants your body."
+    },
+    {
+      "type": "material",
+      "title": "Recall beats reread",
+      "body": "The most common way students \"study\" — rereading notes and highlighting — is also one of the weakest. It feels productive because it feels familiar.\n\nActive beats passive. **Testing yourself** — closing the book and trying to recall it — is far stronger. Struggling to pull the answer out is the part that locks it in.\n\nAnd the basics matter: sleep, movement, and a focused space all help your brain actually do the rewiring."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Does this help your brain learn, or not really?",
+      "categories": [
+        "Helps",
+        "Doesn't"
+      ],
+      "items": [
+        {
+          "text": "Quizzing yourself with the book closed",
+          "category": 0
+        },
+        {
+          "text": "Getting a full night's sleep",
+          "category": 0
+        },
+        {
+          "text": "Rereading the same page five times",
+          "category": 1
+        },
+        {
+          "text": "Wrestling with a problem that's hard",
+          "category": 0
+        },
+        {
+          "text": "Studying half-asleep at 3am",
+          "category": 1
+        },
+        {
+          "text": "A walk before you sit down to study",
+          "category": 0
+        },
+        {
+          "text": "Highlighting everything in yellow",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the better study move?",
+      "context": "You have notes from class and a test on Friday.",
+      "options": [
+        "Highlight the whole page so it all feels important",
+        "Read the notes over and over until they look familiar",
+        "Close the notes and try to write down what you remember, then check",
+        "Recopy the notes word for word in nicer handwriting"
+      ],
+      "correctIndex": 2,
+      "explanation": "Closing the book and recalling is retrieval practice — the struggle to pull it out is exactly what locks it in."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the growth mindset in motion — order these from first to last.",
+      "steps": [
+        "Catch yourself thinking 'I'm bad at this'",
+        "Add 'yet' to turn it into 'I haven't got it yet'",
+        "Pick the hard problem instead of the easy one",
+        "Get it wrong and figure out exactly why"
+      ],
+      "explanation": "Reframe first, then lean into the struggle, then mine the mistake — that loop is how the wiring actually grows."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Name one subject you've called yourself 'bad at'. Now rewrite it with the word 'yet'.",
+      "context": "You've seen what 'yet' does — it turns a closed door into a road. Try it on something real.",
+      "chips": [
+        "Math",
+        "Writing",
+        "A language",
+        "Science",
+        "Public speaking"
+      ],
+      "placeholder": "I'm not bad at ___ — I just haven't built it yet…",
+      "explanation": "That's the whole mindset in one sentence. The connection isn't missing forever — it's just not built yet, and now you know how to build it."
+    }
+  ]
+}

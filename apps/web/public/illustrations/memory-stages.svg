@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="Encode, store and retrieve arrows into a box">
+
+  <!-- ── ENCODE stage ── -->
+  <!-- funnel/brain shape: rounded top circle + narrowing trapezoid -->
+  <circle cx="56" cy="72" r="28" fill="#efe9ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- brain squiggles -->
+  <path d="M44 68 Q50 60 56 68 Q62 60 68 68" stroke="#6b46ff" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M44 76 Q50 68 56 76 Q62 68 68 76" stroke="#6b46ff" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- funnel neck -->
+  <path d="M46 98 L56 118 L66 98 Z" fill="#efe9ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Encode label -->
+  <text x="56" y="142" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#4a3f47" text-anchor="middle">Encode</text>
+
+  <!-- ── arrow 1: Encode → Store ── -->
+  <line x1="92" y1="100" x2="122" y2="100" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="122,94 134,100 122,106" fill="#181016" stroke="#181016" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- ── STORE stage: box/drawer ── -->
+  <!-- outer box -->
+  <rect x="138" y="70" width="64" height="60" rx="8" fill="#fffdf8" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- drawer divider line -->
+  <line x1="138" y1="100" x2="202" y2="100" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- top drawer pull -->
+  <rect x="156" y="77" width="28" height="16" rx="4" fill="#efe9ff" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="170" cy="85" r="3" fill="#6b46ff" stroke="#181016" stroke-width="1.5"/>
+  <!-- bottom drawer pull -->
+  <rect x="156" y="105" width="28" height="16" rx="4" fill="#efe9ff" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="170" cy="113" r="3" fill="#181016"/>
+  <!-- Store label -->
+  <text x="170" y="148" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#4a3f47" text-anchor="middle">Store</text>
+
+  <!-- ── arrow 2: Store → Retrieve ── -->
+  <line x1="208" y1="100" x2="238" y2="100" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="238,94 250,100 238,106" fill="#181016" stroke="#181016" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- ── RETRIEVE stage: card being pulled out ── -->
+  <!-- card shadow/base -->
+  <rect x="258" y="82" width="46" height="36" rx="6" fill="#efe9ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- card being pulled up -->
+  <rect x="262" y="68" width="38" height="30" rx="5" fill="#6b46ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- card lines (text rows) -->
+  <line x1="270" y1="78" x2="292" y2="78" stroke="#fffdf8" stroke-width="2" stroke-linecap="round"/>
+  <line x1="270" y1="85" x2="286" y2="85" stroke="#fffdf8" stroke-width="2" stroke-linecap="round"/>
+  <!-- upward pull arrow -->
+  <line x1="281" y1="56" x2="281" y2="66" stroke="#6b46ff" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="275,58 281,46 287,58" fill="#6b46ff" stroke="#181016" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Retrieve label -->
+  <text x="281" y="148" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#4a3f47" text-anchor="middle">Retrieve</text>
+
+  <!-- ── bottom subtitle row ── -->
+  <text x="160" y="178" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#4a3f47" text-anchor="middle">How memory works</text>
+
+</svg>
