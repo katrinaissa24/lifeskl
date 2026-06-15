@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A clock with a task pushed to later">
+  <!-- clock body -->
+  <circle cx="120" cy="100" r="72" fill="#fffdf8" stroke="#181016" stroke-width="3"/>
+  <!-- clock inner ring -->
+  <circle cx="120" cy="100" r="62" fill="none" stroke="#181016" stroke-width="1.5" stroke-dasharray="3 6"/>
+  <!-- hour markers -->
+  <line x1="120" y1="34" x2="120" y2="42" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <line x1="120" y1="158" x2="120" y2="166" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <line x1="54" y1="100" x2="62" y2="100" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <line x1="178" y1="100" x2="186" y2="100" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <!-- minor markers -->
+  <line x1="157" y1="44" x2="153" y2="51" stroke="#181016" stroke-width="2" stroke-linecap="round"/>
+  <line x1="174" y1="63" x2="167" y2="67" stroke="#181016" stroke-width="2" stroke-linecap="round"/>
+  <line x1="174" y1="137" x2="167" y2="133" stroke="#181016" stroke-width="2" stroke-linecap="round"/>
+  <line x1="157" y1="156" x2="153" y2="149" stroke="#181016" stroke-width="2" stroke-linecap="round"/>
+  <line x1="83" y1="44" x2="87" y2="51" stroke="#181016" stroke-width="2" stroke-linecap="round"/>
+  <line x1="66" y1="63" x2="73" y2="67" stroke="#181016" stroke-width="2" stroke-linecap="round"/>
+  <line x1="66" y1="137" x2="73" y2="133" stroke="#181016" stroke-width="2" stroke-linecap="round"/>
+  <line x1="83" y1="156" x2="87" y2="149" stroke="#181016" stroke-width="2" stroke-linecap="round"/>
+  <!-- hour hand (pointing ~11 o'clock — near deadline) -->
+  <line x1="120" y1="100" x2="92" y2="58" stroke="#181016" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- minute hand (pointing ~12 o'clock) -->
+  <line x1="120" y1="100" x2="120" y2="46" stroke="#181016" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- center dot -->
+  <circle cx="120" cy="100" r="5" fill="#6b46ff" stroke="#181016" stroke-width="2"/>
+  <!-- clock top knob -->
+  <rect x="114" y="24" width="12" height="8" rx="4" fill="#181016"/>
+  <!-- dashed "later" arrow -->
+  <path d="M200 100 Q230 90 264 100" stroke="#ff6f9c" stroke-width="2.5" stroke-dasharray="6 5" stroke-linecap="round" fill="none"/>
+  <polygon points="264,93 278,100 264,107" fill="#ff6f9c" stroke="#ff6f9c" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- task card sliding off to the right -->
+  <rect x="210" y="112" width="82" height="52" rx="8" fill="#ffe6ee" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- card lines (task items) -->
+  <line x1="222" y1="126" x2="280" y2="126" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="222" y1="137" x2="268" y2="137" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="222" y1="148" x2="274" y2="148" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- small checkbox on card -->
+  <rect x="222" y="120" width="0" height="0" rx="0"/>
+  <!-- "Later" label on card -->
+  <text x="251" y="158" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#ff6f9c" text-anchor="middle">Later</text>
+  <!-- Zzz snooze text -->
+  <text x="168" y="62" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#4a2ed1" text-anchor="middle">z</text>
+  <text x="178" y="50" font-family="Arial, sans-serif" font-size="15" font-weight="800" fill="#6b46ff" text-anchor="middle">z</text>
+  <text x="191" y="36" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#4a2ed1" text-anchor="middle">Z</text>
+  <!-- "Do it later" label below arrow -->
+  <text x="239" y="108" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#4a3f47" text-anchor="middle">do it later…</text>
+</svg>

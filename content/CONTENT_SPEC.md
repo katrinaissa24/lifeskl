@@ -1,9 +1,30 @@
-# LIFESKL lesson content spec — Personal Finance course
+# LIFESKL lesson content spec
 
-Each lesson is ONE JSON file in `content/personal-finance/`, named
-`<NN>-<slug>.json` (NN = two-digit sort order). A build script turns these
-into seed SQL, and a validator enforces this spec — your file must pass
-`node scripts/validate-content.mjs`.
+Each course lives in `content/<course-slug>/`. That folder holds one
+`course.json` (course metadata + the allowed illustration list) plus one
+`<NN>-<slug>.json` per lesson (NN = two-digit sort order). A build script turns
+these into seed SQL, and a validator enforces this spec — your files must pass
+`node scripts/validate-content.mjs <course-slug>`.
+
+Courses that exist today: `personal-finance` (the gold-standard reference) and
+`how-to-learn`.
+
+## course.json
+
+```json
+{
+  "slug": "how-to-learn",
+  "title": "How to Learn",
+  "description": "One punchy sentence for the catalog.",
+  "emoji": "🧠",
+  "sortOrder": 1,
+  "illustrations": ["/illustrations/brain-spark.svg", "..."]
+}
+```
+
+`illustrations` is the allow-list for every lesson's `image` field in that
+course. Build the course's seed with `node scripts/build-seed.mjs <course-slug>`
+→ writes `supabase/seed_<slug-with-underscores>.sql`.
 
 ## Lesson file shape
 
@@ -170,7 +191,64 @@ Use at most ONE per lesson — it's the boss fight.
 ```
 2–4 flagged segments. Non-flag segments keep the message realistic.
 
-## Illustrations (the ONLY valid `image` values)
+## Course-specific block types — How to Learn
+
+These three are domain-authentic to studying. They render and grade exactly
+like the built-ins (report through `onDone(correct)` once on Continue).
+
+### priority_matrix  (How to Learn signature exercise)
+```json
+{
+  "type": "priority_matrix",
+  "prompt": "Drop each task into the Eisenhower square it belongs in.",
+  "tasks": [
+    { "text": "Exam tomorrow you haven't studied for", "urgent": true,  "important": true },
+    { "text": "Start the essay due in two weeks",        "urgent": false, "important": true },
+    { "text": "Reply to a group-chat ping",              "urgent": true,  "important": false },
+    { "text": "Scroll short videos",                     "urgent": false, "important": false }
+  ],
+  "explanation": "Urgent ≠ important. Quadrant II — important, not urgent — is where real progress lives."
+}
+```
+4–8 tasks shown one at a time; the learner taps a 2×2 grid. All four
+urgent/important combinations must appear. Correct = every task placed right,
+zero misses. At most ONE per lesson.
+
+### spaced_planner  (beat the forgetting curve)
+```json
+{
+  "type": "spaced_planner",
+  "prompt": "You learned this today. Tap the review days that beat forgetting.",
+  "topic": "Today's biology lecture",
+  "points": [
+    { "label": "Same day",  "day": 0,  "recommended": true },
+    { "label": "Next day",  "day": 1,  "recommended": true },
+    { "label": "Day 3",     "day": 3,  "recommended": true },
+    { "label": "Day 7",     "day": 7,  "recommended": true },
+    { "label": "Cram night before", "day": 13, "recommended": false }
+  ],
+  "explanation": "Expanding intervals (1, 3, 7 days…) reset the forgetting curve. Cramming once doesn't."
+}
+```
+4–8 points; 2–5 marked `recommended` (the right spaced set) and at least one
+distractor. A live retention meter rewards the spaced pattern. Correct = the
+selected set exactly matches the recommended set. At most ONE per lesson.
+
+### reflect  (open / reflective — ALWAYS reports success)
+```json
+{
+  "type": "reflect",
+  "prompt": "Name one subject you've called yourself 'bad at'. What would 'not yet' sound like instead?",
+  "context": "Optional scenario shown above the prompt.",
+  "chips": ["Math", "Writing", "A language", "Science"],
+  "placeholder": "Type a sentence…",
+  "explanation": "Shown as the takeaway after they commit."
+}
+```
+No wrong answer — it never enters the mistake round. `chips` and `placeholder`
+optional. Use as a gentle finale in mindset/wellbeing lessons.
+
+## Illustrations (the ONLY valid `image` values — per course, from course.json)
 
 - /illustrations/budget-split.svg — income splitting into needs/wants/savings jars
 - /illustrations/smart-goals.svg — SMART acronym ladder
@@ -184,3 +262,21 @@ Use at most ONE per lesson — it's the boss fight.
 - /illustrations/scam-alert.svg — phishing hook grabbing at a phone
 - /illustrations/roadmap.svg — winding road with milestone flags
 - /illustrations/paycheck.svg — payslip with gross→net arrows
+
+### How to Learn (`content/how-to-learn/course.json`)
+
+- /illustrations/brain-spark.svg — a brain with a lightning spark (neuroplasticity)
+- /illustrations/growth-mindset.svg — a sprout growing up a staircase of arrows
+- /illustrations/priority-matrix.svg — the Eisenhower 2×2 urgency/importance grid
+- /illustrations/procrastination.svg — a clock with a task pushed to "later"
+- /illustrations/critical-thinking.svg — a magnifying glass over a lightbulb
+- /illustrations/metacognition.svg — a brain reflected in a mirror (thinking about thinking)
+- /illustrations/bloom-pyramid.svg — Bloom's six-level thinking pyramid
+- /illustrations/active-listening.svg — an ear catching sound waves
+- /illustrations/note-taking.svg — a Cornell-style notebook with a pen
+- /illustrations/active-reading.svg — an open book with a highlighter and question marks
+- /illustrations/test-calm.svg — a calm deep breath before an exam
+- /illustrations/memory-stages.svg — encode → store → retrieve arrows into a box
+- /illustrations/forgetting-curve.svg — a decay curve lifted by review spikes
+- /illustrations/focus-target.svg — a bullseye with a single arrow (concentration)
+- /illustrations/healthy-brain.svg — a brain ringed by sleep, water and exercise icons

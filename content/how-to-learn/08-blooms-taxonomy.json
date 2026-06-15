@@ -1,0 +1,179 @@
+{
+  "slug": "blooms-taxonomy",
+  "title": "Levels of understanding",
+  "description": "From memorizing facts to creating something new — Bloom's ladder.",
+  "unit": 3,
+  "sortOrder": 8,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Name Bloom's six levels from lowest to highest thinking",
+    "Tell lower-order recall apart from higher-order analysis and creation",
+    "Read the verbs in a question to spot the level it's testing",
+    "Study at or above the level your exam will actually demand",
+    "Prove you really know something by applying, teaching, and critiquing it"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Knowing vs. KNOWING",
+      "body": "You can recite the water cycle in your sleep and still freeze when an exam asks you to **design** an experiment about it.\n\nThat gap has a name. Thinking comes in levels — from just recalling a fact to building something brand new with it. A psychologist named Bloom stacked those levels into a ladder, and exams love climbing it.",
+      "image": "/illustrations/bloom-pyramid.svg",
+      "imageAlt": "Bloom's six-level thinking pyramid from Remember at the base to Create at the top"
+    },
+    {
+      "type": "material",
+      "title": "The six rungs",
+      "body": "Bottom to top:\n- **Remember** — recall facts and terms\n- **Understand** — explain it in your own words\n- **Apply** — use it to solve a new problem\n- **Analyze** — break it apart, compare, find patterns and relationships\n- **Evaluate** — judge and critique it against criteria\n- **Create** — design or build something new\n\nThe bottom two are lower-order. The top four climb into higher-order thinking — where real exams live.",
+      "image": "/illustrations/bloom-pyramid.svg",
+      "imageAlt": "Pyramid of Bloom's levels: Remember, Understand, Apply, Analyze, Evaluate, Create"
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each level to a task that lives there.",
+      "pairs": [
+        {
+          "left": "Remember",
+          "right": "List the planets"
+        },
+        {
+          "left": "Understand",
+          "right": "Explain orbits in your words"
+        },
+        {
+          "left": "Apply",
+          "right": "Solve a new gravity problem"
+        },
+        {
+          "left": "Evaluate",
+          "right": "Judge which theory fits best"
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "prompt": "Memorizing a pile of facts is the highest level of thinking.",
+      "answer": false,
+      "explanation": "Remembering facts is the LOWEST rung. The higher levels — analyze, evaluate, create — ask you to do something with those facts."
+    },
+    {
+      "type": "material",
+      "title": "Why the split matters",
+      "body": "The two bottom rungs feel safe — you reread, you recognize, you nod along. But that comfort is a trap.\n\nRecognizing an answer when you see it is not the same as producing one under pressure. The higher rungs force you to do something with the facts — and that's exactly where exams, projects, and real life push you.\n\nSo the question isn't \"do I know this?\" It's \"how high up the ladder can I take it?\""
+    },
+    {
+      "type": "categorize",
+      "prompt": "Lower-order or higher-order thinking?",
+      "categories": [
+        "Lower-order",
+        "Higher-order"
+      ],
+      "items": [
+        {
+          "text": "Define a vocab word",
+          "category": 0
+        },
+        {
+          "text": "Compare two essays",
+          "category": 1
+        },
+        {
+          "text": "Recite a formula",
+          "category": 0
+        },
+        {
+          "text": "Design a survey",
+          "category": 1
+        },
+        {
+          "text": "Critique an argument",
+          "category": 1
+        },
+        {
+          "text": "Label a diagram",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "The verbs give it away",
+      "body": "You can often spot a question's level just from its verb.\n\n- List, define, name → **Remember**\n- Explain, summarize → **Understand**\n- Solve, use, apply → **Apply**\n- Compare, analyze → **Analyze**\n- Judge, justify, critique → **Evaluate**\n- Design, plan, compose → **Create**\n\nRead the verb before you study. \"List\" is happy with flashcards; \"compare\" or \"design\" is not."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which Bloom level is it asking for?",
+      "context": "An exam question says: \"Design an experiment to test whether music affects memory.\"",
+      "options": [
+        "Create",
+        "Analyze",
+        "Evaluate"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Design\" means building something new — that's Create, the top rung. Analyzing or judging an existing study would be lower; here you have to produce one."
+    },
+    {
+      "type": "material",
+      "title": "One level up beats memorizing",
+      "body": "Here's a sneaky trick: study one rung above what the test asks.\n\nIf the exam wants you to **apply** a concept, practice **analyzing** it too — break it apart, ask why it works. You'll handle the apply questions easily, because you've already been doing harder thinking.\n\nAim a notch high, and the actual question feels like a warm-up."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "Tap the word that makes this false.",
+      "sentence": "The verb justify points to the Remember level of Bloom’s.",
+      "wrongWord": "Remember",
+      "correctWord": "Evaluate",
+      "explanation": "Justify, judge and critique are Evaluate-level verbs — far above simple recall."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Why is just memorizing usually not enough?",
+      "context": "You know every definition cold, but the test asks you to apply and compare.",
+      "options": [
+        "Memorizing is actually the hardest level",
+        "Lower-order thinking is banned on exams",
+        "Exams usually test the higher levels, not just recall"
+      ],
+      "correctIndex": 2,
+      "explanation": "Most real exams climb to apply, analyze, and evaluate — so studying only to remember leaves you stuck at the bottom rung."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "The level where you produce something brand new — a plan, design, or composition — is called ___.",
+      "answer": "Create",
+      "accept": [
+        "create",
+        "creating"
+      ],
+      "explanation": "Create sits at the top: you're not recalling or analyzing existing ideas, you're building a new one."
+    },
+    {
+      "type": "material",
+      "title": "Study at the right rung",
+      "body": "The rule is simple: **study at or above the level the test will demand.**\n\nIf the exam asks you to apply a formula, doing 50 flashcards of the definition won't cut it — you have to actually solve problems with it.\n\nThe ultimate proof you've got something? You can **teach** it, **use** it on a new problem, and **critique** where it breaks. Then it's truly yours."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Best way to study for it?",
+      "context": "Your chemistry exam will ask you to apply equations to new problems, not just recite them.",
+      "options": [
+        "Re-read your notes until the definitions feel familiar",
+        "Work through new practice problems you haven't seen",
+        "Make flashcards of every term and quiz yourself"
+      ],
+      "correctIndex": 1,
+      "explanation": "The test demands Apply, so practice applying — solving fresh problems. Familiar-feeling notes only build recall, a lower rung."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Climb Bloom's ladder: put these thinking levels in order, lowest to highest.",
+      "steps": [
+        "Remember",
+        "Understand",
+        "Apply",
+        "Analyze",
+        "Evaluate"
+      ],
+      "explanation": "Recall first, then understand, apply, analyze, and evaluate — and one rung higher still sits Create, where you build something new."
+    }
+  ]
+}

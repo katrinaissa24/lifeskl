@@ -1,0 +1,198 @@
+{
+  "slug": "focus-and-mindfulness",
+  "title": "Train your focus",
+  "description": "Attention is trainable — beat distraction and find your flow.",
+  "unit": 7,
+  "sortOrder": 16,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Single-task: do one thing at a time, because every switch costs you time and errors",
+    "Kill the cues — phone in another room, notifications off, tabs closed, one study spot",
+    "Run Pomodoros (25 min focus, 5 min break) to protect attention and make starting easy",
+    "Find flow with a clear goal, a matched challenge, and zero interruptions",
+    "Use a 10-breath reset to notice you've drifted and gently come back"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Your attention is a battery",
+      "body": "Picture your attention as a phone battery you can't recharge mid-day. Every notification, open tab, and 'quick check' drains it.\n\nHere's the good news: focus isn't a personality trait you either have or don't. It's a **muscle**. The more you train it, the longer you can hold it — and the easier hard work starts to feel.",
+      "image": "/illustrations/focus-target.svg",
+      "imageAlt": "A bullseye with a single arrow hitting the center"
+    },
+    {
+      "type": "material",
+      "title": "Multitasking is a lie",
+      "body": "You don't actually do two things at once. Your brain rapidly **switches** between them — and every switch has a cost: lost time and more mistakes (it's called switch cost).\n\nDoom-scrolling makes it worse. Constant little hits of new content train your brain to crave distraction. The fix is simple to say, hard to do: **single-task**. One thing at a time."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Multitasking is an efficient way to study.",
+      "answer": false,
+      "explanation": "What feels like multitasking is really fast task-switching, and every switch wastes time and adds errors."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the real cost of 'multitasking' between homework and your group chat?",
+      "options": [
+        "Each switch wastes time and adds errors",
+        "Nothing — your brain handles both at once",
+        "It actually makes you faster",
+        "Only your typing slows down"
+      ],
+      "correctIndex": 0,
+      "explanation": "Your brain switches instead of splitting, and that switch cost piles up across a study session."
+    },
+    {
+      "type": "material",
+      "title": "Kill the cues",
+      "body": "Willpower loses to a buzzing phone. So remove the temptation before it starts:\n- **Phone in another room** — even face-down on your desk, its mere presence drains focus\n- **Close extra tabs** and turn off notifications\n- **Use one study spot** every time, so your brain learns 'here = focus'\n\nYou're not weak for getting distracted. You're just fighting cues you don't have to."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Where should your phone be while you study?",
+      "context": "You've got two hours of focused work ahead.",
+      "options": [
+        "Face-down next to your notes",
+        "In your pocket on silent",
+        "In another room",
+        "Screen-up so you can see who texts"
+      ],
+      "correctIndex": 2,
+      "explanation": "Even silent and face-down, a phone's mere presence drains focus — distance beats willpower."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Focus-friendly or focus-killing?",
+      "categories": [
+        "Focus-friendly",
+        "Focus-killing"
+      ],
+      "items": [
+        {
+          "text": "Phone in another room",
+          "category": 0
+        },
+        {
+          "text": "Notifications turned off",
+          "category": 0
+        },
+        {
+          "text": "Ten tabs open at once",
+          "category": 1
+        },
+        {
+          "text": "One designated study spot",
+          "category": 0
+        },
+        {
+          "text": "Replying to the group chat mid-task",
+          "category": 1
+        },
+        {
+          "text": "Phone face-down on your desk",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word is wrong. Tap it.",
+      "sentence": "To get more done, you should multitask as much as possible.",
+      "wrongWord": "multitask",
+      "correctWord": "single-task",
+      "explanation": "Multitasking is really task-switching, and every switch costs time and focus. One thing at a time wins."
+    },
+    {
+      "type": "material",
+      "title": "The Pomodoro trick",
+      "body": "Starting is the hard part. The **Pomodoro** technique shrinks it: work in one **25-minute** focus block, then take a **5-minute** break. After four blocks, take a longer break.\n\nWhy it works: 25 minutes feels doable, the timer guards your attention, and the breaks keep you from burning out. 'Just one Pomodoro' is way easier to start than 'study for three hours.'"
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "One Pomodoro focus block is about ___ minutes long.",
+      "answer": "25",
+      "accept": [
+        "25 minutes",
+        "twenty-five"
+      ],
+      "hint": "Focus block, then a 5-minute break.",
+      "explanation": "A classic Pomodoro is 25 minutes of focus followed by a 5-minute break — short enough to start, long enough to get real work done."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put these in order to set up one focused study session.",
+      "steps": [
+        "Put your phone in another room",
+        "Sit down at your one study spot",
+        "Set a 25-minute timer and pick one task",
+        "Work until the timer rings, then take a 5-minute break"
+      ],
+      "explanation": "Remove the cue, settle into your focus spot, start a single timed task, then rest — that's one clean Pomodoro."
+    },
+    {
+      "type": "material",
+      "title": "Flow and the wandering mind",
+      "body": "**Flow** is that state where time disappears and the work just clicks. It shows up when a **clear goal** meets a **matched challenge** — not too easy, not too hard — with **no interruptions**.\n\nBut minds wander. That's normal. **Mindfulness** is paying attention to the present on purpose, without judging it. It trains the exact muscle that notices you've drifted and gently brings you back to the page."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each technique to why it works.",
+      "pairs": [
+        {
+          "left": "Pomodoro",
+          "right": "Makes starting easy, protects attention"
+        },
+        {
+          "left": "Phone in another room",
+          "right": "Removes the cue that drains focus"
+        },
+        {
+          "left": "Mindfulness",
+          "right": "Trains noticing drift and returning"
+        },
+        {
+          "left": "Flow",
+          "right": "Clear goal plus matched challenge"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What does practising mindfulness actually train?",
+      "options": [
+        "Noticing your mind has wandered and gently coming back",
+        "Emptying your mind of every thought forever",
+        "Studying for longer without any breaks",
+        "Feeling guilty whenever you get distracted"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mindfulness builds the 'notice you've drifted and return' muscle — the same one that pulls you back to studying."
+    },
+    {
+      "type": "material",
+      "title": "The 10-breath reset",
+      "body": "Here's a reset you can do anywhere, even mid-study-meltdown: take **10 slow breaths** and just notice the breath going in and out.\n\nYour mind will wander — that's fine. Each time it does, gently bring it back. **The returning is the rep.** A minute of this lowers stress and sharpens concentration, so you slide back into work calmer than you left it."
+    },
+    {
+      "type": "true_false",
+      "prompt": "If your mind wanders during a breathing reset, you've failed and should give up.",
+      "answer": false,
+      "explanation": "Wandering is expected — noticing it and gently returning is the whole exercise. The return is the rep."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Design your own focus ritual: where will you study, what will you do with your phone, and which one mindfulness reset will you try?",
+      "context": "Pick things you'll actually do tonight — a ritual only works if it's realistic.",
+      "chips": [
+        "Phone in another room",
+        "Notifications off",
+        "25-min Pomodoro",
+        "10 slow breaths",
+        "One clear desk"
+      ],
+      "placeholder": "Tonight I'll study at… my phone will be… and I'll reset with…",
+      "explanation": "A ritual you repeat in one spot trains your brain that 'here = focus' — and a built-in reset means a wandering mind never derails the whole session."
+    }
+  ]
+}

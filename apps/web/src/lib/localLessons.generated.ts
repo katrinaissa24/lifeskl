@@ -3744,5 +3744,3752 @@ export const LOCAL_LESSON_CONTENT: Record<
       "Starting to invest 10 years earlier roughly doubles the result (≈$380k vs ≈$180k)",
       "Review your money plan once a year and give every raise a job"
     ]
+  },
+  "how-to-learn__how-learning-works": {
+    "content": [
+      {
+        "type": "material",
+        "title": "Your brain is wet clay",
+        "body": "Ever watched someone do something hard — solve the equation, nail the song, write the essay — and thought they were just born with it? Mostly, no.\n\nLearning is a **skill**, not a fixed talent handed out at birth. Your brain isn't set in stone. It's more like wet clay: every time you practice, it reshapes itself a little.",
+        "image": "/illustrations/brain-spark.svg",
+        "imageAlt": "A brain with a lightning spark, representing neuroplasticity"
+      },
+      {
+        "type": "material",
+        "title": "Neuroplasticity, minus the jargon",
+        "body": "Here's the science word: **neuroplasticity**. It means your brain physically rewires when you practice — it grows and strengthens the connections between neurons.\n\nThat's why the thing that felt impossible in week one feels easy by week six. You didn't get smarter in some magic way. You built the wiring."
+      },
+      {
+        "type": "true_false",
+        "prompt": "Your brain is basically fixed — you're born with a set amount of ability and that's that.",
+        "answer": false,
+        "explanation": "Thanks to neuroplasticity, your brain rewires with practice. Ability isn't a fixed quantity — it's something you build."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "The brain's ability to physically rewire itself with practice is called ___.",
+        "answer": "neuroplasticity",
+        "accept": [
+          "neuro-plasticity",
+          "neural plasticity"
+        ],
+        "hint": "Neuro + a word that means 'bendable'.",
+        "explanation": "Neuroplasticity is why practice changes you — the connections between neurons literally grow stronger."
+      },
+      {
+        "type": "material",
+        "title": "The honest reframe",
+        "body": "When you say \"I'm bad at math,\" your brain hears a verdict: case closed, don't bother trying.\n\nSwap it for the truth: **you haven't built that connection — yet.** One tiny word turns a dead end into a road. \"Bad at it\" is permanent. \"Not yet\" is just where you are today."
+      },
+      {
+        "type": "tap_word",
+        "instructions": "One word slams the door shut. Tap it.",
+        "sentence": "I am not bad at this I just have not built that connection forever",
+        "wrongWord": "forever",
+        "correctWord": "yet",
+        "explanation": "Swap \"forever\" for \"yet\" and the sentence flips: \"I just haven't built that connection yet.\" That one word turns a verdict into a to-do."
+      },
+      {
+        "type": "material",
+        "title": "Struggle is the workout",
+        "body": "Here's the plot twist: the **struggle** is where the growth happens. Researchers call it desirable difficulty.\n\nPractice that feels easy barely changes your brain — like lifting a feather at the gym. The stuff that makes you furrow your brow and go \"wait, what?\" is the heavy lifting that builds real wiring."
+      },
+      {
+        "type": "material",
+        "title": "Mistakes are the good part",
+        "body": "And mistakes? Gold.\n\nA wrong answer you stop and think about grows your brain **more** than a right answer you got on the first try. The error forces your brain to notice the gap and rebuild the connection stronger.\n\nSo bombing a practice question isn't failing. It's the rep that counts most."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Which one grows your brain the most?",
+        "context": "You've got an hour to study. Three ways to spend it:",
+        "options": [
+          "Reread the chapter you already understand",
+          "Wrestle with a hard problem, get it wrong, then figure out why",
+          "Copy your notes out neatly in a new color",
+          "Watch a video on a topic you've already mastered"
+        ],
+        "correctIndex": 1,
+        "explanation": "Desirable difficulty plus a mistake you think through is the heaviest workout your brain can get. Comfort barely moves the needle."
+      },
+      {
+        "type": "match_pairs",
+        "prompt": "Match each learning idea to what it actually means.",
+        "pairs": [
+          {
+            "left": "Neuroplasticity",
+            "right": "The brain rewires with practice"
+          },
+          {
+            "left": "Desirable difficulty",
+            "right": "Useful struggle that grows you"
+          },
+          {
+            "left": "Retrieval practice",
+            "right": "Quizzing yourself to remember"
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "Two myths to drop",
+        "body": "You've probably heard you're a \"visual learner,\" or \"right-brained and creative.\" Both ideas sound great. Both fall apart under the evidence.\n\nThere's no proof that matching lessons to a personal \"learning style\" helps. The real move: **match the method to the material.** Learning a dance? Move. Learning a map? Look at it. The subject decides, not a label on you."
+      },
+      {
+        "type": "true_false",
+        "prompt": "You learn best by sticking to your one personal 'learning style' — like visual or auditory.",
+        "answer": false,
+        "explanation": "Learning styles aren't backed by evidence. Match the method to the material: a map wants your eyes, a dance wants your body."
+      },
+      {
+        "type": "material",
+        "title": "Recall beats reread",
+        "body": "The most common way students \"study\" — rereading notes and highlighting — is also one of the weakest. It feels productive because it feels familiar.\n\nActive beats passive. **Testing yourself** — closing the book and trying to recall it — is far stronger. Struggling to pull the answer out is the part that locks it in.\n\nAnd the basics matter: sleep, movement, and a focused space all help your brain actually do the rewiring."
+      },
+      {
+        "type": "categorize",
+        "prompt": "Does this help your brain learn, or not really?",
+        "categories": [
+          "Helps",
+          "Doesn't"
+        ],
+        "items": [
+          {
+            "text": "Quizzing yourself with the book closed",
+            "category": 0
+          },
+          {
+            "text": "Getting a full night's sleep",
+            "category": 0
+          },
+          {
+            "text": "Rereading the same page five times",
+            "category": 1
+          },
+          {
+            "text": "Wrestling with a problem that's hard",
+            "category": 0
+          },
+          {
+            "text": "Studying half-asleep at 3am",
+            "category": 1
+          },
+          {
+            "text": "A walk before you sit down to study",
+            "category": 0
+          },
+          {
+            "text": "Highlighting everything in yellow",
+            "category": 1
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "What's the better study move?",
+        "context": "You have notes from class and a test on Friday.",
+        "options": [
+          "Highlight the whole page so it all feels important",
+          "Read the notes over and over until they look familiar",
+          "Close the notes and try to write down what you remember, then check",
+          "Recopy the notes word for word in nicer handwriting"
+        ],
+        "correctIndex": 2,
+        "explanation": "Closing the book and recalling is retrieval practice — the struggle to pull it out is exactly what locks it in."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "Put the growth mindset in motion — order these from first to last.",
+        "steps": [
+          "Catch yourself thinking 'I'm bad at this'",
+          "Add 'yet' to turn it into 'I haven't got it yet'",
+          "Pick the hard problem instead of the easy one",
+          "Get it wrong and figure out exactly why"
+        ],
+        "explanation": "Reframe first, then lean into the struggle, then mine the mistake — that loop is how the wiring actually grows."
+      },
+      {
+        "type": "reflect",
+        "prompt": "Name one subject you've called yourself 'bad at'. Now rewrite it with the word 'yet'.",
+        "context": "You've seen what 'yet' does — it turns a closed door into a road. Try it on something real.",
+        "chips": [
+          "Math",
+          "Writing",
+          "A language",
+          "Science",
+          "Public speaking"
+        ],
+        "placeholder": "I'm not bad at ___ — I just haven't built it yet…",
+        "explanation": "That's the whole mindset in one sentence. The connection isn't missing forever — it's just not built yet, and now you know how to build it."
+      }
+    ],
+    "summaryPoints": [
+      "Treat learning as a skill you build, not a talent you're stuck with",
+      "Add 'yet' when you catch yourself saying 'I'm bad at this'",
+      "Chase the struggle — effort and mistakes are what grow your brain",
+      "Skip the 'learning styles' trap: match the method to the material",
+      "Quiz yourself instead of rereading, and protect sleep and movement"
+    ]
+  },
+  "how-to-learn__growth-mindset": {
+    "content": [
+      {
+        "type": "material",
+        "title": "Same grade, two stories",
+        "body": "Two people fail the same math quiz. One thinks, \"I'm just bad at math.\" The other thinks, \"I haven't cracked this method yet.\"\n\nSame red marks. Totally different next move. The first person closes the book. The second pulls up the questions they missed.\n\nThe story you tell yourself after a stumble quietly decides what you do next — and what you do next is what actually changes the grade.",
+        "image": "/illustrations/growth-mindset.svg",
+        "imageAlt": "A sprout growing up a staircase of arrows"
+      },
+      {
+        "type": "material",
+        "title": "Fixed vs. growth",
+        "body": "Psychologist Carol Dweck named these two stories.\n\nA **fixed mindset** says your ability is set — you've either \"got it\" or you don't. So you dodge hard stuff, quit when it bites, and feel like effort proves you're not smart.\n\nA **growth mindset** says ability grows with effort and a better strategy. So you lean into challenges, push through, and treat effort as the actual path to getting good."
+      },
+      {
+        "type": "categorize",
+        "prompt": "Which mindset is talking?",
+        "categories": [
+          "Fixed",
+          "Growth"
+        ],
+        "items": [
+          {
+            "text": "\"If I have to try this hard, I'm clearly not smart.\"",
+            "category": 0
+          },
+          {
+            "text": "\"This is tough — which means I'm actually learning.\"",
+            "category": 1
+          },
+          {
+            "text": "\"I'll skip the hard question so I don't look dumb.\"",
+            "category": 0
+          },
+          {
+            "text": "\"The teacher's feedback shows me exactly what to fix.\"",
+            "category": 1
+          },
+          {
+            "text": "\"That criticism just proves I'll never get it.\"",
+            "category": 0
+          },
+          {
+            "text": "\"They aced it — I'll ask how they studied.\"",
+            "category": 1
+          }
+        ]
+      },
+      {
+        "type": "true_false",
+        "prompt": "\"I'm just not a math person\" is a growth-mindset thing to say.",
+        "answer": false,
+        "explanation": "That sentence treats your ability as fixed and final. Growth mindset would add 'yet' — you're not a math person YET."
+      },
+      {
+        "type": "material",
+        "title": "The power of 'yet'",
+        "body": "One tiny word flips the whole sentence.\n\n\"I can't solve these.\" slams the door. \"I can't solve these **yet**.\" leaves it open — it turns a verdict into a stage you're moving through.\n\n'Yet' isn't a magic spell. It just reminds you that where you are today is a checkpoint, not your ceiling. The work still has to happen — but now you actually believe it's worth doing."
+      },
+      {
+        "type": "tap_word",
+        "instructions": "Tap the word that turns this into a fixed-mindset trap.",
+        "sentence": "When work feels hard, the smartest move is to quit.",
+        "wrongWord": "quit",
+        "correctWord": "persist",
+        "explanation": "A growth mindset treats “hard” as a cue to push on and change tactics — not a reason to bail."
+      },
+      {
+        "type": "match_pairs",
+        "prompt": "Reframe each fixed thought into its growth version.",
+        "pairs": [
+          {
+            "left": "\"I'm terrible at this.\"",
+            "right": "\"I'm not good at this yet.\""
+          },
+          {
+            "left": "\"I give up.\"",
+            "right": "\"Let me try a different way.\""
+          },
+          {
+            "left": "\"This is good enough.\"",
+            "right": "\"Is this really my best?\""
+          },
+          {
+            "left": "\"She's just a genius.\"",
+            "right": "\"What can I learn from her?\""
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "Mistakes are data",
+        "body": "A fixed mindset reads a wrong answer as a verdict: \"See? Proof I'm not cut out for this.\"\n\nA growth mindset reads the exact same wrong answer as **information**: \"Okay — I mixed up the formula on step two. Now I know what to drill.\"\n\nNothing about the mistake changed. One person buries it; the other mines it. Your missed questions are basically a free study guide for what to fix next."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "What's the most growth-minded next move?",
+        "context": "You just got a failing grade back on a science test.",
+        "options": [
+          "Decide science isn't your subject and stop trying",
+          "Go through the test and figure out which mistakes you made and why",
+          "Tell yourself the grade doesn't matter and forget it",
+          "Wait and hope the next test is easier"
+        ],
+        "correctIndex": 1,
+        "explanation": "Treating the test as data — finding the specific mistakes — is how you turn a bad grade into a plan."
+      },
+      {
+        "type": "material",
+        "title": "It's not just 'believe in yourself'",
+        "body": "Here's the catch people miss: growth mindset is **not** toxic positivity.\n\nIt's not chanting \"I believe in myself\" at a problem and expecting it to dissolve. Faith without a new plan is just a louder way to stay stuck.\n\nGrowth mindset means doing something different: changing your **strategy**, putting in real **effort**, and **asking for help** when you're stuck. Belief points you at the work — it doesn't replace it."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Which one is an actual growth-mindset move — not just toxic positivity?",
+        "options": [
+          "Repeat 'I'm great at this' until the problem feels easier",
+          "Try a new study method and ask a classmate to explain the part you missed",
+          "Tell yourself failing was secretly a win",
+          "Avoid the topic so you can keep feeling confident"
+        ],
+        "correctIndex": 1,
+        "explanation": "Growth mindset is about changing strategy, effort, and getting help — not just feeling good about being stuck."
+      },
+      {
+        "type": "material",
+        "title": "Praise the process",
+        "body": "How people praise you shapes which mindset you grow.\n\n\"You're so smart!\" feels great — but it praises a **trait**. The hidden message: success means being smart, so a struggle must mean you're not. That makes hard things scary.\n\n\"You found a clever way to tackle that.\" praises the **process** — the strategy, the effort, the grind. That's the part you can actually repeat. So aim your own self-talk at what you did, not what you are."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Your friend nailed a tough essay. Which comment grows their mindset?",
+        "options": [
+          "\"You're a natural writer, it's just in you.\"",
+          "\"You're so smart, this stuff comes easy to you.\"",
+          "\"The way you reworked that intro three times really paid off.\"",
+          "\"You're way more talented than the rest of us.\""
+        ],
+        "correctIndex": 2,
+        "explanation": "Praising the process — the reworking and effort — points to something they can repeat. Praising 'natural talent' makes the next hard thing feel threatening."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "You bombed something. Put the steps for turning it into growth in order.",
+        "steps": [
+          "Name the feeling — yeah, that sucked",
+          "Find the specific mistake you made",
+          "Change one strategy for next time",
+          "Try again with the new approach"
+        ],
+        "explanation": "Feel it, then diagnose it, then fix one concrete thing, then retry. Skipping straight to 'try harder' without finding the actual mistake just repeats it."
+      },
+      {
+        "type": "reflect",
+        "prompt": "Name one subject you've called yourself 'bad at'. Rewrite it as a 'not yet' sentence.",
+        "context": "Be specific — the realer the example, the more it sticks.",
+        "chips": [
+          "Math",
+          "Writing",
+          "A language",
+          "Public speaking"
+        ],
+        "placeholder": "I'm not good at ___ yet, but I can…",
+        "explanation": "Saying it in 'yet' language reopens the door. That's the first move every time."
+      },
+      {
+        "type": "decision_path",
+        "title": "The Setback",
+        "intro": "You just bombed a quiz you thought you'd ace. Comeback meter starts at 50 — get it as high as you can.",
+        "stat": {
+          "name": "Comeback meter",
+          "emoji": "🔥",
+          "start": 50
+        },
+        "steps": [
+          {
+            "situation": "The grade hits your screen. First reaction?",
+            "options": [
+              {
+                "text": "\"Okay, that stung. What can I learn from it?\"",
+                "delta": 20,
+                "feedback": "You named the feeling and stayed curious. That's the doorway to growth.",
+                "best": true
+              },
+              {
+                "text": "\"I'm just bad at this subject.\"",
+                "delta": -20,
+                "feedback": "That's the fixed-mindset verdict — it ends the story before it starts."
+              }
+            ]
+          },
+          {
+            "situation": "Now, what do you actually do with the quiz?",
+            "options": [
+              {
+                "text": "Shove it in your bag and never look again",
+                "delta": -20,
+                "feedback": "Burying the mistake means you'll make it again."
+              },
+              {
+                "text": "Go through each wrong answer and figure out why",
+                "delta": 25,
+                "feedback": "Mistakes are data. Now you know exactly what to fix.",
+                "best": true
+              },
+              {
+                "text": "Just promise yourself to 'try harder' next time",
+                "delta": -5,
+                "feedback": "Trying harder at the same wrong method mostly repeats the result."
+              }
+            ]
+          },
+          {
+            "situation": "You're stuck on the topic you keep missing. Move?",
+            "options": [
+              {
+                "text": "Ask your teacher or a classmate to explain it differently",
+                "delta": 25,
+                "feedback": "Asking for help is a growth move, not a weakness.",
+                "best": true
+              },
+              {
+                "text": "Keep re-reading the same notes alone, frustrated",
+                "delta": -10,
+                "feedback": "Same input, same confusion. Growth means changing the approach."
+              }
+            ]
+          },
+          {
+            "situation": "Next unit looks even harder. What now?",
+            "options": [
+              {
+                "text": "Avoid it so you don't risk failing again",
+                "delta": -20,
+                "feedback": "Dodging challenges is the fixed-mindset trap that keeps you stuck."
+              },
+              {
+                "text": "Lean in — hard means there's real learning here",
+                "delta": 20,
+                "feedback": "Challenges are where ability actually grows. That's the whole game.",
+                "best": true
+              }
+            ]
+          }
+        ],
+        "outro": "Same setback, better story. The choices after the stumble are what move the meter."
+      }
+    ],
+    "summaryPoints": [
+      "Catch the fixed-mindset voice and add 'yet' to it",
+      "Read mistakes as information about your next move, not a verdict on you",
+      "Swap 'I'm just bad at this' for changing your strategy and effort",
+      "Praise the process you used, not how 'smart' you are",
+      "Turn a setback into growth: name the feeling, find the mistake, change one thing, retry"
+    ]
+  },
+  "how-to-learn__the-priority-matrix": {
+    "content": [
+      {
+        "type": "material",
+        "title": "Loud isn't the same as big",
+        "body": "It's 11pm. Your phone buzzes with a group-chat ping, an essay is due in two weeks, and you haven't slept properly all week.\n\nThe ping feels like it needs you RIGHT NOW. The essay and the sleep? They quietly wait.\n\nThat's the trap: the loudest thing grabs your hands, while the thing that actually shapes your future sits in the corner, ignored."
+      },
+      {
+        "type": "material",
+        "title": "Two different questions",
+        "body": "Every task is really answering two separate questions:\n\n- **Urgent?** Does it demand attention NOW — a deadline today, a ringing phone, a buzzing notification.\n- **Important?** Does it actually matter to your goals or wellbeing — like studying, sleep, or real friendships.\n\nHere's the kicker: **urgent and important are not the same thing.** A lot of urgent stuff barely matters, and a lot of what matters most never feels urgent until it's too late."
+      },
+      {
+        "type": "true_false",
+        "prompt": "If something feels urgent, it must also be important.",
+        "answer": false,
+        "explanation": "Urgent only means it wants you now. A buzzing phone is urgent but usually not important to your real goals."
+      },
+      {
+        "type": "categorize",
+        "prompt": "Urgent (needs you now) or not urgent?",
+        "categories": [
+          "Urgent",
+          "Not urgent"
+        ],
+        "items": [
+          {
+            "text": "An assignment due at midnight tonight",
+            "category": 0
+          },
+          {
+            "text": "A phone ringing right now",
+            "category": 0
+          },
+          {
+            "text": "Studying for an exam three weeks away",
+            "category": 1
+          },
+          {
+            "text": "Getting eight hours of sleep",
+            "category": 1
+          },
+          {
+            "text": "A 'reply ASAP' text from a friend",
+            "category": 0
+          },
+          {
+            "text": "Planning next month's project",
+            "category": 1
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "The 2x2 that fixes it",
+        "body": "Cross those two questions and you get four squares — the Eisenhower matrix:\n\n- **Q1 Urgent + Important** → today's deadline, a real crisis\n- **Q2 Important, not urgent** → studying ahead, sleep, planning\n- **Q3 Urgent, not important** → interruptions, other people's small asks\n- **Q4 Neither** → mindless scrolling, pure time-wasters\n\nEvery task you face lives in exactly one square.",
+        "image": "/illustrations/priority-matrix.svg",
+        "imageAlt": "The Eisenhower 2x2 grid of urgency versus importance"
+      },
+      {
+        "type": "material",
+        "title": "One verb per square",
+        "body": "Each square gets a different move:\n\n- **Q1 → DO IT NOW.** It's both urgent and real. Handle it.\n- **Q2 → SCHEDULE IT.** Important but not screaming yet, so book a time before it becomes a crisis.\n- **Q3 → TRIM IT.** Limit it, say no, or hand it off — it's loud but not yours to carry.\n- **Q4 → DROP IT.** It neither helps nor screams. Let it go."
+      },
+      {
+        "type": "match_pairs",
+        "prompt": "Match each quadrant to its move.",
+        "pairs": [
+          {
+            "left": "Q1 Urgent + Important",
+            "right": "Do it now"
+          },
+          {
+            "left": "Q2 Important, not urgent",
+            "right": "Schedule it"
+          },
+          {
+            "left": "Q3 Urgent, not important",
+            "right": "Trim or say no"
+          },
+          {
+            "left": "Q4 Neither",
+            "right": "Drop it"
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Which quadrant should you fight to protect time for?",
+        "context": "Real progress — better grades, more sleep, stronger friendships — almost never feels urgent in the moment.",
+        "options": [
+          "Q1 — urgent and important",
+          "Q3 — urgent, not important",
+          "Q2 — important, not urgent",
+          "Q4 — neither"
+        ],
+        "correctIndex": 2,
+        "explanation": "Q2 is the quadrant of quality — studying ahead, sleep, planning. It never shouts, so you have to defend it on purpose."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "The square where real progress lives is Quadrant ___.",
+        "answer": "2",
+        "accept": [
+          "two",
+          "Q2",
+          "II"
+        ],
+        "hint": "Important, but not urgent.",
+        "explanation": "Q2 holds the things that quietly build your future — they pay off most but never feel urgent."
+      },
+      {
+        "type": "material",
+        "title": "Why you keep ending up in Q1",
+        "body": "Most of your stress comes from living in **Q1** — everything on fire, all at once.\n\nBut here's the secret: you land in Q1 because you neglected **Q2**. The essay you 'didn't have time for' was a calm Q2 task two weeks ago. Skip the planning, and it detonates into a Q1 all-nighter.\n\nGood Q2 work today stops things from becoming Q1 emergencies tomorrow."
+      },
+      {
+        "type": "tap_word",
+        "instructions": "One word breaks this sentence. Tap it.",
+        "sentence": "Doing your Q2 work early creates the Q1 all-nighters you dread.",
+        "wrongWord": "creates",
+        "correctWord": "prevents",
+        "explanation": "Q2 planning PREVENTS Q1 emergencies. Start early and the calm task never detonates into a last-minute crisis."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "What's the smartest move?",
+        "context": "Mid-study, three friends keep pinging the group chat asking you to settle a debate about a movie.",
+        "options": [
+          "Drop everything and reply — they said it's urgent",
+          "Mute the chat and reply when you finish studying",
+          "Argue in the chat for an hour, then study",
+          "Quit studying since you've lost focus anyway"
+        ],
+        "correctIndex": 1,
+        "explanation": "That's a Q3 task: urgent-feeling but not important. Trim it — say no for now — so it can't eat your Q2 study time."
+      },
+      {
+        "type": "material",
+        "title": "Q3 is a con artist",
+        "body": "Q3 is the **quadrant of deception**. Other people's small requests feel urgent — a ping, a 'quick favor', a notification — so your brain treats them like they matter.\n\nThey usually don't. They're just loud.\n\nThe fix is one small word: **no.** Saying no to Q3 and Q4 is how you protect Q2 — because every minute you don't waste on noise is a minute that can go to what actually matters."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "Put these tasks in the order you should tackle them.",
+        "steps": [
+          "Q1: finish the assignment due tonight",
+          "Q2: study an hour for next week's exam",
+          "Q3: reply to the non-urgent group chat",
+          "Q4: scroll short videos"
+        ],
+        "explanation": "Clear the real fire (Q1) first, invest in Q2, trim Q3, and Q4 gets whatever scraps are left — if any."
+      },
+      {
+        "type": "reflect",
+        "prompt": "Name one Q2 task you keep putting off — the important-but-not-urgent thing that always loses to louder stuff.",
+        "context": "Q2 is sleep, studying ahead, exercise, real friendships — the quiet stuff that shapes your future.",
+        "chips": [
+          "Studying ahead",
+          "Sleep",
+          "Exercise",
+          "A real conversation"
+        ],
+        "placeholder": "The Q2 thing I keep delaying is…",
+        "explanation": "Naming your neglected Q2 task is step one. Next time, schedule it before it becomes a Q1 fire."
+      },
+      {
+        "type": "priority_matrix",
+        "prompt": "Last drill. Drop each task into the Eisenhower square it belongs in.",
+        "tasks": [
+          {
+            "text": "Exam tomorrow you haven't studied for",
+            "urgent": true,
+            "important": true
+          },
+          {
+            "text": "A burst pipe flooding your room",
+            "urgent": true,
+            "important": true
+          },
+          {
+            "text": "Start the project due in two weeks",
+            "urgent": false,
+            "important": true
+          },
+          {
+            "text": "Book a check-up you've put off",
+            "urgent": false,
+            "important": true
+          },
+          {
+            "text": "Reply to a group-chat ping",
+            "urgent": true,
+            "important": false
+          },
+          {
+            "text": "Scroll short videos for an hour",
+            "urgent": false,
+            "important": false
+          }
+        ],
+        "explanation": "Urgent isn't important. Q1 you do now, Q2 you schedule and protect, Q3 you trim, Q4 you drop — and Q2 is where the real wins live."
+      }
+    ],
+    "summaryPoints": [
+      "Tell urgent (needs you now) apart from important (matters to your goals)",
+      "Sort any task into one of four squares: Do, Schedule, Trim, or Drop",
+      "Live in Quadrant 2 — important but not urgent — where real progress happens",
+      "Say no to other people's small 'urgent' asks so they don't eat your day",
+      "Plan ahead so tomorrow's Q2 tasks never become tonight's Q1 emergencies"
+    ]
+  },
+  "how-to-learn__beat-procrastination": {
+    "content": [
+      {
+        "type": "material",
+        "title": "It's not that you're lazy",
+        "body": "You open the doc. You stare at it. You close it and check your phone — and instantly feel a little better.\n\nThat little hit of relief is the whole trap. You're not avoiding the essay because you're lazy. You're avoiding the **bad feeling** it gives you: the boredom, the self-doubt, the fear it won't be good enough.\n\nProcrastination is an emotion problem wearing a time-management costume.",
+        "image": "/illustrations/procrastination.svg",
+        "imageAlt": "A clock with a task pushed off to later"
+      },
+      {
+        "type": "material",
+        "title": "The relief loop",
+        "body": "Here's the cycle on repeat:\n- A task makes you feel bad\n- You avoid it (scroll, snack, \"I'll start at 8\")\n- You get instant relief — which **rewards** the dodge\n- Later: guilt, panic, and a bigger task than before\n\nEvery dodge teaches your brain that avoiding works. The loop tightens. Breaking it means changing the start, not summoning more willpower."
+      },
+      {
+        "type": "true_false",
+        "prompt": "Procrastination basically means you're lazy and bad at managing time.",
+        "answer": false,
+        "explanation": "It's an emotion-regulation problem — you avoid a task to escape the bad feeling it brings, not because you can't manage a clock."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "What gives that quick rush of relief and quietly keeps the loop going?",
+        "context": "You've put off the assignment for an hour, then open your group chat instead.",
+        "options": [
+          "Finally finishing a hard chapter",
+          "Avoiding the task you were dreading",
+          "Writing a detailed to-do list",
+          "Setting a deadline for tomorrow"
+        ],
+        "correctIndex": 1,
+        "explanation": "The escape feels good in the moment, so your brain learns that dodging the task pays off — and does it again."
+      },
+      {
+        "type": "material",
+        "title": "Start absurdly small",
+        "body": "Starting is the hard part, not the doing. So make starting tiny.\n\n- **2-minute rule:** commit to two minutes, not the whole essay. \"Just open it and write one bad sentence.\"\n- Motivation doesn't show up first and then you act. It's the reverse — you act, and then the motivation arrives.\n\nOnce the doc is open and the first ugly line exists, the next line is suddenly easy."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "You've been dreading a big essay all day. What's the smartest first move?",
+        "options": [
+          "Wait until you feel motivated to write",
+          "Block out the whole evening to finish it",
+          "Open the doc and write one bad sentence",
+          "Make a color-coded plan for all your subjects"
+        ],
+        "correctIndex": 2,
+        "explanation": "Shrinking the first step until it's almost effortless gets you started — and motivation follows action, not the other way around."
+      },
+      {
+        "type": "tap_word",
+        "instructions": "One word flips this rule backwards. Tap it.",
+        "sentence": "Motivation usually shows up before you take the first step.",
+        "wrongWord": "before",
+        "correctWord": "after",
+        "explanation": "Action comes first; motivation follows. That’s why starting tiny works — you don’t have to feel ready."
+      },
+      {
+        "type": "material",
+        "title": "Lower the bar, cut the cues",
+        "body": "Two more levers:\n\n- **Lower the bar.** Perfectionism is rocket fuel for procrastination — if it has to be perfect, you'll never start. A messy first draft beats a flawless none.\n- **Remove the cue.** Out of sight, out of mind. Phone in another room, distracting tabs closed. You can't tap what you can't reach."
+      },
+      {
+        "type": "match_pairs",
+        "prompt": "Match each trick to why it actually works.",
+        "pairs": [
+          {
+            "left": "2-minute rule",
+            "right": "Makes starting almost effortless"
+          },
+          {
+            "left": "Phone in another room",
+            "right": "Removes the cue to scroll"
+          },
+          {
+            "left": "Messy first draft",
+            "right": "Beats perfectionism that stalls you"
+          },
+          {
+            "left": "Pomodoro timer",
+            "right": "Makes the task feel finite"
+          }
+        ]
+      },
+      {
+        "type": "categorize",
+        "prompt": "Does this habit help you beat procrastination, or fuel it?",
+        "categories": [
+          "Helps",
+          "Fuels"
+        ],
+        "items": [
+          {
+            "text": "Phone face-down in another room",
+            "category": 0
+          },
+          {
+            "text": "Writing a deliberately rough first draft",
+            "category": 0
+          },
+          {
+            "text": "Waiting until you feel perfectly ready",
+            "category": 1
+          },
+          {
+            "text": "Demanding the first line be flawless",
+            "category": 1
+          },
+          {
+            "text": "Committing to just two minutes",
+            "category": 0
+          },
+          {
+            "text": "Promising yourself a snack the second you finish",
+            "category": 0
+          },
+          {
+            "text": "Leaving ten tabs open \"for later\"",
+            "category": 1
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "Make it finite and concrete",
+        "body": "A vague \"I'll study tonight\" is easy to dodge. Pin it down.\n\n- **Implementation intention:** \"After dinner, at my desk, I'll do 25 minutes of math.\" When-where-what, decided in advance.\n- **Pomodoro:** 25 minutes on, 5 minutes off. A scary, endless task becomes one 25-minute block you can actually picture finishing."
+      },
+      {
+        "type": "slider_estimate",
+        "prompt": "One Pomodoro focus block lasts how many minutes before the break?",
+        "min": 5,
+        "max": 45,
+        "step": 5,
+        "answer": 25,
+        "tolerance": 5,
+        "unitPrefix": "",
+        "explanation": "A classic Pomodoro is 25 minutes of focus, then a 5-minute break — short enough to start, long enough to get real work done."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "Put these steps in order to break the avoidance loop right now.",
+        "steps": [
+          "Put the phone in another room",
+          "Open the doc and write one bad line",
+          "Set a 25-minute Pomodoro and keep going",
+          "Take a 5-minute break, then start the next block"
+        ],
+        "explanation": "Cut the cue, shrink the start, make it finite, then reset — each step lowers the wall between you and the work."
+      },
+      {
+        "type": "material",
+        "title": "Forgive, then restart",
+        "body": "Two last truths most people miss:\n\n- **Self-compassion beats self-blame.** Beating yourself up over a slip makes you procrastinate more. Forgive the lost hour and just start the next one.\n- **You discount the future.** A reward or deadline that feels far away barely moves you. Pull it closer — a tiny reward now, a deadline you can feel today."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "You wasted the whole afternoon and feel terrible. What helps you actually get going?",
+        "options": [
+          "Punish yourself by skipping dinner until it's done",
+          "Decide the day's ruined and try again tomorrow",
+          "Spend an hour replaying everything you did wrong",
+          "Forgive the lost time and start a 25-minute block"
+        ],
+        "correctIndex": 3,
+        "explanation": "Harsh self-blame piles on more bad feeling — the exact thing you avoid tasks to escape. Self-forgiveness clears the way to restart."
+      },
+      {
+        "type": "reflect",
+        "prompt": "Think of one task you keep dodging. What's the two-minute version you could start in the next ten minutes?",
+        "context": "Be specific — name the task and the absurdly small first move.",
+        "chips": [
+          "Open the doc",
+          "Read one page",
+          "Write one line",
+          "Phone in another room"
+        ],
+        "placeholder": "The two-minute version is…",
+        "explanation": "Naming the tiny first step out loud is half the battle — the rest is just opening the thing."
+      },
+      {
+        "type": "decision_path",
+        "title": "The 8 p.m. essay",
+        "intro": "An essay is due tomorrow morning and you keep finding reasons not to start. Build momentum to 100.",
+        "stat": {
+          "name": "Momentum",
+          "emoji": "🚀",
+          "start": 0
+        },
+        "steps": [
+          {
+            "situation": "It's 8 p.m. The blank doc is open. Your brain says \"not yet.\"",
+            "options": [
+              {
+                "text": "Write one bad first line for two minutes",
+                "delta": 30,
+                "feedback": "Starting tiny beats the dread — the first ugly sentence breaks the seal.",
+                "best": true
+              },
+              {
+                "text": "Check socials \"just for a sec\"",
+                "delta": -20,
+                "feedback": "That quick relief rewards the dodge. A sec becomes an hour."
+              },
+              {
+                "text": "Wait until you \"feel ready\"",
+                "delta": -15,
+                "feedback": "Readiness comes after you start, not before. You'd be waiting all night."
+              }
+            ]
+          },
+          {
+            "situation": "You've got a rough paragraph. Your phone keeps buzzing on the desk.",
+            "options": [
+              {
+                "text": "Stop and clean your room instead",
+                "delta": -15,
+                "feedback": "Productive-looking avoidance is still avoidance. The essay didn't move."
+              },
+              {
+                "text": "Put the phone in another room",
+                "delta": 30,
+                "feedback": "Out of sight, out of mind — you killed the cue before it could grab you.",
+                "best": true
+              }
+            ]
+          },
+          {
+            "situation": "The paragraph is messy and you want to perfect it before going on.",
+            "options": [
+              {
+                "text": "Leave it rough and do one 25-minute Pomodoro",
+                "delta": 40,
+                "feedback": "A messy draft you finish beats a perfect one you never write. Momentum maxed.",
+                "best": true
+              },
+              {
+                "text": "Rewrite the first line until it's flawless",
+                "delta": -20,
+                "feedback": "Perfectionism is procrastination in disguise — it keeps you stuck on line one."
+              }
+            ]
+          }
+        ],
+        "outro": "Tiny start, no phone, messy and finite. That's the whole escape hatch."
+      }
+    ],
+    "summaryPoints": [
+      "Spot procrastination as a feelings problem, not a character flaw",
+      "Shrink the first step until starting takes two minutes",
+      "Kill the cue — phone in another room, distracting tabs closed",
+      "Use a 25-minute Pomodoro to make a scary task feel finite",
+      "Forgive the last slip and start again — self-blame makes it worse"
+    ]
+  },
+  "how-to-learn__plan-your-time": {
+    "content": [
+      {
+        "type": "material",
+        "title": "Where did the week go?",
+        "body": "You start Monday swearing this week will be different. Then it's Sunday night, three deadlines are stacked on top of each other, and you have no idea where the time went.\n\nThe fix isn't more willpower. It's a plan that fits the week you actually have — not the fantasy one where you study six hours a day and never touch your phone."
+      },
+      {
+        "type": "material",
+        "title": "Anchors first",
+        "body": "Build your week in layers. Drop the **anchors** in first — the things that can't move:\n- Due dates and exam dates\n- Classes and work shifts\n- Sleep and meals\n\nThen slot **study blocks** into the gaps that are left. Then — this is the part everyone skips — leave **buffer** for surprises. The bus is late, the wifi dies, a friend needs you. A week with zero slack breaks the first time life happens."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "Put the steps for building a weekly schedule in order.",
+        "steps": [
+          "Block your fixed anchors: due dates, classes, sleep",
+          "Slot study blocks into the open gaps",
+          "Leave buffer time for surprises",
+          "Schedule downtime and rewards on purpose"
+        ],
+        "explanation": "Anchors can't move, so they go first. Study fills the gaps, buffer absorbs chaos, and planned downtime keeps you from burning out."
+      },
+      {
+        "type": "true_false",
+        "prompt": "One long six-hour cram session teaches you more than six shorter sessions spread across the week.",
+        "answer": false,
+        "explanation": "Spreading practice across shorter blocks (distributed practice) helps you learn more efficiently than one marathon. Your brain consolidates between sessions."
+      },
+      {
+        "type": "material",
+        "title": "Two cheap habits with huge payoff",
+        "body": "Two tiny moves around every class quietly double what sticks:\n\n**Preview** for about 30 minutes before class — skim what's coming so the lecture lands on prepared ground, not blank ground.\n\n**Review** right after — even five minutes re-reading your notes, before the lecture fades, dramatically boosts how much you keep.\n\nNeither feels like real studying. Both punch way above their weight."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Which 30 minutes does the most for what you remember?",
+        "context": "You have one free half-hour to spend on a class you just had.",
+        "options": [
+          "Re-copying the slides neatly in color",
+          "Reviewing your notes right after class, while it's fresh",
+          "Saving it all for the night before the exam instead",
+          "Reading ahead three chapters you won't cover for weeks"
+        ],
+        "correctIndex": 1,
+        "explanation": "Reviewing right after class catches the material before it fades, locking in far more than a last-minute pass before the exam."
+      },
+      {
+        "type": "material",
+        "title": "Backward-plan the big stuff",
+        "body": "A research paper due in three weeks isn't one task — it's a trap if you treat it like one. \"I'll start later\" becomes \"it's due tomorrow.\"\n\nInstead, **backward-plan**: break it into milestones, each with its own mini-deadline.\n- Topic picked by Tuesday\n- Sources found by Friday\n- Rough draft by next Wednesday\n- Edited and done two days early\n\nNow the scary deadline is just a few small ones you can actually hit."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Splitting a big assignment into milestones with their own mini-deadlines is called ___ planning.",
+        "answer": "backward",
+        "accept": [
+          "backwards"
+        ],
+        "hint": "You start from the due date and work back.",
+        "explanation": "Backward planning starts at the deadline and works back to today, so each milestone gets its own date instead of one terrifying one."
+      },
+      {
+        "type": "material",
+        "title": "Know your rhythm",
+        "body": "Your brain has peak hours. Some people are sharpest at 8am (morning larks); others don't really switch on until 10pm (night owls). Neither is better.\n\nThe move is to schedule your **hardest** work — the dense reading, the math, the writing — inside your peak-focus window. Save the easy stuff (tidying notes, replying to emails) for when your brain is half-asleep anyway."
+      },
+      {
+        "type": "tap_word",
+        "instructions": "One word makes this advice backwards. Tap it.",
+        "sentence": "Schedule your hardest work during your lowest energy hours of the day.",
+        "wrongWord": "lowest",
+        "correctWord": "peak",
+        "explanation": "Hard work belongs in your peak-focus hours. Dump easy tasks into the low-energy slots instead."
+      },
+      {
+        "type": "material",
+        "title": "What kind of planner are you?",
+        "body": "Most people fall into one of three styles:\n- **The early bird** finishes ahead of time. Strength: never rushed. Risk: rushing through to be \"done.\"\n- **The pressure cooker** thrives last-minute on intense focus. Risk: zero buffer — one surprise and it's over. Fix: set small earlier deadlines for yourself.\n- **The balancer** keeps a steady pace and rarely panics.\n\nNo style is wrong. Each just has a trap to dodge."
+      },
+      {
+        "type": "match_pairs",
+        "prompt": "Match each work style to the move that keeps it on track.",
+        "pairs": [
+          {
+            "left": "Pressure cooker",
+            "right": "Set small earlier deadlines"
+          },
+          {
+            "left": "Early bird",
+            "right": "Slow down so you don't rush"
+          },
+          {
+            "left": "Balancer",
+            "right": "Protect your steady pace"
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "What does Parkinson's Law warn you about?",
+        "context": "You give yourself the whole weekend to write one short essay.",
+        "options": [
+          "Working on weekends always lowers your grades",
+          "You should never set deadlines for yourself",
+          "Long tasks are always more important than short ones",
+          "Work expands to fill the time you give it, so tighter limits help"
+        ],
+        "correctIndex": 3,
+        "explanation": "Parkinson's Law: a task stretches to fill whatever time you allow. Give the essay two focused hours and it often gets done in two."
+      },
+      {
+        "type": "material",
+        "title": "The to-do list that works",
+        "body": "A good list isn't a brain-dump of everything forever. It's a short, doable plan:\n- **Write tomorrow's list tonight** — you wake up knowing exactly where to start\n- **Break big tasks into ~1-hour chunks** — \"study chemistry\" is vague; \"do 10 chem problems\" is doable\n- **Flag your top priorities** so the important stuff doesn't get buried\n- **Reward yourself** for crossing things off — momentum is fuel"
+      },
+      {
+        "type": "categorize",
+        "prompt": "Fixed anchor or flexible block? Sort each item by whether it can move in your week.",
+        "categories": [
+          "Fixed anchor",
+          "Flexible block"
+        ],
+        "items": [
+          {
+            "text": "Your 9am lecture",
+            "category": 0
+          },
+          {
+            "text": "Saturday work shift",
+            "category": 0
+          },
+          {
+            "text": "Exam date",
+            "category": 0
+          },
+          {
+            "text": "An hour of chemistry practice",
+            "category": 1
+          },
+          {
+            "text": "Reviewing your notes",
+            "category": 1
+          },
+          {
+            "text": "Buffer time for surprises",
+            "category": 1
+          }
+        ]
+      },
+      {
+        "type": "priority_matrix",
+        "prompt": "Plan your real week. Drop each task into the square it belongs in.",
+        "tasks": [
+          {
+            "text": "Lab report due at midnight tonight",
+            "urgent": true,
+            "important": true
+          },
+          {
+            "text": "Start backward-planning the term project",
+            "urgent": false,
+            "important": true
+          },
+          {
+            "text": "Answer a classmate's quick question about homework",
+            "urgent": true,
+            "important": false
+          },
+          {
+            "text": "Reorganize your phone's home screen",
+            "urgent": false,
+            "important": false
+          },
+          {
+            "text": "Reply to the group-chat asking where to eat",
+            "urgent": true,
+            "important": false
+          },
+          {
+            "text": "Review today's lecture notes before they fade",
+            "urgent": false,
+            "important": true
+          }
+        ],
+        "explanation": "Urgent and important things get done now; important-but-not-urgent work (projects, review) is where you should live; the rest gets squeezed or dropped."
+      }
+    ],
+    "summaryPoints": [
+      "Build a schedule anchors-first: due dates, classes, sleep — then study blocks in the gaps",
+      "Leave buffer for surprises and schedule downtime on purpose so it's guilt-free",
+      "Stack short regular study sessions instead of one long cram",
+      "Schedule your hardest work in your peak-focus hours",
+      "Write tomorrow's to-do list tonight and break big tasks into ~1-hour chunks"
+    ]
+  },
+  "how-to-learn__critical-thinking": {
+    "content": [
+      {
+        "type": "material",
+        "title": "Don't swallow it whole",
+        "body": "A post shows up in the group chat: \"Scientists say studying with music makes you 40% smarter.\" Three people already shared it.\n\nCritical thinking is the pause before you hit share. It's not being negative — it's refusing to swallow a claim whole just because it sounds good or everyone's repeating it.\n\nYou ask: is that actually true? Who said it? Where's the proof?",
+        "image": "/illustrations/critical-thinking.svg",
+        "imageAlt": "A magnifying glass examining a lightbulb"
+      },
+      {
+        "type": "material",
+        "title": "Fact, opinion, or just a claim",
+        "body": "Three different things often get jumbled together:\n\n- **Fact** — checkable against reality. \"Water boils at 100°C at sea level.\"\n- **Opinion** — someone's preference or judgment. \"Rainy days are the best for studying.\"\n- **Unsupported claim** — sounds like a fact but has no evidence behind it. \"This app rewires your brain in a week.\"\n\nThe trap is treating the third one like the first."
+      },
+      {
+        "type": "categorize",
+        "prompt": "Fact or opinion?",
+        "categories": [
+          "Fact",
+          "Opinion"
+        ],
+        "items": [
+          {
+            "text": "The exam is on Tuesday at 9am",
+            "category": 0
+          },
+          {
+            "text": "History is way more interesting than chemistry",
+            "category": 1
+          },
+          {
+            "text": "Our school has 1,200 students",
+            "category": 0
+          },
+          {
+            "text": "This is the hardest class in the whole school",
+            "category": 1
+          },
+          {
+            "text": "Pizza tastes better than salad",
+            "category": 1
+          },
+          {
+            "text": "The library closes at 8pm",
+            "category": 0
+          }
+        ]
+      },
+      {
+        "type": "true_false",
+        "prompt": "An unsupported claim counts as a fact as long as it sounds confident.",
+        "answer": false,
+        "explanation": "Confidence isn't evidence. A claim only becomes a fact when you can actually verify it."
+      },
+      {
+        "type": "material",
+        "title": "Check the source",
+        "body": "Before you trust a claim, size up where it came from:\n\n- **Who's saying it?** A doctor, a random account, an ad?\n- **What's their evidence?** Data and studies, or just vibes?\n- **Do they benefit?** Someone selling the thing isn't a neutral judge.\n- **Are they biased?** Everyone leans somewhere — notice it.\n- **Is it current?** A 2009 stat about phones is ancient history.\n\nNo evidence, big payday for them? Be extra suspicious."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Which source is most credible for whether a study trick works?",
+        "context": "You want to know if rewriting notes by hand actually helps you remember.",
+        "options": [
+          "An influencer's ad for a $40 note-taking course",
+          "A random comment that says 'trust me, it works'",
+          "A peer-reviewed study comparing handwriting and typing",
+          "A meme you saw three times this week"
+        ],
+        "correctIndex": 2,
+        "explanation": "A study with real evidence beats sources that are selling something, anonymous, or just repeated a lot."
+      },
+      {
+        "type": "match_pairs",
+        "prompt": "Match each thinking trap to what it actually is.",
+        "pairs": [
+          {
+            "left": "Bandwagon",
+            "right": "Everyone believes it, so it's true"
+          },
+          {
+            "left": "Ad hominem",
+            "right": "Attack the person, not the point"
+          },
+          {
+            "left": "False cause",
+            "right": "Correlation mistaken for cause"
+          },
+          {
+            "left": "False dilemma",
+            "right": "Only two options offered"
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "Fallacies to dodge",
+        "body": "Fallacies are sneaky shortcuts that feel convincing but prove nothing:\n\n- **Bandwagon** — \"everyone's doing it\" so it must be right.\n- **Ad hominem** — trash the person instead of their argument.\n- **False cause** — two things happen together, so one caused the other.\n- **False dilemma** — pretending there are only two choices.\n- **Appeal to emotion** — scaring or hyping you past the logic.\n- **Cherry-picking** — showing only the data that fits."
+      },
+      {
+        "type": "true_false",
+        "prompt": "If ice cream sales and sunburns rise together, ice cream must cause sunburns.",
+        "answer": false,
+        "explanation": "Correlation isn't causation — hot weather drives both. That's the false-cause trap."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Which line is the bandwagon fallacy?",
+        "options": [
+          "This app has three studies showing it improves recall",
+          "Everyone in class uses this app, so it must be the best",
+          "I tried this app and my grades went up over a month",
+          "The app is free, which makes it worth testing"
+        ],
+        "correctIndex": 1,
+        "explanation": "Popularity isn't proof. 'Everyone does it' is the bandwagon move, no matter how many people pile on."
+      },
+      {
+        "type": "tap_word",
+        "instructions": "One word makes this advice backwards. Tap it.",
+        "sentence": "Confirmation bias makes you favor information that disagrees with what you already believe.",
+        "wrongWord": "disagrees",
+        "correctWord": "agrees",
+        "explanation": "Confirmation bias pulls you toward info that agrees with you — which is exactly why you have to check the other side on purpose."
+      },
+      {
+        "type": "material",
+        "title": "Read sideways, not down",
+        "body": "When a sketchy site says \"we're a trusted health authority,\" don't just scroll down their own page — of course they'll praise themselves.\n\n**Lateral reading** means leaving the page and opening new tabs to see what other, independent sources say about that source. Fact-checkers do this first.\n\nA single page can lie all day. A web of independent sources is much harder to fake."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "Put the steps for evaluating a claim in order.",
+        "steps": [
+          "Notice the claim and what it's really saying",
+          "Check who's saying it and what evidence they have",
+          "Read laterally to see what other sources say",
+          "Look for the other side and another explanation",
+          "Decide whether to trust, doubt, or share it"
+        ],
+        "explanation": "Spot it, source it, cross-check it, weigh the other side, then decide — judging before you investigate is how you get fooled."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Leaving a page to see what other sources say about it is called ___ reading.",
+        "answer": "lateral",
+        "accept": [
+          "Lateral"
+        ],
+        "hint": "It means sideways.",
+        "explanation": "Lateral reading checks a source from the outside instead of trusting what it says about itself."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "A shocking headline makes you furious before you finish reading. What's the smart first move?",
+        "options": [
+          "Pause and ask what evidence backs the claim",
+          "Share it fast while you're still fired up",
+          "Trust it because it made you feel something strong",
+          "Assume it's true since it confirms what you suspected"
+        ],
+        "correctIndex": 0,
+        "explanation": "Strong emotion is a flag, not proof — appeal to emotion works by rushing you past the evidence."
+      },
+      {
+        "type": "decision_path",
+        "title": "Is it true?",
+        "intro": "A jaw-dropping post is going viral: \"BREAKING: 8 hours of sleep secretly LOWERS your test scores!\" Your finger's on share. Keep the Truth-o-meter high.",
+        "stat": {
+          "name": "Truth-o-meter",
+          "emoji": "🔍",
+          "start": 50
+        },
+        "steps": [
+          {
+            "situation": "The post has no author and links to nothing. What first?",
+            "options": [
+              {
+                "text": "Check who posted it and what evidence they show",
+                "delta": 25,
+                "feedback": "Source first — no name and no evidence is a giant red flag.",
+                "best": true
+              },
+              {
+                "text": "Share it because it's shocking",
+                "delta": -30,
+                "feedback": "Shock value isn't truth. You just spread an unchecked claim."
+              },
+              {
+                "text": "Believe it — a friend reposted it",
+                "delta": -20,
+                "feedback": "A friend sharing it doesn't make it true. That's bandwagon thinking."
+              }
+            ]
+          },
+          {
+            "situation": "You find the original 'source': an ad for a $30 energy-drink that 'replaces sleep.'",
+            "options": [
+              {
+                "text": "Trust the ad's own 'studies' section",
+                "delta": -25,
+                "feedback": "A seller grading their own product isn't neutral evidence."
+              },
+              {
+                "text": "Read laterally — see what real sleep researchers say",
+                "delta": 25,
+                "feedback": "Independent sources beat a page that's selling you something.",
+                "best": true
+              },
+              {
+                "text": "Accept it — it fits your hope that sleep is overrated",
+                "delta": -20,
+                "feedback": "That's confirmation bias deciding for you."
+              }
+            ]
+          },
+          {
+            "situation": "Every independent source says sleep HELPS memory and scores. The post cherry-picked one odd graph.",
+            "options": [
+              {
+                "text": "Trust the weight of independent evidence, don't share the post",
+                "delta": 25,
+                "feedback": "You weighed the other side and followed the evidence. That's the whole skill.",
+                "best": true
+              },
+              {
+                "text": "Share anyway — the one weird graph is interesting",
+                "delta": -25,
+                "feedback": "Cherry-picked data isn't the full picture. Don't amplify it."
+              }
+            ]
+          }
+        ],
+        "outro": "You questioned it, sourced it, read laterally, and let evidence — not the headline — decide. That's critical thinking."
+      }
+    ],
+    "summaryPoints": [
+      "Separate facts you can verify from opinions and unsupported claims",
+      "Size up a source: who said it, what's their evidence, who benefits",
+      "Spot fallacies like bandwagon, ad hominem, and false cause",
+      "Read laterally — leave the page and see what others say about it",
+      "Catch your own confirmation bias before it does the thinking for you"
+    ]
+  },
+  "how-to-learn__metacognition": {
+    "content": [
+      {
+        "type": "material",
+        "title": "The voice in your head",
+        "body": "Ever finish reading a page, glance up, and realize you have no idea what you just read? That little nudge — wait, did I actually get that? — is your brain checking on itself.\n\nThat's **metacognition**: thinking about your own thinking. It's the quiet skill behind every other skill, because it's how you steer your learning instead of just hoping it sticks.",
+        "image": "/illustrations/metacognition.svg",
+        "imageAlt": "A brain reflected in a mirror, thinking about thinking"
+      },
+      {
+        "type": "material",
+        "title": "Three phases, every time",
+        "body": "Good learners run a loop, usually without noticing:\n- **Plan** — What do I already know? What's the goal? Which strategy fits?\n- **Monitor** — Is this working? Do I really get it, or do I just recognize it?\n- **Evaluate** — What worked? What would I change next time?\n\nMost people only ever do the middle part, and badly. The real wins hide in the planning up front and the honest check at the end."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "Put the metacognition loop in the order you actually use it.",
+        "steps": [
+          "Plan: figure out the goal and pick a strategy",
+          "Monitor: check mid-session whether it's working",
+          "Evaluate: ask what worked and what to change"
+        ],
+        "explanation": "Plan before you start, monitor while you go, evaluate after. Skip the first and last and you're just flailing in the middle."
+      },
+      {
+        "type": "match_pairs",
+        "prompt": "Match each phase to the question it asks.",
+        "pairs": [
+          {
+            "left": "Plan",
+            "right": "Which strategy fits this goal?"
+          },
+          {
+            "left": "Monitor",
+            "right": "Is this actually working?"
+          },
+          {
+            "left": "Evaluate",
+            "right": "What would I change next time?"
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "The trap: feeling like you know",
+        "body": "Here's the sneaky part. Rereading your notes and slapping highlighter everywhere feels productive. The words get familiar, so your brain whispers, \"Yeah, I've got this.\"\n\nThat warm feeling is the **illusion of competence**. Recognizing something on the page is not the same as being able to pull it out of your head in an exam — where the page isn't there to help."
+      },
+      {
+        "type": "true_false",
+        "prompt": "If you reread something until it feels familiar, you've learned it.",
+        "answer": false,
+        "explanation": "Familiarity is recognition, not recall. Feeling like you know it is exactly the illusion of competence the exam will expose."
+      },
+      {
+        "type": "tap_word",
+        "instructions": "One word makes this false. Tap it.",
+        "sentence": "Highlighting and rereading are the best proof that you truly know something.",
+        "wrongWord": "best",
+        "correctWord": "weakest",
+        "explanation": "Rereading and highlighting feel productive but only build familiarity — self-testing is what proves real recall."
+      },
+      {
+        "type": "categorize",
+        "prompt": "Feels like learning, or actually builds it?",
+        "categories": [
+          "Just feels like learning",
+          "Actually builds it"
+        ],
+        "items": [
+          {
+            "text": "Highlighting half the textbook",
+            "category": 0
+          },
+          {
+            "text": "Closing the book and writing what you remember",
+            "category": 1
+          },
+          {
+            "text": "Rereading your notes a fifth time",
+            "category": 0
+          },
+          {
+            "text": "Quizzing yourself with the page hidden",
+            "category": 1
+          },
+          {
+            "text": "Copying the slides out word for word",
+            "category": 0
+          },
+          {
+            "text": "Explaining it out loud from memory",
+            "category": 1
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "Self-testing breaks the spell",
+        "body": "The fix is uncomfortable on purpose: **close the book and test yourself.**\n\nWhen you try to recall an answer and come up blank, that blank is the truth. It feels harder than rereading — and that difficulty is the whole point. The struggle is your brain actually building the memory, and it instantly shows you the gaps you'd otherwise miss."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "What actually tells you whether you understand something?",
+        "context": "You've read the chapter three times and it all looks familiar.",
+        "options": [
+          "Reread it a fourth time, slower",
+          "Highlight the parts that felt important",
+          "Close the book and try to explain or test yourself on it",
+          "Notice that none of it surprised you"
+        ],
+        "correctIndex": 2,
+        "explanation": "Only retrieval — pulling it out without the page — proves real understanding. Everything else just measures familiarity."
+      },
+      {
+        "type": "material",
+        "title": "Explain it to a twelve-year-old",
+        "body": "The **Feynman technique** is a brutal honesty machine. Pick the idea and explain it in plain words, as if to a curious twelve-year-old — no jargon to hide behind.\n\nWherever you get stuck, vague, or reach for a fancy term you can't unpack? That's exactly what you don't truly understand yet. Go relearn that spot, then try the explanation again."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "In the Feynman technique, what does getting stuck or vague reveal?",
+        "options": [
+          "That the topic is just naturally confusing",
+          "The precise spot you don't actually understand yet",
+          "That you should use more technical terms",
+          "That you're a slow learner"
+        ],
+        "correctIndex": 1,
+        "explanation": "Stumbling is a feature, not a flaw — it pinpoints the exact gap so you know what to go relearn."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "The honest gut-check before calling something learned: How do I know I actually ___ this?",
+        "answer": "know",
+        "accept": [
+          "understand"
+        ],
+        "hint": "It's the word that follows 'actually'.",
+        "explanation": "\"How do I know I actually know this?\" forces real evidence — a test passed, an idea explained — instead of a vague feeling."
+      },
+      {
+        "type": "true_false",
+        "prompt": "Weaker students tend to overestimate how much they actually know.",
+        "answer": true,
+        "explanation": "The less you know, the harder it is to see what's missing. Practice tests calibrate that gap so your confidence matches reality."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "You feel super confident but want to be sure. What calibrates that confidence best?",
+        "options": [
+          "Taking a practice test under real conditions",
+          "Reading your notes one more time",
+          "Trusting the confident feeling",
+          "Asking a friend if they think you're ready"
+        ],
+        "correctIndex": 0,
+        "explanation": "A practice test shows your true score, not your gut feeling — the cure for overestimating what you know."
+      },
+      {
+        "type": "reflect",
+        "prompt": "Pick a real task coming up. Write your PLAN — what you already know, the goal, and the strategy you'll use — then how you'll CHECK it's actually working.",
+        "context": "This is the whole loop in one move: plan it, then build in a way to monitor yourself instead of just hoping.",
+        "chips": [
+          "A test",
+          "An essay",
+          "A presentation",
+          "A problem set"
+        ],
+        "placeholder": "I already know… my goal is… my strategy is… I'll know it's working when…",
+        "explanation": "Naming the goal, the strategy, and the check turns vague studying into something you can actually steer."
+      }
+    ],
+    "summaryPoints": [
+      "Run every study session in three phases: plan, monitor, evaluate",
+      "Spot the illusion of competence — recognizing isn't the same as recalling",
+      "Self-test to expose gaps; the harder it feels, the more it's working",
+      "Use the Feynman trick: explain it simply, and your fuzzy spots show up",
+      "Ask 'how do I know I actually know this?' before you call it learned"
+    ]
+  },
+  "how-to-learn__blooms-taxonomy": {
+    "content": [
+      {
+        "type": "material",
+        "title": "Knowing vs. KNOWING",
+        "body": "You can recite the water cycle in your sleep and still freeze when an exam asks you to **design** an experiment about it.\n\nThat gap has a name. Thinking comes in levels — from just recalling a fact to building something brand new with it. A psychologist named Bloom stacked those levels into a ladder, and exams love climbing it.",
+        "image": "/illustrations/bloom-pyramid.svg",
+        "imageAlt": "Bloom's six-level thinking pyramid from Remember at the base to Create at the top"
+      },
+      {
+        "type": "material",
+        "title": "The six rungs",
+        "body": "Bottom to top:\n- **Remember** — recall facts and terms\n- **Understand** — explain it in your own words\n- **Apply** — use it to solve a new problem\n- **Analyze** — break it apart, compare, find patterns and relationships\n- **Evaluate** — judge and critique it against criteria\n- **Create** — design or build something new\n\nThe bottom two are lower-order. The top four climb into higher-order thinking — where real exams live.",
+        "image": "/illustrations/bloom-pyramid.svg",
+        "imageAlt": "Pyramid of Bloom's levels: Remember, Understand, Apply, Analyze, Evaluate, Create"
+      },
+      {
+        "type": "match_pairs",
+        "prompt": "Match each level to a task that lives there.",
+        "pairs": [
+          {
+            "left": "Remember",
+            "right": "List the planets"
+          },
+          {
+            "left": "Understand",
+            "right": "Explain orbits in your words"
+          },
+          {
+            "left": "Apply",
+            "right": "Solve a new gravity problem"
+          },
+          {
+            "left": "Evaluate",
+            "right": "Judge which theory fits best"
+          }
+        ]
+      },
+      {
+        "type": "true_false",
+        "prompt": "Memorizing a pile of facts is the highest level of thinking.",
+        "answer": false,
+        "explanation": "Remembering facts is the LOWEST rung. The higher levels — analyze, evaluate, create — ask you to do something with those facts."
+      },
+      {
+        "type": "material",
+        "title": "Why the split matters",
+        "body": "The two bottom rungs feel safe — you reread, you recognize, you nod along. But that comfort is a trap.\n\nRecognizing an answer when you see it is not the same as producing one under pressure. The higher rungs force you to do something with the facts — and that's exactly where exams, projects, and real life push you.\n\nSo the question isn't \"do I know this?\" It's \"how high up the ladder can I take it?\""
+      },
+      {
+        "type": "categorize",
+        "prompt": "Lower-order or higher-order thinking?",
+        "categories": [
+          "Lower-order",
+          "Higher-order"
+        ],
+        "items": [
+          {
+            "text": "Define a vocab word",
+            "category": 0
+          },
+          {
+            "text": "Compare two essays",
+            "category": 1
+          },
+          {
+            "text": "Recite a formula",
+            "category": 0
+          },
+          {
+            "text": "Design a survey",
+            "category": 1
+          },
+          {
+            "text": "Critique an argument",
+            "category": 1
+          },
+          {
+            "text": "Label a diagram",
+            "category": 0
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "The verbs give it away",
+        "body": "You can often spot a question's level just from its verb.\n\n- List, define, name → **Remember**\n- Explain, summarize → **Understand**\n- Solve, use, apply → **Apply**\n- Compare, analyze → **Analyze**\n- Judge, justify, critique → **Evaluate**\n- Design, plan, compose → **Create**\n\nRead the verb before you study. \"List\" is happy with flashcards; \"compare\" or \"design\" is not."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Which Bloom level is it asking for?",
+        "context": "An exam question says: \"Design an experiment to test whether music affects memory.\"",
+        "options": [
+          "Create",
+          "Analyze",
+          "Evaluate"
+        ],
+        "correctIndex": 0,
+        "explanation": "\"Design\" means building something new — that's Create, the top rung. Analyzing or judging an existing study would be lower; here you have to produce one."
+      },
+      {
+        "type": "material",
+        "title": "One level up beats memorizing",
+        "body": "Here's a sneaky trick: study one rung above what the test asks.\n\nIf the exam wants you to **apply** a concept, practice **analyzing** it too — break it apart, ask why it works. You'll handle the apply questions easily, because you've already been doing harder thinking.\n\nAim a notch high, and the actual question feels like a warm-up."
+      },
+      {
+        "type": "tap_word",
+        "instructions": "Tap the word that makes this false.",
+        "sentence": "The verb justify points to the Remember level of Bloom’s.",
+        "wrongWord": "Remember",
+        "correctWord": "Evaluate",
+        "explanation": "Justify, judge and critique are Evaluate-level verbs — far above simple recall."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Why is just memorizing usually not enough?",
+        "context": "You know every definition cold, but the test asks you to apply and compare.",
+        "options": [
+          "Memorizing is actually the hardest level",
+          "Lower-order thinking is banned on exams",
+          "Exams usually test the higher levels, not just recall"
+        ],
+        "correctIndex": 2,
+        "explanation": "Most real exams climb to apply, analyze, and evaluate — so studying only to remember leaves you stuck at the bottom rung."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "The level where you produce something brand new — a plan, design, or composition — is called ___.",
+        "answer": "Create",
+        "accept": [
+          "create",
+          "creating"
+        ],
+        "explanation": "Create sits at the top: you're not recalling or analyzing existing ideas, you're building a new one."
+      },
+      {
+        "type": "material",
+        "title": "Study at the right rung",
+        "body": "The rule is simple: **study at or above the level the test will demand.**\n\nIf the exam asks you to apply a formula, doing 50 flashcards of the definition won't cut it — you have to actually solve problems with it.\n\nThe ultimate proof you've got something? You can **teach** it, **use** it on a new problem, and **critique** where it breaks. Then it's truly yours."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Best way to study for it?",
+        "context": "Your chemistry exam will ask you to apply equations to new problems, not just recite them.",
+        "options": [
+          "Re-read your notes until the definitions feel familiar",
+          "Work through new practice problems you haven't seen",
+          "Make flashcards of every term and quiz yourself"
+        ],
+        "correctIndex": 1,
+        "explanation": "The test demands Apply, so practice applying — solving fresh problems. Familiar-feeling notes only build recall, a lower rung."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "Climb Bloom's ladder: put these thinking levels in order, lowest to highest.",
+        "steps": [
+          "Remember",
+          "Understand",
+          "Apply",
+          "Analyze",
+          "Evaluate"
+        ],
+        "explanation": "Recall first, then understand, apply, analyze, and evaluate — and one rung higher still sits Create, where you build something new."
+      }
+    ],
+    "summaryPoints": [
+      "Name Bloom's six levels from lowest to highest thinking",
+      "Tell lower-order recall apart from higher-order analysis and creation",
+      "Read the verbs in a question to spot the level it's testing",
+      "Study at or above the level your exam will actually demand",
+      "Prove you really know something by applying, teaching, and critiquing it"
+    ]
+  },
+  "how-to-learn__active-listening": {
+    "content": [
+      {
+        "type": "material",
+        "title": "Hearing isn't listening",
+        "body": "Your earbuds are out, the teacher is talking, sound is hitting your ears. That's **hearing** — totally automatic, requires nothing from you.\n\n**Listening** is different. It's full attention plus actually processing what the words mean plus engaging with it. It's work, and it's a skill you can get scary good at.\n\nThe gap between the two is why you can sit through a whole lecture and remember almost none of it.",
+        "image": "/illustrations/active-listening.svg",
+        "imageAlt": "An ear catching sound waves"
+      },
+      {
+        "type": "material",
+        "title": "Show up with hooks",
+        "body": "Walk into a lecture cold and every idea is brand new — nothing to hang it on.\n\nSpend two minutes beforehand skimming the slides or last week's notes. Now you've got **hooks**: half-familiar terms your brain can snag the new stuff onto.\n\nThen sit somewhere you'll actually focus — usually nearer the front, away from the friend who makes you laugh. Where you sit quietly decides how much you catch.",
+        "image": "/illustrations/focus-target.svg",
+        "imageAlt": "A bullseye with a single arrow"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Trying to write down every single word the teacher says is the best way to listen.",
+        "answer": false,
+        "explanation": "You can't think and transcribe at the same time — chasing every word means you stop processing the meaning."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "What's the smartest move?",
+        "context": "Mid-lecture, the teacher says something that completely loses you.",
+        "options": [
+          "Jot the exact thing that confused you so you can ask",
+          "Pretend you got it and keep nodding",
+          "Open your phone — you'll just read about it later"
+        ],
+        "correctIndex": 0,
+        "explanation": "Naming the gap turns confusion into a clear question, instead of a hole that quietly grows for the rest of class."
+      },
+      {
+        "type": "material",
+        "title": "Phone away, fully away",
+        "body": "Here's the brutal part: your phone doesn't even have to buzz to wreck your focus. Just **sitting on the desk**, face down, it splits your attention — a slice of your brain keeps idling on it.\n\nAttention is a fixed budget. Multitasking doesn't expand it, it just spends it badly, and comprehension is what gets shortchanged.\n\nSo it goes in the bag. Not in your pocket, not flipped over — in the bag."
+      },
+      {
+        "type": "tap_word",
+        "instructions": "Tap the word that makes this advice wrong.",
+        "sentence": "Splitting your attention in a lecture boosts how much you remember.",
+        "wrongWord": "boosts",
+        "correctWord": "wrecks",
+        "explanation": "Attention is limited — divide it and comprehension drops. Single-task to actually learn."
+      },
+      {
+        "type": "categorize",
+        "prompt": "Active listening or passive hearing?",
+        "categories": [
+          "Active listening",
+          "Passive hearing"
+        ],
+        "items": [
+          {
+            "text": "Putting the lecture's main idea in your own words",
+            "category": 0
+          },
+          {
+            "text": "Letting the sound wash over you while you scroll",
+            "category": 1
+          },
+          {
+            "text": "Noting a question to ask later",
+            "category": 0
+          },
+          {
+            "text": "Zoning out and planning to catch up someday",
+            "category": 1
+          },
+          {
+            "text": "Watching for signposts like 'the key point is'",
+            "category": 0
+          },
+          {
+            "text": "Copying slides down without reading them",
+            "category": 1
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "Listen for the skeleton",
+        "body": "Good speakers hand you the structure out loud — you just have to catch it.\n\n- \"There are **three reasons**…\" → make three slots\n- \"The **key point** is…\" → this one matters, mark it\n- \"**In contrast**…\" → here comes the opposite side\n\nThese signposts are a map. Follow them and you capture how the ideas fit together, not just a pile of disconnected facts.",
+        "image": "/illustrations/note-taking.svg",
+        "imageAlt": "A Cornell-style notebook with a pen"
+      },
+      {
+        "type": "material",
+        "title": "Cues that scream 'test'",
+        "body": "Teachers leak what they care about. Train yourself to catch the tells:\n\n- They **repeat** something — it's important\n- They slow down or get **louder** for emphasis\n- They **write it on the board**\n- They literally say **\"this will be on the test\"**\n\nWhen a cue fires, mark that note. You're basically being handed the study guide in real time."
+      },
+      {
+        "type": "match_pairs",
+        "prompt": "Match each teacher cue to what it's quietly telling you.",
+        "pairs": [
+          {
+            "left": "Repeats a point twice",
+            "right": "This idea is important"
+          },
+          {
+            "left": "\"In contrast…\"",
+            "right": "An opposing side is coming"
+          },
+          {
+            "left": "Writes it on the board",
+            "right": "Worth copying into notes"
+          },
+          {
+            "left": "\"This will be on the test\"",
+            "right": "Study this for sure"
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Which note is doing it right?",
+        "context": "The teacher spends five minutes explaining how a recession affects jobs.",
+        "options": [
+          "Every sentence the teacher said, copied as fast as possible",
+          "\"Recession = less spending, so businesses cut jobs\" in your words",
+          "Nothing — it sounded obvious enough to remember"
+        ],
+        "correctIndex": 1,
+        "explanation": "Rewriting the main idea in your own words proves you processed it; word-for-word copying and 'I'll remember' both skip the thinking."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "Put the active-listening routine in order.",
+        "steps": [
+          "Preview the topic so you have hooks",
+          "Sit up front and stash the phone",
+          "Capture main ideas in your own words",
+          "Review your notes soon after"
+        ],
+        "explanation": "Prep builds hooks, focus protects attention, capturing locks in meaning, and reviewing keeps it from leaking away."
+      },
+      {
+        "type": "material",
+        "title": "Listening to people, not just lectures",
+        "body": "Same skill, higher stakes. When a friend's talking and you're already loading your reply, you've stopped listening — you're just waiting.\n\nTry this instead:\n- **Paraphrase** back: \"So you're saying…\" — it proves you caught it\n- **Ask** a clarifying question instead of assuming\n- Read their **tone and body language**, not only the words\n- Don't **interrupt** — let them finish the thought\n\nPeople can feel the difference instantly."
+      },
+      {
+        "type": "true_false",
+        "prompt": "While a friend is talking, the best use of your brain is rehearsing what you'll say next.",
+        "answer": false,
+        "explanation": "Rehearsing your reply pulls attention off them — you miss what they actually said and the conversation turns into two monologues."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "What's the strongest listening move here?",
+        "context": "A friend is venting about a fight, and you're not totally sure what they're upset about.",
+        "options": [
+          "Jump in with the exact same thing that happened to you",
+          "Tell them what they should do before they finish",
+          "Paraphrase it back: 'So you're saying you felt ignored?'"
+        ],
+        "correctIndex": 2,
+        "explanation": "Paraphrasing checks you understood and signals you're actually with them — advice and one-upping both cut the listening short."
+      },
+      {
+        "type": "decision_path",
+        "title": "The lecture",
+        "intro": "You're in a class you find painfully boring. Every choice nudges how much you actually understand. Get the bar up.",
+        "stat": {
+          "name": "Understanding",
+          "emoji": "🧠",
+          "start": 50
+        },
+        "steps": [
+          {
+            "situation": "You sit down and your phone is in your hand.",
+            "options": [
+              {
+                "text": "Phone in the bag, out of reach",
+                "delta": 20,
+                "feedback": "Its mere presence splits attention — gone is best.",
+                "best": true
+              },
+              {
+                "text": "Face down on the desk, just in case",
+                "delta": -10,
+                "feedback": "Even silent and face down, it keeps skimming your focus."
+              },
+              {
+                "text": "Text under the desk where nobody sees",
+                "delta": -25,
+                "feedback": "Now you're fully multitasking, and comprehension tanks."
+              }
+            ]
+          },
+          {
+            "situation": "The teacher starts and you've got a blank page.",
+            "options": [
+              {
+                "text": "Try to write down every single word",
+                "delta": -15,
+                "feedback": "You can't think and transcribe at once — meaning slips by."
+              },
+              {
+                "text": "Write each main point in your own words",
+                "delta": 20,
+                "feedback": "Rephrasing forces you to process the meaning.",
+                "best": true
+              },
+              {
+                "text": "Just listen, you'll remember it",
+                "delta": -10,
+                "feedback": "Pure listening with zero capture leaks away fast."
+              }
+            ]
+          },
+          {
+            "situation": "Something the teacher says genuinely confuses you.",
+            "options": [
+              {
+                "text": "Jot the exact question you have to ask",
+                "delta": 20,
+                "feedback": "Naming the gap turns confusion into a fixable question.",
+                "best": true
+              },
+              {
+                "text": "Zone out and plan to catch up later",
+                "delta": -20,
+                "feedback": "'Later' rarely comes, and the gap only grows from here."
+              }
+            ]
+          }
+        ],
+        "outro": "Boring or not, listening is a choice you make move by move — and the bar follows."
+      }
+    ],
+    "summaryPoints": [
+      "Treat listening as active work: attend, process the meaning, engage",
+      "Walk into a lecture with a quick preview so your brain has hooks",
+      "Catch structure and signposts instead of transcribing word-for-word",
+      "Read the teacher's cues — repetition, emphasis, 'this is on the test'",
+      "In conversation: paraphrase, ask, and stop rehearsing your reply"
+    ]
+  },
+  "how-to-learn__note-taking": {
+    "content": [
+      {
+        "type": "material",
+        "title": "Why notes even exist",
+        "body": "Your notes have two jobs, and most people only think about one.\n\nJob one: keep your brain **awake and active** while someone talks at you for an hour. Writing forces you to listen for what matters.\n\nJob two: hand future-you something worth studying from at 11pm the night before the exam.\n\nGreat notes do both. A wall of copied text does neither.",
+        "image": "/illustrations/note-taking.svg",
+        "imageAlt": "A Cornell-style notebook with a pen"
+      },
+      {
+        "type": "material",
+        "title": "The forgetting curve is real",
+        "body": "Here's the brutal part: within about an hour of hearing something new, you've already lost roughly **half** of it. That's the forgetting curve, and it doesn't care how interesting the class was.\n\nNotes are how you fight back. But only if you actually go back to them. Notes plus a quick review beat the curve. Notes you never reopen are just decoration."
+      },
+      {
+        "type": "slider_estimate",
+        "prompt": "Roughly what percent of new info do you forget within an hour if you never review it?",
+        "min": 0,
+        "max": 100,
+        "step": 10,
+        "answer": 50,
+        "tolerance": 10,
+        "explanation": "About half is gone within an hour. A quick review the same day resets that curve."
+      },
+      {
+        "type": "true_false",
+        "prompt": "Typing out every single word the teacher says, word for word, is the best way to learn it.",
+        "answer": false,
+        "explanation": "Verbatim transcribing skips the thinking. You learn when you paraphrase and decide what actually matters."
+      },
+      {
+        "type": "material",
+        "title": "Method 1: Cornell",
+        "body": "Split your page into three zones:\n- A **narrow left column** for cues — keywords and questions\n- A **wide right column** for the actual notes during class\n- A **summary strip** along the bottom\n\nDuring class you only write in the right column. Afterward you fill the cue column and summary. Then you self-quiz: cover the notes, read a cue, and answer from memory."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "What's the narrow left 'cue' column in Cornell notes actually for?",
+        "options": [
+          "Cue words and questions you use to quiz yourself later",
+          "Copying the slides word for word",
+          "Doodles so you don't get bored",
+          "The date and the teacher's name"
+        ],
+        "correctIndex": 0,
+        "explanation": "The cue column turns your notes into flashcards: cover the right side, read a cue, recall the answer."
+      },
+      {
+        "type": "material",
+        "title": "Methods 2 and 3",
+        "body": "**Outline** — an indented hierarchy. Main points sit on the left, sub-points tucked underneath. Clean and fast for lectures that are already organized.\n\n**Mind map** — a visual web. Central idea in the middle, branches shooting out to related ideas. Great when topics connect in messy, non-linear ways — like how three causes feed one event."
+      },
+      {
+        "type": "match_pairs",
+        "prompt": "Match each note method to when it shines.",
+        "pairs": [
+          {
+            "left": "Cornell",
+            "right": "Built-in cues for self-quizzing"
+          },
+          {
+            "left": "Outline",
+            "right": "Clear main points and sub-points"
+          },
+          {
+            "left": "Mind map",
+            "right": "Messy, connected ideas"
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "Pen beats laptop (usually)",
+        "body": "Sounds backwards, but handwriting often wins for memory. Here's why: you **can't write fast enough** to copy everything down.\n\nSo your brain is forced to listen, decide what matters, and reword it. That processing is the learning.\n\nLaptop typists tend to keep up too well — they transcribe word for word, skip the thinking, and remember less. The slowness is the feature."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Handwriting often beats typing because you can't write fast enough, so you're forced to ___ ideas in your own words.",
+        "answer": "paraphrase",
+        "accept": [
+          "reword",
+          "rephrase"
+        ],
+        "hint": "Put it in your own words.",
+        "explanation": "Paraphrasing forces your brain to process the idea, and that processing is what makes it stick."
+      },
+      {
+        "type": "tap_word",
+        "instructions": "Tap the word that makes this bad advice.",
+        "sentence": "Reviewing your notes within a week locks in the most memory.",
+        "wrongWord": "week",
+        "correctWord": "day",
+        "explanation": "Most forgetting happens fast, so a quick review within a day is when notes pay off most."
+      },
+      {
+        "type": "categorize",
+        "prompt": "Smart note habit or weak one?",
+        "categories": [
+          "Smart",
+          "Weak"
+        ],
+        "items": [
+          {
+            "text": "Reword ideas in your own words",
+            "category": 0
+          },
+          {
+            "text": "Type the lecture word for word",
+            "category": 1
+          },
+          {
+            "text": "Use abbreviations and symbols",
+            "category": 0
+          },
+          {
+            "text": "Leave white space to add to later",
+            "category": 0
+          },
+          {
+            "text": "Review within 24 hours",
+            "category": 0
+          },
+          {
+            "text": "Never reopen the notes",
+            "category": 1
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Class just ended. What's the move that fights the forgetting curve most?",
+        "context": "You've got messy notes and a free 20 minutes before your next thing.",
+        "options": [
+          "Recopy everything neatly in a new color",
+          "Edit and review the notes within 24 hours while it's fresh",
+          "Wait until the night before the exam to look at them",
+          "Photograph the board and never open it again"
+        ],
+        "correctIndex": 1,
+        "explanation": "Editing and reviewing within a day, while the material is fresh, locks it in before the curve drops you."
+      },
+      {
+        "type": "material",
+        "title": "The whole game in one habit",
+        "body": "If you remember nothing else: notes are step one, not the finish line.\n\nCapture main ideas in **your own words**, use abbreviations and symbols, and leave white space so future-you can add to it. Then edit and review within 24 hours.\n\nThe winners aren't the people with the prettiest notes. They're the ones who actually go back and quiz themselves with them."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "Put the Cornell workflow in order.",
+        "steps": [
+          "Take notes in the wide main column during class",
+          "Within 24 hours, add cue words and questions in the left margin",
+          "Write a short summary at the bottom of the page",
+          "Quiz yourself by covering the notes and answering the cues"
+        ],
+        "explanation": "Notes during class, cues and summary soon after while it's fresh, then self-quizzing turns the page into a study tool."
+      }
+    ],
+    "summaryPoints": [
+      "Capture main ideas in your own words instead of transcribing every word",
+      "Pick a method that fits the material: Cornell, outline, or mind map",
+      "Review notes within 24 hours to beat the forgetting curve",
+      "Use abbreviations, symbols, and white space to keep up and stay readable",
+      "Turn Cornell notes into a self-quiz by covering the page and answering the cues"
+    ]
+  },
+  "how-to-learn__active-reading": {
+    "content": [
+      {
+        "type": "material",
+        "title": "Eyes moving isn't learning",
+        "body": "You read the whole page. You get to the bottom. You remember... nothing.\n\nThat's **passive reading** — eyes sliding over words while your brain naps. It feels like studying, but nothing lands.\n\n**Active reading** is the opposite: you interrogate the text. You hunt for answers, argue with the author, and pull ideas into your own head instead of waiting for them to soak in.",
+        "image": "/illustrations/active-reading.svg",
+        "imageAlt": "An open book with a highlighter and floating question marks"
+      },
+      {
+        "type": "true_false",
+        "prompt": "If you finish every page on time, you've learned the chapter.",
+        "answer": false,
+        "explanation": "Finishing the pages just means your eyes moved. Learning shows up when you can recall and explain what you read."
+      },
+      {
+        "type": "material",
+        "title": "Meet SQ3R",
+        "body": "There's a classic five-step method for chewing through a chapter: **SQ3R**.\n\n- **S**urvey — skim first to build a map\n- **Q**uestion — turn headings into questions\n- **R**ead — read to answer them\n- **R**ecite — say it from memory\n- **R**eview — fill the gaps\n\nThree of the steps start with R, hence \"3R.\" Next we'll walk each one."
+      },
+      {
+        "type": "material",
+        "title": "Survey: get the map first",
+        "body": "Before reading word-for-word, **skim the whole chapter** — headings, the intro, the summary, bold terms, and any figures.\n\nThis takes a few minutes and gives you a map. Now you know where the chapter is going, so each section has a place to slot into instead of arriving as a surprise.\n\nDon't read deeply yet. You're scouting the terrain, not hiking it."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "What should you do FIRST with a brand-new chapter?",
+        "context": "It's 30 pages on cell biology and you've never opened it.",
+        "options": [
+          "Start reading line one and don't stop till the end",
+          "Skim the headings, intro, summary, and bold terms",
+          "Highlight the first paragraph in three colors",
+          "Copy every definition into your notes"
+        ],
+        "correctIndex": 1,
+        "explanation": "Surveying first builds a mental map, so every section you read later has somewhere to land instead of floating loose."
+      },
+      {
+        "type": "material",
+        "title": "Question: turn headings into questions",
+        "body": "See a heading like \"Causes of the French Revolution\"? Flip it into a question: **\"What caused the French Revolution?\"**\n\nNow you're reading with a target. Your brain perks up because it's looking for an answer, not just absorbing gray text.\n\nDo this for every heading before you read that section. A question is a tiny hook your memory can hang the answer on."
+      },
+      {
+        "type": "tap_word",
+        "instructions": "One word is wrong. Tap it.",
+        "sentence": "In the Question step you turn each heading into a statement before you read.",
+        "wrongWord": "statement",
+        "correctWord": "question",
+        "explanation": "Turning a heading into a question gives your reading a target — you read to answer it."
+      },
+      {
+        "type": "material",
+        "title": "Read and Recite",
+        "body": "**Read** one section at a time, hunting for the answer to your question. Slow down on the hard parts — it's not a race.\n\nThen the step that actually builds memory: **Recite**. Look away and say or write the answer in your own words.\n\nThat's retrieval — pulling the idea out of your head. Rereading feels productive but barely sticks. Reciting is where the learning happens."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Which move builds the most lasting memory?",
+        "options": [
+          "Rereading the section a second time",
+          "Highlighting the key sentences",
+          "Looking away and saying the answer in your own words",
+          "Copying the paragraph word-for-word"
+        ],
+        "correctIndex": 2,
+        "explanation": "Reciting from memory is retrieval, which forces your brain to rebuild the idea. Rereading and copying just feel busy."
+      },
+      {
+        "type": "match_pairs",
+        "prompt": "Match each SQ3R letter to what you actually do.",
+        "pairs": [
+          {
+            "left": "Survey",
+            "right": "Skim to build a map"
+          },
+          {
+            "left": "Question",
+            "right": "Turn headings into questions"
+          },
+          {
+            "left": "Read",
+            "right": "Read a section for answers"
+          },
+          {
+            "left": "Recite",
+            "right": "Say it from memory"
+          },
+          {
+            "left": "Review",
+            "right": "Fill gaps and summarize"
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "Review, then annotate well",
+        "body": "**Review** last: go back, fill any gaps, and summarize the whole chapter in a few lines.\n\nWhile reading, annotate smart:\n- Highlight **sparingly** — only key terms and claims\n- Write margin notes in your own words\n- Mark confusing bits with a \"?\"\n- Connect ideas to things you already know\n\nIf you highlight everything, nothing stands out. The whole page glows yellow and your eye has no clue what mattered."
+      },
+      {
+        "type": "true_false",
+        "prompt": "Highlighting almost every sentence helps you remember more.",
+        "answer": false,
+        "explanation": "When everything is highlighted, nothing stands out. Highlight sparingly so the few key terms and claims actually pop."
+      },
+      {
+        "type": "categorize",
+        "prompt": "Active reading habit or passive one?",
+        "categories": [
+          "Active",
+          "Passive"
+        ],
+        "items": [
+          {
+            "text": "Turning a heading into a question",
+            "category": 0
+          },
+          {
+            "text": "Saying the answer from memory",
+            "category": 0
+          },
+          {
+            "text": "Letting your eyes slide to the page's end",
+            "category": 1
+          },
+          {
+            "text": "Marking a confusing part with a '?'",
+            "category": 0
+          },
+          {
+            "text": "Highlighting nearly every line",
+            "category": 1
+          },
+          {
+            "text": "Rereading without testing yourself",
+            "category": 1
+          }
+        ]
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "The step where you look away and say the answer in your own words is called ___.",
+        "answer": "Recite",
+        "accept": [
+          "recite",
+          "recall"
+        ],
+        "hint": "It's one of the three R's, and it means retrieval.",
+        "explanation": "Recite (or recall) is the retrieval step — saying it from memory is what turns reading into knowledge."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "Put the SQ3R steps in order.",
+        "steps": [
+          "Survey",
+          "Question",
+          "Read",
+          "Recite",
+          "Review"
+        ],
+        "explanation": "Map the chapter, set questions, read for answers, recite from memory, then review to fill gaps — that's SQ3R."
+      }
+    ],
+    "summaryPoints": [
+      "Interrogate the text instead of letting your eyes slide over it",
+      "Run SQ3R: Survey, Question, Read, Recite, Review",
+      "Survey a chapter first to build a map before you dive in",
+      "Recite from memory after each section — that's the part that sticks",
+      "Highlight sparingly and write margin notes in your own words"
+    ]
+  },
+  "how-to-learn__test-anxiety": {
+    "content": [
+      {
+        "type": "material",
+        "title": "The blank-screen moment",
+        "body": "You studied. You knew this. Then the paper lands, your heart starts pounding, and your brain goes white. Sound familiar?\n\nThat freeze isn't proof you're dumb or lazy. It's your nervous system overreacting to a threat that isn't actually a tiger. The good news: you can train it to calm down — and this lesson is the drill.",
+        "image": "/illustrations/test-calm.svg",
+        "imageAlt": "A student taking a calm deep breath before an exam"
+      },
+      {
+        "type": "material",
+        "title": "A little stress is your friend",
+        "body": "Here's the twist most people miss: a bit of nerves makes you sharper. Moderate arousal wakes up your focus and reaction time — that's why a calm, slightly-buzzed state beats total chill.\n\nThe problem is only **too much**. Past a certain point, the curve flips: more stress means worse performance, not better. The goal isn't zero nerves — it's keeping them in the helpful zone."
+      },
+      {
+        "type": "true_false",
+        "prompt": "All stress is bad for your test performance.",
+        "answer": false,
+        "explanation": "A moderate amount of stress actually sharpens focus and reaction time — it's only too much that tanks your score."
+      },
+      {
+        "type": "material",
+        "title": "Why you 'blank'",
+        "body": "When anxiety spikes too high, it hijacks your **working memory** — the mental scratchpad you use to hold a question, juggle steps, and pull up answers.\n\nThat's the exact tool a test demands. So when panic floods in, the resource you need most goes offline. That's the blank. It's not that the knowledge vanished — your brain just can't reach it while it's busy screaming 'danger'."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Why does intense panic make you go blank on a test?",
+        "options": [
+          "It hijacks your working memory, the resource the test needs",
+          "It permanently erases what you studied",
+          "It means you never really learned the material",
+          "It only happens to people who didn't study"
+        ],
+        "correctIndex": 0,
+        "explanation": "High anxiety floods your working memory, so the knowledge is still there — you just can't reach it in the moment."
+      },
+      {
+        "type": "categorize",
+        "prompt": "On exam day, does this calm you down or wind you up?",
+        "categories": [
+          "Calms you",
+          "Winds you up"
+        ],
+        "items": [
+          {
+            "text": "Slow box breathing",
+            "category": 0
+          },
+          {
+            "text": "Reading everyone's panic in the group chat",
+            "category": 1
+          },
+          {
+            "text": "A solid night's sleep",
+            "category": 0
+          },
+          {
+            "text": "Cramming in the hallway minutes before",
+            "category": 1
+          },
+          {
+            "text": "Doing a few easy questions first",
+            "category": 0
+          },
+          {
+            "text": "Comparing how much others 'studied'",
+            "category": 1
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "The real fix: be ready",
+        "body": "In-the-moment tricks help, but the deepest cure for test anxiety is being **genuinely prepared**.\n\nSpaced practice plus practice tests under realistic conditions — timer on, phone away — do two things at once: they cement the material, and they make the real exam feel familiar instead of terrifying. Confidence isn't a personality trait. It's a side effect of having already done the thing."
+      },
+      {
+        "type": "tap_word",
+        "instructions": "One word makes this advice backfire. Tap it.",
+        "sentence": "The best long-term cure for test anxiety is luck.",
+        "wrongWord": "luck",
+        "correctWord": "preparation",
+        "explanation": "Real, spaced preparation builds the confidence and familiarity that calm exam nerves."
+      },
+      {
+        "type": "match_pairs",
+        "prompt": "Match each calming move to what it actually does.",
+        "pairs": [
+          {
+            "left": "Box breathing",
+            "right": "Slows your nervous system down"
+          },
+          {
+            "left": "Brain dump",
+            "right": "Frees up working memory fast"
+          },
+          {
+            "left": "Easy questions first",
+            "right": "Builds early momentum"
+          },
+          {
+            "left": "Reframe nerves as energy",
+            "right": "Turns dread into focus"
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "Your in-the-moment kit",
+        "body": "Panic rising mid-exam? Run the drill:\n- **Box breathe** — in for 4, hold 4, out 4, hold 4. It signals your body that you're safe.\n- **Reframe** the buzz as excitement and energy, not danger.\n- **Brain dump** formulas and facts onto scrap paper the second you start.\n- **Easy first** to build momentum.\n- **Blank? Skip it.** Move on and circle back — the answer often surfaces later."
+      },
+      {
+        "type": "slider_estimate",
+        "prompt": "In box breathing, how many seconds do you hold for on each phase?",
+        "min": 0,
+        "max": 12,
+        "step": 1,
+        "answer": 4,
+        "tolerance": 0,
+        "unitSuffix": "s",
+        "explanation": "Box breathing is in 4, hold 4, out 4, hold 4 — four seconds per phase, like the four sides of a box."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "Put your in-exam game plan in the smartest order.",
+        "steps": [
+          "Take a few slow box breaths to settle",
+          "Brain-dump key formulas and facts onto scrap paper",
+          "Answer the easy questions first for momentum",
+          "Skip anything you blank on and come back later"
+        ],
+        "explanation": "Calm first, offload memory, ride easy wins, then mop up the hard ones — momentum carries you through."
+      },
+      {
+        "type": "material",
+        "title": "The night before",
+        "body": "Tempted to pull an all-nighter? Don't. **Sleep beats cramming**, every time.\n\nSleep consolidates everything you studied into long-term memory and dials your anxiety down. An all-nighter does the opposite — it wrecks recall and leaves you frayed. So eat something, sleep, and arrive early.\n\nAnd when the thought 'I'll fail everything' shows up — challenge it. One test does not define you."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "It's the night before a big exam. What's the smartest move?",
+        "options": [
+          "Pull an all-nighter to cover every last topic",
+          "Get a full night's sleep",
+          "Skip dinner so you can study longer",
+          "Stay up reading the panic in the group chat"
+        ],
+        "correctIndex": 1,
+        "explanation": "Sleep consolidates what you studied into memory and lowers anxiety, while all-nighters wreck recall."
+      },
+      {
+        "type": "true_false",
+        "prompt": "If you bomb one test, it proves you're just bad at the subject.",
+        "answer": false,
+        "explanation": "One result doesn't define you — catastrophic thoughts like that fuel anxiety, so challenge them instead of believing them."
+      },
+      {
+        "type": "decision_path",
+        "title": "Exam morning",
+        "intro": "Your big exam is tomorrow at 9am. Stack the choices that walk you in calm and ready.",
+        "stat": {
+          "name": "Readiness",
+          "emoji": "🧘",
+          "start": 50
+        },
+        "steps": [
+          {
+            "situation": "It's 11pm the night before. You still feel a little shaky on two topics.",
+            "options": [
+              {
+                "text": "Sleep a full 8 hours",
+                "delta": 25,
+                "feedback": "Sleep locks your studying into memory and lowers anxiety — the single best night-before move.",
+                "best": true
+              },
+              {
+                "text": "Pull an all-nighter to cover them",
+                "delta": -30,
+                "feedback": "All-nighters wreck recall and leave you frayed. You'd lose more than you gain."
+              }
+            ]
+          },
+          {
+            "situation": "It's 7:30am. You're up and have time before you leave.",
+            "options": [
+              {
+                "text": "Skip breakfast, you're too nervous",
+                "delta": -15,
+                "feedback": "An empty tank amplifies the jitters. Even something small helps."
+              },
+              {
+                "text": "Eat a real breakfast",
+                "delta": 15,
+                "feedback": "Fuel steadies your focus and blood sugar — skipping it makes the nerves worse.",
+                "best": true
+              }
+            ]
+          },
+          {
+            "situation": "You've got 20 minutes before you head out the door.",
+            "options": [
+              {
+                "text": "Run a few quick practice questions to warm up",
+                "delta": 15,
+                "feedback": "A light warm-up primes your brain without overloading it — like stretching before a run.",
+                "best": true
+              },
+              {
+                "text": "Doom-scroll the group chat to see who's panicking",
+                "delta": -20,
+                "feedback": "Other people's panic is contagious and tells you nothing useful. Stay in your own lane."
+              }
+            ]
+          },
+          {
+            "situation": "You arrive and the paper is being handed out. Your heart starts to race.",
+            "options": [
+              {
+                "text": "Frantically cram notes in the hallway",
+                "delta": -20,
+                "feedback": "Last-second cramming spikes panic and crowds out the memory you need. Breathe instead."
+              },
+              {
+                "text": "Take a few slow box breaths",
+                "delta": 20,
+                "feedback": "Box breathing tells your nervous system you're safe and brings working memory back online.",
+                "best": true
+              }
+            ]
+          }
+        ],
+        "outro": "Sleep, fuel, a gentle warm-up, and a few breaths — that's a calm brain walking in ready. You've got this."
+      }
+    ],
+    "summaryPoints": [
+      "Read a little stress as fuel — moderate nerves actually sharpen focus",
+      "Use box breathing (in 4, hold 4, out 4, hold 4) to reset a racing heart",
+      "Brain-dump facts, do the easy questions first, and skip-and-return when you blank",
+      "Sleep beats cramming the night before — it locks in memory and lowers nerves",
+      "Talk back to catastrophe thoughts: one test does not define you"
+    ]
+  },
+  "how-to-learn__study-and-test-taking": {
+    "content": [
+      {
+        "type": "material",
+        "title": "Re-reading is a trap",
+        "body": "You highlight the notes. You read them again. It all looks familiar, so you feel ready.\n\nThen the exam asks you to actually do the thing, and your brain goes blank.\n\nThat gap has a name: recognizing something is not the same as knowing it. The fix isn't reading harder — it's switching from study-to-recognize to study-to-**learn**."
+      },
+      {
+        "type": "material",
+        "title": "Test yourself, not your notes",
+        "body": "The single most powerful study tool is **practice testing**: pulling answers out of your head instead of rereading them in.\n\nDo practice problems and past papers under test-like conditions — phone away, timer on. It builds memory AND makes the real exam feel familiar.\n\nSolve enough that on test day you think: wait, I've basically seen this one before.",
+        "image": "/illustrations/test-calm.svg",
+        "imageAlt": "A student taking a calm deep breath before an exam"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Re-reading your notes until they feel familiar is the best way to prepare.",
+        "answer": false,
+        "explanation": "Familiar isn't the same as known. Pulling answers from memory with practice problems beats rereading every time."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Which study tool actually builds memory the most?",
+        "options": [
+          "Doing practice problems from memory",
+          "Reading the chapter a third time",
+          "Highlighting the important lines",
+          "Copying the notes out neatly"
+        ],
+        "correctIndex": 0,
+        "explanation": "Retrieving answers under test-like conditions strengthens memory and makes the real exam familiar. The other three just feel productive."
+      },
+      {
+        "type": "categorize",
+        "prompt": "Study-to-learn or study-to-recognize?",
+        "categories": [
+          "Study to learn",
+          "Study to recognize"
+        ],
+        "items": [
+          {
+            "text": "Doing a past paper with a timer",
+            "category": 0
+          },
+          {
+            "text": "Rereading highlighted notes",
+            "category": 1
+          },
+          {
+            "text": "Quizzing yourself with the book closed",
+            "category": 0
+          },
+          {
+            "text": "Watching the lecture again at 2x",
+            "category": 1
+          },
+          {
+            "text": "Redoing problems you got wrong",
+            "category": 0
+          },
+          {
+            "text": "Skimming the chapter summary",
+            "category": 1
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "Mix it up, spread it out",
+        "body": "Two upgrades make practice stick:\n\n**Interleave** — mix problem types instead of drilling 20 of the same kind in a row. Switching forces you to figure out which method fits, the exact skill the test demands.\n\n**Space** — spread practice across days. Cramming feels productive at 1 a.m., but it fades fast. A little today, a little in two days, a little next week beats one giant night."
+      },
+      {
+        "type": "tap_word",
+        "instructions": "One word makes this advice backwards. Tap it.",
+        "sentence": "Spreading study across several days works worse than one big cram.",
+        "wrongWord": "worse",
+        "correctWord": "better",
+        "explanation": "Spaced practice beats cramming — the same hours spread out stick far longer."
+      },
+      {
+        "type": "match_pairs",
+        "prompt": "Match each study strategy to why it works.",
+        "pairs": [
+          {
+            "left": "Practice testing",
+            "right": "Builds memory by retrieving"
+          },
+          {
+            "left": "Interleaving",
+            "right": "Teaches which method fits"
+          },
+          {
+            "left": "Spacing",
+            "right": "Beats forgetting over time"
+          },
+          {
+            "left": "Past papers",
+            "right": "Makes the exam feel familiar"
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "Plan backward from the date",
+        "body": "Don't plan from today forward — plan from the exam backward.\n\nStart at the test date and walk back: what do you want to know cold the night before? The week before? Now? That tells you what to practice today, and it spaces your sessions automatically.\n\nA returned or practice test you bombed isn't a verdict. It's a map of exactly what to hit next."
+      },
+      {
+        "type": "material",
+        "title": "Test day: be a detective",
+        "body": "Walk in calm, then read like a detective.\n\n- Read the instructions and **each question** carefully\n- Hunt for trap words: **not**, **except**, **always**, **all**\n- Do easy questions first to bank points\n- Hit a brutal one? Flag it, move on, come back\n- On multiple-choice, eliminate the obviously wrong options\n- Answer everything (unless wrong answers cost points), show your work, leave time to check"
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "What's the smartest move?",
+        "context": "Question 4 is brutal. You've spent six minutes and you're stuck, with 25 questions to go.",
+        "options": [
+          "Keep grinding until you crack it",
+          "Flag it, move on, come back later",
+          "Guess randomly and never return to it",
+          "Leave the whole rest of the section blank"
+        ],
+        "correctIndex": 1,
+        "explanation": "Don't pour all your time into one question. Bank the easy points first, then return to the hard one with whatever time is left."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "Put a smart test-day routine in order.",
+        "steps": [
+          "Read the instructions and each question carefully",
+          "Answer the easy questions first",
+          "Flag the hard ones and come back to them",
+          "Use leftover time to check your work"
+        ],
+        "explanation": "Read first so you don't misread, bank easy points, circle back to the hard ones, then check before you hand it in."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "On multiple-choice you don't know, first ___ the options that are clearly wrong.",
+        "answer": "eliminate",
+        "accept": [
+          "cross out",
+          "remove"
+        ],
+        "hint": "Cut the obvious losers to boost your odds.",
+        "explanation": "Eliminating wrong options turns a wild guess into a much better one — fewer choices, better odds."
+      },
+      {
+        "type": "categorize",
+        "prompt": "Smart test-day habit or weak one?",
+        "categories": [
+          "Smart",
+          "Weak"
+        ],
+        "items": [
+          {
+            "text": "Skimming questions to save time",
+            "category": 1
+          },
+          {
+            "text": "Showing your work as you go",
+            "category": 0
+          },
+          {
+            "text": "Sinking all your time into question one",
+            "category": 1
+          },
+          {
+            "text": "Eliminating wrong multiple-choice options",
+            "category": 0
+          },
+          {
+            "text": "Leaving time at the end to check",
+            "category": 0
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "A graded test is a gift",
+        "body": "Most people glance at the score and shove the test in a bag. Huge waste.\n\nA returned test is a free study guide for the next one. Go through every miss and ask why: careless slip? misread the question? or genuinely didn't know it?\n\nThen look for **patterns** — and redo the problems you got wrong, from scratch, until they're easy."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "How should you use a returned test?",
+        "steps": [
+          "Look at every question you got wrong",
+          "Figure out WHY you missed each one",
+          "Spot patterns across your mistakes",
+          "Redo the missed problems from scratch"
+        ],
+        "explanation": "Finding the why turns mistakes into targets, and redoing them from scratch is the practice testing that actually fixes the gap."
+      },
+      {
+        "type": "spaced_planner",
+        "prompt": "Your exam is in about two weeks. Tap the review days that beat forgetting.",
+        "topic": "Material for the exam in 2 weeks",
+        "points": [
+          {
+            "label": "Today",
+            "day": 0,
+            "recommended": true
+          },
+          {
+            "label": "In 2 days",
+            "day": 2,
+            "recommended": true
+          },
+          {
+            "label": "In 5 days",
+            "day": 5,
+            "recommended": true
+          },
+          {
+            "label": "In 9 days",
+            "day": 9,
+            "recommended": true
+          },
+          {
+            "label": "Night before only",
+            "day": 13,
+            "recommended": false
+          }
+        ],
+        "explanation": "Expanding intervals (today, +2, +5, +9) keep resetting the forgetting curve so it sticks. Cramming the night before alone doesn't."
+      }
+    ],
+    "summaryPoints": [
+      "Quiz yourself with practice problems and past papers — recognition isn't knowing",
+      "Mix problem types and space practice across days instead of cramming",
+      "Read every question carefully and watch for words like 'not', 'all', and 'except'",
+      "Budget your time: easy first, flag the hard one, answer everything, then check",
+      "Treat a returned test as a free study guide — review every miss and find why"
+    ]
+  },
+  "how-to-learn__how-memory-works": {
+    "content": [
+      {
+        "type": "material",
+        "title": "Three doors, not one",
+        "body": "You don't have one \"memory\" — you have a tiny assembly line with three stations.\n\n- **Encode** — getting info in\n- **Store** — holding onto it\n- **Retrieve** — pulling it back out when you need it\n\nMost \"I have a bad memory\" moments are really just one of these three stations being skipped. The good news: you can train all three.",
+        "image": "/illustrations/memory-stages.svg",
+        "imageAlt": "Encode, store, and retrieve arrows feeding into a box"
+      },
+      {
+        "type": "material",
+        "title": "Encoding runs on meaning",
+        "body": "Reading a line ten times feels like studying, but your brain barely notices it. That's shallow encoding.\n\nDeep encoding sticks because you give the info a **meaning**: link it to something you already know, find an example, or picture it in your head.\n\n\"Mitochondria make energy\" is forgettable. \"Mitochondria are the phone charger of the cell\" hooks onto something real — so it stays."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Which study move encodes the deepest?",
+        "context": "You're learning a new term for biology.",
+        "options": [
+          "Reading the definition out loud five times in a row",
+          "Connecting the term to your own example and picturing it",
+          "Highlighting the whole paragraph in yellow",
+          "Copying the definition word-for-word into your notes"
+        ],
+        "correctIndex": 1,
+        "explanation": "Tying new info to something you already know and visualizing it is deep encoding — repetition and highlighting are shallow and fade fast."
+      },
+      {
+        "type": "match_pairs",
+        "prompt": "Match each memory station to its job.",
+        "pairs": [
+          {
+            "left": "Encode",
+            "right": "Get the info in"
+          },
+          {
+            "left": "Store",
+            "right": "Hold onto it over time"
+          },
+          {
+            "left": "Retrieve",
+            "right": "Pull it back out later"
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "Your mental sticky note",
+        "body": "Working memory — the stuff you're holding right now — is shockingly small. It fits only about **4 to 7 items**, and only for a few seconds.\n\nThat's why a phone number flies out of your head the moment someone distracts you.\n\nTo keep something, you have to move it into long-term storage — and that happens through meaning and rehearsal, not by staring harder."
+      },
+      {
+        "type": "true_false",
+        "prompt": "Your working memory can hold almost unlimited items at once.",
+        "answer": false,
+        "explanation": "Working memory is tiny — roughly 4 to 7 items for a few seconds. Anything more has to be chunked or moved into long-term memory."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "Put memory's three stations in the order info travels through them.",
+        "steps": [
+          "Encode",
+          "Store",
+          "Retrieve"
+        ],
+        "explanation": "Info has to get in (encode), be held (store), and only then can you pull it back out (retrieve). Skip the first and there's nothing to find."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Grouping a number like 5-5-5-1-2-3-4 into 555-1234 is called ___.",
+        "answer": "chunking",
+        "accept": [
+          "a chunk",
+          "chunk"
+        ],
+        "hint": "Phone numbers are split into groups on purpose.",
+        "explanation": "Chunking groups loose items into bigger units, so seven digits feel like two pieces — beating the limits of working memory."
+      },
+      {
+        "type": "material",
+        "title": "Retrieval is the workout",
+        "body": "Here's the twist most people miss: **the act of recalling a memory is what makes it stronger.**\n\nRe-reading your notes feels productive but barely lifts anything. Closing the notes and trying to remember — that's the rep that builds the muscle.\n\nThis is why testing yourself beats reviewing. Good cues help too: a keyword or image gives your brain a handle to grab the memory by.",
+        "image": "/illustrations/brain-spark.svg",
+        "imageAlt": "A brain lit up with a spark of activity"
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "What actually makes a memory stronger?",
+        "options": [
+          "Reading the same notes one more time",
+          "The effort of recalling it from memory",
+          "Keeping the notes open while you study",
+          "Underlining the key sentences again"
+        ],
+        "correctIndex": 1,
+        "explanation": "Retrieval practice — pulling the answer from your own head — strengthens the memory each time. Passive re-reading mostly feels easy without helping."
+      },
+      {
+        "type": "tap_word",
+        "instructions": "One word makes this false. Tap it.",
+        "sentence": "Quizzing yourself weakens a memory every single time you recall it.",
+        "wrongWord": "weakens",
+        "correctWord": "strengthens",
+        "explanation": "Each successful recall strengthens the memory — that's the whole power of retrieval practice."
+      },
+      {
+        "type": "material",
+        "title": "The forgetting curve",
+        "body": "Learn something once and walk away, and it drains out fast: you forget roughly **half within an hour** and most of it within a day.\n\nBut every time you review, the curve flattens — you forget more slowly after each pass.\n\nSo forgetting isn't a character flaw. It's the default. Reviewing on a schedule is how you fight back.",
+        "image": "/illustrations/forgetting-curve.svg",
+        "imageAlt": "A memory decay curve lifted higher by review spikes"
+      },
+      {
+        "type": "slider_estimate",
+        "prompt": "After learning something once with no review, about what % is gone within a day?",
+        "min": 0,
+        "max": 100,
+        "step": 10,
+        "answer": 70,
+        "tolerance": 10,
+        "unitSuffix": "%",
+        "explanation": "Without review you lose most of it within a day — around 70%. Each review flattens that drop so you keep more."
+      },
+      {
+        "type": "categorize",
+        "prompt": "Does this strengthen or weaken your memory?",
+        "categories": [
+          "Strengthens",
+          "Weakens"
+        ],
+        "items": [
+          {
+            "text": "Quizzing yourself from memory",
+            "category": 0
+          },
+          {
+            "text": "Spacing reviews over several days",
+            "category": 0
+          },
+          {
+            "text": "A full night of sleep",
+            "category": 0
+          },
+          {
+            "text": "Connecting it to a vivid example",
+            "category": 0
+          },
+          {
+            "text": "Cramming the whole thing at 2am",
+            "category": 1
+          },
+          {
+            "text": "Re-reading notes without testing",
+            "category": 1
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "Stack the boosters",
+        "body": "A few cheap tricks make all three stations work better:\n\n- **Chunking** — group items, like a phone number\n- **Mnemonics** — acronyms, silly stories, or a memory palace for random lists\n- **Sleep** — your brain consolidates the day's learning while you're out\n- **Dual coding** — pair words with a picture so you store it two ways\n\nNone of these are talent. They're just better defaults."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "You have to memorize an arbitrary list of 8 terms for tomorrow. Best tool?",
+        "options": [
+          "A mnemonic like an acronym or a story linking them",
+          "Reading the list straight through 20 times",
+          "Pulling an all-nighter to fit in more passes",
+          "Hoping you'll just remember them"
+        ],
+        "correctIndex": 0,
+        "explanation": "Mnemonics give arbitrary items a structure to hang on, and sleep beats an all-nighter because it's when memories consolidate."
+      },
+      {
+        "type": "spaced_planner",
+        "prompt": "You learned today's lecture. When should you review to beat forgetting?",
+        "topic": "Today's lecture",
+        "points": [
+          {
+            "label": "Same day",
+            "day": 0,
+            "recommended": true
+          },
+          {
+            "label": "Next day",
+            "day": 1,
+            "recommended": true
+          },
+          {
+            "label": "Day 3",
+            "day": 3,
+            "recommended": true
+          },
+          {
+            "label": "Day 7",
+            "day": 7,
+            "recommended": true
+          },
+          {
+            "label": "Cram the night before",
+            "day": 20,
+            "recommended": false
+          }
+        ],
+        "explanation": "Expanding intervals — day 0, 1, 3, 7 — refresh the memory right before you'd forget. One late cram can't undo two weeks of forgetting."
+      }
+    ],
+    "summaryPoints": [
+      "Encode with meaning — connect new stuff to what you already know, not blind repetition",
+      "Working memory holds only ~4–7 things at once, so chunk and rehearse to move it to long-term",
+      "Quiz yourself: the act of recalling is what makes a memory stronger",
+      "Beat the forgetting curve with spaced reviews at expanding intervals (day 1, 3, 7, 30)",
+      "Stack the boosters — chunking, mnemonics, sleep, and words-plus-visuals"
+    ]
+  },
+  "how-to-learn__make-it-stick": {
+    "content": [
+      {
+        "type": "material",
+        "title": "Two students, one exam",
+        "body": "Two friends study the same chapter for the same hours. One rereads it five times and highlights until the page glows. The other closes the book and tries to remember it, gets stuff wrong, goes back, tries again.\n\nThe highlighter feels like the genius. The exam disagrees.\n\nFeeling like you know something and actually knowing it are two different things — and most study habits are built on the feeling."
+      },
+      {
+        "type": "material",
+        "title": "The big one: test yourself",
+        "body": "The single strongest move is **retrieval practice** — pulling an answer out of your head instead of reading it back in.\n\nThis is the **testing effect**: every time you struggle to recall something, you make it easier to recall next time. Rereading just feels familiar.\n\nSo close the notes and ask yourself the question first. Self-testing isn't how you check that you learned — it's how you learn.",
+        "image": "/illustrations/forgetting-curve.svg",
+        "imageAlt": "A decay curve lifted back up by review spikes"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Rereading your notes a few more times is one of the strongest ways to make them stick.",
+        "answer": false,
+        "explanation": "Rereading builds familiarity, not recall. Testing yourself — forcing the answer out — is what actually cements it."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Which study session is most likely to make the material stick?",
+        "context": "You have one hour with a chapter you need for Friday's test.",
+        "options": [
+          "Reread the chapter three times slowly",
+          "Read it once, then close it and quiz yourself on it",
+          "Highlight every important sentence in two colors",
+          "Copy the chapter out word for word"
+        ],
+        "correctIndex": 1,
+        "explanation": "Quizzing yourself is retrieval practice — the testing effect. Rereading, highlighting, and copying all feel productive but mostly build false familiarity."
+      },
+      {
+        "type": "material",
+        "title": "Space it out",
+        "body": "Cramming the whole thing the night before stuffs it into short-term memory, where it leaks out fast.\n\n**Spaced practice** — the same total hours spread across several days — beats cramming for what you actually keep. Each time you come back after a gap, you reload the memory and make it stronger.\n\nSame effort. Wildly different results. The only change is when you do it."
+      },
+      {
+        "type": "material",
+        "title": "Mix it up",
+        "body": "Most people study in blocks: all of topic A, then all of topic B. Feels smooth, because once you're in A's groove you barely think.\n\n**Interleaving** — mixing topics and problem types in one session — feels messier and works better. Jumping between problems forces you to figure out which approach fits, which is exactly what a test demands.\n\nThe struggle is the point."
+      },
+      {
+        "type": "categorize",
+        "prompt": "Science-backed winner, or popular method that mostly feels like working?",
+        "categories": [
+          "Proven winner",
+          "Feels-good myth"
+        ],
+        "items": [
+          {
+            "text": "Quizzing yourself from memory",
+            "category": 0
+          },
+          {
+            "text": "Spreading study across several days",
+            "category": 0
+          },
+          {
+            "text": "Rereading the chapter again",
+            "category": 1
+          },
+          {
+            "text": "Highlighting everything in the textbook",
+            "category": 1
+          },
+          {
+            "text": "Mixing different problem types together",
+            "category": 0
+          },
+          {
+            "text": "Cramming it all the night before",
+            "category": 1
+          }
+        ]
+      },
+      {
+        "type": "tap_word",
+        "instructions": "One word is backwards. Tap it.",
+        "sentence": "Studying one topic in a single long block beats mixing topics together.",
+        "wrongWord": "beats",
+        "correctWord": "loses to",
+        "explanation": "Interleaving — mixing topics and problem types — beats blocking one type, because it makes you choose the right approach each time."
+      },
+      {
+        "type": "material",
+        "title": "Make it mean something",
+        "body": "**Elaboration** is asking why and how, then linking the idea to other ideas and to your own life. A fact tied to ten other things has ten ways back into your memory.\n\nPair it with **concrete examples** and **dual coding** — words plus a visual, like a diagram or a sketch. Two channels remember better than one.\n\nVague facts float away. Connected ones stick."
+      },
+      {
+        "type": "match_pairs",
+        "prompt": "Match each technique to what it actually does for you.",
+        "pairs": [
+          {
+            "left": "Retrieval practice",
+            "right": "Strengthens memory by recalling it"
+          },
+          {
+            "left": "Spaced practice",
+            "right": "Beats cramming by adding gaps"
+          },
+          {
+            "left": "Interleaving",
+            "right": "Mixes topics so you pick the right approach"
+          },
+          {
+            "left": "Elaboration",
+            "right": "Links ideas by asking why and how"
+          },
+          {
+            "left": "Dual coding",
+            "right": "Pairs words with visuals"
+          }
+        ]
+      },
+      {
+        "type": "material",
+        "title": "If it feels hard, you're learning",
+        "body": "Here's the twist: a little effort is a good sign. These are **desirable difficulties** — when studying feels slightly effortful, you're usually learning. When it feels easy and smooth, it tends to slide right back out.\n\nThat's why rereading is a trap. It's comfortable, so your brain says \"got it.\" The discomfort of testing yourself is your brain actually building something."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Your friend says, \"Rereading feels so easy, I clearly know this.\" What's the catch?",
+        "options": [
+          "Easy and smooth often means it'll be forgotten fast",
+          "Easy means it's perfectly learned and locked in",
+          "Feeling matched to a learning style is what matters",
+          "Rereading is fine as long as you use two highlighters"
+        ],
+        "correctIndex": 0,
+        "explanation": "Smoothness is an illusion of competence. A little difficulty — desirable difficulty — is the sign real learning is happening."
+      },
+      {
+        "type": "material",
+        "title": "Flashcards, done right",
+        "body": "Flashcards are great or useless depending on how you use them.\n\n- **Actually recall** the answer before you flip — don't peek and nod\n- **Keep the ones you miss** in the deck longer; retire only what you truly know\n\nAnd the ultimate gap-finder: **teach it to someone** (the Feynman technique). The moment you explain it out loud, every fuzzy spot you were hiding from yourself shows up."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "Build one smart study session, start to finish.",
+        "steps": [
+          "Read the material once to get the gist",
+          "Close it and quiz yourself from memory",
+          "Check answers and keep the ones you missed",
+          "Mix in problems from other topics",
+          "Explain it out loud to a friend"
+        ],
+        "explanation": "Get the gist, then retrieve, fix your misses, interleave, and teach — each step adds difficulty that makes the learning stick."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Spreading the same study hours across several days instead of one is called ___ practice.",
+        "answer": "spaced",
+        "accept": [
+          "Spaced",
+          "spacing"
+        ],
+        "hint": "It's about adding gaps between sessions.",
+        "explanation": "Spaced practice spreads the work out so each return trip reloads and strengthens the memory — far better than cramming."
+      },
+      {
+        "type": "spaced_planner",
+        "prompt": "You learned this chapter today. Tap the review days that beat forgetting.",
+        "topic": "Today's chapter",
+        "points": [
+          {
+            "label": "Same day",
+            "day": 0,
+            "recommended": true
+          },
+          {
+            "label": "Next day",
+            "day": 1,
+            "recommended": true
+          },
+          {
+            "label": "Day 3",
+            "day": 3,
+            "recommended": true
+          },
+          {
+            "label": "Day 7",
+            "day": 7,
+            "recommended": true
+          },
+          {
+            "label": "Cram night before",
+            "day": 13,
+            "recommended": false
+          }
+        ],
+        "explanation": "Expanding gaps (1, 3, 7 days…) reset the forgetting curve each time. One cram session the night before doesn't."
+      },
+      {
+        "type": "reflect",
+        "prompt": "Pick one habit you'll swap this week. What's the old move, and what will you do instead?",
+        "context": "Be honest about the one that feels productive but probably isn't.",
+        "chips": [
+          "Stop rereading, start self-testing",
+          "Spread it across days",
+          "Mix my topics",
+          "Teach it to a friend"
+        ],
+        "placeholder": "Instead of ___, I'll ___",
+        "explanation": "Naming the swap is how it actually happens. Test yourself, space it out, mix it up."
+      },
+      {
+        "type": "decision_path",
+        "title": "The week before the exam",
+        "intro": "Seven days out. Every choice moves your Mastery. Get it as high as you can.",
+        "stat": {
+          "name": "Mastery",
+          "emoji": "🎯",
+          "start": 50
+        },
+        "steps": [
+          {
+            "situation": "It's Monday. How do you set up the week?",
+            "options": [
+              {
+                "text": "Space practice across all seven days",
+                "delta": 20,
+                "feedback": "Spacing beats cramming for what you'll keep — strong start.",
+                "best": true
+              },
+              {
+                "text": "Plan to cram the night before",
+                "delta": -20,
+                "feedback": "Cramming fills short-term memory that leaks out by the exam."
+              }
+            ]
+          },
+          {
+            "situation": "First study block. What's your main move?",
+            "options": [
+              {
+                "text": "Reread the textbook chapters",
+                "delta": -15,
+                "feedback": "Rereading feels productive but mostly builds false familiarity."
+              },
+              {
+                "text": "Self-test with past papers",
+                "delta": 20,
+                "feedback": "Retrieval practice — the testing effect in action.",
+                "best": true
+              },
+              {
+                "text": "Highlight everything important",
+                "delta": -15,
+                "feedback": "Highlighting is comfortable and teaches almost nothing."
+              }
+            ]
+          },
+          {
+            "situation": "You've got three shaky topics. How do you drill them?",
+            "options": [
+              {
+                "text": "Mix all three topics together",
+                "delta": 20,
+                "feedback": "Interleaving forces you to pick the right approach each time.",
+                "best": true
+              },
+              {
+                "text": "Study one topic in a long block",
+                "delta": -10,
+                "feedback": "Blocking feels smooth but doesn't build the choosing skill a test needs."
+              }
+            ]
+          },
+          {
+            "situation": "Night before. One hour left. Best use of it?",
+            "options": [
+              {
+                "text": "Reread your whole notebook once more",
+                "delta": -15,
+                "feedback": "Passive rereading the night before is the comfort trap."
+              },
+              {
+                "text": "Explain the hardest topic to a friend",
+                "delta": 20,
+                "feedback": "Teaching it (the Feynman technique) exposes the gaps you were hiding.",
+                "best": true
+              }
+            ]
+          }
+        ],
+        "outro": "Test yourself, space it out, mix it up — then teach it. That's how it sticks."
+      }
+    ],
+    "summaryPoints": [
+      "Test yourself instead of rereading — pulling answers out beats putting them back in",
+      "Spread study across days; spacing crushes cramming for what you'll remember",
+      "Mix topics and problem types instead of grinding one in a long block",
+      "Trust a little difficulty — easy studying feels great and teaches almost nothing",
+      "Use flashcards right and teach it to someone to find the gaps you didn't know you had"
+    ]
+  },
+  "how-to-learn__focus-and-mindfulness": {
+    "content": [
+      {
+        "type": "material",
+        "title": "Your attention is a battery",
+        "body": "Picture your attention as a phone battery you can't recharge mid-day. Every notification, open tab, and 'quick check' drains it.\n\nHere's the good news: focus isn't a personality trait you either have or don't. It's a **muscle**. The more you train it, the longer you can hold it — and the easier hard work starts to feel.",
+        "image": "/illustrations/focus-target.svg",
+        "imageAlt": "A bullseye with a single arrow hitting the center"
+      },
+      {
+        "type": "material",
+        "title": "Multitasking is a lie",
+        "body": "You don't actually do two things at once. Your brain rapidly **switches** between them — and every switch has a cost: lost time and more mistakes (it's called switch cost).\n\nDoom-scrolling makes it worse. Constant little hits of new content train your brain to crave distraction. The fix is simple to say, hard to do: **single-task**. One thing at a time."
+      },
+      {
+        "type": "true_false",
+        "prompt": "Multitasking is an efficient way to study.",
+        "answer": false,
+        "explanation": "What feels like multitasking is really fast task-switching, and every switch wastes time and adds errors."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "What's the real cost of 'multitasking' between homework and your group chat?",
+        "options": [
+          "Each switch wastes time and adds errors",
+          "Nothing — your brain handles both at once",
+          "It actually makes you faster",
+          "Only your typing slows down"
+        ],
+        "correctIndex": 0,
+        "explanation": "Your brain switches instead of splitting, and that switch cost piles up across a study session."
+      },
+      {
+        "type": "material",
+        "title": "Kill the cues",
+        "body": "Willpower loses to a buzzing phone. So remove the temptation before it starts:\n- **Phone in another room** — even face-down on your desk, its mere presence drains focus\n- **Close extra tabs** and turn off notifications\n- **Use one study spot** every time, so your brain learns 'here = focus'\n\nYou're not weak for getting distracted. You're just fighting cues you don't have to."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "Where should your phone be while you study?",
+        "context": "You've got two hours of focused work ahead.",
+        "options": [
+          "Face-down next to your notes",
+          "In your pocket on silent",
+          "In another room",
+          "Screen-up so you can see who texts"
+        ],
+        "correctIndex": 2,
+        "explanation": "Even silent and face-down, a phone's mere presence drains focus — distance beats willpower."
+      },
+      {
+        "type": "categorize",
+        "prompt": "Focus-friendly or focus-killing?",
+        "categories": [
+          "Focus-friendly",
+          "Focus-killing"
+        ],
+        "items": [
+          {
+            "text": "Phone in another room",
+            "category": 0
+          },
+          {
+            "text": "Notifications turned off",
+            "category": 0
+          },
+          {
+            "text": "Ten tabs open at once",
+            "category": 1
+          },
+          {
+            "text": "One designated study spot",
+            "category": 0
+          },
+          {
+            "text": "Replying to the group chat mid-task",
+            "category": 1
+          },
+          {
+            "text": "Phone face-down on your desk",
+            "category": 1
+          }
+        ]
+      },
+      {
+        "type": "tap_word",
+        "instructions": "One word is wrong. Tap it.",
+        "sentence": "To get more done, you should multitask as much as possible.",
+        "wrongWord": "multitask",
+        "correctWord": "single-task",
+        "explanation": "Multitasking is really task-switching, and every switch costs time and focus. One thing at a time wins."
+      },
+      {
+        "type": "material",
+        "title": "The Pomodoro trick",
+        "body": "Starting is the hard part. The **Pomodoro** technique shrinks it: work in one **25-minute** focus block, then take a **5-minute** break. After four blocks, take a longer break.\n\nWhy it works: 25 minutes feels doable, the timer guards your attention, and the breaks keep you from burning out. 'Just one Pomodoro' is way easier to start than 'study for three hours.'"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "One Pomodoro focus block is about ___ minutes long.",
+        "answer": "25",
+        "accept": [
+          "25 minutes",
+          "twenty-five"
+        ],
+        "hint": "Focus block, then a 5-minute break.",
+        "explanation": "A classic Pomodoro is 25 minutes of focus followed by a 5-minute break — short enough to start, long enough to get real work done."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "Put these in order to set up one focused study session.",
+        "steps": [
+          "Put your phone in another room",
+          "Sit down at your one study spot",
+          "Set a 25-minute timer and pick one task",
+          "Work until the timer rings, then take a 5-minute break"
+        ],
+        "explanation": "Remove the cue, settle into your focus spot, start a single timed task, then rest — that's one clean Pomodoro."
+      },
+      {
+        "type": "material",
+        "title": "Flow and the wandering mind",
+        "body": "**Flow** is that state where time disappears and the work just clicks. It shows up when a **clear goal** meets a **matched challenge** — not too easy, not too hard — with **no interruptions**.\n\nBut minds wander. That's normal. **Mindfulness** is paying attention to the present on purpose, without judging it. It trains the exact muscle that notices you've drifted and gently brings you back to the page."
+      },
+      {
+        "type": "match_pairs",
+        "prompt": "Match each technique to why it works.",
+        "pairs": [
+          {
+            "left": "Pomodoro",
+            "right": "Makes starting easy, protects attention"
+          },
+          {
+            "left": "Phone in another room",
+            "right": "Removes the cue that drains focus"
+          },
+          {
+            "left": "Mindfulness",
+            "right": "Trains noticing drift and returning"
+          },
+          {
+            "left": "Flow",
+            "right": "Clear goal plus matched challenge"
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "What does practising mindfulness actually train?",
+        "options": [
+          "Noticing your mind has wandered and gently coming back",
+          "Emptying your mind of every thought forever",
+          "Studying for longer without any breaks",
+          "Feeling guilty whenever you get distracted"
+        ],
+        "correctIndex": 0,
+        "explanation": "Mindfulness builds the 'notice you've drifted and return' muscle — the same one that pulls you back to studying."
+      },
+      {
+        "type": "material",
+        "title": "The 10-breath reset",
+        "body": "Here's a reset you can do anywhere, even mid-study-meltdown: take **10 slow breaths** and just notice the breath going in and out.\n\nYour mind will wander — that's fine. Each time it does, gently bring it back. **The returning is the rep.** A minute of this lowers stress and sharpens concentration, so you slide back into work calmer than you left it."
+      },
+      {
+        "type": "true_false",
+        "prompt": "If your mind wanders during a breathing reset, you've failed and should give up.",
+        "answer": false,
+        "explanation": "Wandering is expected — noticing it and gently returning is the whole exercise. The return is the rep."
+      },
+      {
+        "type": "reflect",
+        "prompt": "Design your own focus ritual: where will you study, what will you do with your phone, and which one mindfulness reset will you try?",
+        "context": "Pick things you'll actually do tonight — a ritual only works if it's realistic.",
+        "chips": [
+          "Phone in another room",
+          "Notifications off",
+          "25-min Pomodoro",
+          "10 slow breaths",
+          "One clear desk"
+        ],
+        "placeholder": "Tonight I'll study at… my phone will be… and I'll reset with…",
+        "explanation": "A ritual you repeat in one spot trains your brain that 'here = focus' — and a built-in reset means a wandering mind never derails the whole session."
+      }
+    ],
+    "summaryPoints": [
+      "Single-task: do one thing at a time, because every switch costs you time and errors",
+      "Kill the cues — phone in another room, notifications off, tabs closed, one study spot",
+      "Run Pomodoros (25 min focus, 5 min break) to protect attention and make starting easy",
+      "Find flow with a clear goal, a matched challenge, and zero interruptions",
+      "Use a 10-breath reset to notice you've drifted and gently come back"
+    ]
+  },
+  "how-to-learn__a-healthy-brain": {
+    "content": [
+      {
+        "type": "material",
+        "title": "The hungriest organ you own",
+        "body": "Your brain is about 2% of your body weight — but it burns roughly **20% of your energy**. It's the diva of your whole system.\n\nSo here's the twist nobody tells you before exams: how you treat your **body** is how you treat your **brain**. Sleep, food, movement, water. Boring? Maybe. But it's the cheat code under every study tip you've ever heard.",
+        "image": "/illustrations/healthy-brain.svg",
+        "imageAlt": "A brain ringed by sleep, water and exercise icons"
+      },
+      {
+        "type": "material",
+        "title": "Sleep is the heavyweight",
+        "body": "While you sleep, your brain replays the day and **locks in what you learned** — that's called consolidation. It also flushes out waste built up while you were awake.\n\nTeens need roughly **8–10 hours**. Pull an all-nighter before an exam and you wreck the exact thing you stayed up for: your recall, your focus, and your mood all tank."
+      },
+      {
+        "type": "true_false",
+        "prompt": "Pulling an all-nighter before a big exam helps you remember more.",
+        "answer": false,
+        "explanation": "Sleep is when your brain consolidates memory. Skip it and you sabotage recall, focus and mood — the opposite of what you wanted."
+      },
+      {
+        "type": "slider_estimate",
+        "prompt": "Roughly how many hours of sleep does a teen brain need each night?",
+        "min": 4,
+        "max": 12,
+        "step": 1,
+        "answer": 9,
+        "tolerance": 1,
+        "unitPrefix": "",
+        "explanation": "Teens need about 8–10 hours — right in the middle is 9. That's the window where memory and mood actually recharge."
+      },
+      {
+        "type": "multiple_choice",
+        "prompt": "What's the smartest move the night before?",
+        "context": "Your exam is at 9am tomorrow. It's already 11pm and you feel mostly ready.",
+        "options": [
+          "Get a full night's sleep",
+          "Stay up until 3am cramming every chapter again",
+          "Skip sleep and rely on energy drinks at the exam",
+          "Study until you fall asleep at your desk"
+        ],
+        "correctIndex": 0,
+        "explanation": "A rested brain recalls and focuses far better than a crammed, exhausted one. Sleep IS studying."
+      },
+      {
+        "type": "material",
+        "title": "The weekend 'catch-up' myth",
+        "body": "Tempting plan: run on 5 hours all week, then sleep till noon Saturday to 'pay it back.' Problem — **sleep debt doesn't fully repay**.\n\nA **consistent** sleep and wake time beats the crash-and-binge cycle every time. And late-night screens? The light and the endless scroll push your sleep later. Wind down first, then bed."
+      },
+      {
+        "type": "true_false",
+        "prompt": "Sleeping in on weekends fully makes up for a week of short nights.",
+        "answer": false,
+        "explanation": "Sleep debt doesn't fully repay. A steady schedule all week beats trying to bank sleep on Saturday."
+      },
+      {
+        "type": "tap_word",
+        "instructions": "One word makes this advice backwards. Tap it.",
+        "sentence": "Late-night phone scrolling improves your sleep.",
+        "wrongWord": "improves",
+        "correctWord": "wrecks",
+        "explanation": "Screen light and stimulation delay sleep — and sleep is when your brain locks in the day’s learning."
+      },
+      {
+        "type": "reflect",
+        "prompt": "Pick ONE brain-healthy habit to start this week — and say why it'd actually fit your life.",
+        "context": "Not all of them. One. The one you'd actually keep.",
+        "chips": [
+          "Earlier bedtime",
+          "Daily walk",
+          "More water",
+          "Phone out of the bedroom",
+          "Real breaks"
+        ],
+        "placeholder": "This week I'll try… because…",
+        "explanation": "One habit you'll keep beats five you'll quit by Wednesday. Small and consistent wins."
+      },
+      {
+        "type": "material",
+        "title": "Move it to remember it",
+        "body": "You don't need a gym. Even a **short walk** pumps more blood to your brain and releases BDNF — a protein that helps neurons grow and connect.\n\nThe payoff: better memory, sharper focus, lower stress, and a better mood. Regular movement is even linked to **better grades**. Stuck on a problem? Walk around the block and let your brain breathe."
+      },
+      {
+        "type": "material",
+        "title": "Steady fuel, steady focus",
+        "body": "Your brain runs on a **steady drip of glucose** — so feed it whole foods: protein, fruit and veg, healthy fats. And **water** — even mild dehydration dents your focus.\n\nWatch the trap: a big sugary or heavy-carb snack right before studying spikes you, then crashes you mid-chapter. Caffeine in small amounts can sharpen you, but too much or too late steals the sleep you actually need."
+      },
+      {
+        "type": "categorize",
+        "prompt": "Helps your brain, or hurts it?",
+        "categories": [
+          "Helps",
+          "Hurts"
+        ],
+        "items": [
+          {
+            "text": "A full night's sleep",
+            "category": 0
+          },
+          {
+            "text": "A short walk before studying",
+            "category": 0
+          },
+          {
+            "text": "Drinking water through the day",
+            "category": 0
+          },
+          {
+            "text": "Pulling an all-nighter",
+            "category": 1
+          },
+          {
+            "text": "A huge energy drink at midnight",
+            "category": 1
+          },
+          {
+            "text": "Skipping meals all day",
+            "category": 1
+          }
+        ]
+      },
+      {
+        "type": "match_pairs",
+        "prompt": "Match each habit to what it does for your brain.",
+        "pairs": [
+          {
+            "left": "8–10 hours of sleep",
+            "right": "Locks in memory"
+          },
+          {
+            "left": "A short walk",
+            "right": "Boosts focus and mood"
+          },
+          {
+            "left": "Drinking water",
+            "right": "Prevents focus dips"
+          },
+          {
+            "left": "Real breaks",
+            "right": "Lowers stress"
+          }
+        ]
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Even mild dehydration hurts your focus, so keep drinking ___ through the day.",
+        "answer": "water",
+        "accept": [
+          "Water"
+        ],
+        "hint": "It's free and comes out of a tap.",
+        "explanation": "Your brain is mostly water, and even being slightly low on it makes concentrating harder."
+      },
+      {
+        "type": "material",
+        "title": "Breaks aren't slacking",
+        "body": "Chronic stress quietly shrinks your focus and memory. Pushing for six hours with zero breaks isn't grit — it's how your brain fries out.\n\n**Real downtime** recharges you: friends, a walk outside, a hobby, time in nature. And the big secret — none of this works as a one-time hero move. It **compounds**. Small daily habits beat one heroic cram every single time."
+      },
+      {
+        "type": "order_steps",
+        "prompt": "Put together a brain-friendly study evening, in order.",
+        "steps": [
+          "Eat a real meal with some protein",
+          "Study in focused blocks with short breaks",
+          "Put the phone away and wind down",
+          "Get a full night's sleep"
+        ],
+        "explanation": "Fuel up, work in breaks, wind down off-screen, then sleep to lock it all in. That's the full loop."
+      },
+      {
+        "type": "decision_path",
+        "title": "Exam-week wellbeing",
+        "intro": "Five days of exams ahead. Every day you make one choice — and your Brainpower carries the weight. Treat your body right and walk into the finals sharp. Start at 60.",
+        "stat": {
+          "name": "Brainpower",
+          "emoji": "🧠",
+          "start": 60
+        },
+        "steps": [
+          {
+            "situation": "Monday night. You're done studying. What now?",
+            "options": [
+              {
+                "text": "Sleep about 9 hours",
+                "delta": 20,
+                "feedback": "Your brain spends the night locking in everything you reviewed. This is the move.",
+                "best": true
+              },
+              {
+                "text": "One more all-nighter to be safe",
+                "delta": -25,
+                "feedback": "Recall, focus and mood all tank tomorrow. You studied — then erased it."
+              },
+              {
+                "text": "Bed at 2am after some scrolling",
+                "delta": -10,
+                "feedback": "Screen light pushed your sleep later and shaved hours you needed."
+              }
+            ]
+          },
+          {
+            "situation": "Tuesday afternoon, brain feels foggy.",
+            "options": [
+              {
+                "text": "Grab a huge energy drink",
+                "delta": -10,
+                "feedback": "A jolt now, a crash later, and trouble sleeping tonight. Net loss."
+              },
+              {
+                "text": "Take a short walk outside",
+                "delta": 15,
+                "feedback": "More blood flow, more BDNF — focus and mood snap back. Cheapest upgrade there is.",
+                "best": true
+              },
+              {
+                "text": "Power through, no break, for six more hours",
+                "delta": -15,
+                "feedback": "No breaks means rising stress and a fried, foggier brain."
+              }
+            ]
+          },
+          {
+            "situation": "Wednesday. You skipped lunch cramming. It's 4pm.",
+            "options": [
+              {
+                "text": "Skip eating, just keep going",
+                "delta": -15,
+                "feedback": "An empty, dehydrated brain can't concentrate — you're studying on fumes."
+              },
+              {
+                "text": "Crush a candy bar and a soda",
+                "delta": -5,
+                "feedback": "Quick spike, then a crash mid-chapter. Not the fuel you need."
+              },
+              {
+                "text": "Eat real food and drink water",
+                "delta": 15,
+                "feedback": "Steady glucose and hydration bring your focus right back online.",
+                "best": true
+              }
+            ]
+          },
+          {
+            "situation": "Thursday evening, stress is climbing.",
+            "options": [
+              {
+                "text": "Study six hours straight, no breaks",
+                "delta": -15,
+                "feedback": "Chronic stress shrinks focus and memory. Burnout isn't grit."
+              },
+              {
+                "text": "Take a real break with friends or a walk",
+                "delta": 15,
+                "feedback": "Downtime lowers stress and recharges focus. Breaks aren't slacking.",
+                "best": true
+              }
+            ]
+          },
+          {
+            "situation": "Friday, the night before your last final.",
+            "options": [
+              {
+                "text": "Wind down off-screen and sleep early",
+                "delta": 20,
+                "feedback": "Rested brain, sharp recall. You walk in calm and ready.",
+                "best": true
+              },
+              {
+                "text": "Cram till 4am on energy drinks",
+                "delta": -25,
+                "feedback": "Exhausted and jittery is the worst exam-day combo. The habits compound — both ways."
+              }
+            ]
+          }
+        ],
+        "outro": "See the pattern? No single heroic night saved you — the daily choices stacked up. That's how a healthy brain is built: small, steady, every day."
+      }
+    ],
+    "summaryPoints": [
+      "Protect 8–10 hours of sleep — it's when your brain locks in the day's learning",
+      "Keep a steady sleep schedule instead of trying to 'catch up' on weekends",
+      "Move daily — even a short walk boosts memory, focus and mood",
+      "Feed your brain steady fuel: whole foods, protein, and water, not sugar crashes",
+      "Take real breaks and go easy on late caffeine — small habits compound"
+    ]
   }
 };

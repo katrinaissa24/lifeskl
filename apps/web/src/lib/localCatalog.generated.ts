@@ -168,6 +168,169 @@ export const LOCAL_COURSES: CourseWithLessons[] = [
     ]
   },
   {
+    "id": "how-to-learn",
+    "slug": "how-to-learn",
+    "title": "How to Learn",
+    "description": "Study smarter, not harder — mindset, time, focus, memory & test skills backed by science.",
+    "emoji": "🧠",
+    "sortOrder": 1,
+    "lessons": [
+      {
+        "id": "how-to-learn__how-learning-works",
+        "slug": "how-learning-works",
+        "title": "How learning actually works",
+        "description": "Your brain isn't fixed — learning is a skill you can build.",
+        "xpReward": 20,
+        "sortOrder": 1,
+        "unit": 1
+      },
+      {
+        "id": "how-to-learn__growth-mindset",
+        "slug": "growth-mindset",
+        "title": "Growth vs. fixed mindset",
+        "description": "The story you tell yourself after a setback changes the outcome.",
+        "xpReward": 20,
+        "sortOrder": 2,
+        "unit": 1
+      },
+      {
+        "id": "how-to-learn__the-priority-matrix",
+        "slug": "the-priority-matrix",
+        "title": "Urgent vs. important",
+        "description": "The Eisenhower matrix: stop letting urgent crowd out important.",
+        "xpReward": 20,
+        "sortOrder": 3,
+        "unit": 2
+      },
+      {
+        "id": "how-to-learn__beat-procrastination",
+        "slug": "beat-procrastination",
+        "title": "Beating procrastination",
+        "description": "Procrastination is about feelings, not laziness — here's the way out.",
+        "xpReward": 20,
+        "sortOrder": 4,
+        "unit": 2
+      },
+      {
+        "id": "how-to-learn__plan-your-time",
+        "slug": "plan-your-time",
+        "title": "Plan a week that holds",
+        "description": "Build a realistic schedule and work with your own rhythm.",
+        "xpReward": 20,
+        "sortOrder": 5,
+        "unit": 2
+      },
+      {
+        "id": "how-to-learn__critical-thinking",
+        "slug": "critical-thinking",
+        "title": "Think it through",
+        "description": "Question claims, weigh evidence, and don't get fooled.",
+        "xpReward": 20,
+        "sortOrder": 6,
+        "unit": 3
+      },
+      {
+        "id": "how-to-learn__metacognition",
+        "slug": "metacognition",
+        "title": "Thinking about your thinking",
+        "description": "Plan, monitor, and check your own learning — the skill behind every skill.",
+        "xpReward": 20,
+        "sortOrder": 7,
+        "unit": 3
+      },
+      {
+        "id": "how-to-learn__blooms-taxonomy",
+        "slug": "blooms-taxonomy",
+        "title": "Levels of understanding",
+        "description": "From memorizing facts to creating something new — Bloom's ladder.",
+        "xpReward": 20,
+        "sortOrder": 8,
+        "unit": 3
+      },
+      {
+        "id": "how-to-learn__active-listening",
+        "slug": "active-listening",
+        "title": "Listen like it counts",
+        "description": "Real listening is active — in lectures and in life.",
+        "xpReward": 20,
+        "sortOrder": 9,
+        "unit": 4
+      },
+      {
+        "id": "how-to-learn__note-taking",
+        "slug": "note-taking",
+        "title": "Notes that actually work",
+        "description": "Cornell, mind maps, and why your laptop might be hurting you.",
+        "xpReward": 20,
+        "sortOrder": 10,
+        "unit": 4
+      },
+      {
+        "id": "how-to-learn__active-reading",
+        "slug": "active-reading",
+        "title": "Read so it sticks",
+        "description": "SQ3R: turn a textbook chapter into knowledge, not eye exercise.",
+        "xpReward": 20,
+        "sortOrder": 11,
+        "unit": 4
+      },
+      {
+        "id": "how-to-learn__test-anxiety",
+        "slug": "test-anxiety",
+        "title": "Calm under exam pressure",
+        "description": "Nerves are normal — here's how to keep them from tanking your score.",
+        "xpReward": 20,
+        "sortOrder": 12,
+        "unit": 5
+      },
+      {
+        "id": "how-to-learn__study-and-test-taking",
+        "slug": "study-and-test-taking",
+        "title": "Study to learn, then ace the test",
+        "description": "Practice like the test, then read questions like a detective.",
+        "xpReward": 25,
+        "sortOrder": 13,
+        "unit": 5
+      },
+      {
+        "id": "how-to-learn__how-memory-works",
+        "slug": "how-memory-works",
+        "title": "How memory actually works",
+        "description": "Encode, store, retrieve — and how to make each one stick.",
+        "xpReward": 25,
+        "sortOrder": 14,
+        "unit": 6
+      },
+      {
+        "id": "how-to-learn__make-it-stick",
+        "slug": "make-it-stick",
+        "title": "Make it stick",
+        "description": "The study habits science backs — and the popular ones that fail.",
+        "xpReward": 25,
+        "sortOrder": 15,
+        "unit": 6
+      },
+      {
+        "id": "how-to-learn__focus-and-mindfulness",
+        "slug": "focus-and-mindfulness",
+        "title": "Train your focus",
+        "description": "Attention is trainable — beat distraction and find your flow.",
+        "xpReward": 25,
+        "sortOrder": 16,
+        "unit": 7
+      },
+      {
+        "id": "how-to-learn__a-healthy-brain",
+        "slug": "a-healthy-brain",
+        "title": "Fuel your brain",
+        "description": "Sleep, move, eat, repeat — the body work that powers the mind.",
+        "xpReward": 25,
+        "sortOrder": 17,
+        "unit": 7
+      }
+    ]
+  },
+  {
     "id": "health",
     "slug": "health",
     "title": "Health & Mind",

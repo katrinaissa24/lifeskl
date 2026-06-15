@@ -1,0 +1,250 @@
+{
+  "slug": "critical-thinking",
+  "title": "Think it through",
+  "description": "Question claims, weigh evidence, and don't get fooled.",
+  "unit": 3,
+  "sortOrder": 6,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Separate facts you can verify from opinions and unsupported claims",
+    "Size up a source: who said it, what's their evidence, who benefits",
+    "Spot fallacies like bandwagon, ad hominem, and false cause",
+    "Read laterally — leave the page and see what others say about it",
+    "Catch your own confirmation bias before it does the thinking for you"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Don't swallow it whole",
+      "body": "A post shows up in the group chat: \"Scientists say studying with music makes you 40% smarter.\" Three people already shared it.\n\nCritical thinking is the pause before you hit share. It's not being negative — it's refusing to swallow a claim whole just because it sounds good or everyone's repeating it.\n\nYou ask: is that actually true? Who said it? Where's the proof?",
+      "image": "/illustrations/critical-thinking.svg",
+      "imageAlt": "A magnifying glass examining a lightbulb"
+    },
+    {
+      "type": "material",
+      "title": "Fact, opinion, or just a claim",
+      "body": "Three different things often get jumbled together:\n\n- **Fact** — checkable against reality. \"Water boils at 100°C at sea level.\"\n- **Opinion** — someone's preference or judgment. \"Rainy days are the best for studying.\"\n- **Unsupported claim** — sounds like a fact but has no evidence behind it. \"This app rewires your brain in a week.\"\n\nThe trap is treating the third one like the first."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Fact or opinion?",
+      "categories": [
+        "Fact",
+        "Opinion"
+      ],
+      "items": [
+        {
+          "text": "The exam is on Tuesday at 9am",
+          "category": 0
+        },
+        {
+          "text": "History is way more interesting than chemistry",
+          "category": 1
+        },
+        {
+          "text": "Our school has 1,200 students",
+          "category": 0
+        },
+        {
+          "text": "This is the hardest class in the whole school",
+          "category": 1
+        },
+        {
+          "text": "Pizza tastes better than salad",
+          "category": 1
+        },
+        {
+          "text": "The library closes at 8pm",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "prompt": "An unsupported claim counts as a fact as long as it sounds confident.",
+      "answer": false,
+      "explanation": "Confidence isn't evidence. A claim only becomes a fact when you can actually verify it."
+    },
+    {
+      "type": "material",
+      "title": "Check the source",
+      "body": "Before you trust a claim, size up where it came from:\n\n- **Who's saying it?** A doctor, a random account, an ad?\n- **What's their evidence?** Data and studies, or just vibes?\n- **Do they benefit?** Someone selling the thing isn't a neutral judge.\n- **Are they biased?** Everyone leans somewhere — notice it.\n- **Is it current?** A 2009 stat about phones is ancient history.\n\nNo evidence, big payday for them? Be extra suspicious."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which source is most credible for whether a study trick works?",
+      "context": "You want to know if rewriting notes by hand actually helps you remember.",
+      "options": [
+        "An influencer's ad for a $40 note-taking course",
+        "A random comment that says 'trust me, it works'",
+        "A peer-reviewed study comparing handwriting and typing",
+        "A meme you saw three times this week"
+      ],
+      "correctIndex": 2,
+      "explanation": "A study with real evidence beats sources that are selling something, anonymous, or just repeated a lot."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each thinking trap to what it actually is.",
+      "pairs": [
+        {
+          "left": "Bandwagon",
+          "right": "Everyone believes it, so it's true"
+        },
+        {
+          "left": "Ad hominem",
+          "right": "Attack the person, not the point"
+        },
+        {
+          "left": "False cause",
+          "right": "Correlation mistaken for cause"
+        },
+        {
+          "left": "False dilemma",
+          "right": "Only two options offered"
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Fallacies to dodge",
+      "body": "Fallacies are sneaky shortcuts that feel convincing but prove nothing:\n\n- **Bandwagon** — \"everyone's doing it\" so it must be right.\n- **Ad hominem** — trash the person instead of their argument.\n- **False cause** — two things happen together, so one caused the other.\n- **False dilemma** — pretending there are only two choices.\n- **Appeal to emotion** — scaring or hyping you past the logic.\n- **Cherry-picking** — showing only the data that fits."
+    },
+    {
+      "type": "true_false",
+      "prompt": "If ice cream sales and sunburns rise together, ice cream must cause sunburns.",
+      "answer": false,
+      "explanation": "Correlation isn't causation — hot weather drives both. That's the false-cause trap."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which line is the bandwagon fallacy?",
+      "options": [
+        "This app has three studies showing it improves recall",
+        "Everyone in class uses this app, so it must be the best",
+        "I tried this app and my grades went up over a month",
+        "The app is free, which makes it worth testing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Popularity isn't proof. 'Everyone does it' is the bandwagon move, no matter how many people pile on."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this advice backwards. Tap it.",
+      "sentence": "Confirmation bias makes you favor information that disagrees with what you already believe.",
+      "wrongWord": "disagrees",
+      "correctWord": "agrees",
+      "explanation": "Confirmation bias pulls you toward info that agrees with you — which is exactly why you have to check the other side on purpose."
+    },
+    {
+      "type": "material",
+      "title": "Read sideways, not down",
+      "body": "When a sketchy site says \"we're a trusted health authority,\" don't just scroll down their own page — of course they'll praise themselves.\n\n**Lateral reading** means leaving the page and opening new tabs to see what other, independent sources say about that source. Fact-checkers do this first.\n\nA single page can lie all day. A web of independent sources is much harder to fake."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the steps for evaluating a claim in order.",
+      "steps": [
+        "Notice the claim and what it's really saying",
+        "Check who's saying it and what evidence they have",
+        "Read laterally to see what other sources say",
+        "Look for the other side and another explanation",
+        "Decide whether to trust, doubt, or share it"
+      ],
+      "explanation": "Spot it, source it, cross-check it, weigh the other side, then decide — judging before you investigate is how you get fooled."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Leaving a page to see what other sources say about it is called ___ reading.",
+      "answer": "lateral",
+      "accept": [
+        "Lateral"
+      ],
+      "hint": "It means sideways.",
+      "explanation": "Lateral reading checks a source from the outside instead of trusting what it says about itself."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "A shocking headline makes you furious before you finish reading. What's the smart first move?",
+      "options": [
+        "Pause and ask what evidence backs the claim",
+        "Share it fast while you're still fired up",
+        "Trust it because it made you feel something strong",
+        "Assume it's true since it confirms what you suspected"
+      ],
+      "correctIndex": 0,
+      "explanation": "Strong emotion is a flag, not proof — appeal to emotion works by rushing you past the evidence."
+    },
+    {
+      "type": "decision_path",
+      "title": "Is it true?",
+      "intro": "A jaw-dropping post is going viral: \"BREAKING: 8 hours of sleep secretly LOWERS your test scores!\" Your finger's on share. Keep the Truth-o-meter high.",
+      "stat": {
+        "name": "Truth-o-meter",
+        "emoji": "🔍",
+        "start": 50
+      },
+      "steps": [
+        {
+          "situation": "The post has no author and links to nothing. What first?",
+          "options": [
+            {
+              "text": "Check who posted it and what evidence they show",
+              "delta": 25,
+              "feedback": "Source first — no name and no evidence is a giant red flag.",
+              "best": true
+            },
+            {
+              "text": "Share it because it's shocking",
+              "delta": -30,
+              "feedback": "Shock value isn't truth. You just spread an unchecked claim."
+            },
+            {
+              "text": "Believe it — a friend reposted it",
+              "delta": -20,
+              "feedback": "A friend sharing it doesn't make it true. That's bandwagon thinking."
+            }
+          ]
+        },
+        {
+          "situation": "You find the original 'source': an ad for a $30 energy-drink that 'replaces sleep.'",
+          "options": [
+            {
+              "text": "Trust the ad's own 'studies' section",
+              "delta": -25,
+              "feedback": "A seller grading their own product isn't neutral evidence."
+            },
+            {
+              "text": "Read laterally — see what real sleep researchers say",
+              "delta": 25,
+              "feedback": "Independent sources beat a page that's selling you something.",
+              "best": true
+            },
+            {
+              "text": "Accept it — it fits your hope that sleep is overrated",
+              "delta": -20,
+              "feedback": "That's confirmation bias deciding for you."
+            }
+          ]
+        },
+        {
+          "situation": "Every independent source says sleep HELPS memory and scores. The post cherry-picked one odd graph.",
+          "options": [
+            {
+              "text": "Trust the weight of independent evidence, don't share the post",
+              "delta": 25,
+              "feedback": "You weighed the other side and followed the evidence. That's the whole skill.",
+              "best": true
+            },
+            {
+              "text": "Share anyway — the one weird graph is interesting",
+              "delta": -25,
+              "feedback": "Cherry-picked data isn't the full picture. Don't amplify it."
+            }
+          ]
+        }
+      ],
+      "outro": "You questioned it, sourced it, read laterally, and let evidence — not the headline — decide. That's critical thinking."
+    }
+  ]
+}

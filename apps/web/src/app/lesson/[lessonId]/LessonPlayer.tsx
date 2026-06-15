@@ -18,7 +18,10 @@ import {
   MaterialView,
   MultipleChoiceView,
   OrderStepsView,
+  PriorityMatrixView,
+  ReflectView,
   SliderEstimateView,
+  SpacedPlannerView,
   SpotScamView,
   TapWordView,
   TrueFalseView,
@@ -68,6 +71,12 @@ function QuestionRenderer({
       return <DecisionPathView block={block} meta={meta} onDone={onDone} />;
     case "spot_scam":
       return <SpotScamView block={block} meta={meta} onDone={onDone} />;
+    case "priority_matrix":
+      return <PriorityMatrixView block={block} meta={meta} onDone={onDone} />;
+    case "spaced_planner":
+      return <SpacedPlannerView block={block} meta={meta} onDone={onDone} />;
+    case "reflect":
+      return <ReflectView block={block} meta={meta} onDone={onDone} />;
   }
 }
 

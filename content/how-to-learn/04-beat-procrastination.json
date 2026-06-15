@@ -1,0 +1,261 @@
+{
+  "slug": "beat-procrastination",
+  "title": "Beating procrastination",
+  "description": "Procrastination is about feelings, not laziness — here's the way out.",
+  "unit": 2,
+  "sortOrder": 4,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Spot procrastination as a feelings problem, not a character flaw",
+    "Shrink the first step until starting takes two minutes",
+    "Kill the cue — phone in another room, distracting tabs closed",
+    "Use a 25-minute Pomodoro to make a scary task feel finite",
+    "Forgive the last slip and start again — self-blame makes it worse"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "It's not that you're lazy",
+      "body": "You open the doc. You stare at it. You close it and check your phone — and instantly feel a little better.\n\nThat little hit of relief is the whole trap. You're not avoiding the essay because you're lazy. You're avoiding the **bad feeling** it gives you: the boredom, the self-doubt, the fear it won't be good enough.\n\nProcrastination is an emotion problem wearing a time-management costume.",
+      "image": "/illustrations/procrastination.svg",
+      "imageAlt": "A clock with a task pushed off to later"
+    },
+    {
+      "type": "material",
+      "title": "The relief loop",
+      "body": "Here's the cycle on repeat:\n- A task makes you feel bad\n- You avoid it (scroll, snack, \"I'll start at 8\")\n- You get instant relief — which **rewards** the dodge\n- Later: guilt, panic, and a bigger task than before\n\nEvery dodge teaches your brain that avoiding works. The loop tightens. Breaking it means changing the start, not summoning more willpower."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Procrastination basically means you're lazy and bad at managing time.",
+      "answer": false,
+      "explanation": "It's an emotion-regulation problem — you avoid a task to escape the bad feeling it brings, not because you can't manage a clock."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What gives that quick rush of relief and quietly keeps the loop going?",
+      "context": "You've put off the assignment for an hour, then open your group chat instead.",
+      "options": [
+        "Finally finishing a hard chapter",
+        "Avoiding the task you were dreading",
+        "Writing a detailed to-do list",
+        "Setting a deadline for tomorrow"
+      ],
+      "correctIndex": 1,
+      "explanation": "The escape feels good in the moment, so your brain learns that dodging the task pays off — and does it again."
+    },
+    {
+      "type": "material",
+      "title": "Start absurdly small",
+      "body": "Starting is the hard part, not the doing. So make starting tiny.\n\n- **2-minute rule:** commit to two minutes, not the whole essay. \"Just open it and write one bad sentence.\"\n- Motivation doesn't show up first and then you act. It's the reverse — you act, and then the motivation arrives.\n\nOnce the doc is open and the first ugly line exists, the next line is suddenly easy."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "You've been dreading a big essay all day. What's the smartest first move?",
+      "options": [
+        "Wait until you feel motivated to write",
+        "Block out the whole evening to finish it",
+        "Open the doc and write one bad sentence",
+        "Make a color-coded plan for all your subjects"
+      ],
+      "correctIndex": 2,
+      "explanation": "Shrinking the first step until it's almost effortless gets you started — and motivation follows action, not the other way around."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word flips this rule backwards. Tap it.",
+      "sentence": "Motivation usually shows up before you take the first step.",
+      "wrongWord": "before",
+      "correctWord": "after",
+      "explanation": "Action comes first; motivation follows. That’s why starting tiny works — you don’t have to feel ready."
+    },
+    {
+      "type": "material",
+      "title": "Lower the bar, cut the cues",
+      "body": "Two more levers:\n\n- **Lower the bar.** Perfectionism is rocket fuel for procrastination — if it has to be perfect, you'll never start. A messy first draft beats a flawless none.\n- **Remove the cue.** Out of sight, out of mind. Phone in another room, distracting tabs closed. You can't tap what you can't reach."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each trick to why it actually works.",
+      "pairs": [
+        {
+          "left": "2-minute rule",
+          "right": "Makes starting almost effortless"
+        },
+        {
+          "left": "Phone in another room",
+          "right": "Removes the cue to scroll"
+        },
+        {
+          "left": "Messy first draft",
+          "right": "Beats perfectionism that stalls you"
+        },
+        {
+          "left": "Pomodoro timer",
+          "right": "Makes the task feel finite"
+        }
+      ]
+    },
+    {
+      "type": "categorize",
+      "prompt": "Does this habit help you beat procrastination, or fuel it?",
+      "categories": [
+        "Helps",
+        "Fuels"
+      ],
+      "items": [
+        {
+          "text": "Phone face-down in another room",
+          "category": 0
+        },
+        {
+          "text": "Writing a deliberately rough first draft",
+          "category": 0
+        },
+        {
+          "text": "Waiting until you feel perfectly ready",
+          "category": 1
+        },
+        {
+          "text": "Demanding the first line be flawless",
+          "category": 1
+        },
+        {
+          "text": "Committing to just two minutes",
+          "category": 0
+        },
+        {
+          "text": "Promising yourself a snack the second you finish",
+          "category": 0
+        },
+        {
+          "text": "Leaving ten tabs open \"for later\"",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Make it finite and concrete",
+      "body": "A vague \"I'll study tonight\" is easy to dodge. Pin it down.\n\n- **Implementation intention:** \"After dinner, at my desk, I'll do 25 minutes of math.\" When-where-what, decided in advance.\n- **Pomodoro:** 25 minutes on, 5 minutes off. A scary, endless task becomes one 25-minute block you can actually picture finishing."
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "One Pomodoro focus block lasts how many minutes before the break?",
+      "min": 5,
+      "max": 45,
+      "step": 5,
+      "answer": 25,
+      "tolerance": 5,
+      "unitPrefix": "",
+      "explanation": "A classic Pomodoro is 25 minutes of focus, then a 5-minute break — short enough to start, long enough to get real work done."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put these steps in order to break the avoidance loop right now.",
+      "steps": [
+        "Put the phone in another room",
+        "Open the doc and write one bad line",
+        "Set a 25-minute Pomodoro and keep going",
+        "Take a 5-minute break, then start the next block"
+      ],
+      "explanation": "Cut the cue, shrink the start, make it finite, then reset — each step lowers the wall between you and the work."
+    },
+    {
+      "type": "material",
+      "title": "Forgive, then restart",
+      "body": "Two last truths most people miss:\n\n- **Self-compassion beats self-blame.** Beating yourself up over a slip makes you procrastinate more. Forgive the lost hour and just start the next one.\n- **You discount the future.** A reward or deadline that feels far away barely moves you. Pull it closer — a tiny reward now, a deadline you can feel today."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "You wasted the whole afternoon and feel terrible. What helps you actually get going?",
+      "options": [
+        "Punish yourself by skipping dinner until it's done",
+        "Decide the day's ruined and try again tomorrow",
+        "Spend an hour replaying everything you did wrong",
+        "Forgive the lost time and start a 25-minute block"
+      ],
+      "correctIndex": 3,
+      "explanation": "Harsh self-blame piles on more bad feeling — the exact thing you avoid tasks to escape. Self-forgiveness clears the way to restart."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Think of one task you keep dodging. What's the two-minute version you could start in the next ten minutes?",
+      "context": "Be specific — name the task and the absurdly small first move.",
+      "chips": [
+        "Open the doc",
+        "Read one page",
+        "Write one line",
+        "Phone in another room"
+      ],
+      "placeholder": "The two-minute version is…",
+      "explanation": "Naming the tiny first step out loud is half the battle — the rest is just opening the thing."
+    },
+    {
+      "type": "decision_path",
+      "title": "The 8 p.m. essay",
+      "intro": "An essay is due tomorrow morning and you keep finding reasons not to start. Build momentum to 100.",
+      "stat": {
+        "name": "Momentum",
+        "emoji": "🚀",
+        "start": 0
+      },
+      "steps": [
+        {
+          "situation": "It's 8 p.m. The blank doc is open. Your brain says \"not yet.\"",
+          "options": [
+            {
+              "text": "Write one bad first line for two minutes",
+              "delta": 30,
+              "feedback": "Starting tiny beats the dread — the first ugly sentence breaks the seal.",
+              "best": true
+            },
+            {
+              "text": "Check socials \"just for a sec\"",
+              "delta": -20,
+              "feedback": "That quick relief rewards the dodge. A sec becomes an hour."
+            },
+            {
+              "text": "Wait until you \"feel ready\"",
+              "delta": -15,
+              "feedback": "Readiness comes after you start, not before. You'd be waiting all night."
+            }
+          ]
+        },
+        {
+          "situation": "You've got a rough paragraph. Your phone keeps buzzing on the desk.",
+          "options": [
+            {
+              "text": "Stop and clean your room instead",
+              "delta": -15,
+              "feedback": "Productive-looking avoidance is still avoidance. The essay didn't move."
+            },
+            {
+              "text": "Put the phone in another room",
+              "delta": 30,
+              "feedback": "Out of sight, out of mind — you killed the cue before it could grab you.",
+              "best": true
+            }
+          ]
+        },
+        {
+          "situation": "The paragraph is messy and you want to perfect it before going on.",
+          "options": [
+            {
+              "text": "Leave it rough and do one 25-minute Pomodoro",
+              "delta": 40,
+              "feedback": "A messy draft you finish beats a perfect one you never write. Momentum maxed.",
+              "best": true
+            },
+            {
+              "text": "Rewrite the first line until it's flawless",
+              "delta": -20,
+              "feedback": "Perfectionism is procrastination in disguise — it keeps you stuck on line one."
+            }
+          ]
+        }
+      ],
+      "outro": "Tiny start, no phone, messy and finite. That's the whole escape hatch."
+    }
+  ]
+}

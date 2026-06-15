@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A brain with a lightning spark">
+  <!-- brain body - main rounded shape -->
+  <path d="M100 148 C72 148 52 130 52 108 C52 94 60 84 72 78 C70 74 68 68 68 62 C68 46 80 36 96 36 C100 36 104 37 108 39 C112 30 122 24 134 24 C146 24 156 30 160 39 C164 30 174 24 186 24 C198 24 208 30 212 39 C216 37 220 36 224 36 C240 36 252 46 252 62 C252 68 250 74 248 78 C260 84 268 94 268 108 C268 130 248 148 220 148 Z" fill="#6b46ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- brain left lobe bump -->
+  <path d="M80 86 C66 82 56 94 60 106" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- brain right lobe bump -->
+  <path d="M240 86 C254 82 264 94 260 106" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- brain fold lines - center divider -->
+  <path d="M160 36 C158 60 158 100 160 148" stroke="#4a2ed1" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- brain fold - left side -->
+  <path d="M112 50 C106 72 108 100 114 126" stroke="#4a2ed1" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- brain fold - right side -->
+  <path d="M208 50 C214 72 212 100 206 126" stroke="#4a2ed1" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- brain base flat line -->
+  <path d="M100 148 C120 156 200 156 220 148" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <!-- lightning bolt - main -->
+  <path d="M244 54 L228 90 L242 90 L222 130 L262 82 L246 82 Z" fill="#ff6f9c" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- spark dots -->
+  <circle cx="272" cy="62" r="5" fill="#ff6f9c" stroke="#181016" stroke-width="2.5"/>
+  <circle cx="282" cy="88" r="3.5" fill="#ff6f9c" stroke="#181016" stroke-width="2.5"/>
+  <circle cx="264" cy="44" r="3" fill="#ffe6ee" stroke="#181016" stroke-width="2.5"/>
+  <!-- label -->
+  <text x="160" y="180" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#4a3f47" text-anchor="middle">Neuroplasticity — your brain can grow</text>
+</svg>

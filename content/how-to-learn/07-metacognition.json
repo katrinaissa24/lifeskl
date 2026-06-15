@@ -1,0 +1,186 @@
+{
+  "slug": "metacognition",
+  "title": "Thinking about your thinking",
+  "description": "Plan, monitor, and check your own learning — the skill behind every skill.",
+  "unit": 3,
+  "sortOrder": 7,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Run every study session in three phases: plan, monitor, evaluate",
+    "Spot the illusion of competence — recognizing isn't the same as recalling",
+    "Self-test to expose gaps; the harder it feels, the more it's working",
+    "Use the Feynman trick: explain it simply, and your fuzzy spots show up",
+    "Ask 'how do I know I actually know this?' before you call it learned"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The voice in your head",
+      "body": "Ever finish reading a page, glance up, and realize you have no idea what you just read? That little nudge — wait, did I actually get that? — is your brain checking on itself.\n\nThat's **metacognition**: thinking about your own thinking. It's the quiet skill behind every other skill, because it's how you steer your learning instead of just hoping it sticks.",
+      "image": "/illustrations/metacognition.svg",
+      "imageAlt": "A brain reflected in a mirror, thinking about thinking"
+    },
+    {
+      "type": "material",
+      "title": "Three phases, every time",
+      "body": "Good learners run a loop, usually without noticing:\n- **Plan** — What do I already know? What's the goal? Which strategy fits?\n- **Monitor** — Is this working? Do I really get it, or do I just recognize it?\n- **Evaluate** — What worked? What would I change next time?\n\nMost people only ever do the middle part, and badly. The real wins hide in the planning up front and the honest check at the end."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the metacognition loop in the order you actually use it.",
+      "steps": [
+        "Plan: figure out the goal and pick a strategy",
+        "Monitor: check mid-session whether it's working",
+        "Evaluate: ask what worked and what to change"
+      ],
+      "explanation": "Plan before you start, monitor while you go, evaluate after. Skip the first and last and you're just flailing in the middle."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each phase to the question it asks.",
+      "pairs": [
+        {
+          "left": "Plan",
+          "right": "Which strategy fits this goal?"
+        },
+        {
+          "left": "Monitor",
+          "right": "Is this actually working?"
+        },
+        {
+          "left": "Evaluate",
+          "right": "What would I change next time?"
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "The trap: feeling like you know",
+      "body": "Here's the sneaky part. Rereading your notes and slapping highlighter everywhere feels productive. The words get familiar, so your brain whispers, \"Yeah, I've got this.\"\n\nThat warm feeling is the **illusion of competence**. Recognizing something on the page is not the same as being able to pull it out of your head in an exam — where the page isn't there to help."
+    },
+    {
+      "type": "true_false",
+      "prompt": "If you reread something until it feels familiar, you've learned it.",
+      "answer": false,
+      "explanation": "Familiarity is recognition, not recall. Feeling like you know it is exactly the illusion of competence the exam will expose."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this false. Tap it.",
+      "sentence": "Highlighting and rereading are the best proof that you truly know something.",
+      "wrongWord": "best",
+      "correctWord": "weakest",
+      "explanation": "Rereading and highlighting feel productive but only build familiarity — self-testing is what proves real recall."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Feels like learning, or actually builds it?",
+      "categories": [
+        "Just feels like learning",
+        "Actually builds it"
+      ],
+      "items": [
+        {
+          "text": "Highlighting half the textbook",
+          "category": 0
+        },
+        {
+          "text": "Closing the book and writing what you remember",
+          "category": 1
+        },
+        {
+          "text": "Rereading your notes a fifth time",
+          "category": 0
+        },
+        {
+          "text": "Quizzing yourself with the page hidden",
+          "category": 1
+        },
+        {
+          "text": "Copying the slides out word for word",
+          "category": 0
+        },
+        {
+          "text": "Explaining it out loud from memory",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Self-testing breaks the spell",
+      "body": "The fix is uncomfortable on purpose: **close the book and test yourself.**\n\nWhen you try to recall an answer and come up blank, that blank is the truth. It feels harder than rereading — and that difficulty is the whole point. The struggle is your brain actually building the memory, and it instantly shows you the gaps you'd otherwise miss."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What actually tells you whether you understand something?",
+      "context": "You've read the chapter three times and it all looks familiar.",
+      "options": [
+        "Reread it a fourth time, slower",
+        "Highlight the parts that felt important",
+        "Close the book and try to explain or test yourself on it",
+        "Notice that none of it surprised you"
+      ],
+      "correctIndex": 2,
+      "explanation": "Only retrieval — pulling it out without the page — proves real understanding. Everything else just measures familiarity."
+    },
+    {
+      "type": "material",
+      "title": "Explain it to a twelve-year-old",
+      "body": "The **Feynman technique** is a brutal honesty machine. Pick the idea and explain it in plain words, as if to a curious twelve-year-old — no jargon to hide behind.\n\nWherever you get stuck, vague, or reach for a fancy term you can't unpack? That's exactly what you don't truly understand yet. Go relearn that spot, then try the explanation again."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "In the Feynman technique, what does getting stuck or vague reveal?",
+      "options": [
+        "That the topic is just naturally confusing",
+        "The precise spot you don't actually understand yet",
+        "That you should use more technical terms",
+        "That you're a slow learner"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stumbling is a feature, not a flaw — it pinpoints the exact gap so you know what to go relearn."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "The honest gut-check before calling something learned: How do I know I actually ___ this?",
+      "answer": "know",
+      "accept": [
+        "understand"
+      ],
+      "hint": "It's the word that follows 'actually'.",
+      "explanation": "\"How do I know I actually know this?\" forces real evidence — a test passed, an idea explained — instead of a vague feeling."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Weaker students tend to overestimate how much they actually know.",
+      "answer": true,
+      "explanation": "The less you know, the harder it is to see what's missing. Practice tests calibrate that gap so your confidence matches reality."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "You feel super confident but want to be sure. What calibrates that confidence best?",
+      "options": [
+        "Taking a practice test under real conditions",
+        "Reading your notes one more time",
+        "Trusting the confident feeling",
+        "Asking a friend if they think you're ready"
+      ],
+      "correctIndex": 0,
+      "explanation": "A practice test shows your true score, not your gut feeling — the cure for overestimating what you know."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Pick a real task coming up. Write your PLAN — what you already know, the goal, and the strategy you'll use — then how you'll CHECK it's actually working.",
+      "context": "This is the whole loop in one move: plan it, then build in a way to monitor yourself instead of just hoping.",
+      "chips": [
+        "A test",
+        "An essay",
+        "A presentation",
+        "A problem set"
+      ],
+      "placeholder": "I already know… my goal is… my strategy is… I'll know it's working when…",
+      "explanation": "Naming the goal, the strategy, and the check turns vague studying into something you can actually steer."
+    }
+  ]
+}

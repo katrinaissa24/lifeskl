@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A decay curve lifted by review spikes">
+  <!-- background surface -->
+  <rect x="30" y="20" width="278" height="154" rx="8" fill="#fffdf8"/>
+
+  <!-- axis lines -->
+  <line x1="44" y1="24" x2="44" y2="162" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="44" y1="162" x2="302" y2="162" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- axis arrow heads -->
+  <polyline points="40,28 44,20 48,28" stroke="#181016" stroke-width="2.5" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+  <polyline points="298,158 306,162 298,166" stroke="#181016" stroke-width="2.5" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+
+  <!-- axis labels -->
+  <text x="44" y="12" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#4a3f47" text-anchor="middle">memory</text>
+  <text x="305" y="178" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#4a3f47" text-anchor="middle">time</text>
+
+  <!-- decay curve segment 1: x=44→x=106, steep drop from y=42 to y=130 -->
+  <path d="M44 42 C70 50 98 110 106 130" stroke="#ff6f9c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- review spike 1 at x=106 -->
+  <line x1="106" y1="130" x2="106" y2="56" stroke="#6b46ff" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="102,62 106,50 110,62" fill="#6b46ff" stroke="#181016" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- decay curve segment 2: x=106→x=188, shallower drop from y=56 to y=128 -->
+  <path d="M106 56 C136 64 172 106 188 128" stroke="#ff6f9c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- review spike 2 at x=188 -->
+  <line x1="188" y1="128" x2="188" y2="68" stroke="#6b46ff" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="184,74 188,62 192,74" fill="#6b46ff" stroke="#181016" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- decay curve segment 3: x=188→x=290, very shallow drop from y=68 to y=118 -->
+  <path d="M188 68 C222 74 268 100 290 118" stroke="#ff6f9c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- review spike 3 at x=290 -->
+  <line x1="290" y1="118" x2="290" y2="78" stroke="#6b46ff" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="286,84 290,72 294,84" fill="#6b46ff" stroke="#181016" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- "Review" label badges on spikes -->
+  <rect x="72" y="44" width="40" height="16" rx="4" fill="#efe9ff" stroke="#181016" stroke-width="2"/>
+  <text x="92" y="56" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#4a2ed1" text-anchor="middle">Review</text>
+
+  <rect x="154" y="56" width="40" height="16" rx="4" fill="#efe9ff" stroke="#181016" stroke-width="2"/>
+  <text x="174" y="68" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#4a2ed1" text-anchor="middle">Review</text>
+
+  <rect x="256" y="66" width="40" height="16" rx="4" fill="#efe9ff" stroke="#181016" stroke-width="2"/>
+  <text x="276" y="78" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#4a2ed1" text-anchor="middle">Review</text>
+
+  <!-- start dot on curve -->
+  <circle cx="44" cy="42" r="4" fill="#ff6f9c" stroke="#181016" stroke-width="2"/>
+
+  <!-- title label -->
+  <rect x="62" y="170" width="198" height="22" rx="6" fill="#ffe6ee" stroke="#181016" stroke-width="2.5"/>
+  <text x="161" y="185" font-family="Arial, sans-serif" font-size="11" font-weight="800" fill="#181016" text-anchor="middle">Spaced Review Beats Forgetting</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A sprout climbing a staircase of upward arrows">
+  <!-- staircase blocks, rising left to right -->
+  <rect x="20"  y="160" width="52" height="24" rx="6" fill="#efe9ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="76"  y="138" width="52" height="46" rx="6" fill="#efe9ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="132" y="116" width="52" height="68" rx="6" fill="#efe9ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="188" y="94"  width="52" height="90" rx="6" fill="#efe9ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="244" y="72"  width="52" height="112" rx="6" fill="#6b46ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- upward arrow on top step -->
+  <line x1="270" y1="66" x2="270" y2="44" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <polyline points="260,53 270,42 280,53" fill="none" stroke="#181016" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- sprout stem on top step -->
+  <line x1="270" y1="72" x2="270" y2="56" stroke="#1f8a5b" stroke-width="3" stroke-linecap="round"/>
+  <!-- sprout left leaf -->
+  <path d="M270 64 C258 60 254 50 260 48 C264 46 270 52 270 56" fill="#1f8a5b" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- sprout right leaf -->
+  <path d="M270 60 C282 56 286 46 280 44 C276 42 270 48 270 54" fill="#1f8a5b" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- step labels -->
+  <g font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#4a3f47" text-anchor="middle">
+    <text x="46"  y="155">Start</text>
+    <text x="102" y="133">Try</text>
+    <text x="158" y="111">Learn</text>
+    <text x="214" y="89">Grow</text>
+    <text x="270" y="67">Thrive</text>
+  </g>
+</svg>

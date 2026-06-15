@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A bullseye with a single arrow">
+  <!-- outermost ring -->
+  <circle cx="160" cy="100" r="88" fill="#fffdf8" stroke="#181016" stroke-width="3"/>
+  <!-- ring 2 -->
+  <circle cx="160" cy="100" r="70" fill="#efe9ff" stroke="#181016" stroke-width="3"/>
+  <!-- ring 3 -->
+  <circle cx="160" cy="100" r="52" fill="#fffdf8" stroke="#181016" stroke-width="3"/>
+  <!-- ring 4 -->
+  <circle cx="160" cy="100" r="34" fill="#efe9ff" stroke="#181016" stroke-width="3"/>
+  <!-- bullseye center -->
+  <circle cx="160" cy="100" r="16" fill="#6b46ff" stroke="#181016" stroke-width="3"/>
+  <!-- arrow shaft — coming from upper-right, tip at center -->
+  <line x1="262" y1="14" x2="166" y2="96" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <!-- arrowhead (small triangle at tip) -->
+  <path d="M166 96 L155 88 L164 84 Z" fill="#181016" stroke="#181016" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- fletching / flight feathers on tail -->
+  <path d="M262 14 L254 6 L258 18 Z" fill="#ff6f9c" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M262 14 L272 8 L268 20 Z" fill="#ff6f9c" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- label -->
+  <text x="160" y="188" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#181016" text-anchor="middle">Focus on what matters</text>
+</svg>

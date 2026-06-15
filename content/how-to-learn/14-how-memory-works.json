@@ -1,0 +1,221 @@
+{
+  "slug": "how-memory-works",
+  "title": "How memory actually works",
+  "description": "Encode, store, retrieve — and how to make each one stick.",
+  "unit": 6,
+  "sortOrder": 14,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Encode with meaning — connect new stuff to what you already know, not blind repetition",
+    "Working memory holds only ~4–7 things at once, so chunk and rehearse to move it to long-term",
+    "Quiz yourself: the act of recalling is what makes a memory stronger",
+    "Beat the forgetting curve with spaced reviews at expanding intervals (day 1, 3, 7, 30)",
+    "Stack the boosters — chunking, mnemonics, sleep, and words-plus-visuals"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Three doors, not one",
+      "body": "You don't have one \"memory\" — you have a tiny assembly line with three stations.\n\n- **Encode** — getting info in\n- **Store** — holding onto it\n- **Retrieve** — pulling it back out when you need it\n\nMost \"I have a bad memory\" moments are really just one of these three stations being skipped. The good news: you can train all three.",
+      "image": "/illustrations/memory-stages.svg",
+      "imageAlt": "Encode, store, and retrieve arrows feeding into a box"
+    },
+    {
+      "type": "material",
+      "title": "Encoding runs on meaning",
+      "body": "Reading a line ten times feels like studying, but your brain barely notices it. That's shallow encoding.\n\nDeep encoding sticks because you give the info a **meaning**: link it to something you already know, find an example, or picture it in your head.\n\n\"Mitochondria make energy\" is forgettable. \"Mitochondria are the phone charger of the cell\" hooks onto something real — so it stays."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which study move encodes the deepest?",
+      "context": "You're learning a new term for biology.",
+      "options": [
+        "Reading the definition out loud five times in a row",
+        "Connecting the term to your own example and picturing it",
+        "Highlighting the whole paragraph in yellow",
+        "Copying the definition word-for-word into your notes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tying new info to something you already know and visualizing it is deep encoding — repetition and highlighting are shallow and fade fast."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each memory station to its job.",
+      "pairs": [
+        {
+          "left": "Encode",
+          "right": "Get the info in"
+        },
+        {
+          "left": "Store",
+          "right": "Hold onto it over time"
+        },
+        {
+          "left": "Retrieve",
+          "right": "Pull it back out later"
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Your mental sticky note",
+      "body": "Working memory — the stuff you're holding right now — is shockingly small. It fits only about **4 to 7 items**, and only for a few seconds.\n\nThat's why a phone number flies out of your head the moment someone distracts you.\n\nTo keep something, you have to move it into long-term storage — and that happens through meaning and rehearsal, not by staring harder."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Your working memory can hold almost unlimited items at once.",
+      "answer": false,
+      "explanation": "Working memory is tiny — roughly 4 to 7 items for a few seconds. Anything more has to be chunked or moved into long-term memory."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put memory's three stations in the order info travels through them.",
+      "steps": [
+        "Encode",
+        "Store",
+        "Retrieve"
+      ],
+      "explanation": "Info has to get in (encode), be held (store), and only then can you pull it back out (retrieve). Skip the first and there's nothing to find."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Grouping a number like 5-5-5-1-2-3-4 into 555-1234 is called ___.",
+      "answer": "chunking",
+      "accept": [
+        "a chunk",
+        "chunk"
+      ],
+      "hint": "Phone numbers are split into groups on purpose.",
+      "explanation": "Chunking groups loose items into bigger units, so seven digits feel like two pieces — beating the limits of working memory."
+    },
+    {
+      "type": "material",
+      "title": "Retrieval is the workout",
+      "body": "Here's the twist most people miss: **the act of recalling a memory is what makes it stronger.**\n\nRe-reading your notes feels productive but barely lifts anything. Closing the notes and trying to remember — that's the rep that builds the muscle.\n\nThis is why testing yourself beats reviewing. Good cues help too: a keyword or image gives your brain a handle to grab the memory by.",
+      "image": "/illustrations/brain-spark.svg",
+      "imageAlt": "A brain lit up with a spark of activity"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What actually makes a memory stronger?",
+      "options": [
+        "Reading the same notes one more time",
+        "The effort of recalling it from memory",
+        "Keeping the notes open while you study",
+        "Underlining the key sentences again"
+      ],
+      "correctIndex": 1,
+      "explanation": "Retrieval practice — pulling the answer from your own head — strengthens the memory each time. Passive re-reading mostly feels easy without helping."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this false. Tap it.",
+      "sentence": "Quizzing yourself weakens a memory every single time you recall it.",
+      "wrongWord": "weakens",
+      "correctWord": "strengthens",
+      "explanation": "Each successful recall strengthens the memory — that's the whole power of retrieval practice."
+    },
+    {
+      "type": "material",
+      "title": "The forgetting curve",
+      "body": "Learn something once and walk away, and it drains out fast: you forget roughly **half within an hour** and most of it within a day.\n\nBut every time you review, the curve flattens — you forget more slowly after each pass.\n\nSo forgetting isn't a character flaw. It's the default. Reviewing on a schedule is how you fight back.",
+      "image": "/illustrations/forgetting-curve.svg",
+      "imageAlt": "A memory decay curve lifted higher by review spikes"
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "After learning something once with no review, about what % is gone within a day?",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "answer": 70,
+      "tolerance": 10,
+      "unitSuffix": "%",
+      "explanation": "Without review you lose most of it within a day — around 70%. Each review flattens that drop so you keep more."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Does this strengthen or weaken your memory?",
+      "categories": [
+        "Strengthens",
+        "Weakens"
+      ],
+      "items": [
+        {
+          "text": "Quizzing yourself from memory",
+          "category": 0
+        },
+        {
+          "text": "Spacing reviews over several days",
+          "category": 0
+        },
+        {
+          "text": "A full night of sleep",
+          "category": 0
+        },
+        {
+          "text": "Connecting it to a vivid example",
+          "category": 0
+        },
+        {
+          "text": "Cramming the whole thing at 2am",
+          "category": 1
+        },
+        {
+          "text": "Re-reading notes without testing",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Stack the boosters",
+      "body": "A few cheap tricks make all three stations work better:\n\n- **Chunking** — group items, like a phone number\n- **Mnemonics** — acronyms, silly stories, or a memory palace for random lists\n- **Sleep** — your brain consolidates the day's learning while you're out\n- **Dual coding** — pair words with a picture so you store it two ways\n\nNone of these are talent. They're just better defaults."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "You have to memorize an arbitrary list of 8 terms for tomorrow. Best tool?",
+      "options": [
+        "A mnemonic like an acronym or a story linking them",
+        "Reading the list straight through 20 times",
+        "Pulling an all-nighter to fit in more passes",
+        "Hoping you'll just remember them"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mnemonics give arbitrary items a structure to hang on, and sleep beats an all-nighter because it's when memories consolidate."
+    },
+    {
+      "type": "spaced_planner",
+      "prompt": "You learned today's lecture. When should you review to beat forgetting?",
+      "topic": "Today's lecture",
+      "points": [
+        {
+          "label": "Same day",
+          "day": 0,
+          "recommended": true
+        },
+        {
+          "label": "Next day",
+          "day": 1,
+          "recommended": true
+        },
+        {
+          "label": "Day 3",
+          "day": 3,
+          "recommended": true
+        },
+        {
+          "label": "Day 7",
+          "day": 7,
+          "recommended": true
+        },
+        {
+          "label": "Cram the night before",
+          "day": 20,
+          "recommended": false
+        }
+      ],
+      "explanation": "Expanding intervals — day 0, 1, 3, 7 — refresh the memory right before you'd forget. One late cram can't undo two weeks of forgetting."
+    }
+  ]
+}

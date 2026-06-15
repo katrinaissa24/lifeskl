@@ -1,0 +1,218 @@
+{
+  "slug": "the-priority-matrix",
+  "title": "Urgent vs. important",
+  "description": "The Eisenhower matrix: stop letting urgent crowd out important.",
+  "unit": 2,
+  "sortOrder": 3,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Tell urgent (needs you now) apart from important (matters to your goals)",
+    "Sort any task into one of four squares: Do, Schedule, Trim, or Drop",
+    "Live in Quadrant 2 — important but not urgent — where real progress happens",
+    "Say no to other people's small 'urgent' asks so they don't eat your day",
+    "Plan ahead so tomorrow's Q2 tasks never become tonight's Q1 emergencies"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Loud isn't the same as big",
+      "body": "It's 11pm. Your phone buzzes with a group-chat ping, an essay is due in two weeks, and you haven't slept properly all week.\n\nThe ping feels like it needs you RIGHT NOW. The essay and the sleep? They quietly wait.\n\nThat's the trap: the loudest thing grabs your hands, while the thing that actually shapes your future sits in the corner, ignored."
+    },
+    {
+      "type": "material",
+      "title": "Two different questions",
+      "body": "Every task is really answering two separate questions:\n\n- **Urgent?** Does it demand attention NOW — a deadline today, a ringing phone, a buzzing notification.\n- **Important?** Does it actually matter to your goals or wellbeing — like studying, sleep, or real friendships.\n\nHere's the kicker: **urgent and important are not the same thing.** A lot of urgent stuff barely matters, and a lot of what matters most never feels urgent until it's too late."
+    },
+    {
+      "type": "true_false",
+      "prompt": "If something feels urgent, it must also be important.",
+      "answer": false,
+      "explanation": "Urgent only means it wants you now. A buzzing phone is urgent but usually not important to your real goals."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Urgent (needs you now) or not urgent?",
+      "categories": [
+        "Urgent",
+        "Not urgent"
+      ],
+      "items": [
+        {
+          "text": "An assignment due at midnight tonight",
+          "category": 0
+        },
+        {
+          "text": "A phone ringing right now",
+          "category": 0
+        },
+        {
+          "text": "Studying for an exam three weeks away",
+          "category": 1
+        },
+        {
+          "text": "Getting eight hours of sleep",
+          "category": 1
+        },
+        {
+          "text": "A 'reply ASAP' text from a friend",
+          "category": 0
+        },
+        {
+          "text": "Planning next month's project",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "The 2x2 that fixes it",
+      "body": "Cross those two questions and you get four squares — the Eisenhower matrix:\n\n- **Q1 Urgent + Important** → today's deadline, a real crisis\n- **Q2 Important, not urgent** → studying ahead, sleep, planning\n- **Q3 Urgent, not important** → interruptions, other people's small asks\n- **Q4 Neither** → mindless scrolling, pure time-wasters\n\nEvery task you face lives in exactly one square.",
+      "image": "/illustrations/priority-matrix.svg",
+      "imageAlt": "The Eisenhower 2x2 grid of urgency versus importance"
+    },
+    {
+      "type": "material",
+      "title": "One verb per square",
+      "body": "Each square gets a different move:\n\n- **Q1 → DO IT NOW.** It's both urgent and real. Handle it.\n- **Q2 → SCHEDULE IT.** Important but not screaming yet, so book a time before it becomes a crisis.\n- **Q3 → TRIM IT.** Limit it, say no, or hand it off — it's loud but not yours to carry.\n- **Q4 → DROP IT.** It neither helps nor screams. Let it go."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each quadrant to its move.",
+      "pairs": [
+        {
+          "left": "Q1 Urgent + Important",
+          "right": "Do it now"
+        },
+        {
+          "left": "Q2 Important, not urgent",
+          "right": "Schedule it"
+        },
+        {
+          "left": "Q3 Urgent, not important",
+          "right": "Trim or say no"
+        },
+        {
+          "left": "Q4 Neither",
+          "right": "Drop it"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which quadrant should you fight to protect time for?",
+      "context": "Real progress — better grades, more sleep, stronger friendships — almost never feels urgent in the moment.",
+      "options": [
+        "Q1 — urgent and important",
+        "Q3 — urgent, not important",
+        "Q2 — important, not urgent",
+        "Q4 — neither"
+      ],
+      "correctIndex": 2,
+      "explanation": "Q2 is the quadrant of quality — studying ahead, sleep, planning. It never shouts, so you have to defend it on purpose."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "The square where real progress lives is Quadrant ___.",
+      "answer": "2",
+      "accept": [
+        "two",
+        "Q2",
+        "II"
+      ],
+      "hint": "Important, but not urgent.",
+      "explanation": "Q2 holds the things that quietly build your future — they pay off most but never feel urgent."
+    },
+    {
+      "type": "material",
+      "title": "Why you keep ending up in Q1",
+      "body": "Most of your stress comes from living in **Q1** — everything on fire, all at once.\n\nBut here's the secret: you land in Q1 because you neglected **Q2**. The essay you 'didn't have time for' was a calm Q2 task two weeks ago. Skip the planning, and it detonates into a Q1 all-nighter.\n\nGood Q2 work today stops things from becoming Q1 emergencies tomorrow."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word breaks this sentence. Tap it.",
+      "sentence": "Doing your Q2 work early creates the Q1 all-nighters you dread.",
+      "wrongWord": "creates",
+      "correctWord": "prevents",
+      "explanation": "Q2 planning PREVENTS Q1 emergencies. Start early and the calm task never detonates into a last-minute crisis."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the smartest move?",
+      "context": "Mid-study, three friends keep pinging the group chat asking you to settle a debate about a movie.",
+      "options": [
+        "Drop everything and reply — they said it's urgent",
+        "Mute the chat and reply when you finish studying",
+        "Argue in the chat for an hour, then study",
+        "Quit studying since you've lost focus anyway"
+      ],
+      "correctIndex": 1,
+      "explanation": "That's a Q3 task: urgent-feeling but not important. Trim it — say no for now — so it can't eat your Q2 study time."
+    },
+    {
+      "type": "material",
+      "title": "Q3 is a con artist",
+      "body": "Q3 is the **quadrant of deception**. Other people's small requests feel urgent — a ping, a 'quick favor', a notification — so your brain treats them like they matter.\n\nThey usually don't. They're just loud.\n\nThe fix is one small word: **no.** Saying no to Q3 and Q4 is how you protect Q2 — because every minute you don't waste on noise is a minute that can go to what actually matters."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put these tasks in the order you should tackle them.",
+      "steps": [
+        "Q1: finish the assignment due tonight",
+        "Q2: study an hour for next week's exam",
+        "Q3: reply to the non-urgent group chat",
+        "Q4: scroll short videos"
+      ],
+      "explanation": "Clear the real fire (Q1) first, invest in Q2, trim Q3, and Q4 gets whatever scraps are left — if any."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Name one Q2 task you keep putting off — the important-but-not-urgent thing that always loses to louder stuff.",
+      "context": "Q2 is sleep, studying ahead, exercise, real friendships — the quiet stuff that shapes your future.",
+      "chips": [
+        "Studying ahead",
+        "Sleep",
+        "Exercise",
+        "A real conversation"
+      ],
+      "placeholder": "The Q2 thing I keep delaying is…",
+      "explanation": "Naming your neglected Q2 task is step one. Next time, schedule it before it becomes a Q1 fire."
+    },
+    {
+      "type": "priority_matrix",
+      "prompt": "Last drill. Drop each task into the Eisenhower square it belongs in.",
+      "tasks": [
+        {
+          "text": "Exam tomorrow you haven't studied for",
+          "urgent": true,
+          "important": true
+        },
+        {
+          "text": "A burst pipe flooding your room",
+          "urgent": true,
+          "important": true
+        },
+        {
+          "text": "Start the project due in two weeks",
+          "urgent": false,
+          "important": true
+        },
+        {
+          "text": "Book a check-up you've put off",
+          "urgent": false,
+          "important": true
+        },
+        {
+          "text": "Reply to a group-chat ping",
+          "urgent": true,
+          "important": false
+        },
+        {
+          "text": "Scroll short videos for an hour",
+          "urgent": false,
+          "important": false
+        }
+      ],
+      "explanation": "Urgent isn't important. Q1 you do now, Q2 you schedule and protect, Q3 you trim, Q4 you drop — and Q2 is where the real wins live."
+    }
+  ]
+}

@@ -10,7 +10,10 @@ import type {
   MaterialBlock,
   MultipleChoiceBlock,
   OrderStepsBlock,
+  PriorityMatrixBlock,
+  ReflectBlock,
   SliderEstimateBlock,
+  SpacedPlannerBlock,
   SpotScamBlock,
   TapWordBlock,
   TrueFalseBlock,
@@ -975,6 +978,306 @@ export function SpotScamView({
             detail={block.explanation}
           />
           <ContinueFoot onClick={() => onDone(misses === 0)} />
+        </>
+      )}
+    </div>
+  );
+}
+
+// ----------------------------------------------------------- priority matrix
+
+// The four Eisenhower squares, in render order: top-left, top-right,
+// bottom-left, bottom-right. A task's correct square is the one whose
+// urgent/important flags match it.
+const PM_QUADS = [
+  { title: "Do it now", sub: "Urgent + Important", urgent: true, important: true },
+  { title: "Schedule it", sub: "Important, not urgent", urgent: false, important: true },
+  { title: "Trim or hand off", sub: "Urgent, not important", urgent: true, important: false },
+  { title: "Drop it", sub: "Neither", urgent: false, important: false },
+] as const;
+
+export function PriorityMatrixView({
+  block,
+  meta,
+  onDone,
+}: {
+  block: PriorityMatrixBlock;
+  meta: string;
+  onDone: (correct: boolean) => void;
+}) {
+  const items = useMemo(() => shuffled(block.tasks), [block.tasks]);
+  const [index, setIndex] = useState(0);
+  const [flash, setFlash] = useState<"good" | "bad" | null>(null);
+  const [misses, setMisses] = useState(0);
+  const [locked, setLocked] = useState(false);
+  const [placed, setPlaced] = useState<string[][]>([[], [], [], []]);
+
+  const finished = index >= items.length;
+  const current = finished ? null : items[index];
+  const quadOf = (t: { urgent: boolean; important: boolean }) =>
+    PM_QUADS.findIndex((q) => q.urgent === t.urgent && q.important === t.important);
+
+  function pick(qi: number) {
+    if (!current || locked) return;
+    const correctQi = quadOf(current);
+    const ok = qi === correctQi;
+    if (!ok) setMisses((n) => n + 1);
+    setPlaced((p) => {
+      const next = p.map((a) => [...a]);
+      next[correctQi].push(current.text);
+      return next;
+    });
+    setFlash(ok ? "good" : "bad");
+    setLocked(true);
+    setTimeout(
+      () => {
+        setFlash(null);
+        setLocked(false);
+        setIndex((i) => i + 1);
+      },
+      ok ? 560 : 1250,
+    );
+  }
+
+  return (
+    <div>
+      <div className="q-meta">{meta} · Priority matrix</div>
+      <div className="q-text">{block.prompt}</div>
+
+      {!finished && current && (
+        <div key={index} className={`pm-task ${flash ?? ""}`}>
+          {current.text}
+          {flash === "bad" && (
+            <div className="pm-correction">
+              → {PM_QUADS[quadOf(current)].title} ({PM_QUADS[quadOf(current)].sub})
+            </div>
+          )}
+        </div>
+      )}
+
+      <div className={`pm-grid ${finished ? "done" : ""}`}>
+        <span />
+        <span className="pm-head">Urgent</span>
+        <span className="pm-head">Not urgent</span>
+        <span className="pm-rlabel">Important</span>
+        {[0, 1].map((qi) =>
+          finished ? (
+            <div key={qi} className="pm-cell filled">
+              <b>{PM_QUADS[qi].title}</b>
+              <div className="pm-chips">
+                {placed[qi].map((t, j) => (
+                  <span key={j} className="pm-chip">{t}</span>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <button key={qi} type="button" className="pm-cell" disabled={locked} onClick={() => pick(qi)}>
+              <b>{PM_QUADS[qi].title}</b>
+            </button>
+          ),
+        )}
+        <span className="pm-rlabel">Not important</span>
+        {[2, 3].map((qi) =>
+          finished ? (
+            <div key={qi} className="pm-cell filled">
+              <b>{PM_QUADS[qi].title}</b>
+              <div className="pm-chips">
+                {placed[qi].map((t, j) => (
+                  <span key={j} className="pm-chip">{t}</span>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <button key={qi} type="button" className="pm-cell" disabled={locked} onClick={() => pick(qi)}>
+              <b>{PM_QUADS[qi].title}</b>
+            </button>
+          ),
+        )}
+      </div>
+
+      {!finished && (
+        <div className="cat-progress">
+          {index + 1} of {items.length}
+          {misses > 0 && ` · ${misses} ${misses === 1 ? "miss" : "misses"}`}
+        </div>
+      )}
+
+      {finished && (
+        <>
+          <Feedback
+            state={misses === 0 ? "good" : "bad"}
+            good="Every task in the right square."
+            bad={`Sorted — with ${misses} ${misses === 1 ? "slip" : "slips"}.`}
+            detail={block.explanation}
+          />
+          <ContinueFoot onClick={() => onDone(misses === 0)} />
+        </>
+      )}
+    </div>
+  );
+}
+
+// ------------------------------------------------------------ spaced planner
+
+export function SpacedPlannerView({
+  block,
+  meta,
+  onDone,
+}: {
+  block: SpacedPlannerBlock;
+  meta: string;
+  onDone: (correct: boolean) => void;
+}) {
+  // Show the timeline left→right by day; keep original indices for grading.
+  const points = useMemo(
+    () => block.points.map((p, i) => ({ ...p, i })).sort((a, b) => a.day - b.day),
+    [block.points],
+  );
+  const recCount = block.points.filter((p) => p.recommended).length;
+  const [selected, setSelected] = useState<Set<number>>(new Set());
+  const [checked, setChecked] = useState(false);
+
+  const pickedRec = [...selected].filter((i) => block.points[i].recommended).length;
+  const wrong = [...selected].filter((i) => !block.points[i].recommended).length;
+  const correct = pickedRec === recCount && wrong === 0;
+  // Live estimate: full recommended set, nothing extra → ~98%.
+  const retention = Math.max(
+    15,
+    Math.min(98, Math.round(35 + 63 * (recCount ? pickedRec / recCount : 0) - 14 * wrong)),
+  );
+
+  function toggle(i: number) {
+    if (checked) return;
+    setSelected((s) => {
+      const next = new Set(s);
+      if (next.has(i)) next.delete(i);
+      else next.add(i);
+      return next;
+    });
+  }
+
+  return (
+    <div>
+      <div className="q-meta">{meta} · Beat the forgetting curve</div>
+      <div className="q-text">{block.prompt}</div>
+      {block.topic && <p className="material-body" style={{ marginTop: 4 }}>Learned today: <strong style={{ color: "var(--text)" }}>{block.topic}</strong></p>}
+
+      <div className="sp-meter">
+        <div className="sp-meter-row">
+          <span>Estimated retention by exam day</span>
+          <em className={retention >= 80 ? "hi" : retention >= 55 ? "mid" : "lo"}>{retention}%</em>
+        </div>
+        <div className="track-bar">
+          <i style={{ width: `${retention}%`, background: retention >= 80 ? "var(--good)" : retention >= 55 ? "var(--accent)" : "var(--pop)" }} />
+        </div>
+      </div>
+
+      <div className="sp-timeline">
+        {points.map((p) => (
+          <button
+            key={p.i}
+            type="button"
+            disabled={checked}
+            onClick={() => toggle(p.i)}
+            className={[
+              "sp-point",
+              selected.has(p.i) ? "on" : "",
+              checked && p.recommended ? "rec" : "",
+              checked && selected.has(p.i) && !p.recommended ? "bad" : "",
+            ].join(" ")}
+          >
+            <span className="sp-dot" />
+            {p.label}
+          </button>
+        ))}
+      </div>
+
+      {!checked && (
+        <div className="check-foot">
+          <button
+            type="button"
+            className="btn btn-accent btn-block"
+            disabled={selected.size === 0}
+            onClick={() => setChecked(true)}
+          >
+            Lock in my review plan
+          </button>
+        </div>
+      )}
+      <Feedback
+        state={checked ? (correct ? "good" : "bad") : "idle"}
+        good="That's the spacing that makes it stick."
+        bad="Close — the highlighted days are the spaced set that beats forgetting."
+        detail={block.explanation}
+      />
+      {checked && <ContinueFoot onClick={() => onDone(correct)} />}
+    </div>
+  );
+}
+
+// ------------------------------------------------------------------- reflect
+
+export function ReflectView({
+  block,
+  meta,
+  onDone,
+}: {
+  block: ReflectBlock;
+  meta: string;
+  onDone: (correct: boolean) => void;
+}) {
+  const [value, setValue] = useState("");
+  const [saved, setSaved] = useState(false);
+
+  function addChip(c: string) {
+    setValue((v) => (v.trim() ? `${v.trim().replace(/[.,;]$/, "")}, ${c}` : c));
+  }
+
+  return (
+    <div>
+      <div className="q-meta">{meta} · Reflect</div>
+      {block.context && (
+        <p className="material-body" style={{ marginTop: 10 }}>
+          {block.context}
+        </p>
+      )}
+      <div className="q-text">{block.prompt}</div>
+
+      {!saved ? (
+        <>
+          {block.chips && block.chips.length > 0 && (
+            <div className="reflect-chips">
+              {block.chips.map((c) => (
+                <button key={c} type="button" className="reflect-chip" onClick={() => addChip(c)}>
+                  {c}
+                </button>
+              ))}
+            </div>
+          )}
+          <textarea
+            className="input reflect-input"
+            rows={4}
+            value={value}
+            onChange={(e) => setValue(e.target.value)}
+            placeholder={block.placeholder ?? "Take a moment — there's no wrong answer here."}
+            aria-label="Your reflection"
+          />
+          <div className="check-foot">
+            <button
+              type="button"
+              className="btn btn-accent btn-block"
+              disabled={!value.trim()}
+              onClick={() => setSaved(true)}
+            >
+              Save my answer
+            </button>
+          </div>
+        </>
+      ) : (
+        <>
+          <div className="reflect-saved">{value}</div>
+          <Feedback state="good" good="Saved — that's worth coming back to." detail={block.explanation} />
+          <ContinueFoot onClick={() => onDone(true)} />
         </>
       )}
     </div>

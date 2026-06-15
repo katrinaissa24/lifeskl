@@ -1,18 +1,26 @@
 #!/usr/bin/env node
-// Builds supabase/seed_personal_finance.sql from content/personal-finance/*.json.
-// Run the validator first; this script refuses invalid files implicitly by
-// being dumb — it just assembles SQL.
+// Builds supabase/seed_<course>.sql from content/<course>/*.json.
+// Usage:
+//   node scripts/build-seed.mjs <course-slug>
+//   node scripts/build-seed.mjs              (defaults to personal-finance)
+//
+// Course metadata (title, description, emoji, sortOrder) comes from
+// content/<course-slug>/course.json. Run the validator first; this script is
+// dumb — it just assembles SQL.
 
 import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
-const contentDir = join(root, "content", "personal-finance");
-const outFile = join(root, "supabase", "seed_personal_finance.sql");
+const slug = process.argv[2] || "personal-finance";
+const contentDir = join(root, "content", slug);
+const outFile = join(root, "supabase", `seed_${slug.replace(/-/g, "_")}.sql`);
+
+const course = JSON.parse(readFileSync(join(contentDir, "course.json"), "utf8"));
 
 const files = readdirSync(contentDir)
-  .filter((f) => f.endsWith(".json"))
+  .filter((f) => f.endsWith(".json") && f !== "course.json")
   .sort();
 
 const lessons = files.map((f) => JSON.parse(readFileSync(join(contentDir, f), "utf8")));
@@ -26,19 +34,19 @@ const dollarJson = (value) => {
 };
 
 let sql = `-- ============================================================================
--- LIFESKL — Personal Finance course seed (generated from content/personal-finance)
--- Regenerate with: node scripts/build-seed.mjs
--- Run AFTER migrations 0001 + 0002, in the Supabase SQL Editor. Idempotent:
+-- LIFESKL — ${course.title} course seed (generated from content/${slug})
+-- Regenerate with: node scripts/build-seed.mjs ${slug}
+-- Run AFTER migrations 0001–0003, in the Supabase SQL Editor. Idempotent:
 -- re-running updates lesson content in place.
 -- ============================================================================
 
 insert into public.courses (slug, title, description, emoji, sort_order)
 values (
-  'personal-finance',
-  'Personal Finance',
-  'Budgets, saving, credit, investing, scams & taxes — money skills for real life.',
-  '💵',
-  0
+  '${esc(course.slug)}',
+  '${esc(course.title)}',
+  '${esc(course.description)}',
+  '${esc(course.emoji)}',
+  ${course.sortOrder}
 )
 on conflict (slug) do update set
   title = excluded.title,
@@ -62,7 +70,7 @@ select
   ${lesson.unit},
   ${dollarJson(lesson.content)},
   ${dollarJson(lesson.summaryPoints)}
-from public.courses where slug = 'personal-finance'
+from public.courses where slug = '${esc(course.slug)}'
 on conflict (course_id, slug) do update set
   title = excluded.title,
   description = excluded.description,
@@ -75,9 +83,9 @@ on conflict (course_id, slug) do update set
 `;
 }
 
-sql += `-- Remove any personal-finance lessons that are no longer in the content set.
+sql += `-- Remove any ${slug} lessons that are no longer in the content set.
 delete from public.lessons
-where course_id = (select id from public.courses where slug = 'personal-finance')
+where course_id = (select id from public.courses where slug = '${esc(course.slug)}')
   and slug not in (${lessons.map((l) => `'${esc(l.slug)}'`).join(", ")});
 `;
 

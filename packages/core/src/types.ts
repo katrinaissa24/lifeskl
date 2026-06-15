@@ -264,6 +264,54 @@ export interface SpotScamBlock {
   explanation?: string;
 }
 
+/**
+ * How to Learn: sort tasks into the Eisenhower priority matrix. Each task
+ * declares whether it's urgent and/or important; the learner taps the quadrant
+ * it belongs in (one task at a time, like categorize but on a 2×2 grid).
+ * Correct = every task placed in its right quadrant with zero misses.
+ */
+export interface PriorityMatrixBlock {
+  type: "priority_matrix";
+  prompt: string;
+  /** 4–8 tasks. All four urgent/important combinations should be represented. */
+  tasks: { text: string; urgent: boolean; important: boolean }[];
+  explanation?: string;
+}
+
+/**
+ * How to Learn: plan review sessions to beat the forgetting curve. The learner
+ * toggles candidate review points on a timeline; a live retention meter rewards
+ * expanding intervals. Correct = the selected set exactly matches the
+ * `recommended` spaced-repetition schedule.
+ */
+export interface SpacedPlannerBlock {
+  type: "spaced_planner";
+  prompt: string;
+  /** What was just learned (labels the thing being scheduled). */
+  topic?: string;
+  /** 4–8 candidate review points; `recommended` marks the right spaced set. */
+  points: { label: string; day: number; recommended: boolean }[];
+  explanation?: string;
+}
+
+/**
+ * How to Learn: an open reflection or commitment prompt. There is no wrong
+ * answer — it ALWAYS reports success, so it never enters the mistake round.
+ * Optional chips seed the answer; the explanation is the takeaway shown after.
+ */
+export interface ReflectBlock {
+  type: "reflect";
+  prompt: string;
+  /** Optional scenario/context shown above the prompt. */
+  context?: string;
+  /** Optional quick-pick chips the learner can tap to seed their answer. */
+  chips?: string[];
+  /** Optional placeholder text for the input. */
+  placeholder?: string;
+  /** Optional takeaway shown once the learner commits their reflection. */
+  explanation?: string;
+}
+
 export type QuestionBlock =
   | MultipleChoiceBlock
   | TrueFalseBlock
@@ -275,7 +323,10 @@ export type QuestionBlock =
   | BudgetBuilderBlock
   | SliderEstimateBlock
   | DecisionPathBlock
-  | SpotScamBlock;
+  | SpotScamBlock
+  | PriorityMatrixBlock
+  | SpacedPlannerBlock
+  | ReflectBlock;
 
 export type LessonBlock = MaterialBlock | QuestionBlock;
 
@@ -292,6 +343,9 @@ export const LESSON_BLOCK_TYPES = [
   "slider_estimate",
   "decision_path",
   "spot_scam",
+  "priority_matrix",
+  "spaced_planner",
+  "reflect",
 ] as const;
 
 export type LessonBlockType = (typeof LESSON_BLOCK_TYPES)[number];

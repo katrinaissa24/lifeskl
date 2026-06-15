@@ -1,0 +1,202 @@
+{
+  "slug": "plan-your-time",
+  "title": "Plan a week that holds",
+  "description": "Build a realistic schedule and work with your own rhythm.",
+  "unit": 2,
+  "sortOrder": 5,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Build a schedule anchors-first: due dates, classes, sleep — then study blocks in the gaps",
+    "Leave buffer for surprises and schedule downtime on purpose so it's guilt-free",
+    "Stack short regular study sessions instead of one long cram",
+    "Schedule your hardest work in your peak-focus hours",
+    "Write tomorrow's to-do list tonight and break big tasks into ~1-hour chunks"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Where did the week go?",
+      "body": "You start Monday swearing this week will be different. Then it's Sunday night, three deadlines are stacked on top of each other, and you have no idea where the time went.\n\nThe fix isn't more willpower. It's a plan that fits the week you actually have — not the fantasy one where you study six hours a day and never touch your phone."
+    },
+    {
+      "type": "material",
+      "title": "Anchors first",
+      "body": "Build your week in layers. Drop the **anchors** in first — the things that can't move:\n- Due dates and exam dates\n- Classes and work shifts\n- Sleep and meals\n\nThen slot **study blocks** into the gaps that are left. Then — this is the part everyone skips — leave **buffer** for surprises. The bus is late, the wifi dies, a friend needs you. A week with zero slack breaks the first time life happens."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the steps for building a weekly schedule in order.",
+      "steps": [
+        "Block your fixed anchors: due dates, classes, sleep",
+        "Slot study blocks into the open gaps",
+        "Leave buffer time for surprises",
+        "Schedule downtime and rewards on purpose"
+      ],
+      "explanation": "Anchors can't move, so they go first. Study fills the gaps, buffer absorbs chaos, and planned downtime keeps you from burning out."
+    },
+    {
+      "type": "true_false",
+      "prompt": "One long six-hour cram session teaches you more than six shorter sessions spread across the week.",
+      "answer": false,
+      "explanation": "Spreading practice across shorter blocks (distributed practice) helps you learn more efficiently than one marathon. Your brain consolidates between sessions."
+    },
+    {
+      "type": "material",
+      "title": "Two cheap habits with huge payoff",
+      "body": "Two tiny moves around every class quietly double what sticks:\n\n**Preview** for about 30 minutes before class — skim what's coming so the lecture lands on prepared ground, not blank ground.\n\n**Review** right after — even five minutes re-reading your notes, before the lecture fades, dramatically boosts how much you keep.\n\nNeither feels like real studying. Both punch way above their weight."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which 30 minutes does the most for what you remember?",
+      "context": "You have one free half-hour to spend on a class you just had.",
+      "options": [
+        "Re-copying the slides neatly in color",
+        "Reviewing your notes right after class, while it's fresh",
+        "Saving it all for the night before the exam instead",
+        "Reading ahead three chapters you won't cover for weeks"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reviewing right after class catches the material before it fades, locking in far more than a last-minute pass before the exam."
+    },
+    {
+      "type": "material",
+      "title": "Backward-plan the big stuff",
+      "body": "A research paper due in three weeks isn't one task — it's a trap if you treat it like one. \"I'll start later\" becomes \"it's due tomorrow.\"\n\nInstead, **backward-plan**: break it into milestones, each with its own mini-deadline.\n- Topic picked by Tuesday\n- Sources found by Friday\n- Rough draft by next Wednesday\n- Edited and done two days early\n\nNow the scary deadline is just a few small ones you can actually hit."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Splitting a big assignment into milestones with their own mini-deadlines is called ___ planning.",
+      "answer": "backward",
+      "accept": [
+        "backwards"
+      ],
+      "hint": "You start from the due date and work back.",
+      "explanation": "Backward planning starts at the deadline and works back to today, so each milestone gets its own date instead of one terrifying one."
+    },
+    {
+      "type": "material",
+      "title": "Know your rhythm",
+      "body": "Your brain has peak hours. Some people are sharpest at 8am (morning larks); others don't really switch on until 10pm (night owls). Neither is better.\n\nThe move is to schedule your **hardest** work — the dense reading, the math, the writing — inside your peak-focus window. Save the easy stuff (tidying notes, replying to emails) for when your brain is half-asleep anyway."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this advice backwards. Tap it.",
+      "sentence": "Schedule your hardest work during your lowest energy hours of the day.",
+      "wrongWord": "lowest",
+      "correctWord": "peak",
+      "explanation": "Hard work belongs in your peak-focus hours. Dump easy tasks into the low-energy slots instead."
+    },
+    {
+      "type": "material",
+      "title": "What kind of planner are you?",
+      "body": "Most people fall into one of three styles:\n- **The early bird** finishes ahead of time. Strength: never rushed. Risk: rushing through to be \"done.\"\n- **The pressure cooker** thrives last-minute on intense focus. Risk: zero buffer — one surprise and it's over. Fix: set small earlier deadlines for yourself.\n- **The balancer** keeps a steady pace and rarely panics.\n\nNo style is wrong. Each just has a trap to dodge."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each work style to the move that keeps it on track.",
+      "pairs": [
+        {
+          "left": "Pressure cooker",
+          "right": "Set small earlier deadlines"
+        },
+        {
+          "left": "Early bird",
+          "right": "Slow down so you don't rush"
+        },
+        {
+          "left": "Balancer",
+          "right": "Protect your steady pace"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What does Parkinson's Law warn you about?",
+      "context": "You give yourself the whole weekend to write one short essay.",
+      "options": [
+        "Working on weekends always lowers your grades",
+        "You should never set deadlines for yourself",
+        "Long tasks are always more important than short ones",
+        "Work expands to fill the time you give it, so tighter limits help"
+      ],
+      "correctIndex": 3,
+      "explanation": "Parkinson's Law: a task stretches to fill whatever time you allow. Give the essay two focused hours and it often gets done in two."
+    },
+    {
+      "type": "material",
+      "title": "The to-do list that works",
+      "body": "A good list isn't a brain-dump of everything forever. It's a short, doable plan:\n- **Write tomorrow's list tonight** — you wake up knowing exactly where to start\n- **Break big tasks into ~1-hour chunks** — \"study chemistry\" is vague; \"do 10 chem problems\" is doable\n- **Flag your top priorities** so the important stuff doesn't get buried\n- **Reward yourself** for crossing things off — momentum is fuel"
+    },
+    {
+      "type": "categorize",
+      "prompt": "Fixed anchor or flexible block? Sort each item by whether it can move in your week.",
+      "categories": [
+        "Fixed anchor",
+        "Flexible block"
+      ],
+      "items": [
+        {
+          "text": "Your 9am lecture",
+          "category": 0
+        },
+        {
+          "text": "Saturday work shift",
+          "category": 0
+        },
+        {
+          "text": "Exam date",
+          "category": 0
+        },
+        {
+          "text": "An hour of chemistry practice",
+          "category": 1
+        },
+        {
+          "text": "Reviewing your notes",
+          "category": 1
+        },
+        {
+          "text": "Buffer time for surprises",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "priority_matrix",
+      "prompt": "Plan your real week. Drop each task into the square it belongs in.",
+      "tasks": [
+        {
+          "text": "Lab report due at midnight tonight",
+          "urgent": true,
+          "important": true
+        },
+        {
+          "text": "Start backward-planning the term project",
+          "urgent": false,
+          "important": true
+        },
+        {
+          "text": "Answer a classmate's quick question about homework",
+          "urgent": true,
+          "important": false
+        },
+        {
+          "text": "Reorganize your phone's home screen",
+          "urgent": false,
+          "important": false
+        },
+        {
+          "text": "Reply to the group-chat asking where to eat",
+          "urgent": true,
+          "important": false
+        },
+        {
+          "text": "Review today's lecture notes before they fade",
+          "urgent": false,
+          "important": true
+        }
+      ],
+      "explanation": "Urgent and important things get done now; important-but-not-urgent work (projects, review) is where you should live; the rest gets squeezed or dropped."
+    }
+  ]
+}

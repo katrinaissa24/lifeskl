@@ -1,0 +1,177 @@
+{
+  "slug": "active-reading",
+  "title": "Read so it sticks",
+  "description": "SQ3R: turn a textbook chapter into knowledge, not eye exercise.",
+  "unit": 4,
+  "sortOrder": 11,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Interrogate the text instead of letting your eyes slide over it",
+    "Run SQ3R: Survey, Question, Read, Recite, Review",
+    "Survey a chapter first to build a map before you dive in",
+    "Recite from memory after each section — that's the part that sticks",
+    "Highlight sparingly and write margin notes in your own words"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Eyes moving isn't learning",
+      "body": "You read the whole page. You get to the bottom. You remember... nothing.\n\nThat's **passive reading** — eyes sliding over words while your brain naps. It feels like studying, but nothing lands.\n\n**Active reading** is the opposite: you interrogate the text. You hunt for answers, argue with the author, and pull ideas into your own head instead of waiting for them to soak in.",
+      "image": "/illustrations/active-reading.svg",
+      "imageAlt": "An open book with a highlighter and floating question marks"
+    },
+    {
+      "type": "true_false",
+      "prompt": "If you finish every page on time, you've learned the chapter.",
+      "answer": false,
+      "explanation": "Finishing the pages just means your eyes moved. Learning shows up when you can recall and explain what you read."
+    },
+    {
+      "type": "material",
+      "title": "Meet SQ3R",
+      "body": "There's a classic five-step method for chewing through a chapter: **SQ3R**.\n\n- **S**urvey — skim first to build a map\n- **Q**uestion — turn headings into questions\n- **R**ead — read to answer them\n- **R**ecite — say it from memory\n- **R**eview — fill the gaps\n\nThree of the steps start with R, hence \"3R.\" Next we'll walk each one."
+    },
+    {
+      "type": "material",
+      "title": "Survey: get the map first",
+      "body": "Before reading word-for-word, **skim the whole chapter** — headings, the intro, the summary, bold terms, and any figures.\n\nThis takes a few minutes and gives you a map. Now you know where the chapter is going, so each section has a place to slot into instead of arriving as a surprise.\n\nDon't read deeply yet. You're scouting the terrain, not hiking it."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What should you do FIRST with a brand-new chapter?",
+      "context": "It's 30 pages on cell biology and you've never opened it.",
+      "options": [
+        "Start reading line one and don't stop till the end",
+        "Skim the headings, intro, summary, and bold terms",
+        "Highlight the first paragraph in three colors",
+        "Copy every definition into your notes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Surveying first builds a mental map, so every section you read later has somewhere to land instead of floating loose."
+    },
+    {
+      "type": "material",
+      "title": "Question: turn headings into questions",
+      "body": "See a heading like \"Causes of the French Revolution\"? Flip it into a question: **\"What caused the French Revolution?\"**\n\nNow you're reading with a target. Your brain perks up because it's looking for an answer, not just absorbing gray text.\n\nDo this for every heading before you read that section. A question is a tiny hook your memory can hang the answer on."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word is wrong. Tap it.",
+      "sentence": "In the Question step you turn each heading into a statement before you read.",
+      "wrongWord": "statement",
+      "correctWord": "question",
+      "explanation": "Turning a heading into a question gives your reading a target — you read to answer it."
+    },
+    {
+      "type": "material",
+      "title": "Read and Recite",
+      "body": "**Read** one section at a time, hunting for the answer to your question. Slow down on the hard parts — it's not a race.\n\nThen the step that actually builds memory: **Recite**. Look away and say or write the answer in your own words.\n\nThat's retrieval — pulling the idea out of your head. Rereading feels productive but barely sticks. Reciting is where the learning happens."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which move builds the most lasting memory?",
+      "options": [
+        "Rereading the section a second time",
+        "Highlighting the key sentences",
+        "Looking away and saying the answer in your own words",
+        "Copying the paragraph word-for-word"
+      ],
+      "correctIndex": 2,
+      "explanation": "Reciting from memory is retrieval, which forces your brain to rebuild the idea. Rereading and copying just feel busy."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each SQ3R letter to what you actually do.",
+      "pairs": [
+        {
+          "left": "Survey",
+          "right": "Skim to build a map"
+        },
+        {
+          "left": "Question",
+          "right": "Turn headings into questions"
+        },
+        {
+          "left": "Read",
+          "right": "Read a section for answers"
+        },
+        {
+          "left": "Recite",
+          "right": "Say it from memory"
+        },
+        {
+          "left": "Review",
+          "right": "Fill gaps and summarize"
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Review, then annotate well",
+      "body": "**Review** last: go back, fill any gaps, and summarize the whole chapter in a few lines.\n\nWhile reading, annotate smart:\n- Highlight **sparingly** — only key terms and claims\n- Write margin notes in your own words\n- Mark confusing bits with a \"?\"\n- Connect ideas to things you already know\n\nIf you highlight everything, nothing stands out. The whole page glows yellow and your eye has no clue what mattered."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Highlighting almost every sentence helps you remember more.",
+      "answer": false,
+      "explanation": "When everything is highlighted, nothing stands out. Highlight sparingly so the few key terms and claims actually pop."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Active reading habit or passive one?",
+      "categories": [
+        "Active",
+        "Passive"
+      ],
+      "items": [
+        {
+          "text": "Turning a heading into a question",
+          "category": 0
+        },
+        {
+          "text": "Saying the answer from memory",
+          "category": 0
+        },
+        {
+          "text": "Letting your eyes slide to the page's end",
+          "category": 1
+        },
+        {
+          "text": "Marking a confusing part with a '?'",
+          "category": 0
+        },
+        {
+          "text": "Highlighting nearly every line",
+          "category": 1
+        },
+        {
+          "text": "Rereading without testing yourself",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "The step where you look away and say the answer in your own words is called ___.",
+      "answer": "Recite",
+      "accept": [
+        "recite",
+        "recall"
+      ],
+      "hint": "It's one of the three R's, and it means retrieval.",
+      "explanation": "Recite (or recall) is the retrieval step — saying it from memory is what turns reading into knowledge."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the SQ3R steps in order.",
+      "steps": [
+        "Survey",
+        "Question",
+        "Read",
+        "Recite",
+        "Review"
+      ],
+      "explanation": "Map the chapter, set questions, read for answers, recite from memory, then review to fill gaps — that's SQ3R."
+    }
+  ]
+}

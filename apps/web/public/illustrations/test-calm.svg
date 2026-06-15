@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A calm deep breath before an exam">
+
+  <!-- breathing arcs (concentric, left side of face) -->
+  <path d="M108 100 Q72 100 72 100" stroke="#6b46ff" stroke-width="3" stroke-linecap="round" opacity="0.25"/>
+  <path d="M108 100 Q60 80 64 100 Q60 120 108 100" stroke="#6b46ff" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.35"/>
+  <path d="M108 100 Q44 70 50 100 Q44 130 108 100" stroke="#6b46ff" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.50"/>
+  <path d="M108 100 Q28 58 34 100 Q28 142 108 100" stroke="#6b46ff" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.65"/>
+  <path d="M108 100 Q12 46 18 100 Q12 154 108 100" stroke="#6b46ff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.80"/>
+
+  <!-- neck -->
+  <rect x="147" y="148" width="26" height="22" rx="6" fill="#fffdf8" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- head (profile facing left) -->
+  <ellipse cx="160" cy="110" rx="42" ry="48" fill="#fffdf8" stroke="#181016" stroke-width="3"/>
+
+  <!-- ear -->
+  <path d="M200 100 Q214 100 214 112 Q214 124 200 124" stroke="#181016" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="#fffdf8"/>
+
+  <!-- closed eye (relaxed) -->
+  <path d="M150 98 Q160 92 170 98" stroke="#181016" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- gentle smile -->
+  <path d="M148 122 Q160 132 172 122" stroke="#181016" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- nose -->
+  <path d="M162 108 Q166 116 162 118" stroke="#181016" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- hair -->
+  <path d="M120 94 Q118 60 160 62 Q196 62 202 90" stroke="#181016" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#4a3f47"/>
+
+  <!-- exam paper card -->
+  <rect x="218" y="64" width="74" height="88" rx="8" fill="#fffdf8" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- card lines -->
+  <line x1="232" y1="108" x2="278" y2="108" stroke="#181016" stroke-width="2" stroke-linecap="round" opacity="0.30"/>
+  <line x1="232" y1="120" x2="278" y2="120" stroke="#181016" stroke-width="2" stroke-linecap="round" opacity="0.30"/>
+  <line x1="232" y1="132" x2="260" y2="132" stroke="#181016" stroke-width="2" stroke-linecap="round" opacity="0.30"/>
+  <!-- grade circle -->
+  <circle cx="255" cy="83" r="14" fill="#6b46ff" stroke="#181016" stroke-width="2.5"/>
+  <text x="255" y="88" font-family="Arial, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">A</text>
+  <!-- card label -->
+  <text x="255" y="160" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#4a3f47" text-anchor="middle">Exam</text>
+
+  <!-- breath label -->
+  <text x="46" y="188" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#6b46ff" text-anchor="middle">breathe</text>
+
+</svg>

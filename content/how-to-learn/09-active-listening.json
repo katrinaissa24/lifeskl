@@ -1,0 +1,247 @@
+{
+  "slug": "active-listening",
+  "title": "Listen like it counts",
+  "description": "Real listening is active — in lectures and in life.",
+  "unit": 4,
+  "sortOrder": 9,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Treat listening as active work: attend, process the meaning, engage",
+    "Walk into a lecture with a quick preview so your brain has hooks",
+    "Catch structure and signposts instead of transcribing word-for-word",
+    "Read the teacher's cues — repetition, emphasis, 'this is on the test'",
+    "In conversation: paraphrase, ask, and stop rehearsing your reply"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Hearing isn't listening",
+      "body": "Your earbuds are out, the teacher is talking, sound is hitting your ears. That's **hearing** — totally automatic, requires nothing from you.\n\n**Listening** is different. It's full attention plus actually processing what the words mean plus engaging with it. It's work, and it's a skill you can get scary good at.\n\nThe gap between the two is why you can sit through a whole lecture and remember almost none of it.",
+      "image": "/illustrations/active-listening.svg",
+      "imageAlt": "An ear catching sound waves"
+    },
+    {
+      "type": "material",
+      "title": "Show up with hooks",
+      "body": "Walk into a lecture cold and every idea is brand new — nothing to hang it on.\n\nSpend two minutes beforehand skimming the slides or last week's notes. Now you've got **hooks**: half-familiar terms your brain can snag the new stuff onto.\n\nThen sit somewhere you'll actually focus — usually nearer the front, away from the friend who makes you laugh. Where you sit quietly decides how much you catch.",
+      "image": "/illustrations/focus-target.svg",
+      "imageAlt": "A bullseye with a single arrow"
+    },
+    {
+      "type": "true_false",
+      "prompt": "Trying to write down every single word the teacher says is the best way to listen.",
+      "answer": false,
+      "explanation": "You can't think and transcribe at the same time — chasing every word means you stop processing the meaning."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the smartest move?",
+      "context": "Mid-lecture, the teacher says something that completely loses you.",
+      "options": [
+        "Jot the exact thing that confused you so you can ask",
+        "Pretend you got it and keep nodding",
+        "Open your phone — you'll just read about it later"
+      ],
+      "correctIndex": 0,
+      "explanation": "Naming the gap turns confusion into a clear question, instead of a hole that quietly grows for the rest of class."
+    },
+    {
+      "type": "material",
+      "title": "Phone away, fully away",
+      "body": "Here's the brutal part: your phone doesn't even have to buzz to wreck your focus. Just **sitting on the desk**, face down, it splits your attention — a slice of your brain keeps idling on it.\n\nAttention is a fixed budget. Multitasking doesn't expand it, it just spends it badly, and comprehension is what gets shortchanged.\n\nSo it goes in the bag. Not in your pocket, not flipped over — in the bag."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "Tap the word that makes this advice wrong.",
+      "sentence": "Splitting your attention in a lecture boosts how much you remember.",
+      "wrongWord": "boosts",
+      "correctWord": "wrecks",
+      "explanation": "Attention is limited — divide it and comprehension drops. Single-task to actually learn."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Active listening or passive hearing?",
+      "categories": [
+        "Active listening",
+        "Passive hearing"
+      ],
+      "items": [
+        {
+          "text": "Putting the lecture's main idea in your own words",
+          "category": 0
+        },
+        {
+          "text": "Letting the sound wash over you while you scroll",
+          "category": 1
+        },
+        {
+          "text": "Noting a question to ask later",
+          "category": 0
+        },
+        {
+          "text": "Zoning out and planning to catch up someday",
+          "category": 1
+        },
+        {
+          "text": "Watching for signposts like 'the key point is'",
+          "category": 0
+        },
+        {
+          "text": "Copying slides down without reading them",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Listen for the skeleton",
+      "body": "Good speakers hand you the structure out loud — you just have to catch it.\n\n- \"There are **three reasons**…\" → make three slots\n- \"The **key point** is…\" → this one matters, mark it\n- \"**In contrast**…\" → here comes the opposite side\n\nThese signposts are a map. Follow them and you capture how the ideas fit together, not just a pile of disconnected facts.",
+      "image": "/illustrations/note-taking.svg",
+      "imageAlt": "A Cornell-style notebook with a pen"
+    },
+    {
+      "type": "material",
+      "title": "Cues that scream 'test'",
+      "body": "Teachers leak what they care about. Train yourself to catch the tells:\n\n- They **repeat** something — it's important\n- They slow down or get **louder** for emphasis\n- They **write it on the board**\n- They literally say **\"this will be on the test\"**\n\nWhen a cue fires, mark that note. You're basically being handed the study guide in real time."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each teacher cue to what it's quietly telling you.",
+      "pairs": [
+        {
+          "left": "Repeats a point twice",
+          "right": "This idea is important"
+        },
+        {
+          "left": "\"In contrast…\"",
+          "right": "An opposing side is coming"
+        },
+        {
+          "left": "Writes it on the board",
+          "right": "Worth copying into notes"
+        },
+        {
+          "left": "\"This will be on the test\"",
+          "right": "Study this for sure"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which note is doing it right?",
+      "context": "The teacher spends five minutes explaining how a recession affects jobs.",
+      "options": [
+        "Every sentence the teacher said, copied as fast as possible",
+        "\"Recession = less spending, so businesses cut jobs\" in your words",
+        "Nothing — it sounded obvious enough to remember"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rewriting the main idea in your own words proves you processed it; word-for-word copying and 'I'll remember' both skip the thinking."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the active-listening routine in order.",
+      "steps": [
+        "Preview the topic so you have hooks",
+        "Sit up front and stash the phone",
+        "Capture main ideas in your own words",
+        "Review your notes soon after"
+      ],
+      "explanation": "Prep builds hooks, focus protects attention, capturing locks in meaning, and reviewing keeps it from leaking away."
+    },
+    {
+      "type": "material",
+      "title": "Listening to people, not just lectures",
+      "body": "Same skill, higher stakes. When a friend's talking and you're already loading your reply, you've stopped listening — you're just waiting.\n\nTry this instead:\n- **Paraphrase** back: \"So you're saying…\" — it proves you caught it\n- **Ask** a clarifying question instead of assuming\n- Read their **tone and body language**, not only the words\n- Don't **interrupt** — let them finish the thought\n\nPeople can feel the difference instantly."
+    },
+    {
+      "type": "true_false",
+      "prompt": "While a friend is talking, the best use of your brain is rehearsing what you'll say next.",
+      "answer": false,
+      "explanation": "Rehearsing your reply pulls attention off them — you miss what they actually said and the conversation turns into two monologues."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the strongest listening move here?",
+      "context": "A friend is venting about a fight, and you're not totally sure what they're upset about.",
+      "options": [
+        "Jump in with the exact same thing that happened to you",
+        "Tell them what they should do before they finish",
+        "Paraphrase it back: 'So you're saying you felt ignored?'"
+      ],
+      "correctIndex": 2,
+      "explanation": "Paraphrasing checks you understood and signals you're actually with them — advice and one-upping both cut the listening short."
+    },
+    {
+      "type": "decision_path",
+      "title": "The lecture",
+      "intro": "You're in a class you find painfully boring. Every choice nudges how much you actually understand. Get the bar up.",
+      "stat": {
+        "name": "Understanding",
+        "emoji": "🧠",
+        "start": 50
+      },
+      "steps": [
+        {
+          "situation": "You sit down and your phone is in your hand.",
+          "options": [
+            {
+              "text": "Phone in the bag, out of reach",
+              "delta": 20,
+              "feedback": "Its mere presence splits attention — gone is best.",
+              "best": true
+            },
+            {
+              "text": "Face down on the desk, just in case",
+              "delta": -10,
+              "feedback": "Even silent and face down, it keeps skimming your focus."
+            },
+            {
+              "text": "Text under the desk where nobody sees",
+              "delta": -25,
+              "feedback": "Now you're fully multitasking, and comprehension tanks."
+            }
+          ]
+        },
+        {
+          "situation": "The teacher starts and you've got a blank page.",
+          "options": [
+            {
+              "text": "Try to write down every single word",
+              "delta": -15,
+              "feedback": "You can't think and transcribe at once — meaning slips by."
+            },
+            {
+              "text": "Write each main point in your own words",
+              "delta": 20,
+              "feedback": "Rephrasing forces you to process the meaning.",
+              "best": true
+            },
+            {
+              "text": "Just listen, you'll remember it",
+              "delta": -10,
+              "feedback": "Pure listening with zero capture leaks away fast."
+            }
+          ]
+        },
+        {
+          "situation": "Something the teacher says genuinely confuses you.",
+          "options": [
+            {
+              "text": "Jot the exact question you have to ask",
+              "delta": 20,
+              "feedback": "Naming the gap turns confusion into a fixable question.",
+              "best": true
+            },
+            {
+              "text": "Zone out and plan to catch up later",
+              "delta": -20,
+              "feedback": "'Later' rarely comes, and the gap only grows from here."
+            }
+          ]
+        }
+      ],
+      "outro": "Boring or not, listening is a choice you make move by move — and the bar follows."
+    }
+  ]
+}

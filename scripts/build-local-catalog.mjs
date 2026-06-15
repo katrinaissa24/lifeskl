@@ -4,7 +4,8 @@
 // unreachable or the session has lapsed.
 //
 // Sources of truth (same data that seeds the DB):
-//   • content/personal-finance/*.json  → the full "Personal Finance" course
+//   • content/<course>/*.json + course.json → the full authored courses
+//     (personal-finance, how-to-learn)
 //   • supabase/seed.sql                → the 7 catalog courses + starter lessons
 //
 // Output (committed):
@@ -21,8 +22,10 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
-const pfDir = join(root, "content", "personal-finance");
 const seedPath = join(root, "supabase", "seed.sql");
+
+// Full courses authored as one JSON file per lesson + a course.json (metadata).
+const CONTENT_COURSES = ["personal-finance", "how-to-learn"];
 const outDir = join(root, "apps", "web", "src", "lib");
 
 const lessonId = (courseSlug, lessonSlug) => `${courseSlug}__${lessonSlug}`;
@@ -127,39 +130,41 @@ for (const chunk of lessonChunks) {
   content[id] = { content: blocks, summaryPoints: [] };
 }
 
-// ---- personal-finance course from content JSON ------------------------------
-const PF = {
-  slug: "personal-finance",
-  title: "Personal Finance",
-  description:
-    "Budgets, saving, credit, investing, scams & taxes — money skills for real life.",
-  emoji: "💵",
-  sortOrder: 0,
-};
-courses.push(PF);
-
-const pfFiles = readdirSync(pfDir)
-  .filter((f) => f.endsWith(".json"))
-  .sort();
-const pfLessons = pfFiles
-  .map((f) => JSON.parse(readFileSync(join(pfDir, f), "utf8")))
-  .sort((a, b) => a.sortOrder - b.sortOrder);
-
-for (const l of pfLessons) {
-  const id = lessonId(PF.slug, l.slug);
-  (lessonsBySlug[PF.slug] ??= []).push({
-    id,
-    slug: l.slug,
-    title: l.title,
-    description: l.description,
-    xpReward: l.xpReward,
-    sortOrder: l.sortOrder,
-    unit: l.unit ?? 1,
+// ---- full courses from content JSON (metadata in each course.json) ----------
+for (const slug of CONTENT_COURSES) {
+  const dir = join(root, "content", slug);
+  const meta = JSON.parse(readFileSync(join(dir, "course.json"), "utf8"));
+  courses.push({
+    slug: meta.slug,
+    title: meta.title,
+    description: meta.description,
+    emoji: meta.emoji,
+    sortOrder: meta.sortOrder,
   });
-  content[id] = {
-    content: l.content,
-    summaryPoints: l.summaryPoints ?? [],
-  };
+
+  const files = readdirSync(dir)
+    .filter((f) => f.endsWith(".json") && f !== "course.json")
+    .sort();
+  const lessons = files
+    .map((f) => JSON.parse(readFileSync(join(dir, f), "utf8")))
+    .sort((a, b) => a.sortOrder - b.sortOrder);
+
+  for (const l of lessons) {
+    const id = lessonId(meta.slug, l.slug);
+    (lessonsBySlug[meta.slug] ??= []).push({
+      id,
+      slug: l.slug,
+      title: l.title,
+      description: l.description,
+      xpReward: l.xpReward,
+      sortOrder: l.sortOrder,
+      unit: l.unit ?? 1,
+    });
+    content[id] = {
+      content: l.content,
+      summaryPoints: l.summaryPoints ?? [],
+    };
+  }
 }
 
 // ---- assemble + sort ---------------------------------------------------------
