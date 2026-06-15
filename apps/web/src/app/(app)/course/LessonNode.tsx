@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import type { JourneyLesson } from "@/lib/data";
+import type { JourneyLesson } from "@/lib/journey";
 import { Icon } from "@/components/Icon";
 
 // A journey node built like a 3D button. Done / current / locked all share the
