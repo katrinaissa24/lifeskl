@@ -312,6 +312,40 @@ export interface ReflectBlock {
   explanation?: string;
 }
 
+/**
+ * Emotional Intelligence: place a feeling on the RULER "Mood Meter" grid —
+ * pleasantness (x-axis) × energy (y-axis). Four quadrants: Red (high energy,
+ * unpleasant), Yellow (high energy, pleasant), Blue (low energy, unpleasant),
+ * Green (low energy, pleasant). The learner taps the quadrant for each item;
+ * correct = every item placed right with zero misses.
+ */
+export interface MoodMeterBlock {
+  type: "mood_meter";
+  prompt: string;
+  /** 4–8 feelings/scenarios; all four energy×pleasant combos should appear. */
+  items: { text: string; energy: "high" | "low"; pleasant: boolean }[];
+  explanation?: string;
+}
+
+/**
+ * Emotional Intelligence: assemble a non-blaming "I-statement" by choosing the
+ * emotionally-intelligent option for each slot (the feeling, the trigger, …).
+ * A live preview shows the assembled sentence. Correct = every slot's `ok`
+ * option is chosen (each slot has at least one good option and one distractor).
+ */
+export interface IStatementBlock {
+  type: "i_statement";
+  prompt: string;
+  /** Optional scenario shown above the prompt. */
+  context?: string;
+  /** 2–4 slots, each with 2–4 options. The `ok` options assemble the line. */
+  slots: {
+    label: string;
+    options: { text: string; ok: boolean; why?: string }[];
+  }[];
+  explanation?: string;
+}
+
 export type QuestionBlock =
   | MultipleChoiceBlock
   | TrueFalseBlock
@@ -326,7 +360,9 @@ export type QuestionBlock =
   | SpotScamBlock
   | PriorityMatrixBlock
   | SpacedPlannerBlock
-  | ReflectBlock;
+  | ReflectBlock
+  | MoodMeterBlock
+  | IStatementBlock;
 
 export type LessonBlock = MaterialBlock | QuestionBlock;
 
@@ -346,6 +382,8 @@ export const LESSON_BLOCK_TYPES = [
   "priority_matrix",
   "spaced_planner",
   "reflect",
+  "mood_meter",
+  "i_statement",
 ] as const;
 
 export type LessonBlockType = (typeof LESSON_BLOCK_TYPES)[number];

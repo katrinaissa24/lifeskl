@@ -248,6 +248,50 @@ selected set exactly matches the recommended set. At most ONE per lesson.
 No wrong answer — it never enters the mistake round. `chips` and `placeholder`
 optional. Use as a gentle finale in mindset/wellbeing lessons.
 
+## Course-specific block types — Emotional Intelligence
+
+### mood_meter  (Emotional Intelligence signature exercise)
+```json
+{
+  "type": "mood_meter",
+  "prompt": "Where does each feeling sit on the mood meter?",
+  "items": [
+    { "text": "Furious you got blamed for something you didn't do", "energy": "high", "pleasant": false },
+    { "text": "Buzzing with excitement before a trip",              "energy": "high", "pleasant": true },
+    { "text": "Drained and low after a rough week",                 "energy": "low",  "pleasant": false },
+    { "text": "Calm and content after a good talk",                 "energy": "low",  "pleasant": true }
+  ],
+  "explanation": "The RULER mood meter maps feelings by pleasantness and energy — no feeling is 'bad', they're all information."
+}
+```
+4–8 items shown one at a time; the learner taps the Red/Yellow/Blue/Green
+quadrant (pleasantness × energy). All four energy×pleasant combos must appear.
+Correct = every item placed right, zero misses. At most ONE per lesson. Great
+for self-awareness (your feelings) AND empathy (reading someone else's).
+
+### i_statement  (build a non-blaming statement)
+```json
+{
+  "type": "i_statement",
+  "prompt": "Build an I-statement that could actually open the conversation.",
+  "context": "A friend keeps leaving your texts on read for days.",
+  "slots": [
+    { "label": "The feeling", "options": [
+      { "text": "I feel kind of ignored", "ok": true },
+      { "text": "You're so rude", "ok": false, "why": "That attacks their character — they'll get defensive." }
+    ] },
+    { "label": "The trigger", "options": [
+      { "text": "when my texts go unanswered for days", "ok": true },
+      { "text": "because you always do this", "ok": false, "why": "'Always' exaggerates and blames." }
+    ] }
+  ],
+  "explanation": "An I-statement owns your feeling and names the behavior — no character attack, so they can actually hear it."
+}
+```
+2–4 slots, each with 2–4 options (≥1 `ok:true` and ≥1 distractor). The chosen
+options read as a sentence in a live preview. Correct = every slot's `ok`
+option chosen. At most ONE per lesson. Write options so the `ok` ones flow.
+
 ## Illustrations (the ONLY valid `image` values — per course, from course.json)
 
 - /illustrations/budget-split.svg — income splitting into needs/wants/savings jars
@@ -280,3 +324,21 @@ optional. Use as a gentle finale in mindset/wellbeing lessons.
 - /illustrations/forgetting-curve.svg — a decay curve lifted by review spikes
 - /illustrations/focus-target.svg — a bullseye with a single arrow (concentration)
 - /illustrations/healthy-brain.svg — a brain ringed by sleep, water and exercise icons
+
+### Emotional Intelligence (`content/emotional-intelligence/course.json`)
+
+- /illustrations/mood-meter.svg — RULER 2×2 mood grid (red/yellow/blue/green quadrants)
+- /illustrations/emotion-wheel.svg — a wheel of emotion words radiating outward
+- /illustrations/body-cues.svg — a body outline with emotion cue markers (chest, jaw, stomach)
+- /illustrations/trigger-spark.svg — a lit match touching a fuse (emotional trigger)
+- /illustrations/values-compass.svg — a compass whose needle points to a heart/star (values)
+- /illustrations/pause-breath.svg — a pause button with a calm breathing ring
+- /illustrations/anger-thermometer.svg — a thermometer cooling from hot to calm
+- /illustrations/empathy-bridge.svg — two heads connected by a bridge (perspective-taking)
+- /illustrations/feedback-balance.svg — a balance scale weighing care and honesty
+- /illustrations/repair-bridge.svg — a cracked bridge being mended (apology & repair)
+- /illustrations/boundary-line.svg — a friendly fence/line marking a limit (boundaries)
+- /illustrations/inner-flame.svg — a steady flame inside a shield (inner drive)
+- /illustrations/tone-bubble.svg — a chat bubble showing tone (digital communication)
+- /illustrations/difficult-people.svg — a calm figure unmoved by storm clouds (difficult people)
+- (reused) /illustrations/active-listening.svg, /illustrations/growth-mindset.svg
