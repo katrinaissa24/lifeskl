@@ -5,6 +5,8 @@ import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import type { Course, Lesson, LessonBlock, QuestionBlock } from "@lifeskl/core";
 import { Confetti } from "@/components/Confetti";
+import { isLocalLessonId } from "@/lib/localCatalog";
+import { markLessonComplete } from "@/lib/localProgress";
 import { createClient } from "@/lib/supabase/client";
 import { isSupabaseConfigured } from "@/lib/supabase/env";
 import {
@@ -226,8 +228,12 @@ export function LessonPlayer({
     savedRef.current = true;
     // Dev content previews (/dev/preview/*) play without persistence.
     if (lesson.id.startsWith("preview-")) return;
-    if (!isSupabaseConfigured) {
-      setSaveFailed(true);
+    // Always record locally so the course journey reflects your progress.
+    markLessonComplete(lesson.id);
+    // Local-catalog lessons (and the keyless dev case) live only in the
+    // browser — there's no database row to update, so we're done.
+    if (isLocalLessonId(lesson.id) || !isSupabaseConfigured) {
+      setXpAwarded(lesson.xpReward);
       return;
     }
     const supabase = createClient();

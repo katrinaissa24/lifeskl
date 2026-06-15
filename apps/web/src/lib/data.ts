@@ -420,27 +420,7 @@ export const getEnrolledCourseIds = cache(async (
 
 // ------------------------------------------------------------ derived views
 
-export interface JourneyLesson extends LessonSummary {
-  state: "done" | "current" | "locked";
-}
-
-/**
- * The journey view: lessons in course order, each marked done / current /
- * locked. The first uncompleted lesson is "current"; everything after it is
- * locked until the path catches up.
- */
-export function buildJourney(
-  lessons: LessonSummary[],
-  completions: LessonCompletion[],
-): JourneyLesson[] {
-  const done = new Set(completions.map((c) => c.lessonId));
-  let currentAssigned = false;
-  return lessons.map((lesson) => {
-    if (done.has(lesson.id)) return { ...lesson, state: "done" as const };
-    if (!currentAssigned) {
-      currentAssigned = true;
-      return { ...lesson, state: "current" as const };
-    }
-    return { ...lesson, state: "locked" as const };
-  });
-}
+// Journey logic lives in a server-import-free module so client components can
+// use it too; re-exported here so existing `@/lib/data` imports keep working.
+export { buildJourney } from "./journey";
+export type { JourneyLesson } from "./journey";
