@@ -1,0 +1,310 @@
+{
+  "slug": "difficult-people",
+  "title": "Difficult & draining people",
+  "description": "You can't change them — but you can manage your side.",
+  "unit": 7,
+  "sortOrder": 20,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Depersonalize it: their behavior is usually about them, not you",
+    "Stay calm — reacting is the fuel they're fishing for",
+    "Set and hold a boundary, and end conversations that turn nasty",
+    "Pick your battles; not everything needs a response",
+    "With truly toxic people, limiting or ending the relationship is fair game"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Some people are just hard",
+      "body": "You know the one. The relative who finds the flaw in everything. The coworker who turns every chat into a complaint. The friend who only calls when they need to dump on you.\n\nHere's the hard truth: you can't fix them. People change when they decide to, not when you wish hard enough.\n\nWhat you CAN run is your side of the rope. This lesson is about that.",
+      "image": "/illustrations/difficult-people.svg",
+      "imageAlt": "A calm figure standing unmoved by storm clouds"
+    },
+    {
+      "type": "material",
+      "title": "It's about them",
+      "body": "When someone's chronically negative, critical, or baiting you, it feels personal. Usually it isn't.\n\nTheir behavior is about THEIR stuff — their stress, their insecurity, their bad day on repeat. You just happened to be standing there.\n\n**Depersonalizing** is the mental move of not picking up something that was never really yours. It doesn't excuse them. It just stops their mood from becoming your mood."
+    },
+    {
+      "type": "true_false",
+      "prompt": "If you're patient and kind enough, you can eventually change a difficult person.",
+      "answer": false,
+      "explanation": "You can change how you respond, but not someone else's behavior. People only change when they decide to — chasing that is a trap."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the healthiest read on what just happened?",
+      "context": "Your aunt looks at your plate and says, 'Wow, eating all THAT?' in front of everyone.",
+      "options": [
+        "This is about her habit of criticizing, not about me",
+        "She's right, I should be embarrassed",
+        "I need to win this and prove her wrong",
+        "Everyone here now agrees with her"
+      ],
+      "correctIndex": 0,
+      "explanation": "Depersonalizing — seeing the jab as her pattern, not a verdict on you — keeps her comment from running your night."
+    },
+    {
+      "type": "material",
+      "title": "Don't take the bait",
+      "body": "Some people are fishing. A dig, a guilt trip, a button-pushing comment — they're casting a line, hoping you'll bite so the drama can start.\n\nYour reaction is the fuel. When you stay flat and unbothered — a calm, boring, **grey rock** response — there's nothing for the drama to feed on. It starves.\n\nNot biting isn't weakness. It's refusing to play a game you can't win."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word is backwards. Tap it.",
+      "sentence": "Reacting to someone who is baiting you starves the drama they want.",
+      "wrongWord": "starves",
+      "correctWord": "feeds",
+      "explanation": "Reacting FEEDS the drama — it's the fuel they're fishing for. Staying flat and calm is what starves it."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match the difficult behavior to the smarter counter-move.",
+      "pairs": [
+        {
+          "left": "Constant baiting and jabs",
+          "right": "Stay flat, don't react"
+        },
+        {
+          "left": "Endless negativity",
+          "right": "Limit how long you're exposed"
+        },
+        {
+          "left": "Shouting to win",
+          "right": "End the conversation calmly"
+        },
+        {
+          "left": "Taking their dig personally",
+          "right": "Remember it's about them"
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Hold the line",
+      "body": "Staying calm doesn't mean taking abuse. The other half is the **boundary** — the limit you set and then actually keep.\n\nA boundary can be small:\n- 'I'm not going to talk about this if you're shouting.'\n- 'I've got ten minutes, then I have to go.'\n- Hanging up. Leaving the room. Muting the chat.\n\nThe magic isn't the sentence — it's holding it. A boundary you don't enforce is just a suggestion.",
+      "image": "/illustrations/boundary-line.svg",
+      "imageAlt": "A friendly fence marking a limit"
+    },
+    {
+      "type": "categorize",
+      "prompt": "Protects your peace, or feeds the drama?",
+      "categories": [
+        "Protects your peace",
+        "Feeds the drama"
+      ],
+      "items": [
+        {
+          "text": "Calmly ending a call that turned into shouting",
+          "category": 0
+        },
+        {
+          "text": "Arguing back to 'win' the point",
+          "category": 1
+        },
+        {
+          "text": "Muting a group chat that drains you",
+          "category": 0
+        },
+        {
+          "text": "Replaying their insult all night",
+          "category": 1
+        },
+        {
+          "text": "Naming a limit and keeping it",
+          "category": 0
+        },
+        {
+          "text": "Taking the bait every single time",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "i_statement",
+      "prompt": "Build a line that holds the boundary without throwing a punch.",
+      "context": "A roommate keeps raising their voice at you whenever they're frustrated.",
+      "slots": [
+        {
+          "label": "The boundary",
+          "options": [
+            {
+              "text": "I'm not going to keep talking",
+              "ok": true
+            },
+            {
+              "text": "You need to grow up",
+              "ok": false,
+              "why": "That attacks them — now it's a fight, not a boundary."
+            }
+          ]
+        },
+        {
+          "label": "The condition",
+          "options": [
+            {
+              "text": "if you're shouting at me",
+              "ok": true
+            },
+            {
+              "text": "because you're impossible",
+              "ok": false,
+              "why": "Labeling them as 'impossible' just invites a bigger blow-up."
+            }
+          ]
+        }
+      ],
+      "explanation": "A clean boundary names the behavior and your limit — no insult to argue with, so it's harder to drag you into a fight."
+    },
+    {
+      "type": "material",
+      "title": "Pick your battles",
+      "body": "Not every comment deserves a response. Some you let slide. Some you address later, when it's calm. A rare few are worth a real conversation.\n\nBurning energy on every little dig is exhausting — and it usually gives baiters exactly what they wanted.\n\nAsk yourself: does this actually matter, or do I just want to be right? If it doesn't matter, let it float past. Silence is allowed to be a full answer."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the move here?",
+      "context": "A classmate mutters a sarcastic 'nice job' under their breath after you answer a question. It stings, but it's minor.",
+      "options": [
+        "Spin around and demand to know what they meant",
+        "Let it slide and keep your focus on class",
+        "Plan a comeback to humiliate them later",
+        "Replay it for the rest of the day"
+      ],
+      "correctIndex": 1,
+      "explanation": "Picking your battles means letting small jabs float past. Reacting to a tiny dig usually costs you more than the dig itself."
+    },
+    {
+      "type": "material",
+      "title": "When it's truly toxic",
+      "body": "There's a difference between annoying and toxic. Toxic is the consistent pattern: disrespect, manipulation, leaving you worse every single time.\n\nWith people like that, limiting contact — or stepping away entirely — is allowed. **Protecting your peace isn't cruel.**\n\nAnd empathy doesn't mean being a doormat. You can fully understand why someone is the way they are AND still refuse to let them treat you badly. Both can be true."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Choosing to limit or end contact with a consistently toxic person makes you a cruel or unforgiving person.",
+      "answer": false,
+      "explanation": "Protecting your peace from someone who repeatedly disrespects or manipulates you is self-respect, not cruelty. Empathy isn't a duty to stay."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put a draining interaction in the order that protects you best.",
+      "steps": [
+        "Remind yourself it's about them, not you",
+        "Stay calm instead of taking the bait",
+        "Name your boundary and hold it",
+        "Step away to recover and reset"
+      ],
+      "explanation": "Depersonalize, stay flat, hold the line, then recharge — that order keeps you steady and looks after you afterward."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Self-awareness cuts both ways. Be honest: is there a situation where YOU might be the difficult one? What's one small thing you could do differently?",
+      "context": "We've all been someone's draining person on a bad day.",
+      "chips": [
+        "Snapping when stressed",
+        "Going quiet and cold",
+        "Always needing to be right",
+        "Venting too much"
+      ],
+      "placeholder": "One honest thing I could do differently…",
+      "explanation": "The strongest emotional-intelligence move is checking whether the difficult person in the room is sometimes you."
+    },
+    {
+      "type": "decision_path",
+      "title": "The difficult one",
+      "intro": "There's a chronically critical, negative coworker who loves to bait you. Keep your peace intact.",
+      "stat": {
+        "name": "Peace",
+        "emoji": "🧘",
+        "start": 50
+      },
+      "steps": [
+        {
+          "situation": "In the team chat, they post: 'Cute idea, but it'll obviously never work.'",
+          "options": [
+            {
+              "text": "Let the jab slide and reply only to the actual idea",
+              "delta": 15,
+              "feedback": "You didn't take the bait — there's nothing for the drama to feed on.",
+              "best": true
+            },
+            {
+              "text": "Fire back a sarcastic comment to win the room",
+              "delta": -20,
+              "feedback": "You bit. Now it's a public spat, exactly what they wanted."
+            },
+            {
+              "text": "Spiral about it for the rest of the afternoon",
+              "delta": -15,
+              "feedback": "You handed them rent-free space in your head."
+            }
+          ]
+        },
+        {
+          "situation": "They corner you after and start loudly listing everything wrong with you.",
+          "options": [
+            {
+              "text": "Try to out-argue them point by point",
+              "delta": -20,
+              "feedback": "Arguing is fuel. Louder doesn't mean winning."
+            },
+            {
+              "text": "Calmly say you won't talk while they're shouting, then step away",
+              "delta": 20,
+              "feedback": "Boundary set and held. You ended it without a fight.",
+              "best": true
+            },
+            {
+              "text": "Absorb it all and stay silent so they don't get madder",
+              "delta": -10,
+              "feedback": "Letting it wash over you isn't a boundary — it's getting soaked."
+            }
+          ]
+        },
+        {
+          "situation": "It keeps happening. This person leaves you worse every single time.",
+          "options": [
+            {
+              "text": "Keep hoping they'll change if you're nice enough",
+              "delta": -15,
+              "feedback": "People change when they choose to, not when you wish harder."
+            },
+            {
+              "text": "Decide to win them over by being their friend",
+              "delta": -10,
+              "feedback": "Chasing approval from a baiter just gives them more line."
+            },
+            {
+              "text": "Limit your contact to what work actually requires",
+              "delta": 20,
+              "feedback": "Protecting your peace from a toxic pattern isn't cruel — it's smart.",
+              "best": true
+            }
+          ]
+        },
+        {
+          "situation": "That night you still feel rattled and drained.",
+          "options": [
+            {
+              "text": "Do something that resets you and let it go",
+              "delta": 15,
+              "feedback": "Looking after yourself after a draining person is part of the skill.",
+              "best": true
+            },
+            {
+              "text": "Replay every comment and stew on it",
+              "delta": -15,
+              "feedback": "Re-running it just lets them drain you on overtime."
+            },
+            {
+              "text": "Text three friends to relitigate the whole thing",
+              "delta": -10,
+              "feedback": "A little venting helps; marinating in it keeps you stuck."
+            }
+          ]
+        }
+      ],
+      "outro": "You can't change a difficult person — but staying calm, holding a line, and protecting your peace keeps your number high."
+    }
+  ]
+}

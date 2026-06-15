@@ -1,0 +1,239 @@
+{
+  "slug": "feedback-both-ways",
+  "title": "Feedback, both ways",
+  "description": "How to give it without bruising — and take it without crumbling.",
+  "unit": 4,
+  "sortOrder": 10,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Aim feedback at behavior, not character — 'the report was late twice', not 'you're unreliable'",
+    "Use the clean frame: situation, then behavior, then the impact on you",
+    "When you're on the receiving end, breathe first — defensiveness blocks growth",
+    "Separate the signal from the delivery: keep the useful part, drop the tone",
+    "Treat feedback as information, not a verdict on your worth"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Two-way street",
+      "body": "Nobody loves feedback. Giving it feels like you might wreck a friendship; getting it feels like a punch you have to smile through.\n\nBut feedback is just **information** — about a project, a habit, a moment that didn't land. Handle it well in both directions and you become the person people actually want on their team.\n\nThis lesson is about both seats: the giving chair and the receiving one.",
+      "image": "/illustrations/feedback-balance.svg",
+      "imageAlt": "A balance scale weighing care and honesty"
+    },
+    {
+      "type": "material",
+      "title": "Behavior, not character",
+      "body": "The golden rule of giving feedback: aim at **what someone did**, not who they are.\n\n- \"The report was late twice this week\" → fixable, specific, fair\n- \"You're so unreliable\" → an attack on their character\n\nThe first one points at a behavior they can change. The second one labels them, and labels make people defend themselves instead of listen. Be specific, and stay on the behavior."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Good feedback should target the kind of person someone is, not just what they did.",
+      "answer": false,
+      "explanation": "Flip it — good feedback targets behavior, which is fixable. Labeling someone's character just makes them defensive."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Helpful feedback or harsh? Sort each line.",
+      "categories": [
+        "Helpful",
+        "Harsh"
+      ],
+      "items": [
+        {
+          "text": "You interrupted me three times in that call",
+          "category": 0
+        },
+        {
+          "text": "You never let anyone else talk",
+          "category": 1
+        },
+        {
+          "text": "The slides were missing the numbers we needed",
+          "category": 0
+        },
+        {
+          "text": "You're lazy and you don't care",
+          "category": 1
+        },
+        {
+          "text": "Texting back a day late left me unsure if we were still on",
+          "category": 0
+        },
+        {
+          "text": "You're just a flaky person",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "The clean frame",
+      "body": "Here's a frame that works almost every time: **situation, behavior, impact.**\n\n\"In the meeting, when you cut me off, I felt dismissed.\"\n\n- **Situation** — where it happened\n- **Behavior** — the specific thing they did\n- **Impact** — how it actually landed on you\n\nNotice it's an I-statement, not a \"you always\" attack. You're sharing your experience, not handing down a verdict — so they can actually hear it."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the clean feedback frame in order.",
+      "steps": [
+        "Name the situation: in yesterday's meeting",
+        "Name the behavior: when you cut me off",
+        "Name the impact: I felt dismissed"
+      ],
+      "explanation": "Situation sets the scene, behavior points at the fixable thing, and impact shows why it matters — without blaming."
+    },
+    {
+      "type": "material",
+      "title": "Lead with care, pick your moment",
+      "body": "Two things make feedback land instead of sting:\n\n- **Lead with care.** People can tell whether you're trying to help or trying to win. If they trust you want good for them, the hard part goes down easier.\n- **Pick the moment.** Private, calm, not in front of the group, not when they're already fried. Same words, totally different result.\n\nAnd make it a conversation, not a sentence handed down. Ask what they saw too."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "When's the best time to give your friend honest feedback about the group project?",
+      "context": "Your friend keeps turning in their part late and it's stressing the whole group.",
+      "options": [
+        "In a calm, private moment, one-on-one",
+        "In the group chat so everyone backs you up",
+        "Right after they mess up, in front of the team",
+        "Never — just quietly do their part for them"
+      ],
+      "correctIndex": 0,
+      "explanation": "Private and calm protects their dignity, so they can actually hear you instead of defending themselves in front of an audience."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word breaks this rule. Tap it.",
+      "sentence": "Good feedback is a public conversation, not a verdict handed down.",
+      "wrongWord": "public",
+      "correctWord": "private",
+      "explanation": "Feedback lands best one-on-one. Calling someone out in front of others triggers defensiveness, not change."
+    },
+    {
+      "type": "material",
+      "title": "Now flip the chair",
+      "body": "Taking feedback is the harder seat. Your gut wants to defend, explain, fire back — and defensiveness slams the door on anything useful.\n\nThe move: **breathe** before you react. Assume good intent. Listen all the way through instead of building your comeback. Ask a clarifying question. Then say, \"Thank you — let me think about that.\"\n\nYou don't have to decide on the spot. You just have to stay open long enough to hear it."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the most useful first response?",
+      "context": "A teammate tells you your messages come across as kind of blunt.",
+      "options": [
+        "\"Well, you're not exactly gentle either.\"",
+        "\"Can you give me an example so I get what you mean?\"",
+        "\"That's just how I talk, deal with it.\"",
+        "\"Whatever, I don't even care.\""
+      ],
+      "correctIndex": 1,
+      "explanation": "Asking for a specific example shows you're listening and gives you something concrete to work with — that's curiosity, not defense."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Swap each defensive move for the open one.",
+      "pairs": [
+        {
+          "left": "\"Yeah, but you do it too\"",
+          "right": "\"Tell me more about that\""
+        },
+        {
+          "left": "Interrupting to explain",
+          "right": "Listening all the way through"
+        },
+        {
+          "left": "Snapping back instantly",
+          "right": "Taking a breath first"
+        },
+        {
+          "left": "\"You're wrong about me\"",
+          "right": "\"Let me think about that\""
+        }
+      ]
+    },
+    {
+      "type": "order_steps",
+      "prompt": "You just got tough feedback. Put your response in order.",
+      "steps": [
+        "Take a breath before reacting",
+        "Listen to the whole thing",
+        "Ask a clarifying question",
+        "Decide later what to keep"
+      ],
+      "explanation": "Breathing buys you a beat, listening gets the full message, clarifying sharpens it — and you decide what's true once you've cooled off."
+    },
+    {
+      "type": "material",
+      "title": "Signal vs. delivery",
+      "body": "Here's the freeing part: you don't have to accept all of it.\n\nSometimes feedback arrives wrapped in a bad mood or clumsy wording. **Separate the signal from the delivery** — take the useful core, let the harsh tone go.\n\nAnd remember: feedback is information, not a verdict on your worth. One late report doesn't make you a failure. The people who grow fastest aren't the ones who never get criticized — they're the ones who actively ask for it."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What does \"separate the signal from the delivery\" mean?",
+      "context": "Someone snaps, \"This is sloppy, did you even try?\" — and they're a little right about the typos.",
+      "options": [
+        "Ignore the whole thing because they were rude",
+        "Accept that you're a sloppy person who didn't try",
+        "Keep the useful point (fix the typos), let the rude tone go",
+        "Snap back so they feel as bad as you do"
+      ],
+      "correctIndex": 2,
+      "explanation": "The tone was harsh, but there's a real signal underneath. Take the fixable part and don't let the delivery convince you it's a verdict on you."
+    },
+    {
+      "type": "i_statement",
+      "prompt": "Build a piece of feedback that's kind AND specific.",
+      "context": "Your group project partner turned their part in late twice, and it left you scrambling. You want to say something without blowing up the friendship.",
+      "slots": [
+        {
+          "label": "The behavior",
+          "options": [
+            {
+              "text": "When the project was turned in late twice",
+              "ok": true
+            },
+            {
+              "text": "You're so unreliable",
+              "ok": false,
+              "why": "That labels their character. They'll defend themselves instead of hearing you."
+            },
+            {
+              "text": "You clearly never care about anything",
+              "ok": false,
+              "why": "An exaggeration and an attack — it's about who they are, not what happened."
+            }
+          ]
+        },
+        {
+          "label": "The impact",
+          "options": [
+            {
+              "text": "I ended up stressed and scrambling at the end",
+              "ok": true
+            },
+            {
+              "text": "you basically ruined the whole thing",
+              "ok": false,
+              "why": "Overstated and blaming — it makes them defensive instead of understanding."
+            },
+            {
+              "text": "everyone thinks you're the problem",
+              "ok": false,
+              "why": "Dragging in 'everyone' turns honest feedback into a pile-on."
+            }
+          ]
+        },
+        {
+          "label": "The ask",
+          "options": [
+            {
+              "text": "could we set a quick check-in next time?",
+              "ok": true
+            },
+            {
+              "text": "so just fix your attitude already",
+              "ok": false,
+              "why": "Vague and hostile — it gives them nothing to actually do."
+            }
+          ]
+        }
+      ],
+      "explanation": "Behavior, then impact, then a forward-looking ask — specific, owns your experience, and points at the fix instead of the person."
+    }
+  ]
+}

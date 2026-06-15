@@ -1,0 +1,25 @@
+{
+  "slug": "emotional-intelligence",
+  "title": "Emotional Intelligence",
+  "description": "Read your feelings, keep your cool, and handle people — the skills that actually run real life.",
+  "emoji": "🫶",
+  "sortOrder": 4,
+  "illustrations": [
+    "/illustrations/mood-meter.svg",
+    "/illustrations/emotion-wheel.svg",
+    "/illustrations/body-cues.svg",
+    "/illustrations/trigger-spark.svg",
+    "/illustrations/values-compass.svg",
+    "/illustrations/pause-breath.svg",
+    "/illustrations/anger-thermometer.svg",
+    "/illustrations/empathy-bridge.svg",
+    "/illustrations/feedback-balance.svg",
+    "/illustrations/repair-bridge.svg",
+    "/illustrations/boundary-line.svg",
+    "/illustrations/inner-flame.svg",
+    "/illustrations/tone-bubble.svg",
+    "/illustrations/difficult-people.svg",
+    "/illustrations/active-listening.svg",
+    "/illustrations/growth-mindset.svg"
+  ]
+}

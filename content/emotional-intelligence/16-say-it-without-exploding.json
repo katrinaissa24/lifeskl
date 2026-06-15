@@ -1,0 +1,228 @@
+{
+  "slug": "say-it-without-exploding",
+  "title": "Say it without exploding",
+  "description": "Honest AND kind — the assertive sweet spot.",
+  "unit": 6,
+  "sortOrder": 16,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Aim for assertive: say what you need AND respect theirs",
+    "Use the I-statement: \"I feel ___ when ___, and I'd like ___\"",
+    "Name the behavior, not their character — so they can actually hear you",
+    "Match tone to message: a calm voice keeps their defenses down",
+    "Open gently — how a talk starts predicts how it ends"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The thing you didn't say",
+      "body": "Your roommate borrows your stuff and never asks. The first time, you let it slide. The fifth time, you snap — over a missing charger — and now you look like the unreasonable one.\n\nThat's the trap. You can be too soft and swallow it until you blow, or too hard and run people over. There's a third option, and it's a skill: saying the real thing in a way the other person can actually take in.",
+      "image": "/illustrations/tone-bubble.svg",
+      "imageAlt": "A chat bubble showing how tone changes the message"
+    },
+    {
+      "type": "material",
+      "title": "Three ways to handle it",
+      "body": "**Passive:** you bury it. \"It's fine, whatever.\" Then it leaks out later as snark or one big explosion.\n\n**Aggressive:** you steamroll. \"You're so selfish.\" You get heard, but they stop listening.\n\n**Assertive:** you say your need AND respect theirs. \"Hey, I need a heads-up before you borrow my stuff.\" Honest and kind. That's the target."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Passive, aggressive, or assertive?",
+      "categories": [
+        "Passive",
+        "Aggressive",
+        "Assertive"
+      ],
+      "items": [
+        {
+          "text": "\"It's fine, don't worry about it\" (you're not fine)",
+          "category": 0
+        },
+        {
+          "text": "\"You always ruin everything, classic you\"",
+          "category": 1
+        },
+        {
+          "text": "\"I'd like a heads-up next time, is that doable?\"",
+          "category": 2
+        },
+        {
+          "text": "Going silent and slamming a door instead of talking",
+          "category": 0
+        },
+        {
+          "text": "\"Whatever you want, I don't care\" through gritted teeth",
+          "category": 1
+        },
+        {
+          "text": "\"I felt left out when plans changed without me\"",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "prompt": "Being assertive means being harsh or blunt.",
+      "answer": false,
+      "explanation": "Assertive is honest AND kind. It's the calm middle — not the loud, run-people-over end."
+    },
+    {
+      "type": "material",
+      "title": "The I-statement",
+      "body": "The cleanest tool for saying a hard thing is the I-statement:\n\n**\"I feel ___ when ___, and I'd like ___.\"**\n\nThree moves in one sentence:\n- **I feel** — owns your emotion instead of accusing\n- **when ___** — names the specific behavior, not their character\n- **I'd like** — asks clearly for what you want\n\nCompare \"You never listen\" with \"I feel brushed off when I get cut off, and I'd like to finish my thought.\" Same issue. Only one is hearable.",
+      "image": "/illustrations/feedback-balance.svg",
+      "imageAlt": "A balance scale weighing care and honesty"
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the I-statement in order.",
+      "steps": [
+        "Name what you feel",
+        "Name the specific thing that triggers it",
+        "Ask clearly for what you'd like instead"
+      ],
+      "explanation": "Feeling, then behavior, then request. Own it, point at the action (not the person), then make the ask."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each attack-line to its assertive rewrite.",
+      "pairs": [
+        {
+          "left": "\"You're so inconsiderate.\"",
+          "right": "\"I feel rushed when plans change last-minute.\""
+        },
+        {
+          "left": "\"You never help out.\"",
+          "right": "\"I'd like us to split the chores this week.\""
+        },
+        {
+          "left": "\"You always cut me off.\"",
+          "right": "\"I'd like to finish my point before you reply.\""
+        },
+        {
+          "left": "\"You don't even care.\"",
+          "right": "\"I feel alone with this and could use a hand.\""
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which line is the clean I-statement?",
+      "context": "A friend keeps cancelling on you at the last minute.",
+      "options": [
+        "\"You're so flaky, I can never count on you.\"",
+        "\"Forget it, it's not a big deal anyway.\"",
+        "\"I feel let down when plans get cancelled last-minute, and I'd like more notice.\"",
+        "\"Whatever, I'll just stop making plans with you.\""
+      ],
+      "correctIndex": 2,
+      "explanation": "It owns the feeling, names the behavior (not their character), and makes a clear ask. The others attack, bury it, or threaten."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word breaks the rule. Tap it.",
+      "sentence": "An I-statement starts with the word you to keep blame off the table.",
+      "wrongWord": "you",
+      "correctWord": "I",
+      "explanation": "Starting with “I feel…” owns your experience; starting with “You always…” puts them on the defensive."
+    },
+    {
+      "type": "material",
+      "title": "Tone does the heavy lifting",
+      "body": "The exact same words land completely differently depending on **tone, volume, and timing**. \"We need to talk\" can be a warm invite or a threat — your delivery decides.\n\nA calm tone keeps the other person's defenses down so they can actually hear you. A sharp one snaps them straight into fight-or-flight, and now you're arguing about your tone, not the issue.",
+      "image": "/illustrations/anger-thermometer.svg",
+      "imageAlt": "A thermometer cooling from hot down to calm"
+    },
+    {
+      "type": "true_false",
+      "prompt": "The middle of a screaming match, over text, is a fine time to raise something big.",
+      "answer": false,
+      "explanation": "When you're flooded or hiding behind a screen, tone gets lost and things escalate. Wait until you're calm and talk in person."
+    },
+    {
+      "type": "material",
+      "title": "The soft start-up",
+      "body": "Relationship researcher John Gottman found that **how a conversation begins predicts how it ends.** Open with an attack and it spirals; open gently and you've got a shot.\n\nThat's the \"soft start-up\": lead with your feeling and a specific ask, not a character verdict.\n\n- Harsh: \"You never think about anyone but yourself.\"\n- Soft: \"I'm feeling stretched thin — can we figure this out together?\"",
+      "image": "/illustrations/repair-bridge.svg",
+      "imageAlt": "A cracked bridge being mended"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Best way to open the talk?",
+      "context": "Your sibling keeps eating the food you've clearly labeled as yours.",
+      "options": [
+        "\"Are you actually incapable of reading a label?\"",
+        "\"Hey, can we sort out the food thing? It keeps tripping me up.\"",
+        "Say nothing and start hiding your food in your room",
+        "\"Cool, guess nothing's safe in this house anymore.\""
+      ],
+      "correctIndex": 1,
+      "explanation": "A soft start-up opens gently and invites a fix. The attack and the sarcasm both raise their defenses, and silence just lets it fester."
+    },
+    {
+      "type": "material",
+      "title": "Say the real thing",
+      "body": "Being assertive isn't about going quiet to keep the peace, and it isn't about winning. It's about saying the real thing — and saying it in a way the other person can actually hear.\n\nThat's the whole skill in one move: pick a calm moment, open soft, own your feeling, name the behavior, make the ask. Honest and kind, at the same time.\n\nNow build one yourself."
+    },
+    {
+      "type": "i_statement",
+      "prompt": "Turn the bottled-up blow-up into one clean assertive ask.",
+      "context": "Your manager keeps texting you to cover shifts last-minute, and you're at your limit.",
+      "slots": [
+        {
+          "label": "The feeling",
+          "options": [
+            {
+              "text": "I feel stretched too thin",
+              "ok": true
+            },
+            {
+              "text": "you're completely using me",
+              "ok": false,
+              "why": "That accuses them — they'll defend, not listen."
+            },
+            {
+              "text": "this job is a total joke",
+              "ok": false,
+              "why": "Trashing the whole thing buries your actual ask under drama."
+            }
+          ]
+        },
+        {
+          "label": "The trigger",
+          "options": [
+            {
+              "text": "when I get asked to cover shifts last-minute",
+              "ok": true
+            },
+            {
+              "text": "because you never think of anyone else",
+              "ok": false,
+              "why": "\"Never\" attacks their character instead of naming the behavior."
+            }
+          ]
+        },
+        {
+          "label": "The ask",
+          "options": [
+            {
+              "text": "could we sort the schedule a week ahead?",
+              "ok": true
+            },
+            {
+              "text": "so deal with it yourself from now on",
+              "ok": false,
+              "why": "That's a shove, not a request — it ends the conversation."
+            },
+            {
+              "text": "but honestly forget it, never mind",
+              "ok": false,
+              "why": "Pulling the ask back is passive — nothing actually changes."
+            }
+          ]
+        }
+      ],
+      "explanation": "You owned the feeling, named the specific behavior, and made a clear, doable ask — assertive, not aggressive or passive. That's a message your manager can actually say yes to."
+    }
+  ]
+}

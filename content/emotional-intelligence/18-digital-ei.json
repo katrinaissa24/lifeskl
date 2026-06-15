@@ -1,0 +1,251 @@
+{
+  "slug": "digital-ei",
+  "title": "Tone in texts & DMs",
+  "description": "Why \"ok.\" reads as cold — and how not to start fights online.",
+  "unit": 6,
+  "sortOrder": 18,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Write warmer than feels necessary — text strips out your real tone",
+    "Use names and context; skip sarcasm, because it never travels",
+    "Read the punctuation: a lone period, ALL CAPS and \"…\" all carry a vibe",
+    "Move serious stuff to a call — and never hit send while angry",
+    "Treat every message as screenshot-able, and don't assume a slow reply is a snub"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The missing voice",
+      "body": "Picture your friend saying \"ok\" out loud — relaxed, a little smile. Now read it as a text: **ok.**\n\nSuddenly it's cold. Did you do something wrong?\n\nMost of how we talk now is text, DM and email — and text deletes the two things that carry tone: your face and your voice. The words arrive naked, and the reader's brain has to guess the rest.",
+      "image": "/illustrations/tone-bubble.svg",
+      "imageAlt": "A chat bubble showing the hidden tone behind a short message"
+    },
+    {
+      "type": "material",
+      "title": "Why it skews cold",
+      "body": "Here's the trap: when the brain fills in missing tone, it doesn't guess neutral — it leans **negative**. That's a real bias in text.\n\nSo \"Fine.\" and \"k\" land harsher than you meant. You feel warm typing them; they read flat.\n\nThe fix is simple: be **warmer than feels necessary**. What feels like a bit much to you usually lands as just-right to them."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Your real tone comes through clearly in a text, so people read it the way you meant it.",
+      "answer": false,
+      "explanation": "Text strips out your face and voice, and the reader's brain fills the gap — leaning negative, not neutral. Your warm \"ok\" can land as a cold one."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Same reply, different energy. Does each one read warm or cold?",
+      "categories": [
+        "Reads warm",
+        "Reads cold"
+      ],
+      "items": [
+        {
+          "text": "Sounds good, thank you!",
+          "category": 0
+        },
+        {
+          "text": "k.",
+          "category": 1
+        },
+        {
+          "text": "Yes please — you're a lifesaver",
+          "category": 0
+        },
+        {
+          "text": "Fine.",
+          "category": 1
+        },
+        {
+          "text": "omg yesss let's do it",
+          "category": 0
+        },
+        {
+          "text": "Whatever you want.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Punctuation has a voice",
+      "body": "With no real voice, the small marks do the talking:\n- A lone **period** can read curt — \"Sure.\" feels heavier than \"Sure!\"\n- **ALL CAPS** reads as yelling\n- A trailing **\"…\"** comes off passive-aggressive\n- An emoji or a quick **\"no rush!\"** softens almost anything\n\nNone of this means be fake-cheery. It means the punctuation is part of your tone now — so use it on purpose."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each text habit to how it usually lands.",
+      "pairs": [
+        {
+          "left": "A lone period — \"Sure.\"",
+          "right": "Reads curt or annoyed"
+        },
+        {
+          "left": "ALL CAPS",
+          "right": "Reads like yelling"
+        },
+        {
+          "left": "A trailing \"…\"",
+          "right": "Reads passive-aggressive"
+        },
+        {
+          "left": "\"no rush!\" or an emoji",
+          "right": "Softens the message"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Best fix so it doesn't read cold?",
+      "context": "Your group is planning a hangout. You want to suggest Saturday instead, and you type: \"Can't sunday. Saturday.\"",
+      "options": [
+        "\"Hey, Sunday won't work for me — could we do Saturday? 🙏\"",
+        "Send it — it's clear enough",
+        "\"SATURDAY.\"",
+        "\"Sunday's bad. Whatever works for everyone else…\""
+      ],
+      "correctIndex": 0,
+      "explanation": "It uses a soft opener, gives context (why Sunday's out), and an emoji warms it. Caps reads as yelling and the \"…\" reads passive-aggressive."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this advice wrong. Tap it.",
+      "sentence": "When you cannot read someone's tone in a text write colder than feels necessary",
+      "wrongWord": "colder",
+      "correctWord": "warmer",
+      "explanation": "Because text skews negative, going warmer than feels natural is what actually lands as normal. Colder just confirms the worst read."
+    },
+    {
+      "type": "material",
+      "title": "Sarcasm dies in transit",
+      "body": "\"Wow, great plan.\" Out loud, your eye-roll makes it a joke. In text, there's no eye-roll — so half your readers take it straight, and now it's an insult.\n\nThree habits fix most of this:\n- Use the person's **name** — it instantly warms a message\n- Add a line of **context** so they're not guessing\n- **Skip sarcasm** with anyone who can't see your face"
+    },
+    {
+      "type": "order_steps",
+      "prompt": "A friend's reply just landed wrong and you feel your face go hot. Put your next moves in order.",
+      "steps": [
+        "Pause — don't fire back yet",
+        "Re-read it assuming they meant well",
+        "Ask what they meant instead of assuming",
+        "If it's still tense, move it to a call"
+      ],
+      "explanation": "Pausing kills the worst reply, a generous re-read usually defuses it, and asking beats assuming. Calls are for when text clearly isn't working."
+    },
+    {
+      "type": "material",
+      "title": "Some fights aren't for text",
+      "body": "Text is great for plans and memes. It's terrible for anything heavy — apologies, conflict, big feelings. There, the negative bias and the delays make things **escalate fast**.\n\nTwo rules save relationships:\n- **Never settle serious stuff over text.** Move it to a call or in person.\n- **Never send while angry.** Type the message if you must, then save it as a draft and walk away. Tomorrow-you will thank you."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the move?",
+      "context": "A close friend texts something that really hurts. You're furious and your thumbs are already typing a reply that ends the friendship.",
+      "options": [
+        "Send it — they need to know how you feel right now",
+        "Save it as a draft, cool down, and call them tomorrow",
+        "Post a vague subtweet so they get the hint",
+        "Screenshot it and send it to the group chat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Serious conflict escalates over text, and an angry send can't be unsent. A draft plus a calmer call protects the friendship and your future self."
+    },
+    {
+      "type": "material",
+      "title": "Permanent and forwardable",
+      "body": "A spoken word fades. A text doesn't — it can be **screenshotted, saved and forwarded** to people you never meant to see it.\n\nSo write like it could end up on someone else's screen, because it can.\n\nOne more kindness, pointed at you: a slow reply usually isn't a snub. People get busy, phones die, life happens. **Don't assume the worst** — it's almost never about you."
+    },
+    {
+      "type": "true_false",
+      "prompt": "If someone takes hours to reply, it's a safe bet they're mad at you.",
+      "answer": false,
+      "explanation": "A slow reply is usually just a busy life — not a message about you. Assuming the worst starts fights that didn't need to exist."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Think of a text that recently landed worse than someone meant. How could you reread it, assuming they meant well?",
+      "context": "Most cold-feeling texts are just tone going missing — not someone actually being cold.",
+      "chips": [
+        "A short reply",
+        "A lone period",
+        "A slow reply",
+        "A joke that flopped"
+      ],
+      "placeholder": "They probably meant…",
+      "explanation": "Giving the most generous read costs you nothing and defuses fights that were never really there."
+    },
+    {
+      "type": "decision_path",
+      "title": "The group chat",
+      "intro": "Plans for Saturday are happening in the group chat. You drop a quick reply — and the vibe starts to wobble. Keep it warm.",
+      "stat": {
+        "name": "Vibe",
+        "emoji": "💬",
+        "start": 50
+      },
+      "steps": [
+        {
+          "situation": "You typed \"k.\" to a plan. Maya replies: \"…ok then. you don't have to come 🙄\". She read your \"k.\" as cold.",
+          "options": [
+            {
+              "text": "\"my bad — meant 'yes!' I'm in, just typing fast 😅\"",
+              "delta": 25,
+              "feedback": "You clarified and softened fast. A 10-second fix beats an hour of tension.",
+              "best": true
+            },
+            {
+              "text": "\"it's literally one letter, calm down.\"",
+              "delta": -25,
+              "feedback": "You doubled down and dismissed her — now it's a real fight, not a misread."
+            },
+            {
+              "text": "\"fine, I won't come then.\"",
+              "delta": -20,
+              "feedback": "You escalated a tone misread into a cancellation. Nobody actually wanted that."
+            }
+          ]
+        },
+        {
+          "situation": "Sam jokes: \"wow glad SOMEONE finally decided to show up.\" In text you genuinely can't tell — joke or dig?",
+          "options": [
+            {
+              "text": "Fire back: \"wow glad SOMEONE has nothing better to say.\"",
+              "delta": -20,
+              "feedback": "You matched the heat on a guess. Sarcasm doesn't travel — you might be fighting a joke."
+            },
+            {
+              "text": "\"haha fair — sorry, work ran late! what are we thinking for time?\"",
+              "delta": 25,
+              "feedback": "You took it light, added context, and pulled the chat back to the plan. Clean.",
+              "best": true
+            },
+            {
+              "text": "Screenshot it and DM Maya: \"can you believe Sam??\"",
+              "delta": -25,
+              "feedback": "Now it's permanent and forwardable. A screenshot side-chat is how group chats actually blow up."
+            }
+          ]
+        },
+        {
+          "situation": "Maya types a long, clearly upset message — it's no longer about Saturday. The thread is getting heavy and tangled.",
+          "options": [
+            {
+              "text": "Type a long heated paragraph back and hit send.",
+              "delta": -20,
+              "feedback": "Heavy stuff over text escalates fast — and an angry send can't be unsent."
+            },
+            {
+              "text": "Subtweet your story: \"some people are SO sensitive.\"",
+              "delta": -25,
+              "feedback": "Vague-posting is passive-aggressive and everyone knows it's about her. This pours gas on it."
+            },
+            {
+              "text": "\"hey, this feels like a talk-not-text thing — can I call you in 10?\"",
+              "delta": 20,
+              "feedback": "You moved the serious conversation off text before it spiraled. Exactly right.",
+              "best": true
+            }
+          ]
+        }
+      ],
+      "outro": "Tone goes missing in text, so the warm read and the quick clarify win almost every time. Heavy stuff? Take it to a call."
+    }
+  ]
+}

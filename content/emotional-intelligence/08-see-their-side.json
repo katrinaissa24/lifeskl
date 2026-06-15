@@ -1,0 +1,287 @@
+{
+  "slug": "see-their-side",
+  "title": "See it their way",
+  "description": "Understanding someone isn't the same as agreeing — and it's a superpower.",
+  "unit": 3,
+  "sortOrder": 8,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Step into their shoes to understand the why — not to agree or excuse",
+    "Catch the trap: you judge them by their behavior, yourself by your intentions",
+    "Assume there's a reason you can't see — a bad day, fear, pressure, a need",
+    "Ask \"what might be going on for them?\" — curiosity beats judgment every time",
+    "You can hold your own view AND theirs at once — that's how you get unstuck"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Same scene, two stories",
+      "body": "Your friend reads your text and doesn't reply for hours. You're already writing the story: they're mad, they're flaky, they don't care.\n\nBut you don't actually know. Maybe their phone died. Maybe they're swamped. Maybe they're sitting with bad news.\n\n**Perspective-taking** is stepping into someone's shoes to understand why they might feel or act the way they do. Same scene — but now you've got more than one story for it.",
+      "image": "/illustrations/empathy-bridge.svg",
+      "imageAlt": "Two heads connected by a bridge, sharing a perspective"
+    },
+    {
+      "type": "material",
+      "title": "Understanding ≠ agreeing",
+      "body": "Big myth to clear up first: getting where someone's coming from is **not** the same as agreeing with them. It's not excusing them either.\n\nYou can fully understand why your sibling snapped — they bombed an exam — and still think snapping wasn't okay.\n\nUnderstanding is just information. It tells you what you're actually dealing with. What you do with it is a totally separate choice."
+    },
+    {
+      "type": "true_false",
+      "prompt": "To take someone's perspective, you have to agree with them.",
+      "answer": false,
+      "explanation": "Understanding why someone feels or acts a certain way isn't the same as agreeing or excusing it — it's just information you can use."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the most understanding read here?",
+      "context": "A new kid in your group barely talks and skips the hangouts. Some people have decided they're stuck-up.",
+      "options": [
+        "They might be shy or nervous in a group that already knows each other",
+        "They clearly think they're better than everyone",
+        "They obviously don't want to be friends, so drop it",
+        "They're being rude on purpose to get attention"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quiet usually means nervous, not snobby. Reaching for the kinder, more likely reason is what perspective-taking looks like in action."
+    },
+    {
+      "type": "material",
+      "title": "The blame trick your brain plays",
+      "body": "Here's a glitch we all run. When someone messes up, we blame who they are: \"he's so rude,\" \"she's careless.\"\n\nWhen **we** mess up, we blame the situation: \"I was just stressed,\" \"traffic made me late.\"\n\nSame behavior, two completely different explanations — and we always give ourselves the generous one. Psychologists call it the **fundamental attribution error**. Spotting it is step one to seeing fairer.",
+      "image": "/illustrations/trigger-spark.svg",
+      "imageAlt": "A lit match touching a fuse, like a quick judgment catching"
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word flips this backwards. Tap it.",
+      "sentence": "The fair move is to judge others as harshly as we judge ourselves.",
+      "wrongWord": "harshly",
+      "correctWord": "gently",
+      "explanation": "We excuse ourselves but judge others by their behavior — the fix is to give them the same benefit of the doubt."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Judgment or curiosity?",
+      "categories": [
+        "Judgment",
+        "Curiosity"
+      ],
+      "items": [
+        {
+          "text": "\"He's just a jerk, end of story.\"",
+          "category": 0
+        },
+        {
+          "text": "\"I wonder if something happened to her today.\"",
+          "category": 1
+        },
+        {
+          "text": "\"What might be going on for them right now?\"",
+          "category": 1
+        },
+        {
+          "text": "\"She's always so dramatic about everything.\"",
+          "category": 0
+        },
+        {
+          "text": "\"Maybe he's under pressure I can't see.\"",
+          "category": 1
+        },
+        {
+          "text": "\"They did that on purpose to annoy me.\"",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Flip the script",
+      "body": "Once you know the trick, you can flip it. Assume the other person — just like you — is probably reacting to something you can't see: a rough day, fear, pressure, some need that isn't being met.\n\nTwo questions do the heavy lifting:\n- **\"What might be going on for them?\"**\n- **\"What would I feel in their spot?\"**\n\nYou're not making excuses. You're getting curious instead of jumping to the worst story."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Each behavior might have a hidden reason. Match a likely one.",
+      "pairs": [
+        {
+          "left": "Snapped at you over nothing",
+          "right": "Already stressed about something else"
+        },
+        {
+          "left": "Cancelled plans last minute",
+          "right": "Got overwhelmed and ran out of energy"
+        },
+        {
+          "left": "Went quiet in the group chat",
+          "right": "Going through a rough patch privately"
+        },
+        {
+          "left": "Was short and blunt with you",
+          "right": "Rushing and didn't mean it that way"
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "The question that opens the door: \"What might be going ___ for them?\"",
+      "answer": "on",
+      "accept": [
+        "On"
+      ],
+      "hint": "going ___",
+      "explanation": "\"What might be going on for them?\" swaps a verdict for curiosity — and curiosity is what actually defuses things."
+    },
+    {
+      "type": "material",
+      "title": "Two kinds of empathy",
+      "body": "Empathy comes in two flavors, and you want a mix:\n- **Cognitive empathy** — getting their point of view in your head\n- **Emotional empathy** — feeling a bit of what they feel\n\nGet their view, feel a little with them, and conflict starts to cool. People who feel understood get less defensive, and trust grows.\n\nThe best part: you can hold your own view AND theirs at the same time. It's not either-or."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the see-it-their-way move in order.",
+      "steps": [
+        "Notice the judgment you've already jumped to",
+        "Get curious instead — there's probably more going on",
+        "Imagine how you'd feel standing in their spot",
+        "Check it: ask, or stay open to being wrong"
+      ],
+      "explanation": "Catch the snap judgment, swap it for curiosity, picture their side, then actually check — that's the loop that gets you unstuck from \"I'm just right.\""
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What does the curious move sound like?",
+      "context": "Your teammate didn't do their part of a group project and you're annoyed.",
+      "options": [
+        "\"You're so lazy, you never pull your weight.\"",
+        "\"Hey, is everything okay? You usually come through on this.\"",
+        "Say nothing and just do it all yourself, quietly fuming",
+        "Tell the rest of the group they're useless"
+      ],
+      "correctIndex": 1,
+      "explanation": "Leading with a real question assumes a reason and keeps the door open — way more likely to fix the actual problem than an attack."
+    },
+    {
+      "type": "mood_meter",
+      "prompt": "Read the other person's feeling — where does each one sit?",
+      "items": [
+        {
+          "text": "A friend who's furious you forgot their birthday",
+          "energy": "high",
+          "pleasant": false
+        },
+        {
+          "text": "A classmate buzzing because they aced the test",
+          "energy": "high",
+          "pleasant": true
+        },
+        {
+          "text": "A sibling who's flat and withdrawn after bad news",
+          "energy": "low",
+          "pleasant": false
+        },
+        {
+          "text": "A roommate calm and at ease after sorting a problem",
+          "energy": "low",
+          "pleasant": true
+        }
+      ],
+      "explanation": "Naming where someone else's feeling sits — by energy and pleasantness — is empathy in action. You're reading their weather before you respond."
+    },
+    {
+      "type": "decision_path",
+      "title": "Their side",
+      "intro": "A friend snaps at you out of nowhere in the hallway. You feel the sting. Where you go next decides how this lands.",
+      "stat": {
+        "name": "Understanding",
+        "emoji": "🤝",
+        "start": 50
+      },
+      "steps": [
+        {
+          "situation": "They bite your head off over something tiny. Your first move?",
+          "options": [
+            {
+              "text": "Pause and wonder what might be going on for them",
+              "delta": 20,
+              "feedback": "Curiosity first. You bought yourself a second instead of reacting on autopilot.",
+              "best": true
+            },
+            {
+              "text": "Snap right back — they started it",
+              "delta": -20,
+              "feedback": "Now you're both lit up. Matching the heat just escalates it."
+            },
+            {
+              "text": "Decide they're just a rude person and write them off",
+              "delta": -15,
+              "feedback": "That's the attribution error — blaming who they are instead of what's happening to them."
+            }
+          ]
+        },
+        {
+          "situation": "You remember they had a big exam this morning. What now?",
+          "options": [
+            {
+              "text": "Think \"not my problem\" and stay annoyed",
+              "delta": -10,
+              "feedback": "Understanding their stress doesn't excuse the snap, but it does cool yours."
+            },
+            {
+              "text": "Assume there's a reason you can't see and stay open",
+              "delta": 20,
+              "feedback": "Exactly — you're reaching for the likely explanation instead of the worst one.",
+              "best": true
+            },
+            {
+              "text": "Tell the group chat what a jerk they were",
+              "delta": -20,
+              "feedback": "Venting the worst story to everyone locks it in and burns the bridge."
+            }
+          ]
+        },
+        {
+          "situation": "You catch them later, still a bit tense. You say…",
+          "options": [
+            {
+              "text": "\"You were so out of line earlier.\"",
+              "delta": -15,
+              "feedback": "Leading with the verdict puts them straight on the defensive."
+            },
+            {
+              "text": "Give them the cold shoulder so they get the message",
+              "delta": -10,
+              "feedback": "Silent punishment leaves you both guessing and fixes nothing."
+            },
+            {
+              "text": "\"Hey, you seemed really off earlier — you okay?\"",
+              "delta": 20,
+              "feedback": "A genuine question. You named what you saw and left room for their side.",
+              "best": true
+            }
+          ]
+        },
+        {
+          "situation": "They admit they were stressed and apologize. You…",
+          "options": [
+            {
+              "text": "Tell them you get it — and that the snap still stung a bit",
+              "delta": 15,
+              "feedback": "You held both: their reason AND your honest feeling. That's the whole skill.",
+              "best": true
+            },
+            {
+              "text": "Pretend it was totally fine to avoid the awkwardness",
+              "delta": -10,
+              "feedback": "Understanding them doesn't mean erasing your own feeling — you can hold both."
+            },
+            {
+              "text": "Make them grovel for a while to feel better",
+              "delta": -15,
+              "feedback": "Punishing the apology trades trust for a tiny hit of being right."
+            }
+          ]
+        }
+      ],
+      "outro": "You didn't have to agree with the snap to understand it. Curiosity over judgment — that's how you stay close and stay honest at the same time."
+    }
+  ]
+}

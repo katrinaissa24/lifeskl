@@ -1,0 +1,219 @@
+{
+  "slug": "boundaries",
+  "title": "Set a boundary that holds",
+  "description": "A boundary is about what you'll do — not controlling them.",
+  "unit": 4,
+  "sortOrder": 12,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Set boundaries about YOUR behavior, not theirs — you can only enforce what you do",
+    "State them clearly, calmly, and early; 'No' is a complete sentence",
+    "Expect pushback, especially from people who liked you having none",
+    "Hold the line — a boundary you don't enforce is just a suggestion",
+    "You can love someone and still tell them no"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The fence, not the leash",
+      "body": "A boundary is a limit you set to protect your time, energy, or wellbeing. Here's the twist most people miss: it's about **your** behavior, not controlling theirs.\n\n\"If the yelling starts, I'll leave the room\" is a boundary — you can actually do that.\n\n\"You're not allowed to yell\" is a wish. You can't enforce it, because you don't control their mouth.",
+      "image": "/illustrations/boundary-line.svg",
+      "imageAlt": "A friendly fence marking where one person's space ends"
+    },
+    {
+      "type": "material",
+      "title": "Quiet resentment is a clue",
+      "body": "Boundaries aren't mean or selfish. They're how relationships actually stay healthy — the alternative is slow, silent resentment.\n\nThat irritation you swallow every time a friend borrows money and never pays it back? That's usually a boundary you never set.\n\nNaming the limit early is kinder than blowing up about it three months in."
+    },
+    {
+      "type": "true_false",
+      "prompt": "A boundary is meant to control the other person's behavior.",
+      "answer": false,
+      "explanation": "You can't control what anyone else does — a boundary is about what YOU will do, which is the only part you can actually enforce."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which of these is a real boundary?",
+      "context": "Your roommate keeps blasting music at 2am while you're trying to sleep.",
+      "options": [
+        "\"If the music is loud after midnight, I'll sleep at my sister's.\"",
+        "\"You're not allowed to play music after midnight.\"",
+        "\"You're so inconsiderate, honestly.\"",
+        "\"Why do you always have to ruin my sleep?\""
+      ],
+      "correctIndex": 0,
+      "explanation": "Only the second names something YOU will do and can actually follow through on. The rest are rules you can't enforce or jabs at their character."
+    },
+    {
+      "type": "material",
+      "title": "Boundary vs. ultimatum",
+      "body": "Easy way to tell them apart:\n\n- A **boundary** names what you'll do — \"I'll leave,\" \"I'll hang up,\" \"I'll head home.\"\n- An **ultimatum** demands what they must do — \"You have to stop,\" \"You're not allowed.\"\n\nOne you can deliver on by yourself. The other depends entirely on them obeying — which is why it usually turns into a fight."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Boundary or ultimatum?",
+      "categories": [
+        "Boundary",
+        "Ultimatum"
+      ],
+      "items": [
+        {
+          "text": "If you show up drunk, I'll leave.",
+          "category": 0
+        },
+        {
+          "text": "You're not allowed to text my friends.",
+          "category": 1
+        },
+        {
+          "text": "I'll head home if plans get changed last minute.",
+          "category": 0
+        },
+        {
+          "text": "You have to stop being late.",
+          "category": 1
+        },
+        {
+          "text": "I won't lend money I can't get back.",
+          "category": 0
+        },
+        {
+          "text": "You can't talk to me like that.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Say it short",
+      "body": "State boundaries clearly, calmly, and **early** — before you're already furious.\n\nAnd you don't owe a five-paragraph justification. \"No\" is a complete sentence. \"I can't take that on right now\" is plenty.\n\nThe more you over-explain, the more you hand them to argue with. Short and kind beats long and apologetic."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this advice wrong. Tap it.",
+      "sentence": "A clear boundary always needs a long explanation to be valid.",
+      "wrongWord": "always",
+      "correctWord": "never",
+      "explanation": "You do not owe a long justification — “No” or “I can’t take that on” is a complete boundary."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each sticky situation to a clean boundary line.",
+      "pairs": [
+        {
+          "left": "Friend keeps venting at 1am",
+          "right": "\"I'm asleep after 11 — let's talk tomorrow.\""
+        },
+        {
+          "left": "Group chat guilt-trips you to come out",
+          "right": "\"Can't make it tonight — have fun!\""
+        },
+        {
+          "left": "Relative asks to borrow money again",
+          "right": "\"I'm not able to lend right now.\""
+        },
+        {
+          "left": "Coworker dumps their tasks on you",
+          "right": "\"I can't take this on this week.\""
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "The hard part: holding it",
+      "body": "Setting a boundary is easy. **Holding** it is the real skill.\n\nExpect pushback — especially from anyone who benefited from you having no limits. They might guilt-trip, sulk, or test whether you mean it.\n\nThat's not a sign you did it wrong. It's the moment the boundary actually starts to matter. Stay kind, stay firm, and follow through."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the move?",
+      "context": "You told a friend you can't keep covering their share of the bill. Next outing, they 'forgot their wallet' again and look at you.",
+      "options": [
+        "Pay it 'one last time' to avoid the awkwardness",
+        "Calmly say you can't cover it, like you said, and let it be awkward",
+        "Lecture them about how irresponsible they are",
+        "Pay it but bring it up resentfully for weeks"
+      ],
+      "correctIndex": 1,
+      "explanation": "A boundary you don't enforce is just a suggestion. Following through — even when it's awkward — is what makes it real."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the steps of setting a boundary that holds in order.",
+      "steps": [
+        "Notice the drain — the thing that keeps leaving you resentful",
+        "Name the limit to yourself: what you will and won't do",
+        "State it to them clearly, calmly, and early",
+        "Hold it — expect pushback and follow through anyway"
+      ],
+      "explanation": "You can't state a limit you haven't named, and stating it means nothing if you don't hold it when tested."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Think of one place you've been quietly resentful lately. What's the boundary hiding under it?",
+      "context": "Resentment is often a boundary you never got around to setting.",
+      "chips": [
+        "A friend",
+        "Family",
+        "A roommate",
+        "Work or school"
+      ],
+      "placeholder": "The boundary I've been avoiding is…",
+      "explanation": "Naming it is step one. You don't have to set it today — but you can't hold a limit you've never let yourself see."
+    },
+    {
+      "type": "material",
+      "title": "Kind and firm aren't opposites",
+      "body": "Here's the part people forget: you can love someone and still tell them no.\n\nA boundary isn't a punishment or a breakup. It's how you keep the relationship close enough to last — without quietly burning out inside it.\n\nKind and firm. Not one or the other."
+    },
+    {
+      "type": "i_statement",
+      "prompt": "Build a boundary that's kind, firm, and actually holds.",
+      "context": "A friend keeps changing plans on you at the last minute, and you're done rearranging your whole day for it.",
+      "slots": [
+        {
+          "label": "The limit",
+          "options": [
+            {
+              "text": "I can't take this on right now",
+              "ok": true
+            },
+            {
+              "text": "you always dump on me",
+              "ok": false,
+              "why": "'Always' plus blame puts them on defense before you've even said what you need."
+            }
+          ]
+        },
+        {
+          "label": "The specifics",
+          "options": [
+            {
+              "text": "when plans get changed last minute",
+              "ok": true
+            },
+            {
+              "text": "because you're so inconsiderate",
+              "ok": false,
+              "why": "That attacks their character instead of naming the behavior — they'll argue the insult, not the issue."
+            }
+          ]
+        },
+        {
+          "label": "What you'll do",
+          "options": [
+            {
+              "text": "so I'm going to head home",
+              "ok": true
+            },
+            {
+              "text": "so you need to change",
+              "ok": false,
+              "why": "You can't enforce what they do — a boundary that holds names what YOU will do."
+            }
+          ]
+        }
+      ],
+      "explanation": "Kind but firm: you name your limit, point at the behavior (not their character), and commit to something you can actually follow through on yourself."
+    }
+  ]
+}

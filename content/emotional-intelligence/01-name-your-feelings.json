@@ -1,0 +1,214 @@
+{
+  "slug": "name-your-feelings",
+  "title": "Name what you feel",
+  "description": "Put the right word on a feeling and it loosens its grip.",
+  "unit": 1,
+  "sortOrder": 1,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Name a feeling in plain words to calm your brain's alarm",
+    "Swap vague labels like 'bad' for precise ones like 'lonely' or 'overwhelmed'",
+    "Read your body's cues — tight chest, clenched jaw — as early signals",
+    "Map any feeling by two things: how pleasant it is and how much energy it has",
+    "Treat every emotion as information, not as good or bad"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The skill nobody taught you",
+      "body": "You can ace a test and still get wrecked by a group chat going quiet on you.\n\nEmotional intelligence is noticing, understanding, and managing emotions — yours and other people's. It's not a personality you're stuck with; it's a skill you build, like free throws.\n\nAnd it all starts with one tiny move: **naming what you feel**."
+    },
+    {
+      "type": "material",
+      "title": "Name it to tame it",
+      "body": "When something hits you hard, a little alarm in your brain — the **amygdala** — goes off. You feel flooded.\n\nHere's the trick: the moment you put the feeling into actual words — \"I'm anxious,\" \"I'm hurt\" — that alarm quiets down and your thinking brain comes back online.\n\nNaming a feeling doesn't make it bigger. It hands you the steering wheel."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Saying 'I'm really anxious right now' out loud makes the feeling more intense.",
+      "answer": false,
+      "explanation": "It's the opposite: naming a feeling calms your brain's alarm and brings your thinking brain back. Name it to tame it."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Putting a feeling into words calms the brain's alarm center, the ___.",
+      "answer": "amygdala",
+      "hint": "It's the brain's smoke detector.",
+      "explanation": "The amygdala fires the alarm; labeling the feeling turns the volume down so you can think clearly."
+    },
+    {
+      "type": "material",
+      "title": "Vague feelings, vague choices",
+      "body": "\"I feel bad.\" \"I'm stressed.\" Those are foggy — and a foggy feeling gives you nothing to work with.\n\nGet **precise** and the fog clears. Are you **overwhelmed**, **disappointed**, **lonely**, or **jealous**? Each one points to a totally different next move.\n\nThe more exact words you have for feelings, the better your choices get. That precision even has a name: **emotional granularity**."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the most precise way to name this?",
+      "context": "Two friends posted a photo from a hangout you weren't invited to. You catch yourself just saying 'I feel bad.'",
+      "options": [
+        "Bad",
+        "Stressed",
+        "Left out",
+        "Fine"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Left out' names what actually happened. A precise word points you toward a real response, while 'bad' just keeps you stuck."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Trade each vague word for a more precise one.",
+      "pairs": [
+        {
+          "left": "Bad before a test",
+          "right": "Anxious"
+        },
+        {
+          "left": "Bad after being ditched",
+          "right": "Lonely"
+        },
+        {
+          "left": "Bad after a low grade",
+          "right": "Disappointed"
+        },
+        {
+          "left": "Bad with way too much going on",
+          "right": "Overwhelmed"
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Your body tells you first",
+      "body": "Your body often clocks a feeling before your mind finds the word.\n\n- Tight chest or shallow breath\n- Clenched jaw or fists\n- Butterflies or a sinking stomach\n- Hot face, racing heart\n\nThink of these as an **early-warning system**. Catch the cue early and you get to choose your next move — instead of reacting after you've already snapped.",
+      "image": "/illustrations/body-cues.svg",
+      "imageAlt": "A body outline with emotion cue markers at the chest, jaw, and stomach"
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each body cue to the feeling it often signals.",
+      "pairs": [
+        {
+          "left": "Clenched jaw and fists",
+          "right": "Anger building"
+        },
+        {
+          "left": "Butterflies before you present",
+          "right": "Nervousness"
+        },
+        {
+          "left": "Heavy, sinking chest",
+          "right": "Sadness"
+        },
+        {
+          "left": "Loose shoulders, easy breath",
+          "right": "Calm"
+        }
+      ]
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word breaks this sentence. Tap it.",
+      "sentence": "Your body signals a feeling before your mind ignores the right word.",
+      "wrongWord": "ignores",
+      "correctWord": "finds",
+      "explanation": "Body cues come first as an early warning, so your mind can find the word — not ignore it."
+    },
+    {
+      "type": "material",
+      "title": "The mood meter",
+      "body": "There's a clean way to map any feeling using just two dials:\n\n- **Pleasantness** — does this feel good or bad?\n- **Energy** — high and revved up, or low and quiet?\n\nThat gives four zones: **Red** (high energy, unpleasant — angry, anxious), **Yellow** (high energy, pleasant — excited, joyful), **Blue** (low energy, unpleasant — sad, drained), **Green** (low energy, pleasant — calm, content).",
+      "image": "/illustrations/mood-meter.svg",
+      "imageAlt": "A 2x2 mood grid with red, yellow, blue, and green quadrants"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which zone is this?",
+      "context": "It's the morning of a trip you've been counting down to. You're bouncing, can't sit still, grinning at your phone.",
+      "options": [
+        "Red — high energy, unpleasant",
+        "Yellow — high energy, pleasant",
+        "Blue — low energy, unpleasant",
+        "Green — low energy, pleasant"
+      ],
+      "correctIndex": 1,
+      "explanation": "High energy plus pleasant lands you in Yellow — excited, joyful, buzzing. Same high energy turned unpleasant would be Red."
+    },
+    {
+      "type": "categorize",
+      "prompt": "High energy or low energy?",
+      "categories": [
+        "High energy",
+        "Low energy"
+      ],
+      "items": [
+        {
+          "text": "Furious",
+          "category": 0
+        },
+        {
+          "text": "Drained",
+          "category": 1
+        },
+        {
+          "text": "Excited",
+          "category": 0
+        },
+        {
+          "text": "Calm",
+          "category": 1
+        },
+        {
+          "text": "Anxious",
+          "category": 0
+        },
+        {
+          "text": "Bored",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "prompt": "Feelings in the Red and Blue zones are 'bad' emotions you should shut down.",
+      "answer": false,
+      "explanation": "No feeling is bad — they're all information. Anger and sadness are telling you something matters; the goal is to read them, not silence them."
+    },
+    {
+      "type": "mood_meter",
+      "prompt": "Last one: drop each feeling into its zone on the mood meter.",
+      "items": [
+        {
+          "text": "Furious you got blamed for a group project mess that wasn't yours",
+          "energy": "high",
+          "pleasant": false
+        },
+        {
+          "text": "Buzzing with excitement the night before a concert",
+          "energy": "high",
+          "pleasant": true
+        },
+        {
+          "text": "Drained and flat after a brutal week of deadlines",
+          "energy": "low",
+          "pleasant": false
+        },
+        {
+          "text": "Calm and content after finally talking it out with a friend",
+          "energy": "low",
+          "pleasant": true
+        },
+        {
+          "text": "Anxious refreshing your phone, waiting for a reply",
+          "energy": "high",
+          "pleasant": false
+        },
+        {
+          "text": "Cozy and relaxed on the couch with nowhere to be",
+          "energy": "low",
+          "pleasant": true
+        }
+      ],
+      "explanation": "The RULER mood meter maps any feeling by pleasantness and energy. No feeling is 'bad' — each one is information about what you need next."
+    }
+  ]
+}

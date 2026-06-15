@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A pause button inside calm breathing rings">
+  <!-- outer breathing ring -->
+  <circle cx="160" cy="100" r="88" fill="none" stroke="#efe9ff" stroke-width="3"/>
+  <!-- inner breathing ring -->
+  <circle cx="160" cy="100" r="66" fill="none" stroke="#efe9ff" stroke-width="3"/>
+  <!-- central circle -->
+  <circle cx="160" cy="100" r="44" fill="#fffdf8" stroke="#181016" stroke-width="3"/>
+  <!-- pause bar left -->
+  <rect x="144" y="82" width="13" height="36" rx="4" fill="#6b46ff" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- pause bar right -->
+  <rect x="163" y="82" width="13" height="36" rx="4" fill="#6b46ff" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- label -->
+  <text x="160" y="175" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#4a3f47" text-anchor="middle">Pause &amp; Breathe</text>
+</svg>

@@ -1,0 +1,192 @@
+{
+  "slug": "make-it-stick",
+  "title": "Make EI stick",
+  "description": "Turning all of this into who you actually are.",
+  "unit": 7,
+  "sortOrder": 21,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Build EI like a muscle — small daily reps, not willpower in the heat of the moment",
+    "Pick ONE tiny habit and stack it onto something you already do",
+    "Track it, and treat a slip as data, not failure — the rep is getting back to it",
+    "Hunt your growth edges: the people and moments that still hijack you",
+    "Stay kind to yourself — self-compassion keeps you practicing, harshness makes you quit"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "You can't cram a vibe",
+      "body": "You just spent a whole course learning to name feelings, pause before reacting, read people, repair after a fight.\n\nHere's the catch: you can't cram emotional intelligence the night before a hard conversation. Emotions move fast and your old habits run on autopilot.\n\nReal change doesn't come from trying harder in the heated moment. It comes from small reps, repeated until they become **who you are**.",
+      "image": "/illustrations/growth-mindset.svg",
+      "imageAlt": "A sprout growing up a staircase of arrows, representing steady growth"
+    },
+    {
+      "type": "material",
+      "title": "Reps, not willpower",
+      "body": "Think of EI like a muscle. Nobody gets stronger by lifting once, really hard, while panicking.\n\nYou get stronger with light, boring, daily reps. The pause you practice on a calm Tuesday is the pause that shows up when your sibling pushes your buttons.\n\nWillpower in the moment is unreliable — it's the first thing to vanish when you're flooded. Trained habits don't bail on you."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Emotional intelligence is a fixed trait — you either have it or you don't.",
+      "answer": false,
+      "explanation": "EI is a skill you build with practice, like a muscle. Nobody is born finished — every rep grows it."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "So how does a skill like EI actually stick?",
+      "options": [
+        "One intense weekend of self-improvement",
+        "Small reps practiced over and over until they're automatic",
+        "Forcing yourself to stay calm in the heat of a big fight",
+        "Reading about it until you fully understand it"
+      ],
+      "correctIndex": 1,
+      "explanation": "Habits beat willpower. Tiny repeated reps wire the skill in so it shows up automatically when you need it."
+    },
+    {
+      "type": "material",
+      "title": "Pick one tiny thing",
+      "body": "Don't try to overhaul your whole emotional life by Friday. That's how people burn out and quit.\n\nPick **one** tiny practice and only that:\n- A 10-second feelings check-in each day\n- One pause before reacting\n- One I-statement this week\n\nTiny is the point. A habit small enough to feel almost silly is a habit small enough to actually keep."
+    },
+    {
+      "type": "material",
+      "title": "Stack it and track it",
+      "body": "A new habit needs a hook, or it floats off and you forget it by lunch.\n\n**Habit stacking** ties it to something you already do: \"After I brush my teeth, I name how I'm feeling.\" The old routine becomes the reminder.\n\nThen **track it** — a checkmark, a note, a streak. Tracking makes the invisible visible and keeps you honest with yourself."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each habit-building move to why it works.",
+      "pairs": [
+        {
+          "left": "Pick one tiny practice",
+          "right": "Small enough to actually keep"
+        },
+        {
+          "left": "Stack it on a routine",
+          "right": "Gives it a built-in reminder"
+        },
+        {
+          "left": "Track it",
+          "right": "Makes progress visible"
+        },
+        {
+          "left": "Forgive the slips",
+          "right": "Keeps you practicing instead of quitting"
+        }
+      ]
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the habit-building steps in the order that makes one stick.",
+      "steps": [
+        "Pick one tiny EI practice",
+        "Stack it onto a routine you already do",
+        "Track it so the progress is visible",
+        "Forgive the slips and get back to it"
+      ],
+      "explanation": "One small habit, anchored to an existing routine, tracked, and protected from all-or-nothing thinking — that's the whole formula."
+    },
+    {
+      "type": "material",
+      "title": "A slip is data, not a verdict",
+      "body": "You will mess up. You'll snap, ghost a hard text, forget to check in for three days. Everyone does.\n\nA slip isn't proof you failed — it's information. **Noticing** the slip and getting back to it IS the rep.\n\nThe trap isn't missing once. It's letting one miss become \"I'm bad at this\" and quitting. Missing once is human; quitting is the only real fail.",
+      "image": "/illustrations/inner-flame.svg",
+      "imageAlt": "A steady flame inside a shield, representing inner drive that keeps going"
+    },
+    {
+      "type": "categorize",
+      "prompt": "Which moves build the habit, and which quietly break it?",
+      "categories": [
+        "Builds the habit",
+        "Breaks the habit"
+      ],
+      "items": [
+        {
+          "text": "Anchoring your check-in to an existing routine",
+          "category": 0
+        },
+        {
+          "text": "Trying to fix every emotional habit at once",
+          "category": 1
+        },
+        {
+          "text": "Treating a slip as data and getting back to it",
+          "category": 0
+        },
+        {
+          "text": "Calling yourself a failure after one bad day",
+          "category": 1
+        },
+        {
+          "text": "Tracking one tiny practice each day",
+          "category": 0
+        },
+        {
+          "text": "Quitting the moment you miss a day",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this backwards. Tap it.",
+      "sentence": "When you slip up, the rep is to notice it and quit.",
+      "wrongWord": "quit",
+      "correctWord": "continue",
+      "explanation": "A slip is not failure — it is data. The real skill is noticing and getting right back to it."
+    },
+    {
+      "type": "material",
+      "title": "Find your growth edges",
+      "body": "Notice the situations and people that still hijack you — the group chat that winds you up, the parent who knows exactly which button to press.\n\nThose aren't proof you're hopeless. They're your **growth edges**: the exact spots where your next bit of practice belongs.\n\nReflect honestly: what set me off this week, and what would I do differently next time? That's where the real reps are."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "The specific people and moments that still hijack you are called your growth ___.",
+      "answer": "edges",
+      "accept": [
+        "edge"
+      ],
+      "hint": "Where your next bit of practice belongs.",
+      "explanation": "Your growth edges are the situations that still get you. Naming them honestly tells you exactly where to aim your next reps."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "You keep losing your cool with one specific friend. What's the growth-minded read?",
+      "context": "Every time they cancel last minute, you fire off a passive-aggressive text and regret it.",
+      "options": [
+        "That friendship is just toxic — cut them off",
+        "You're hopeless at staying calm, so why bother trying",
+        "This is a growth edge — exactly where to practice the pause next time",
+        "Wait until you naturally stop caring about it"
+      ],
+      "correctIndex": 2,
+      "explanation": "The spots that still hijack you point straight to your next rep. A growth edge is an instruction, not an insult."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "You've practiced the pause for weeks — then blow up at your roommate over dishes. What keeps you going?",
+      "options": [
+        "Self-compassion: notice it, learn from it, get back to the rep",
+        "Harsh self-judgment to make sure it never happens again",
+        "Deciding you were never really cut out for this",
+        "Scrapping the habit and starting a totally new one"
+      ],
+      "correctIndex": 0,
+      "explanation": "Self-compassion keeps you practicing; harsh self-judgment makes you quit. Over time the pause stops being forced and becomes who you are."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Name your one growth edge — the situation or person that still hijacks you — and one tiny EI habit you'll start this week.",
+      "context": "This is where everything you've learned turns into who you actually are. One edge, one rep.",
+      "chips": [
+        "A daily feelings check-in",
+        "One pause before reacting",
+        "One I-statement this week",
+        "Name the trigger when it hits"
+      ],
+      "placeholder": "My edge is... and this week I'll...",
+      "explanation": "One honest edge plus one tiny, repeatable habit is how the pause, the empathy, and the clean apology stop being things you force — and start being you."
+    }
+  ]
+}

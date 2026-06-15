@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A compass needle pointing to a heart">
+  <!-- compass face -->
+  <circle cx="160" cy="106" r="76" fill="#ffe6ee" stroke="#181016" stroke-width="3"/>
+  <circle cx="160" cy="106" r="64" fill="#efe9ff" stroke="#181016" stroke-width="2.5"/>
+  <!-- inner ring decoration -->
+  <circle cx="160" cy="106" r="8" fill="#fffdf8" stroke="#181016" stroke-width="2.5"/>
+
+  <!-- cardinal tick marks -->
+  <!-- N -->
+  <line x1="160" y1="30" x2="160" y2="46" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <!-- S -->
+  <line x1="160" y1="166" x2="160" y2="182" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <!-- E -->
+  <line x1="224" y1="106" x2="240" y2="106" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <!-- W -->
+  <line x1="80" y1="106" x2="96" y2="106" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- diagonal tick marks (NE, SE, SW, NW) -->
+  <line x1="205" y1="61" x2="214" y2="52" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="205" y1="151" x2="214" y2="160" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="115" y1="151" x2="106" y2="160" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="115" y1="61" x2="106" y2="52" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- cardinal labels -->
+  <text x="160" y="28" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#181016" text-anchor="middle">N</text>
+  <text x="160" y="195" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#4a3f47" text-anchor="middle">S</text>
+  <text x="252" y="110" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#4a3f47" text-anchor="middle">E</text>
+  <text x="68" y="110" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#4a3f47" text-anchor="middle">W</text>
+
+  <!-- compass needle — bold accent arrow pointing up-right (NE) -->
+  <!-- south-west tail: dark accent -->
+  <polygon points="160,106 149,134 160,126 171,134" fill="#4a2ed1" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- north-east head: bright accent pointing toward heart -->
+  <polygon points="160,106 132,82 160,90 188,60" fill="#6b46ff" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- heart at the NE rim, just outside the outer circle -->
+  <!-- heart positioned near ~45° NE, outside r=76 from center (160,106) -->
+  <!-- NE tip at approx (214, 52) -->
+  <path d="M214 47 C214 43 209 40 206 43 C203 40 198 43 198 47 C198 52 206 58 206 58 C206 58 214 52 214 47 Z"
+        fill="#ff6f9c" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- label -->
+  <text x="160" y="196" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#4a3f47" text-anchor="middle"></text>
+</svg>

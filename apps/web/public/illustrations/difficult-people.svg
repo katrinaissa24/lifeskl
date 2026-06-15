@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A calm figure unbothered by a storm cloud">
+  <!-- storm cloud -->
+  <ellipse cx="100" cy="38" rx="32" ry="18" fill="#d8e3ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="76" cy="44" rx="20" ry="14" fill="#d8e3ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="122" cy="46" rx="18" ry="12" fill="#d8e3ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- rain lines -->
+  <line x1="85" y1="62" x2="80" y2="76" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="100" y1="64" x2="95" y2="78" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="115" y1="62" x2="110" y2="76" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- umbrella canopy -->
+  <path d="M130 115 Q160 72 190 115 Z" fill="#6b46ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M130 115 Q145 100 160 115" fill="#4a2ed1" stroke="none"/>
+  <path d="M160 115 Q175 100 190 115" fill="#4a2ed1" stroke="none"/>
+  <!-- umbrella ribs -->
+  <line x1="160" y1="80" x2="130" y2="115" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="160" y1="80" x2="160" y2="115" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="160" y1="80" x2="190" y2="115" stroke="#181016" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- umbrella handle -->
+  <path d="M160 115 L160 158 Q160 166 152 166 Q144 166 144 158" stroke="#181016" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- figure body -->
+  <rect x="148" y="138" width="24" height="40" rx="8" fill="#fffdf8" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- figure legs -->
+  <line x1="155" y1="178" x2="152" y2="196" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <line x1="165" y1="178" x2="168" y2="196" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <!-- figure arm holding umbrella -->
+  <line x1="160" y1="148" x2="160" y2="158" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <!-- figure head -->
+  <circle cx="160" cy="128" r="14" fill="#fffdf8" stroke="#181016" stroke-width="3"/>
+  <!-- small even smile -->
+  <path d="M155 131 Q160 136 165 131" stroke="#181016" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- eyes -->
+  <circle cx="156" cy="126" r="1.8" fill="#181016"/>
+  <circle cx="164" cy="126" r="1.8" fill="#181016"/>
+  <!-- calm label -->
+  <text x="230" y="148" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#4a3f47" text-anchor="middle">Stay calm,</text>
+  <text x="230" y="164" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#6b46ff" text-anchor="middle">stay dry</text>
+</svg>

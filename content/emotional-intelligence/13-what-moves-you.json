@@ -1,0 +1,224 @@
+{
+  "slug": "what-moves-you",
+  "title": "What actually moves you",
+  "description": "The difference between drive that lasts and drive that fizzles.",
+  "unit": 5,
+  "sortOrder": 13,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Tell intrinsic drive (it means something to you) from extrinsic (an outside reward)",
+    "Lean on intrinsic motivation — it lasts longer and rewards-only drive fades fast",
+    "Feed your drive with autonomy, competence, and relatedness",
+    "Tie a boring task to a value you actually care about to make it stick",
+    "Read setbacks as temporary and specific, not 'I'm just a failure'"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Two kinds of fuel",
+      "body": "Ever start something on fire — a new gym plan, a side project, learning guitar — then watch the spark die in two weeks?\n\nThe problem usually isn't you being lazy. It's the **fuel** you're running on.\n\nThere are two kinds. One burns slow and steady. The other flares up bright, then fizzles. Knowing which is which changes everything about what you can actually stick with.",
+      "image": "/illustrations/inner-flame.svg",
+      "imageAlt": "A steady flame inside a shield, representing inner drive"
+    },
+    {
+      "type": "material",
+      "title": "Intrinsic vs extrinsic",
+      "body": "**Intrinsic** motivation is doing something because it's meaningful, interesting, or satisfying to you. You'd do it even if nobody noticed.\n\n**Extrinsic** motivation is doing it for an outside reward — money, grades, praise, likes, a trophy.\n\nBoth are real and both work. But intrinsic drive lasts longer and feels better. Lean only on outside rewards and the fire fades fast — it can even crowd out the inner spark you started with."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Intrinsic or extrinsic motivation?",
+      "categories": [
+        "Intrinsic",
+        "Extrinsic"
+      ],
+      "items": [
+        {
+          "text": "Drawing because you lose track of time doing it",
+          "category": 0
+        },
+        {
+          "text": "Studying hard to win a cash prize",
+          "category": 1
+        },
+        {
+          "text": "Running because it clears your head",
+          "category": 0
+        },
+        {
+          "text": "Posting just to rack up likes",
+          "category": 1
+        },
+        {
+          "text": "Learning a song because you love how it sounds",
+          "category": 0
+        },
+        {
+          "text": "Doing a chore only for the allowance",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "prompt": "Piling on external rewards always boosts your long-term motivation.",
+      "answer": false,
+      "explanation": "Rewards can spark you short-term, but leaning only on them fades fast — and can crowd out the inner drive that lasts."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which person is most likely to still be at it a year from now?",
+      "context": "Three people pick up running in January.",
+      "options": [
+        "The one chasing a medal at one race",
+        "The one who genuinely loves how clear-headed it leaves them",
+        "The one whose parents promised them money for it",
+        "The one doing it only to post the results online"
+      ],
+      "correctIndex": 1,
+      "explanation": "Intrinsic motivation — doing it for how it feels to you — outlasts every outside reward, which fades once the prize is gone."
+    },
+    {
+      "type": "material",
+      "title": "Three things drive needs",
+      "body": "Self-Determination Theory says we're most motivated when three needs are met:\n- **Autonomy** — it's my choice, not something forced on me\n- **Competence** — I can feel myself getting better at it\n- **Relatedness** — it connects me to people I care about\n\nHit all three and a task stops feeling like a grind. Miss them and even fun stuff turns into a chore.",
+      "image": "/illustrations/growth-mindset.svg",
+      "imageAlt": "A sprout growing up a staircase of arrows"
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each need to what it sounds like in your head.",
+      "pairs": [
+        {
+          "left": "Autonomy",
+          "right": "I get to decide this"
+        },
+        {
+          "left": "Competence",
+          "right": "I'm actually getting better"
+        },
+        {
+          "left": "Relatedness",
+          "right": "This connects me to people"
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Doing something because YOU find it meaningful or interesting is called ___ motivation.",
+      "answer": "intrinsic",
+      "accept": [
+        "Intrinsic"
+      ],
+      "hint": "The opposite of chasing an outside reward.",
+      "explanation": "Intrinsic motivation comes from inside — the task itself is the reward, which is why it lasts."
+    },
+    {
+      "type": "material",
+      "title": "Hack a boring task",
+      "body": "Some tasks are just dull — but you can borrow intrinsic fuel for them.\n\nThe trick: **connect the boring thing to something you actually care about** — a value or a goal.\n\nStudying chemistry feels pointless? Tie it to wanting to be a nurse one day. Folding the laundry? It's caring for the people you live with. Same task, totally different fuel. You've turned an outside chore into something that means something to you."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this advice backwards. Tap it.",
+      "sentence": "To stick with a dull task connect it to a reward you care about",
+      "wrongWord": "reward",
+      "correctWord": "value",
+      "explanation": "Tying a task to a value or goal you care about makes it feel intrinsic — that lasts, where chasing another reward fades."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "You hate revising but you want to pass. Put the steps in order to make it stick.",
+      "steps": [
+        "Name a goal you actually care about",
+        "Link the boring task to that goal",
+        "Notice yourself getting a bit better at it",
+        "Keep showing up because now it means something"
+      ],
+      "explanation": "Start from a real why, connect the chore to it, and let small wins (competence) keep the drive going."
+    },
+    {
+      "type": "material",
+      "title": "How you read a flop",
+      "body": "Drive also lives in how you explain a setback to yourself.\n\nThe pessimist version: **permanent and global** — \"I'm just a failure, I'm bad at everything.\"\n\nThe optimist version: **temporary and specific** — \"That one attempt flopped. This time.\"\n\nThis is your **explanatory style**. Optimists treat a flop as a one-off, so they try again — and that persistence is often the exact thing that creates the success.",
+      "image": "/illustrations/growth-mindset.svg",
+      "imageAlt": "A sprout growing up a staircase of arrows"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which thought will keep you going?",
+      "context": "You bombed your first driving test.",
+      "options": [
+        "I'm hopeless, I'll never be able to drive",
+        "I always mess up everything important",
+        "I blew the parallel park this time — I'll drill that",
+        "Driving just isn't for people like me"
+      ],
+      "correctIndex": 2,
+      "explanation": "Reading the flop as temporary and specific ('this time, that one skill') keeps you trying — that persistence is what gets you the pass."
+    },
+    {
+      "type": "i_statement",
+      "prompt": "Reframe a setback so it fuels you instead of flattening you.",
+      "context": "You just failed your second mock exam and you're tempted to quit.",
+      "slots": [
+        {
+          "label": "The setback",
+          "options": [
+            {
+              "text": "That mock went badly",
+              "ok": true
+            },
+            {
+              "text": "I'm a complete failure",
+              "ok": false,
+              "why": "That's permanent and global — it makes quitting feel logical."
+            }
+          ]
+        },
+        {
+          "label": "How you read it",
+          "options": [
+            {
+              "text": "this one was rough and I can fix the weak spots",
+              "ok": true
+            },
+            {
+              "text": "and I'm just bad at everything",
+              "ok": false,
+              "why": "Global blame spreads one flop across your whole self."
+            }
+          ]
+        },
+        {
+          "label": "What's next",
+          "options": [
+            {
+              "text": "so I'll keep going and try again",
+              "ok": true
+            },
+            {
+              "text": "so there's no point trying",
+              "ok": false,
+              "why": "Giving up guarantees the result you're afraid of."
+            }
+          ]
+        }
+      ],
+      "explanation": "Temporary and specific framing keeps the door open — you stay in the game long enough to actually improve."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Pick one goal you want to stick with. Write your real WHY — tie it to a value, not just a reward.",
+      "context": "The lasting fuel is the one that means something to you, not the prize at the end.",
+      "chips": [
+        "It matters to me",
+        "I want to get better at it",
+        "To make someone proud",
+        "It moves me toward who I want to be"
+      ],
+      "placeholder": "I want to ___ because…",
+      "explanation": "When your why is rooted in a value, the drive survives the days the reward isn't there — and those are the days that count."
+    }
+  ]
+}

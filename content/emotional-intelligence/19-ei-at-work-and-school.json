@@ -1,0 +1,278 @@
+{
+  "slug": "ei-at-work-and-school",
+  "title": "EI at work & school",
+  "description": "Often the thing that separates good from great — and you don't need a title.",
+  "unit": 7,
+  "sortOrder": 19,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Stay composed under pressure — one steady person can steady a whole room",
+    "Take feedback as info, not an attack, and you'll grow faster than everyone",
+    "Lead by trust and listening, not a title — people follow whoever 'gets' them",
+    "Praise out loud and specific; correct quietly and in private",
+    "Own your mistakes openly — it builds credibility, not weakness"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The thing that gets you picked",
+      "body": "Two people start the same job with the same grades. A year later one's been handed real responsibility and one hasn't. The difference usually isn't smarts.\n\nIt's the stuff this whole course is about: staying calm when things get tense, taking feedback without sulking, reading the room, working well with people who annoy you.\n\nThat's **emotional intelligence at work and school** — and employers rate it sky-high.",
+      "image": "/illustrations/growth-mindset.svg",
+      "imageAlt": "A sprout growing up a staircase of arrows"
+    },
+    {
+      "type": "material",
+      "title": "Manage up and across",
+      "body": "You don't just answer to a boss or teacher — you work with them, and with teammates.\n\nThe skill is figuring out what each person actually needs and communicating it before they have to chase you. Stuck on a deadline? Say so early. Confused by an assignment? Ask now, not the night before.\n\nReading what people need and getting ahead of it is half of looking 'great' at anything."
+    },
+    {
+      "type": "true_false",
+      "prompt": "You need a title or some kind of authority before you can really lead.",
+      "answer": false,
+      "explanation": "Influence comes from trust, listening, and making people feel understood — not from a job title. You can lead from any seat in the room."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the most emotionally intelligent move?",
+      "context": "You're confused about an assignment that's due in a week.",
+      "options": [
+        "Stay quiet and figure it out alone the night before",
+        "Ask a clear question now, while there's still time to fix it",
+        "Wait and hope the teacher explains it again",
+        "Complain about it to your friends and do nothing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Communicating proactively shows you're on top of things. Asking early gives everyone time and beats a last-minute scramble."
+    },
+    {
+      "type": "material",
+      "title": "Lead without a title",
+      "body": "You don't need to be in charge to lead. Real influence isn't bossing people around — it's the opposite.\n\nPeople follow whoever makes them feel **understood**. Listen first. Make others feel heard. Be the one who notices when a teammate is drowning.\n\nThat's how a regular team member ends up being the person everyone actually trusts and turns to — no badge required.",
+      "image": "/illustrations/empathy-bridge.svg",
+      "imageAlt": "Two heads connected by a bridge, representing perspective-taking"
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each situation to the emotionally intelligent response.",
+      "pairs": [
+        {
+          "left": "A teammate is clearly stressed",
+          "right": "Ask how you can help"
+        },
+        {
+          "left": "You get tough feedback",
+          "right": "Listen and say thanks"
+        },
+        {
+          "left": "You made a mistake",
+          "right": "Own it out loud"
+        },
+        {
+          "left": "A teammate did great work",
+          "right": "Praise it in public"
+        }
+      ]
+    },
+    {
+      "type": "categorize",
+      "prompt": "Does this build trust with people you work with, or quietly erode it?",
+      "categories": [
+        "Builds trust",
+        "Erodes it"
+      ],
+      "items": [
+        {
+          "text": "Owning a mistake the moment you spot it",
+          "category": 0
+        },
+        {
+          "text": "Listening before you jump in with your fix",
+          "category": 0
+        },
+        {
+          "text": "Blaming a teammate when something goes wrong",
+          "category": 1
+        },
+        {
+          "text": "Calling someone out in front of the whole group",
+          "category": 1
+        },
+        {
+          "text": "Giving credit out loud when someone nails it",
+          "category": 0
+        },
+        {
+          "text": "Going quiet and hiding a problem you caused",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Praise loud, correct quiet",
+      "body": "Two simple rules make you the kind of person people want to work with:\n\n- **Praise in public.** When someone does great work, say it out loud and be specific. 'You kept the whole group calm today' beats a vague 'good job.'\n- **Correct in private.** If someone messed up, pull them aside. Never roast a person in front of the room — embarrassment kills trust fast.\n\nSpecific praise feels real. Quiet correction protects the relationship."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "A teammate dropped the ball on their part of a group project. Best move?",
+      "options": [
+        "Call them out in the group chat so everyone sees",
+        "Message them privately and ask what happened",
+        "Say nothing and silently redo all their work",
+        "Tell the teacher before talking to them at all"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct in private. A quiet, curious check-in fixes the problem without the humiliation that makes people defensive."
+    },
+    {
+      "type": "material",
+      "title": "Be the calm one",
+      "body": "Emotions are contagious. When one person panics, the panic spreads — that's **emotional contagion**. The good news: calm spreads the exact same way.\n\nSo when a deadline blows up and everyone's spiraling, the most valuable person in the room is the one who stays steady. One calm person can settle a whole team.\n\nYou don't have to fix everything. Sometimes just not adding to the fire is the win.",
+      "image": "/illustrations/anger-thermometer.svg",
+      "imageAlt": "A thermometer cooling from hot to calm"
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word flips this rule backwards. Tap it.",
+      "sentence": "Owning your mistakes openly builds weakness with the people around you.",
+      "wrongWord": "weakness",
+      "correctWord": "credibility",
+      "explanation": "It's the opposite — owning a mistake openly builds credibility. People trust someone honest about slip-ups far more than someone who hides them."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Calm and panic both spread through a team the same way — this is called emotional ___.",
+      "answer": "contagion",
+      "accept": [
+        "contageon"
+      ],
+      "hint": "Like catching a mood instead of a cold.",
+      "explanation": "Emotional contagion means feelings jump between people. That's why one steady person can steady the whole room."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "You realize you made a mistake that affected your team. Put the moves in order.",
+      "steps": [
+        "Notice the mistake and stay calm instead of panicking",
+        "Own it openly to the people it affected",
+        "Offer a fix or ask how to make it right",
+        "Adjust so it doesn't happen the same way again"
+      ],
+      "explanation": "Calm, then honest, then helpful. Hiding a mistake costs you trust; owning and fixing it earns it back."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Why does staying calm matter so much when a team is stressed?",
+      "options": [
+        "Emotions are contagious, so your calm can steady everyone",
+        "It impresses the boss even if it changes nothing",
+        "It means you secretly don't care about the problem",
+        "Calm people always get the easiest tasks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because of emotional contagion, your steadiness spreads. One composed person can pull a panicking group back to level."
+    },
+    {
+      "type": "material",
+      "title": "Protect yourself from burnout",
+      "body": "EI isn't only about other people — it's also about noticing your limits. Running yourself into the ground doesn't make you tougher; it makes you worse at everything.\n\nThe skill is catching the early signs of overload and recovering **on purpose**: a real break, sleep, time off your phone, saying no when you're maxed out.\n\nGreat performers aren't the ones who never rest. They're the ones who recover before they crash."
+    },
+    {
+      "type": "decision_path",
+      "title": "First week",
+      "intro": "New job, new class — fresh start. People are forming their first read on you. Earn their respect.",
+      "stat": {
+        "name": "Respect",
+        "emoji": "🤝",
+        "start": 50
+      },
+      "steps": [
+        {
+          "situation": "Your manager gives you tough feedback on your first assignment, in front of two others.",
+          "options": [
+            {
+              "text": "Listen, say thanks, and ask what to do differently",
+              "delta": 20,
+              "feedback": "Taking feedback well is rare and noticed. You just looked coachable.",
+              "best": true
+            },
+            {
+              "text": "Get defensive and explain why it's not your fault",
+              "delta": -20,
+              "feedback": "Defensiveness tells people feedback bounces off you — so they stop giving it."
+            },
+            {
+              "text": "Go quiet, nod, and quietly decide they're a jerk",
+              "delta": -10,
+              "feedback": "Shutting down looks like sulking and you lose the lesson in the feedback."
+            }
+          ]
+        },
+        {
+          "situation": "A teammate is visibly stressed and falling behind right before a deadline.",
+          "options": [
+            {
+              "text": "Panic out loud about how you'll all miss the deadline",
+              "delta": -20,
+              "feedback": "Your panic spreads — emotional contagion works both ways."
+            },
+            {
+              "text": "Stay calm and ask, 'What can I take off your plate?'",
+              "delta": 20,
+              "feedback": "Calm is contagious, and offering help is how you lead without a title.",
+              "best": true
+            },
+            {
+              "text": "Ignore it; it's their part, not your problem",
+              "delta": -10,
+              "feedback": "Heads-down indifference reads as 'not a team player' fast."
+            }
+          ]
+        },
+        {
+          "situation": "You realize a mistake YOU made is what set the team back.",
+          "options": [
+            {
+              "text": "Stay quiet and hope nobody traces it to you",
+              "delta": -20,
+              "feedback": "Hiding it is the fastest way to lose trust when it surfaces — and it will."
+            },
+            {
+              "text": "Blame the unclear instructions you were given",
+              "delta": -15,
+              "feedback": "Blame-shifting protects your ego and torches your credibility."
+            },
+            {
+              "text": "Own it right away and offer a fix",
+              "delta": 20,
+              "feedback": "Owning a mistake openly builds credibility — it almost always reads as strength.",
+              "best": true
+            }
+          ]
+        },
+        {
+          "situation": "A teammate just pulled off a great save under pressure.",
+          "options": [
+            {
+              "text": "Praise it out loud and specifically, so the room hears",
+              "delta": 15,
+              "feedback": "Specific public praise makes people feel seen — and it makes you the person they trust.",
+              "best": true
+            },
+            {
+              "text": "Say nothing so the spotlight stays off them and on you",
+              "delta": -10,
+              "feedback": "Hogging credit is the quickest way to make a team stop rooting for you."
+            },
+            {
+              "text": "Mutter 'nice' without looking up from your screen",
+              "delta": -5,
+              "feedback": "Half-hearted praise barely lands. Specific and out loud is what sticks."
+            }
+          ]
+        }
+      ],
+      "outro": "No title, no speeches — you stayed calm, took feedback, owned your slip, and lifted the room. That's how respect gets built."
+    }
+  ]
+}

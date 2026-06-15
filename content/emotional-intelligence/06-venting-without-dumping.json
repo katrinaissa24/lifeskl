@@ -1,0 +1,231 @@
+{
+  "slug": "venting-without-dumping",
+  "title": "Vent without dumping",
+  "description": "Let off steam in a way that helps — and doesn't torch the people around you.",
+  "unit": 2,
+  "sortOrder": 6,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Ask before you vent — \"got a sec?\" turns a dump into a real talk",
+    "Keep it time-limited and aim toward feeling better, not just rehashing",
+    "Replaying the same grievance fuels anger; it doesn't drain it",
+    "Use better outlets: name it, move, write it, tell ONE trusted person",
+    "Say what you need — \"I just want to be heard\" — instead of demanding a fix"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Steam needs a valve",
+      "body": "Something goes sideways — a friend ghosts you, your manager snaps, the group chat blows up. You're full of pressure and you need to let it out.\n\nThat instinct is real. Saying a feeling out loud genuinely helps — it releases some of the pressure and you feel heard.\n\nBut there's a line. Done right, venting helps you. Done wrong, it quietly wears out the people who care about you.",
+      "image": "/illustrations/pause-breath.svg",
+      "imageAlt": "A pause button wrapped in a calm breathing ring"
+    },
+    {
+      "type": "material",
+      "title": "Venting vs. dumping",
+      "body": "**Healthy venting:** you ask first, keep it short, own your part, and you're moving toward feeling better.\n\n**Dumping:** you unload without asking, again and again, blaming and rehashing — and the other person walks away drained.\n\nSame feelings, totally different impact. One leaves you both okay. The other makes your stress quietly become their problem."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Healthy venting or dumping?",
+      "categories": [
+        "Healthy venting",
+        "Dumping"
+      ],
+      "items": [
+        {
+          "text": "\"Got two minutes? I need to get something off my chest.\"",
+          "category": 0
+        },
+        {
+          "text": "Texting paragraph after paragraph with no warning",
+          "category": 1
+        },
+        {
+          "text": "Owning your part: \"I probably overreacted too.\"",
+          "category": 0
+        },
+        {
+          "text": "Replaying the same fight to everyone, all week",
+          "category": 1
+        },
+        {
+          "text": "Wrapping up with \"okay, I feel a bit lighter, thanks\"",
+          "category": 0
+        },
+        {
+          "text": "Dropping it all on someone who's clearly exhausted",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the kind thing to do first?",
+      "context": "You're fuming after a rough shift and your roommate just walked in the door.",
+      "options": [
+        "Ask if they've got a minute before you launch in",
+        "Start venting the second they sit down",
+        "Vent at them while they're clearly mid-something",
+        "Assume they're fine to listen — they always are"
+      ],
+      "correctIndex": 0,
+      "explanation": "A quick \"got a sec?\" gives them a real choice. Consent is the difference between venting and dumping on someone."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Venting the same complaint over and over helps you cool down.",
+      "answer": false,
+      "explanation": "Rehearsing a grievance again and again actually keeps you stuck — it can make anger stronger, not smaller."
+    },
+    {
+      "type": "material",
+      "title": "The rumination trap",
+      "body": "Here's what most people get backwards. Replaying the same complaint — to friend after friend, in your head on a loop — feels like releasing it.\n\nIt isn't. **Rehearsing a grievance keeps it alive.** Every retelling re-lights the anger instead of draining it. You're not processing; you're practicing being mad.\n\nVenting once and moving toward \"what now?\" cools you down. Spinning the same story keeps the fire lit.",
+      "image": "/illustrations/anger-thermometer.svg",
+      "imageAlt": "A thermometer cooling from hot red down to calm"
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this false. Tap it.",
+      "sentence": "Replaying the same grievance over and over slowly shrinks your anger.",
+      "wrongWord": "shrinks",
+      "correctWord": "feeds",
+      "explanation": "Rumination feeds anger — it keeps the feeling rehearsed and alive instead of letting it fade."
+    },
+    {
+      "type": "material",
+      "title": "Better outlets",
+      "body": "When the pressure hits, you've got moves that actually work:\n- **Name the feeling** — \"I'm frustrated\" beats a vague storm\n- **Move your body** — a walk burns off the charge\n- **Write it down** — the page never gets tired of you\n- **Tell ONE trusted person** — with their consent, not a broadcast\n\nThen turn toward the real question: **\"what can I actually do about this?\"**"
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each move to what it does for you.",
+      "pairs": [
+        {
+          "left": "Naming the feeling",
+          "right": "Turns a storm into something clear"
+        },
+        {
+          "left": "Going for a walk",
+          "right": "Burns off the physical charge"
+        },
+        {
+          "left": "Writing it down",
+          "right": "An outlet that never gets drained"
+        },
+        {
+          "left": "Replaying it on a loop",
+          "right": "Keeps you stuck and angrier"
+        }
+      ]
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the healthy-venting flow in order.",
+      "steps": [
+        "Name what you're actually feeling",
+        "Move your body to burn off the charge",
+        "Tell one trusted person — with their okay",
+        "Turn toward \"what can I do now?\""
+      ],
+      "explanation": "Name it, discharge it, share it with consent, then aim at action — that's how steam helps instead of festering."
+    },
+    {
+      "type": "material",
+      "title": "Pick your person",
+      "body": "Who you vent to changes everything.\n\nA **calm friend** helps you settle. Their steadiness is contagious — being near it actually brings your own temperature down. That's co-regulation.\n\nVent to someone who's already heated, though, and you'll wind each other up: two sparks instead of one. Same with venting straight at the person you're mad at mid-rage — that's not venting, that's a fight."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Who's the better person to vent to?",
+      "context": "You're heated and want to talk it out with a friend.",
+      "options": [
+        "A friend who'll get just as furious and pile on",
+        "A calm friend who hears you out and helps you settle",
+        "Whoever replies in the group chat first",
+        "The person you're actually mad at, mid-rage"
+      ],
+      "correctIndex": 1,
+      "explanation": "A calm friend helps you co-regulate. Two people winding each other up just co-escalate — you both end up angrier."
+    },
+    {
+      "type": "reflect",
+      "prompt": "What's one thing you usually need when you vent — to be heard, to feel less alone, or to figure out a next step?",
+      "context": "Knowing what you actually want makes it way easier to ask for it.",
+      "chips": [
+        "Just to be heard",
+        "To not feel alone",
+        "Help with a next step",
+        "To calm down"
+      ],
+      "placeholder": "When I vent, I usually need…",
+      "explanation": "Naming what you need turns a vague unload into a clear ask — and that's the whole skill."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "\"I don't need you to fix it, I just need to be ___ for a minute.\"",
+      "answer": "heard",
+      "accept": [
+        "Heard"
+      ],
+      "hint": "It's what venting is really after.",
+      "explanation": "Telling someone you just want to be heard takes the pressure off them to solve it — and gets you exactly what you need."
+    },
+    {
+      "type": "i_statement",
+      "prompt": "Build a healthy ask for support.",
+      "context": "You're overwhelmed and want to lean on a friend without dumping on them.",
+      "slots": [
+        {
+          "label": "The feeling",
+          "options": [
+            {
+              "text": "I'm really overwhelmed right now",
+              "ok": true
+            },
+            {
+              "text": "everything is the actual worst",
+              "ok": false,
+              "why": "All-or-nothing wording exaggerates and keeps you spun up."
+            },
+            {
+              "text": "you have no idea how bad my life is",
+              "ok": false,
+              "why": "That makes it a competition and puts them on the back foot."
+            }
+          ]
+        },
+        {
+          "label": "What you need",
+          "options": [
+            {
+              "text": "and I just need to vent for a few minutes",
+              "ok": true
+            },
+            {
+              "text": "and you have to fix this for me",
+              "ok": false,
+              "why": "Demanding a fix loads your problem onto them."
+            }
+          ]
+        },
+        {
+          "label": "The check-in",
+          "options": [
+            {
+              "text": "is that okay right now?",
+              "ok": true
+            },
+            {
+              "text": "and you have to listen.",
+              "ok": false,
+              "why": "Skipping consent turns a vent into a dump."
+            }
+          ]
+        }
+      ],
+      "explanation": "You named the feeling, said what you actually need, and checked it's okay — that's an ask someone can say yes to, instead of a dump they can't escape."
+    }
+  ]
+}

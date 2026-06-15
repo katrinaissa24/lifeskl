@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A wheel of emotion words radiating from a center">
+  <!-- Pie wedge 1: top-right — tint #efe9ff -->
+  <path d="M160 100 L160 18 A82 82 0 0 1 231 59 Z" fill="#efe9ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Pie wedge 2: right — pink tint #ffe6ee -->
+  <path d="M160 100 L231 59 A82 82 0 0 1 231 141 Z" fill="#ffe6ee" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Pie wedge 3: bottom-right — green tint #e3f5ec -->
+  <path d="M160 100 L231 141 A82 82 0 0 1 160 182 Z" fill="#e3f5ec" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Pie wedge 4: bottom-left — tint #efe9ff -->
+  <path d="M160 100 L160 182 A82 82 0 0 1 89 141 Z" fill="#efe9ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Pie wedge 5: left — pink tint #ffe6ee -->
+  <path d="M160 100 L89 141 A82 82 0 0 1 89 59 Z" fill="#ffe6ee" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Pie wedge 6: top-left — green tint #e3f5ec -->
+  <path d="M160 100 L89 59 A82 82 0 0 1 160 18 Z" fill="#e3f5ec" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Center hub -->
+  <circle cx="160" cy="100" r="14" fill="#6b46ff" stroke="#181016" stroke-width="3"/>
+  <!-- Emotion labels near rim -->
+  <!-- Happy — top right wedge -->
+  <text x="204" y="62" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#4a3f47" text-anchor="middle">Happy</text>
+  <!-- Angry — right wedge -->
+  <text x="218" y="103" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#4a3f47" text-anchor="middle">Angry</text>
+  <!-- Sad — bottom right wedge -->
+  <text x="204" y="158" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#4a3f47" text-anchor="middle">Sad</text>
+  <!-- Calm — bottom left wedge -->
+  <text x="116" y="158" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#4a3f47" text-anchor="middle">Calm</text>
+  <!-- Fear — left wedge -->
+  <text x="102" y="103" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#4a3f47" text-anchor="middle">Fear</text>
+  <!-- Joy — top left wedge -->
+  <text x="116" y="62" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#4a3f47" text-anchor="middle">Joy</text>
+</svg>
