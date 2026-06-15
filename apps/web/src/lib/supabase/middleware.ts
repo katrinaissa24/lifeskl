@@ -2,11 +2,12 @@ import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 import { isSupabaseConfigured, SUPABASE_ANON_KEY, SUPABASE_URL } from "./env";
 
+// /course and /lesson are intentionally NOT here: the course journey and the
+// lesson player render from a bundled local catalog, so they stay reachable
+// (and useful) even without a session instead of bouncing to /login.
 const PROTECTED_PREFIXES = [
   "/dashboard",
   "/home",
-  "/course",
-  "/lesson",
   "/profile",
   "/settings",
   "/notifications",
