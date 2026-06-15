@@ -5,13 +5,13 @@ import { LandingDemo } from "@/components/LandingDemo";
 // lesson counts, instant static render) — the real course data lives in
 // Supabase and drives /dashboard.
 const CATALOG = [
-  { slug: "money",         title: "Money & Finance", desc: "Taxes, budgeting, credit, saving & paychecks.",      meta: "24 lessons" },
-  { slug: "health",        title: "Health & Mind",   desc: "Burnout, sleep, stress, habits & therapy basics.",   meta: "18 lessons" },
-  { slug: "relationships", title: "Relationships",   desc: "Boundaries, conflict, communication & dating.",      meta: "16 lessons" },
-  { slug: "digital",       title: "Digital Life",    desc: "Privacy, scams, passwords & staying safe online.",   meta: "14 lessons" },
-  { slug: "career",        title: "Career & Work",   desc: "Resumes, interviews, negotiation & email.",          meta: "20 lessons" },
-  { slug: "home",          title: "Home & Repair",   desc: "Leases, moving out, fixes & everyday maintenance.",  meta: "12 lessons" },
-  { slug: "cooking",       title: "Cooking & Food",  desc: "Real meals, groceries, nutrition & not wasting it.", meta: "15 lessons" },
+  { slug: "personal-finance",       title: "Personal Finance",       desc: "Budgeting, saving, credit, investing & taxes.",      meta: "35 lessons" },
+  { slug: "how-to-learn",           title: "How to Learn",           desc: "Study skills, focus, memory & learning anything.",   meta: "35 lessons" },
+  { slug: "emotional-intelligence", title: "Emotional Intelligence", desc: "Self-awareness, empathy, self-control & conflict.",  meta: "35 lessons" },
+  { slug: "health",                 title: "Health & Mind",          desc: "Stress, sleep, anxiety, habits & burnout.",          meta: "35 lessons" },
+  { slug: "relationships",          title: "Relationships",          desc: "Boundaries, conflict, communication & dating.",      meta: "35 lessons" },
+  { slug: "digital",                title: "Digital Life",           desc: "Privacy, scams, passwords & staying safe online.",   meta: "35 lessons" },
+  { slug: "career",                 title: "Career & Work",          desc: "Resumes, interviews, negotiation & email.",          meta: "35 lessons" },
 ];
 
 const TICKER_ITEMS = [
