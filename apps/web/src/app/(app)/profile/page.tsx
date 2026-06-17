@@ -81,8 +81,14 @@ export default async function ProfilePage() {
         </div>
         <div className="prof-actions">
           <span className="chip chip-accent">Level {level}</span>
-          <Link href="/settings" className="btn btn-ghost btn-sm" aria-label="Settings" title="Settings">
-            <Icon name="gear" size={20} />
+          <Link
+            href="/settings"
+            className="btn btn-out btn-sm"
+            aria-label="Settings"
+            title="Settings"
+            style={{ gap: 7 }}
+          >
+            <Icon name="gear" size={18} /> Settings
           </Link>
         </div>
       </div>
