@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A steady flame inside a shield">
+  <!-- shield body -->
+  <path d="M160 22 L220 46 L220 110 C220 148 160 178 160 178 C160 178 100 148 100 110 L100 46 Z" fill="#fffdf8" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- shield inner tint fill -->
+  <path d="M160 34 L210 54 L210 110 C210 140 160 165 160 165 C160 165 110 140 110 110 L110 54 Z" fill="#ffe6ee"/>
+  <!-- outer flame body (pink) -->
+  <path d="M160 148 C138 148 126 134 126 118 C126 108 132 100 136 92 C138 86 137 78 133 72 C140 78 143 86 142 96 C146 88 148 78 145 66 C152 76 156 88 154 100 C158 90 162 78 158 62 C167 74 172 88 170 102 C172 92 176 82 175 70 C181 82 184 96 180 112 C183 106 188 100 188 92 C190 102 190 116 184 126 C180 136 172 144 160 148 Z" fill="#ff6f9c" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- inner flame (accent) -->
+  <path d="M160 142 C150 142 144 134 144 124 C144 116 148 110 150 104 C152 98 151 92 149 88 C154 94 156 102 155 110 C158 104 160 96 158 86 C163 94 165 104 163 114 C165 106 169 98 168 90 C172 100 172 112 168 122 C166 130 164 138 160 142 Z" fill="#6b46ff" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- spark dots -->
+  <circle cx="146" cy="56" r="3.5" fill="#ff6f9c" stroke="#181016" stroke-width="2"/>
+  <circle cx="174" cy="46" r="2.5" fill="#6b46ff" stroke="#181016" stroke-width="2"/>
+  <!-- label -->
+  <text x="160" y="192" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#4a3f47" text-anchor="middle">Inner Drive</text>
+</svg>

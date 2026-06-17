@@ -14,8 +14,10 @@ import {
   CategorizeView,
   DecisionPathView,
   FillBlankView,
+  IStatementView,
   MatchPairsView,
   MaterialView,
+  MoodMeterView,
   MultipleChoiceView,
   OrderStepsView,
   PriorityMatrixView,
@@ -77,6 +79,10 @@ function QuestionRenderer({
       return <SpacedPlannerView block={block} meta={meta} onDone={onDone} />;
     case "reflect":
       return <ReflectView block={block} meta={meta} onDone={onDone} />;
+    case "mood_meter":
+      return <MoodMeterView block={block} meta={meta} onDone={onDone} />;
+    case "i_statement":
+      return <IStatementView block={block} meta={meta} onDone={onDone} />;
   }
 }
 

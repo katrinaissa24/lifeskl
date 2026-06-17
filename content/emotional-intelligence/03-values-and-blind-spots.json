@@ -1,0 +1,213 @@
+{
+  "slug": "values-and-blind-spots",
+  "title": "Your values & blind spots",
+  "description": "What actually drives you — and what you can't see about yourself.",
+  "unit": 1,
+  "sortOrder": 3,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Name your top 2–3 values and use them as a compass for decisions",
+    "Read the 'off' or guilty feeling as a sign a choice clashes with a value",
+    "Tell a strength (what you do well) apart from a blind spot (what others see, you don't)",
+    "Learn your blind spots from honest feedback and complaints that keep repeating",
+    "Catch a strength you've overused — it quietly turns into a weakness"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Your inner compass",
+      "body": "Ever made a choice that looked totally fine on paper but left you feeling weird and guilty? That's your **values** talking.\n\nValues are what genuinely matters to you — honesty, loyalty, freedom, growth, family, fairness, creativity. They're an inner compass. When a choice lines up with a value, it just feels right. When it clashes, you feel **off**.",
+      "image": "/illustrations/values-compass.svg",
+      "imageAlt": "A compass whose needle points to a heart, standing for personal values"
+    },
+    {
+      "type": "material",
+      "title": "Why values are worth knowing",
+      "body": "Knowing your top values explains a huge amount of your reactions. Why you got so heated when a friend lied? Honesty. Why being told what to do makes you bristle? Freedom.\n\nThey also make hard calls easier. Stuck between two options? The one that fits your values is the one you won't regret later. Your values are quietly running the show — better to know what they are."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the best description of a personal value?",
+      "options": [
+        "Something that genuinely matters to you and guides your choices",
+        "A rule your parents make you follow",
+        "A goal you'll hit by the end of the year",
+        "A mood that changes day to day"
+      ],
+      "correctIndex": 0,
+      "explanation": "A value is a deep 'this matters to me' — like honesty or freedom — and it steers your choices, unlike a passing mood or a one-time goal."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each value to what it looks like in real life.",
+      "pairs": [
+        {
+          "left": "Honesty",
+          "right": "Telling a friend the hard truth"
+        },
+        {
+          "left": "Loyalty",
+          "right": "Standing by someone when it's costly"
+        },
+        {
+          "left": "Growth",
+          "right": "Choosing the scary, stretching option"
+        },
+        {
+          "left": "Fairness",
+          "right": "Splitting things evenly, even when it costs you"
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "The 'off' feeling is data",
+      "body": "When you feel guilty, uneasy, or just **off** after a choice, don't shrug it away. That feeling is usually a clash — something you did rubbed against a value you hold.\n\nYou laughed along at a joke aimed at a friend, and it sat wrong all night? That's fairness or loyalty tapping you on the shoulder. The discomfort is information, pointing you back toward what matters."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Feeling uneasy or guilty after a decision usually means it clashed with one of your values.",
+      "answer": true,
+      "explanation": "That 'off' feeling is your compass: when a choice rubs against a value, the discomfort flags it so you can course-correct next time."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Your values work like an inner ___, pointing you toward choices that feel right.",
+      "answer": "compass",
+      "accept": [
+        "compass."
+      ],
+      "hint": "It always points you in a direction.",
+      "explanation": "A compass doesn't make the choice for you — it shows the direction. Your values do the same with decisions."
+    },
+    {
+      "type": "material",
+      "title": "Strengths vs blind spots",
+      "body": "Two different things shape how you come across:\n\n- **Strengths** — what you do well, naturally. The stuff people thank you for.\n- **Blind spots** — patterns other people clearly see in you that you don't: interrupting, avoiding conflict, taking over, needing to be right.\n\nThe tricky part of a blind spot is right there in the name — you can't see it yourself."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Is this a strength you'd notice, or a blind spot others see first?",
+      "categories": [
+        "Strength",
+        "Blind spot"
+      ],
+      "items": [
+        {
+          "text": "Calm in a crisis",
+          "category": 0
+        },
+        {
+          "text": "Interrupting people mid-sentence",
+          "category": 1
+        },
+        {
+          "text": "Great at cheering friends up",
+          "category": 0
+        },
+        {
+          "text": "Always needing to be right",
+          "category": 1
+        },
+        {
+          "text": "Organized and reliable",
+          "category": 0
+        },
+        {
+          "text": "Going quiet and avoiding every conflict",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "How to find your blind spots",
+      "body": "You can't spot a blind spot alone — that's the whole point. So you go hunting for it two ways:\n\n- **Honest feedback** from people who actually know you, asked for on purpose.\n- **Repeating complaints** — when three different people say \"you talk over me,\" that's not three opinions. That's a pattern.\n\nIt stings to hear. Self-awareness means having the humility to listen anyway."
+    },
+    {
+      "type": "true_false",
+      "prompt": "A blind spot is a habit you can clearly see in yourself if you just think about it.",
+      "answer": false,
+      "explanation": "By definition you can't see your own blind spots — that's why honest feedback and repeating complaints are how you find them."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this wrong. Tap it.",
+      "sentence": "When several people give you the same feedback, it is probably a coincidence.",
+      "wrongWord": "coincidence",
+      "correctWord": "pattern",
+      "explanation": "Hear the same note from different people and it is a pattern — usually a blind spot worth taking seriously."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the steps for working on a blind spot in order.",
+      "steps": [
+        "Notice the same complaint repeating from different people",
+        "Name the blind spot out loud without beating yourself up",
+        "Pick one small change and watch for it next time"
+      ],
+      "explanation": "Spot the pattern, name it without shame, then act on it. Naming it is the first real step to change."
+    },
+    {
+      "type": "material",
+      "title": "A strength overused turns toxic",
+      "body": "Here's the twist nobody warns you about: any strength, pushed too far, becomes a weakness.\n\n- **Confident** → arrogant\n- **Caring** → no boundaries, burned out\n- **Driven** → can't rest, can't switch off\n\nThe quality isn't the problem — the dial is stuck on max. Knowing your strengths means knowing when to ease off them too."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each strength to what it becomes when it's overused.",
+      "pairs": [
+        {
+          "left": "Confident",
+          "right": "Arrogant"
+        },
+        {
+          "left": "Caring",
+          "right": "No boundaries"
+        },
+        {
+          "left": "Driven",
+          "right": "Can't ever rest"
+        },
+        {
+          "left": "Honest",
+          "right": "Blunt and hurtful"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's going on here?",
+      "context": "A friend is so caring she drops everything for everyone — and is now exhausted, resentful, and never has time for herself.",
+      "options": [
+        "Caring was never a real strength",
+        "A strength overused: caring with no boundaries has tipped into a weakness",
+        "She just needs to care about people more",
+        "This has nothing to do with her strengths"
+      ],
+      "correctIndex": 1,
+      "explanation": "Caring is a genuine strength — but with the dial stuck on max and no boundaries, it burns her out. The fix is balance, not caring less about people."
+    },
+    {
+      "type": "material",
+      "title": "You are not your worst habit",
+      "body": "One last thing, and it matters: a blind spot is a **pattern**, not a verdict on who you are.\n\nNaming \"I interrupt people\" isn't an insult — it's the first step to changing it. You're not your worst habit. You're the person honest enough to look at it.\n\nNow let's make it real."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Name your top 2–3 values, and one blind spot you'll keep an eye on.",
+      "context": "No wrong answers — this one's just for you. Be honest; that's where it gets useful.",
+      "chips": [
+        "Honesty",
+        "Loyalty",
+        "Freedom",
+        "Growth",
+        "Fairness",
+        "Family",
+        "Creativity"
+      ],
+      "placeholder": "My top values are ___ and ___. The blind spot I'll watch is ___",
+      "explanation": "Your values are your compass and your blind spot is your growth edge. Naming both is exactly how self-awareness gets real."
+    }
+  ]
+}

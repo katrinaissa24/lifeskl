@@ -1,0 +1,286 @@
+{
+  "slug": "conflict-and-repair",
+  "title": "From conflict to repair",
+  "description": "Fighting fair, and fixing it after you mess up.",
+  "unit": 4,
+  "sortOrder": 11,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Aim for the fix, not the win — it's the two of you vs the problem",
+    "Stay on ONE issue and never go for contempt or name-calling",
+    "When you're flooded, take a real timeout before you say more",
+    "Give a real apology: name it, own it with no 'but', say what changes",
+    "Repair is the skill — small reconnects matter more than never fighting"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Conflict isn't the enemy",
+      "body": "Every close relationship has fights. That's not a glitch — it's two people who care enough to disagree.\n\nHandled well, a conflict can actually make you closer. Avoided or fought dirty, it slowly corrodes the whole thing.\n\nSo the skill was never \"never fight.\" The skill is fighting in a way that leaves the relationship standing — and fixing it fast when you slip."
+    },
+    {
+      "type": "material",
+      "title": "The fix, not the win",
+      "body": "When a fight starts, your brain wants to **win**. Score the point. Prove you're right.\n\nBut winning an argument with someone you love is how you lose, slowly. The reframe that changes everything:\n\nIt's not **you vs them**. It's the **two of you vs the problem**.\n\nSame team, facing the thing together. From there, you're solving — not battling.",
+      "image": "/illustrations/repair-bridge.svg",
+      "imageAlt": "A cracked bridge being mended, standing for repair after conflict"
+    },
+    {
+      "type": "true_false",
+      "prompt": "Winning the argument is the goal of a healthy conflict.",
+      "answer": false,
+      "explanation": "The goal is the fix, not the win — it's the two of you against the problem, not against each other."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the strongest opening move?",
+      "context": "Your roommate left dishes again and you're annoyed.",
+      "options": [
+        "\"You're so lazy, you never clean up.\"",
+        "\"I'm frustrated about the dishes piling up — can we sort a system?\"",
+        "\"Fine, I'll just do everything myself like always.\"",
+        "\"Why are you incapable of basic adulting?\""
+      ],
+      "correctIndex": 1,
+      "explanation": "Naming your feeling and the problem keeps you on the same team; the others attack the person and invite a fight."
+    },
+    {
+      "type": "material",
+      "title": "Fight fair: the rules",
+      "body": "Fighting fair has a few simple rules that keep a disagreement from becoming a war:\n- Use **I-statements** — own your feeling instead of accusing\n- Stay on **ONE issue** — don't drag in every past grievance\n- **No jugular** — no name-calling, no \"you always,\" no contempt\n\nContempt — eye-rolls, mockery, \"you're pathetic\" — is the single most damaging move in any relationship. It's the one to cut first."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Fighting fair, or fighting dirty?",
+      "categories": [
+        "Fair",
+        "Dirty"
+      ],
+      "items": [
+        {
+          "text": "\"I felt hurt when you canceled last minute\"",
+          "category": 0
+        },
+        {
+          "text": "Rolling your eyes and calling them pathetic",
+          "category": 1
+        },
+        {
+          "text": "Sticking to the one thing that's bothering you",
+          "category": 0
+        },
+        {
+          "text": "\"And ANOTHER thing from three months ago…\"",
+          "category": 1
+        },
+        {
+          "text": "Taking a breath before you respond",
+          "category": 0
+        },
+        {
+          "text": "\"You always ruin everything, you're useless\"",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this advice backwards. Tap it.",
+      "sentence": "A fair fight stays on every issue at once.",
+      "wrongWord": "every",
+      "correctWord": "one",
+      "explanation": "Fight fair by sticking to one issue — dragging in every past grievance guarantees nothing gets resolved."
+    },
+    {
+      "type": "material",
+      "title": "When you're flooded",
+      "body": "Sometimes mid-argument your heart pounds, your face gets hot, and you genuinely **can't think straight**. That's called being flooded — your body has hit fight-or-flight.\n\nNothing useful gets said while you're flooded. You'll just hurt each other.\n\nThe move: call a real timeout. \"I need twenty minutes, then let's finish this.\" Cool down — and actually come back. A timeout isn't running away."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "You're flooded mid-argument — heart pounding, can't think. Best move?",
+      "options": [
+        "Push through and say whatever comes out",
+        "Storm off and never bring it up again",
+        "Ask for a short timeout, then come back to finish it",
+        "Win fast before you lose your nerve"
+      ],
+      "correctIndex": 2,
+      "explanation": "A real timeout lets your body settle so you can talk instead of wound — but you have to actually return."
+    },
+    {
+      "type": "material",
+      "title": "A real apology",
+      "body": "Everyone messes up. What separates people isn't whether they rupture — it's whether they **repair**.\n\nA real apology has four parts:\n- **Name it** — \"I snapped at you\"\n- **Own it** — no \"but,\" no excuse\n- **Acknowledge the impact** — \"that wasn't fair, and it hurt you\"\n- **Say what changes** — \"I'll take a breath next time\"\n\n\"I'm sorry you feel that way\" is NOT an apology — it blames their feelings instead of owning what you did."
+    },
+    {
+      "type": "true_false",
+      "prompt": "\"I'm sorry you feel that way\" counts as a real apology.",
+      "answer": false,
+      "explanation": "That phrase blames their feelings and owns nothing — a real apology names what YOU did."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which is the strongest apology?",
+      "context": "You blew up at a friend and want to make it right.",
+      "options": [
+        "\"I'm sorry you got so upset about it.\"",
+        "\"I'm sorry, but you kind of started it.\"",
+        "\"I snapped at you and that wasn't fair — I'll cool down before I talk next time.\"",
+        "\"My bad, can we just move on?\""
+      ],
+      "correctIndex": 2,
+      "explanation": "It names the behavior, owns it with no 'but,' acknowledges the impact, and commits to a change — all four parts."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each defensive habit to the repair move that beats it.",
+      "pairs": [
+        {
+          "left": "\"I'm sorry you feel that way\"",
+          "right": "Name what YOU actually did"
+        },
+        {
+          "left": "\"Sorry, BUT you started it\"",
+          "right": "Own it with no excuse"
+        },
+        {
+          "left": "Bringing up their past mistakes",
+          "right": "Stay on this one issue"
+        },
+        {
+          "left": "Going silent and stonewalling",
+          "right": "Make a small reach-back"
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Repair is the whole game",
+      "body": "Healthy relationships aren't the ones that never rupture. They're the ones that **repair quickly**.\n\nA repair can be tiny: a joke, a hand on a shoulder, \"can we start over?\" These little reaches are what keep things from hardening.\n\nAnd sometimes the wisest repair is to just let a small thing go. Not every annoyance needs a summit.",
+      "image": "/illustrations/repair-bridge.svg",
+      "imageAlt": "Two halves of a bridge reconnecting after a crack"
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put a clean repair in order, from the heat of the moment to fixed.",
+      "steps": [
+        "Cool down until you can think clearly",
+        "Own specifically what you did",
+        "Name the impact it had on them",
+        "Make a real apology and a small reach-back"
+      ],
+      "explanation": "Settle first, then own it, then show you see the impact — a rushed apology while flooded usually misfires."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Think of a recent friction with someone you care about. What's one small repair you could make this week?",
+      "context": "No big summit required — just one honest reach.",
+      "chips": [
+        "Send a real apology",
+        "Let the small thing go",
+        "Ask to start over",
+        "Name how I felt"
+      ],
+      "placeholder": "One thing I could try…",
+      "explanation": "Repair is a muscle. The smallest honest reach keeps a relationship from hardening."
+    },
+    {
+      "type": "decision_path",
+      "title": "The repair",
+      "intro": "You just snapped at someone you care about. Trust took a hit. Walk it back.",
+      "stat": {
+        "name": "Trust",
+        "emoji": "🤝",
+        "start": 50
+      },
+      "steps": [
+        {
+          "situation": "Right after you snap, your heart's pounding and you're still hot. What now?",
+          "options": [
+            {
+              "text": "Take a breath and cool down first",
+              "delta": 15,
+              "feedback": "Smart — nothing good gets said while you're flooded.",
+              "best": true
+            },
+            {
+              "text": "Keep going while you've got momentum",
+              "delta": -20,
+              "feedback": "Flooded means you'll wound, not solve."
+            },
+            {
+              "text": "Defend yourself — they provoked you",
+              "delta": -15,
+              "feedback": "Defending skips straight past the repair."
+            }
+          ]
+        },
+        {
+          "situation": "You're calmer. You open your mouth to address it.",
+          "options": [
+            {
+              "text": "\"I'm sorry you feel that way.\"",
+              "delta": -20,
+              "feedback": "That blames their feelings and owns nothing."
+            },
+            {
+              "text": "\"I snapped at you, and that was unfair.\"",
+              "delta": 20,
+              "feedback": "Naming exactly what you did is the heart of a real apology.",
+              "best": true
+            },
+            {
+              "text": "\"Well, you started it last week too.\"",
+              "delta": -25,
+              "feedback": "Dragging up old mistakes blows up the repair."
+            }
+          ]
+        },
+        {
+          "situation": "They look hurt. You want them to know you see it.",
+          "options": [
+            {
+              "text": "\"It wasn't that big a deal, honestly.\"",
+              "delta": -15,
+              "feedback": "Minimizing their hurt reopens the wound."
+            },
+            {
+              "text": "Say nothing and hope it blows over",
+              "delta": -10,
+              "feedback": "Silence reads as stonewalling, not repair."
+            },
+            {
+              "text": "\"That wasn't fair to you, and I get why it stung.\"",
+              "delta": 20,
+              "feedback": "Acknowledging the impact shows you actually see them.",
+              "best": true
+            }
+          ]
+        },
+        {
+          "situation": "Time to close the loop and reconnect.",
+          "options": [
+            {
+              "text": "\"I'll take a breath next time. Can we start over?\"",
+              "delta": 20,
+              "feedback": "A change plus a small reach-back is exactly how repair lands.",
+              "best": true
+            },
+            {
+              "text": "\"Anyway, can we just drop it?\"",
+              "delta": -10,
+              "feedback": "Rushing past it leaves the rupture unhealed."
+            },
+            {
+              "text": "\"Just don't make me that mad again.\"",
+              "delta": -20,
+              "feedback": "Putting it back on them undoes the whole apology."
+            }
+          ]
+        }
+      ],
+      "outro": "Cool down, own it, name the impact, reach back. That's repair — and it's the whole skill."
+    }
+  ]
+}

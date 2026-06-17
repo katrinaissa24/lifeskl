@@ -1,0 +1,277 @@
+{
+  "slug": "hard-conversations",
+  "title": "Hard conversations",
+  "description": "How to have the talk you keep avoiding — without the drama.",
+  "unit": 6,
+  "sortOrder": 17,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Walk in knowing your goal and your ONE main point",
+    "Open soft and name the shared goal, then get curious instead of lecturing",
+    "When someone's upset, validate the feeling before you fix anything",
+    "Skip \"calm down\" — it always pours fuel on the fire",
+    "If it gets too hot, pause and come back instead of pushing through"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The talk you keep dodging",
+      "body": "There's a conversation you've been putting off. Telling a friend they hurt you. Giving someone news they won't love. Saying the thing that might start a fight.\n\nSo you wait. And the problem just sits there, quietly getting bigger.\n\nAvoiding a hard talk doesn't make it disappear — it lets it rot. Emotional intelligence isn't dodging these conversations. It's learning to have them **without the drama**."
+    },
+    {
+      "type": "material",
+      "title": "Prep before you open your mouth",
+      "body": "Going in cold is how hard talks blow up. Three things to settle first:\n- **Your goal** — what do you actually want out of this?\n- **Your ONE main point** — pick the single thing that matters most\n- **Your mindset** — they're not the enemy, even if you're hurt\n\nAnd timing counts: a private, calm moment beats a crowded room or a 1am text thread.",
+      "image": "/illustrations/empathy-bridge.svg",
+      "imageAlt": "Two heads connected by a bridge, standing for hearing each other out"
+    },
+    {
+      "type": "true_false",
+      "prompt": "Avoiding a hard conversation usually makes the problem shrink on its own.",
+      "answer": false,
+      "explanation": "Avoidance lets a problem fester and grow — the talk feels worse the longer it waits."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the best moment to start?",
+      "context": "You need to tell your roommate the mess is getting to you.",
+      "options": [
+        "In front of their friends, so they take it seriously",
+        "Over a string of texts at 1am when you're fed up",
+        "A quiet, private moment when you're both calm",
+        "Mid-argument about something else entirely"
+      ],
+      "correctIndex": 2,
+      "explanation": "A private, calm time gives the conversation a chance — an audience or a heated moment guarantees defensiveness."
+    },
+    {
+      "type": "material",
+      "title": "Start soft, share the goal",
+      "body": "How you open sets the whole tone. Come in swinging and they brace for a fight before you finish your first sentence.\n\nInstead, lead with a **soft start-up** and the thing you both want:\n\n\"I want us to be good — and there's something I need to talk about.\"\n\nThat names the shared goal first. Now you're two people solving a thing together, not opponents."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this advice backwards. Tap it.",
+      "sentence": "A soft start-up means opening the conversation harshly.",
+      "wrongWord": "harshly",
+      "correctWord": "gently",
+      "explanation": "How a conversation starts predicts how it ends — open gently, not with an accusation."
+    },
+    {
+      "type": "material",
+      "title": "Stay curious, not loud",
+      "body": "Once you've opened, the instinct is to make your case — pile on reasons, prove you're right, fill the silence.\n\nDon't lecture. Get **curious** instead.\n\nAsk a real question and actually listen to the answer. \"How did that land for you?\" \"What's going on for you here?\"\n\nA hard talk is a two-way thing. The moment it becomes a monologue, the other person checks out."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put a hard conversation in the order that actually works.",
+      "steps": [
+        "Open soft and name the shared goal",
+        "Make your ONE main point clearly",
+        "Ask a question and really listen",
+        "Work out what happens next, together"
+      ],
+      "explanation": "Soften the opening, say your point, then get curious — listening before solving keeps it a conversation, not a courtroom."
+    },
+    {
+      "type": "material",
+      "title": "When they're the upset one",
+      "body": "Sometimes the hard part isn't your news — it's that the other person gets flooded with feeling right in front of you.\n\nYour instincts will be terrible here. You'll want to **fix it**, argue the facts, or say the two deadliest words: \"calm down.\"\n\n\"Calm down\" has never once calmed a single human being. It tells them their feeling is wrong, so they dig in harder. Skip it entirely."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Telling an upset person to \"calm down\" usually helps them settle.",
+      "answer": false,
+      "explanation": "\"Calm down\" dismisses the feeling, which almost always makes people more upset, not less."
+    },
+    {
+      "type": "material",
+      "title": "Validate first",
+      "body": "When someone's heated, the move that actually lowers the temperature is **validation**.\n\nNot agreeing — acknowledging. Naming what they're feeling so they know it landed:\n- \"That sounds really frustrating.\"\n- \"I get why you'd feel that way.\"\n\nValidation isn't saying they're right. It's saying their feeling makes sense. And weirdly, that's what cools things down enough to actually talk."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the strongest first response?",
+      "context": "A close friend is venting, clearly hurt and worked up.",
+      "options": [
+        "\"That sounds really frustrating — tell me what happened.\"",
+        "\"Okay but you're kind of overreacting here.\"",
+        "\"Just calm down and we'll figure it out.\"",
+        "\"Here's exactly what you should do about it.\""
+      ],
+      "correctIndex": 0,
+      "explanation": "Validating the feeling first lowers the heat so they can actually hear you — the others dismiss or rush to fix."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Validating the feeling, or dismissing it?",
+      "categories": [
+        "Validating",
+        "Dismissing"
+      ],
+      "items": [
+        {
+          "text": "\"That sounds really frustrating.\"",
+          "category": 0
+        },
+        {
+          "text": "\"Calm down, it's not a big deal.\"",
+          "category": 1
+        },
+        {
+          "text": "\"I get why you'd feel that way.\"",
+          "category": 0
+        },
+        {
+          "text": "\"You're being way too dramatic.\"",
+          "category": 1
+        },
+        {
+          "text": "\"That makes sense, no wonder you're upset.\"",
+          "category": 0
+        },
+        {
+          "text": "\"Honestly you're overreacting.\"",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Swap each dismissive line for the validating one.",
+      "pairs": [
+        {
+          "left": "\"Calm down.\"",
+          "right": "\"That sounds really frustrating.\""
+        },
+        {
+          "left": "\"You're overreacting.\"",
+          "right": "\"I get why you'd feel that way.\""
+        },
+        {
+          "left": "\"It's not a big deal.\"",
+          "right": "\"That makes total sense.\""
+        },
+        {
+          "left": "\"Just get over it.\"",
+          "right": "\"That's a lot to carry — I'm here.\""
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Listen, then maybe solve",
+      "body": "After you validate, just **listen**. Let them get it all out.\n\nThen — and only then — think about solutions. And here's the part people skip: ask first. \"Do you want to vent, or do you want ideas?\"\n\nSometimes they just need to be heard, not fixed. Jumping to solutions too early reads as \"hurry up and stop feeling things.\"\n\nAnd if it's getting too hot to think? Pause. Come back later. That's strength, not surrender."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Think of a hard talk you've been putting off. What's your ONE main point — and how could you open it soft?",
+      "context": "Just the first line. You don't have to send it, just draft it.",
+      "chips": [
+        "Tell a friend they hurt me",
+        "Set a limit with family",
+        "Give honest feedback",
+        "Say no to something"
+      ],
+      "placeholder": "\"I want us to be good, and…\"",
+      "explanation": "Naming your one point and a soft opener turns a dreaded talk into something you can actually start."
+    },
+    {
+      "type": "decision_path",
+      "title": "The hard talk",
+      "intro": "Someone you care about is upset and you need to talk something through. Every move either builds the connection or burns it.",
+      "stat": {
+        "name": "Connection",
+        "emoji": "🤝",
+        "start": 50
+      },
+      "steps": [
+        {
+          "situation": "They sit down, clearly tense. You open your mouth first. What do you lead with?",
+          "options": [
+            {
+              "text": "\"I want us to be good — can we talk about something?\"",
+              "delta": 15,
+              "feedback": "A soft start-up plus the shared goal — they're not bracing for a fight.",
+              "best": true
+            },
+            {
+              "text": "\"We need to talk. You've been a problem lately.\"",
+              "delta": -20,
+              "feedback": "Opening with an accusation makes them defend before you finish."
+            },
+            {
+              "text": "\"Why do you always make everything so hard?\"",
+              "delta": -25,
+              "feedback": "Leading with blame torches the conversation on sentence one."
+            }
+          ]
+        },
+        {
+          "situation": "As you talk, they get visibly upset — voice cracking, clearly hurt. Your move?",
+          "options": [
+            {
+              "text": "\"Okay, just calm down for a sec.\"",
+              "delta": -25,
+              "feedback": "\"Calm down\" tells them their feeling is wrong — they only dig in harder."
+            },
+            {
+              "text": "\"That sounds really frustrating. I get it.\"",
+              "delta": 20,
+              "feedback": "Validating the feeling first is what actually lowers the heat.",
+              "best": true
+            },
+            {
+              "text": "\"Actually, that's not even what happened.\"",
+              "delta": -20,
+              "feedback": "Arguing the facts while they're flooded shuts the whole thing down."
+            }
+          ]
+        },
+        {
+          "situation": "They've calmed a little and start explaining their side. What now?",
+          "options": [
+            {
+              "text": "Cut in with the fix you already have ready",
+              "delta": -15,
+              "feedback": "Rushing to solve reads as 'hurry up and stop feeling.'"
+            },
+            {
+              "text": "Wait for a gap so you can make your point again",
+              "delta": -10,
+              "feedback": "Half-listening to reload your argument isn't listening."
+            },
+            {
+              "text": "Listen all the way through, then ask what they need",
+              "delta": 20,
+              "feedback": "Listening fully, then asking before solving, is exactly the move.",
+              "best": true
+            }
+          ]
+        },
+        {
+          "situation": "It's getting heated again — you can both feel it tipping. What's the wise move?",
+          "options": [
+            {
+              "text": "\"Let's take a breather and come back to this.\"",
+              "delta": 15,
+              "feedback": "Pausing when it's too hot — and meaning to return — is strength, not avoidance.",
+              "best": true
+            },
+            {
+              "text": "Push through now so it's finally settled",
+              "delta": -15,
+              "feedback": "Forcing it while you're both hot usually makes it worse."
+            },
+            {
+              "text": "Get the last word in and walk off",
+              "delta": -20,
+              "feedback": "A parting shot turns a pause into an unhealed rupture."
+            }
+          ]
+        }
+      ],
+      "outro": "Open soft, validate the feeling, listen before you fix, and pause when it's too hot. That's a hard talk without the drama."
+    }
+  ]
+}

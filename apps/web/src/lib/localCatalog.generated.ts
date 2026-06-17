@@ -415,6 +415,205 @@ export const LOCAL_COURSES: CourseWithLessons[] = [
     ]
   },
   {
+    "id": "emotional-intelligence",
+    "slug": "emotional-intelligence",
+    "title": "Emotional Intelligence",
+    "description": "Read your feelings, keep your cool, and handle people — the skills that actually run real life.",
+    "emoji": "🫶",
+    "sortOrder": 4,
+    "lessons": [
+      {
+        "id": "emotional-intelligence__name-your-feelings",
+        "slug": "name-your-feelings",
+        "title": "Name what you feel",
+        "description": "Put the right word on a feeling and it loosens its grip.",
+        "xpReward": 20,
+        "sortOrder": 1,
+        "unit": 1
+      },
+      {
+        "id": "emotional-intelligence__your-triggers",
+        "slug": "your-triggers",
+        "title": "Spot your triggers",
+        "description": "The button that gets pushed — and how to see it coming.",
+        "xpReward": 20,
+        "sortOrder": 2,
+        "unit": 1
+      },
+      {
+        "id": "emotional-intelligence__values-and-blind-spots",
+        "slug": "values-and-blind-spots",
+        "title": "Your values & blind spots",
+        "description": "What actually drives you — and what you can't see about yourself.",
+        "xpReward": 20,
+        "sortOrder": 3,
+        "unit": 1
+      },
+      {
+        "id": "emotional-intelligence__the-pause",
+        "slug": "the-pause",
+        "title": "The pause",
+        "description": "The tiny gap between trigger and reaction is where your power lives.",
+        "xpReward": 20,
+        "sortOrder": 4,
+        "unit": 2
+      },
+      {
+        "id": "emotional-intelligence__cool-the-heat",
+        "slug": "cool-the-heat",
+        "title": "Cool the heat",
+        "description": "Anger and anxiety are loud — here's how to turn the volume down.",
+        "xpReward": 20,
+        "sortOrder": 5,
+        "unit": 2
+      },
+      {
+        "id": "emotional-intelligence__venting-without-dumping",
+        "slug": "venting-without-dumping",
+        "title": "Vent without dumping",
+        "description": "Let off steam in a way that helps — and doesn't torch the people around you.",
+        "xpReward": 20,
+        "sortOrder": 6,
+        "unit": 2
+      },
+      {
+        "id": "emotional-intelligence__reading-people",
+        "slug": "reading-people",
+        "title": "Read the room... and the person",
+        "description": "Most of what people mean isn't in their words.",
+        "xpReward": 20,
+        "sortOrder": 7,
+        "unit": 3
+      },
+      {
+        "id": "emotional-intelligence__see-their-side",
+        "slug": "see-their-side",
+        "title": "See it their way",
+        "description": "Understanding someone isn't the same as agreeing — and it's a superpower.",
+        "xpReward": 20,
+        "sortOrder": 8,
+        "unit": 3
+      },
+      {
+        "id": "emotional-intelligence__respecting-differences",
+        "slug": "respecting-differences",
+        "title": "Read the room & respect differences",
+        "description": "The same move that kills in one room bombs in another.",
+        "xpReward": 20,
+        "sortOrder": 9,
+        "unit": 3
+      },
+      {
+        "id": "emotional-intelligence__feedback-both-ways",
+        "slug": "feedback-both-ways",
+        "title": "Feedback, both ways",
+        "description": "How to give it without bruising — and take it without crumbling.",
+        "xpReward": 20,
+        "sortOrder": 10,
+        "unit": 4
+      },
+      {
+        "id": "emotional-intelligence__conflict-and-repair",
+        "slug": "conflict-and-repair",
+        "title": "From conflict to repair",
+        "description": "Fighting fair, and fixing it after you mess up.",
+        "xpReward": 20,
+        "sortOrder": 11,
+        "unit": 4
+      },
+      {
+        "id": "emotional-intelligence__boundaries",
+        "slug": "boundaries",
+        "title": "Set a boundary that holds",
+        "description": "A boundary is about what you'll do — not controlling them.",
+        "xpReward": 20,
+        "sortOrder": 12,
+        "unit": 4
+      },
+      {
+        "id": "emotional-intelligence__what-moves-you",
+        "slug": "what-moves-you",
+        "title": "What actually moves you",
+        "description": "The difference between drive that lasts and drive that fizzles.",
+        "xpReward": 25,
+        "sortOrder": 13,
+        "unit": 5
+      },
+      {
+        "id": "emotional-intelligence__the-long-game",
+        "slug": "the-long-game",
+        "title": "The long game",
+        "description": "Staying in it when the results just... aren't showing up yet.",
+        "xpReward": 25,
+        "sortOrder": 14,
+        "unit": 5
+      },
+      {
+        "id": "emotional-intelligence__emotional-discipline",
+        "slug": "emotional-discipline",
+        "title": "Emotional discipline",
+        "description": "Doing the thing even when you don't feel like it.",
+        "xpReward": 25,
+        "sortOrder": 15,
+        "unit": 5
+      },
+      {
+        "id": "emotional-intelligence__say-it-without-exploding",
+        "slug": "say-it-without-exploding",
+        "title": "Say it without exploding",
+        "description": "Honest AND kind — the assertive sweet spot.",
+        "xpReward": 25,
+        "sortOrder": 16,
+        "unit": 6
+      },
+      {
+        "id": "emotional-intelligence__hard-conversations",
+        "slug": "hard-conversations",
+        "title": "Hard conversations",
+        "description": "How to have the talk you keep avoiding — without the drama.",
+        "xpReward": 25,
+        "sortOrder": 17,
+        "unit": 6
+      },
+      {
+        "id": "emotional-intelligence__digital-ei",
+        "slug": "digital-ei",
+        "title": "Tone in texts & DMs",
+        "description": "Why \"ok.\" reads as cold — and how not to start fights online.",
+        "xpReward": 25,
+        "sortOrder": 18,
+        "unit": 6
+      },
+      {
+        "id": "emotional-intelligence__ei-at-work-and-school",
+        "slug": "ei-at-work-and-school",
+        "title": "EI at work & school",
+        "description": "Often the thing that separates good from great — and you don't need a title.",
+        "xpReward": 25,
+        "sortOrder": 19,
+        "unit": 7
+      },
+      {
+        "id": "emotional-intelligence__difficult-people",
+        "slug": "difficult-people",
+        "title": "Difficult & draining people",
+        "description": "You can't change them — but you can manage your side.",
+        "xpReward": 25,
+        "sortOrder": 20,
+        "unit": 7
+      },
+      {
+        "id": "emotional-intelligence__make-it-stick",
+        "slug": "make-it-stick",
+        "title": "Make EI stick",
+        "description": "Turning all of this into who you actually are.",
+        "xpReward": 25,
+        "sortOrder": 21,
+        "unit": 7
+      }
+    ]
+  },
+  {
     "id": "career",
     "slug": "career",
     "title": "Career & Work",

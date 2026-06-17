@@ -1,0 +1,272 @@
+{
+  "slug": "cool-the-heat",
+  "title": "Cool the heat",
+  "description": "Anger and anxiety are loud — here's how to turn the volume down.",
+  "unit": 2,
+  "sortOrder": 5,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Read anger and anxiety as information, not as orders to obey",
+    "Catch the early body signs — heat, clenched jaw, racing chest",
+    "Slow your exhale to tell your nervous system you're safe",
+    "Never decide or send a message while you're still hot",
+    "Check your story against the facts before you react"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Red zone",
+      "body": "Someone gets the credit for your work. Your chest tightens, your jaw locks, your face goes hot. That's anger and anxiety doing the exact same thing — flooding you with adrenaline so you can fight or run.\n\nThey live in the same corner of the mood meter: **high energy, unpleasant**. The red zone. Loud, fast, and very sure it's right.\n\nThe flood isn't the problem. Acting from it is.",
+      "image": "/illustrations/anger-thermometer.svg",
+      "imageAlt": "A thermometer cooling from hot to calm"
+    },
+    {
+      "type": "material",
+      "title": "They're messengers",
+      "body": "Anger isn't a flaw. It's a flag: **a boundary got crossed, or something feels unfair**. That's useful data.\n\nAnxiety isn't a flaw either. It's an alarm: **your brain spotted a possible threat** and hit the panic button early, just in case.\n\nThe goal was never to stop feeling them. It's to hear the message without letting the messenger grab the wheel."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Anger is a bad emotion you should get rid of.",
+      "answer": false,
+      "explanation": "Anger is information — it flags an unfair or crossed-line moment. The skill is feeling it without acting from the flood."
+    },
+    {
+      "type": "mood_meter",
+      "prompt": "Place each feeling on the mood meter.",
+      "items": [
+        {
+          "text": "Furious your sibling read your messages without asking",
+          "energy": "high",
+          "pleasant": false
+        },
+        {
+          "text": "Panicked you'll bomb the test you didn't study for",
+          "energy": "high",
+          "pleasant": false
+        },
+        {
+          "text": "Hyped the second your team scores the winner",
+          "energy": "high",
+          "pleasant": true
+        },
+        {
+          "text": "Flat and heavy after a long, draining day",
+          "energy": "low",
+          "pleasant": false
+        },
+        {
+          "text": "Calm and easy on a slow Sunday morning",
+          "energy": "low",
+          "pleasant": true
+        }
+      ],
+      "explanation": "Anger and anxiety both sit in the red — high energy, unpleasant. Same body, same corner; the calm comes from how you respond."
+    },
+    {
+      "type": "material",
+      "title": "Cooling anger",
+      "body": "Anger moves fast, so catch it early — the heat in your face, the louder voice, the clenched fists.\n\nThen:\n- **Slow your breathing** to take your foot off the gas\n- **Step away** if you can, even for a minute\n- **Never decide or send anything while hot** — the text can wait\n\nThe hot version of you wants to win the moment. The cool version of you has to live with what it sends."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this advice backfire. Tap it.",
+      "sentence": "When anger spikes, the smartest move is to reply instantly.",
+      "wrongWord": "instantly",
+      "correctWord": "later",
+      "explanation": "Never send a message while you are hot — give it time so the adrenaline can drain first."
+    },
+    {
+      "type": "material",
+      "title": "Check your story",
+      "body": "Anger and anxiety both come with a story attached, and the story is usually exaggerated.\n\nAnger says they did that on purpose. Anxiety says this will be a total disaster. Maybe — but maybe not.\n\n**Reappraise**: Is this actually worth it? Is my story even accurate? A friend who 'ignored' you might just have a dead phone. Catching the inflated story takes the air out of the feeling."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the move that actually cools the anger down?",
+      "context": "A group member takes full credit for the project in front of everyone. Your face goes hot.",
+      "options": [
+        "Take a slow breath, step away, and sort it out once you're calm",
+        "Reply-all to the whole group calling them out right now",
+        "Say nothing ever and let it quietly eat at you for weeks",
+        "Fire back a sarcastic comment so they know you noticed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Breathing and stepping away drains the adrenaline so you can address it clearly — not silence, and not a hot reaction you'll regret."
+    },
+    {
+      "type": "material",
+      "title": "Calming anxiety",
+      "body": "Anxiety is your alarm misfiring — the threat usually isn't as big as it screams. You can talk your nervous system down.\n\n**Box breathing**: in for 4, hold 4, out 4, hold 4. The long, slow exhale is the signal for you're safe.\n\nThen **ground in the present** with your senses — five things you can see, four you can hear. Anxiety lives in the scary future; your senses drag you back to the actual now."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the cool-down in the order that works.",
+      "steps": [
+        "Notice the early signs — heat, tight chest, racing thoughts",
+        "Slow your breathing with a long exhale",
+        "Step back from the moment instead of reacting",
+        "Reappraise — is my story about this even accurate?"
+      ],
+      "explanation": "Notice first or you'll miss the window; breathe and step back to drain the flood; then your calmer brain can check the story."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each reset to what it calms.",
+      "pairs": [
+        {
+          "left": "Long, slow exhale",
+          "right": "Signals your body you're safe"
+        },
+        {
+          "left": "Naming the worry",
+          "right": "Shrinks an inflated threat"
+        },
+        {
+          "left": "Splashing cold water",
+          "right": "Resets a flooded body fast"
+        },
+        {
+          "left": "Unclench jaw and shoulders",
+          "right": "Releases held physical tension"
+        }
+      ]
+    },
+    {
+      "type": "categorize",
+      "prompt": "Does this cool you down or fuel the fire?",
+      "categories": [
+        "Cools you down",
+        "Fuels the fire"
+      ],
+      "items": [
+        {
+          "text": "Taking a short walk",
+          "category": 0
+        },
+        {
+          "text": "Firing off the angry text",
+          "category": 1
+        },
+        {
+          "text": "A few slow exhales",
+          "category": 0
+        },
+        {
+          "text": "Replaying the insult on a loop",
+          "category": 1
+        },
+        {
+          "text": "Splashing cold water on your face",
+          "category": 0
+        },
+        {
+          "text": "Reading your story as the only truth",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "prompt": "What's your earliest body sign that you're heating up — before you even feel 'angry'?",
+      "context": "Spotting it early is the whole game. The sooner you catch the flood, the easier it is to step out of it.",
+      "chips": [
+        "Clenched jaw",
+        "Hot face",
+        "Tight chest",
+        "Faster heartbeat"
+      ],
+      "placeholder": "My first sign is…",
+      "explanation": "Your body sounds the alarm before your brain labels it. Learn your tell, and you get a head start on cooling down."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Best way to settle a spike of anxiety in the moment?",
+      "context": "Your heart is racing five minutes before you have to present.",
+      "options": [
+        "Take fast, shallow breaths to match how you feel",
+        "Slow, long exhales and notice three things in the room",
+        "Replay every possible way it could go wrong",
+        "Chug a big energy drink to power through it"
+      ],
+      "correctIndex": 1,
+      "explanation": "Long exhales tell your nervous system you're safe, and grounding in your senses pulls you out of the scary what-ifs."
+    },
+    {
+      "type": "decision_path",
+      "title": "In the heat",
+      "intro": "A teammate posts in the group chat blaming you for the missed deadline — and it wasn't even your part. You're furious and panicking. Keep your cool head above 50.",
+      "stat": {
+        "name": "Cool head",
+        "emoji": "🧊",
+        "start": 50
+      },
+      "steps": [
+        {
+          "situation": "The message lands. Your face is hot and your thumbs are already moving.",
+          "options": [
+            {
+              "text": "Put the phone down and take three slow breaths",
+              "delta": 25,
+              "feedback": "You bought yourself time before the flood could pick the words.",
+              "best": true
+            },
+            {
+              "text": "Fire back 'are you serious right now??' instantly",
+              "delta": -30,
+              "feedback": "Hot reply sent. Now it's a fight, and you started it on adrenaline."
+            },
+            {
+              "text": "Type a long paragraph and reread it ten times",
+              "delta": -10,
+              "feedback": "Stewing in it keeps the flood topped up instead of draining."
+            }
+          ]
+        },
+        {
+          "situation": "You're calmer. The story in your head is 'they're trying to make me look bad.'",
+          "options": [
+            {
+              "text": "Decide they definitely did it on purpose to wreck you",
+              "delta": -20,
+              "feedback": "The inflated story keeps the anger burning on assumptions."
+            },
+            {
+              "text": "Check the story — maybe they're stressed and got the facts wrong",
+              "delta": 20,
+              "feedback": "Reappraising deflates the worst-case story before you act on it.",
+              "best": true
+            },
+            {
+              "text": "Spiral into 'everyone's going to think it was me'",
+              "delta": -25,
+              "feedback": "Anxiety inflates the threat — now you're fighting a disaster that hasn't happened."
+            }
+          ]
+        },
+        {
+          "situation": "Time to respond. What goes out?",
+          "options": [
+            {
+              "text": "A sarcastic 'wow, nice of you to blame me' to the whole chat",
+              "delta": -25,
+              "feedback": "Sarcasm reads as an attack and drags everyone into the fire."
+            },
+            {
+              "text": "Nothing — go silent and let it eat at you for days",
+              "delta": -15,
+              "feedback": "Burying it doesn't cool it; it just moves the heat inward."
+            },
+            {
+              "text": "A calm message: the timeline shows your part was done — let's sort it",
+              "delta": 25,
+              "feedback": "Cool, clear, fixable. You named the facts without an attack.",
+              "best": true
+            }
+          ]
+        }
+      ],
+      "outro": "Same unfair moment, two completely different endings. The cool head wasn't born calm — it breathed, checked the story, then spoke."
+    }
+  ]
+}

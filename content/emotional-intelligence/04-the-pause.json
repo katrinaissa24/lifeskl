@@ -1,0 +1,270 @@
+{
+  "slug": "the-pause",
+  "title": "The pause",
+  "description": "The tiny gap between trigger and reaction is where your power lives.",
+  "unit": 2,
+  "sortOrder": 4,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Find the pause — the gap between what sets you off and what you do next",
+    "Buy a few seconds with one slow breath so your thinking brain can catch up",
+    "Name the feeling, breathe long, and ask what you actually want before you act",
+    "Delay anything you'd regret: the angry text and the snap reply can wait",
+    "A pause isn't bottling it up — it's choosing your response on purpose"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The half-second that owns you",
+      "body": "Someone says something that lands wrong, and your thumbs are already typing the comeback before you've even decided to.\n\nThat's your **emotional brain** — it fires first, fast, no permission needed. The thinking part of you shows up a beat later, usually after the damage is done.\n\nThe whole game of keeping your cool happens in that beat. There's a space between what hits you and what you do about it. That space is **the pause**.",
+      "image": "/illustrations/pause-breath.svg",
+      "imageAlt": "A pause button wrapped in a calm breathing ring"
+    },
+    {
+      "type": "material",
+      "title": "Self-regulation, plainly",
+      "body": "**Self-regulation** isn't never feeling angry. It's not letting the feeling drive the car.\n\nThe feeling can ride shotgun, yell directions, throw a tantrum in the back seat. Fine. You still steer.\n\nAnd the steering wheel is the pause. A few seconds — one slow breath, counting to ten, walking out of the room — is enough for your thinking brain to catch up and take the wheel back.",
+      "image": "/illustrations/anger-thermometer.svg",
+      "imageAlt": "A thermometer cooling from hot red down to a calm blue"
+    },
+    {
+      "type": "true_false",
+      "prompt": "Your emotional brain reacts before the thinking part of your brain catches up.",
+      "answer": true,
+      "explanation": "The emotional brain fires first and fast. The pause buys the few seconds your slower, thinking brain needs to catch up."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the smartest first move the instant you feel the surge?",
+      "context": "Your group chat blows up over plans and you feel the heat climb up your neck.",
+      "options": [
+        "Fire back before anyone else can pile on",
+        "Take one slow breath before you type anything",
+        "Mute everyone and pretend it didn't happen forever",
+        "Decide who's right and prove it line by line"
+      ],
+      "correctIndex": 1,
+      "explanation": "One breath is the whole pause in a single move — it gives your thinking brain the few seconds it needs to catch up before you react."
+    },
+    {
+      "type": "material",
+      "title": "How to actually pause",
+      "body": "The pause isn't magic, it's a handful of moves:\n- **Name the feeling** — \"okay, I'm angry\" — which alone turns the volume down a notch\n- **Breathe with a longer exhale than inhale** — in for 4, out for 6 — this is what calms the body fast\n- **Ask \"what do I actually want here?\"** — usually not to win, but to be heard\n- **Delay anything you might regret** — the angry text, the snap reply, the subtweet\n\nNone of it is bottling up. You still feel it. You're just choosing what to do with it.",
+      "image": "/illustrations/body-cues.svg",
+      "imageAlt": "A body outline showing where emotions show up — chest, jaw, stomach"
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the pause in order, from the moment something sets you off.",
+      "steps": [
+        "Pause — don't act on the first impulse",
+        "Breathe — slow it down with a long exhale",
+        "Name the feeling you're having",
+        "Choose your response on purpose"
+      ],
+      "explanation": "Stop the auto-reaction, calm the body, label what's going on, and only then decide what to do — that's the whole sequence."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each pause tactic to why it works.",
+      "pairs": [
+        {
+          "left": "Naming the feeling",
+          "right": "Turns the intensity down"
+        },
+        {
+          "left": "Long, slow exhale",
+          "right": "Calms the body fast"
+        },
+        {
+          "left": "Asking what you want",
+          "right": "Aims you past the heat"
+        },
+        {
+          "left": "Delaying the reply",
+          "right": "Stops a regret you can't undo"
+        }
+      ]
+    },
+    {
+      "type": "categorize",
+      "prompt": "Does this help you regulate, or pour fuel on the fire?",
+      "categories": [
+        "Helps you regulate",
+        "Makes it worse"
+      ],
+      "items": [
+        {
+          "text": "Taking three slow breaths",
+          "category": 0
+        },
+        {
+          "text": "Re-reading the message ten times to get angrier",
+          "category": 1
+        },
+        {
+          "text": "Stepping outside for a minute",
+          "category": 0
+        },
+        {
+          "text": "Firing off the reply you'll regret",
+          "category": 1
+        },
+        {
+          "text": "Naming the feeling out loud",
+          "category": 0
+        },
+        {
+          "text": "Rehearsing the perfect insult in your head",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "The one question that resets you",
+      "body": "When you're heated, your brain screams one thing: **win**. Win the argument, get the last word, make them feel it.\n\nThe pause lets you swap that for a better question: **\"what do I actually want here?\"**\n\nNine times out of ten the honest answer isn't to win — it's to be heard, to fix the plan, to keep the friendship. Aim at that, and your next move basically writes itself."
+    },
+    {
+      "type": "material",
+      "title": "The 90-second wave",
+      "body": "Here's the part that changes everything: the physical surge of an emotion — the racing heart, the flush of heat — runs its course in about **90 seconds** if you don't feed it.\n\nNinety seconds. Then the chemicals clear on their own.\n\nWhat keeps anger going past that is the **story you keep telling**: \"I can't believe they said that, who do they think they are…\" Stop refueling the story and the body settles itself.",
+      "image": "/illustrations/inner-flame.svg",
+      "imageAlt": "A steady flame held inside a protective shield"
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "Roughly how long does the body's surge of an emotion last if you don't feed it with more angry thoughts?",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "answer": 90,
+      "tolerance": 20,
+      "explanation": "About 90 seconds. The chemical wave clears on its own — it's the story you keep retelling that drags an emotion out for hours."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this false. Tap it.",
+      "sentence": "Past 90 seconds an emotion only keeps burning if you feed it with more breathing.",
+      "wrongWord": "breathing",
+      "correctWord": "thoughts",
+      "explanation": "The body-surge fades in about 90 seconds. What keeps the emotion burning is feeding it more angry thoughts — slow breathing does the opposite."
+    },
+    {
+      "type": "material",
+      "title": "Recovering after a hit",
+      "body": "Sometimes the wave knocks you flat anyway. Recovering well isn't pretending you're fine — fake-fine just buries it.\n\nInstead:\n- **Let the wave pass** — feelings move through when you stop fighting them\n- **Move your body** — a walk burns off the leftover charge\n- **Talk it out or write it down** — get it out of your head\n- **Be kind to yourself** — you're a person who got upset, not a failure\n\nThe pause protects the moment. This protects the rest of your day.",
+      "image": "/illustrations/repair-bridge.svg",
+      "imageAlt": "A cracked bridge being mended back together"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "You snapped at a friend an hour ago and still feel rattled. What's the healthiest way to recover?",
+      "options": [
+        "Tell yourself you're totally fine and push it down",
+        "Replay the moment on loop until you feel worse",
+        "Take a walk and talk it out, then go easy on yourself",
+        "Decide you're just a bad friend and call it a day"
+      ],
+      "correctIndex": 2,
+      "explanation": "Moving your body, getting it out of your head, and self-kindness let the wave finish passing — faking fine just buries it for later."
+    },
+    {
+      "type": "decision_path",
+      "title": "The pause",
+      "intro": "A friend posts a photo in the group chat that makes you look bad. You feel the heat hit instantly. Keep your composure — and your friendship.",
+      "stat": {
+        "name": "Composure",
+        "emoji": "🧘",
+        "start": 50
+      },
+      "steps": [
+        {
+          "situation": "The notification pops up and your face goes hot. First move?",
+          "options": [
+            {
+              "text": "Take one slow breath before you do anything",
+              "delta": 25,
+              "feedback": "That single breath is the pause — your thinking brain just got a seat at the table.",
+              "best": true
+            },
+            {
+              "text": "Fire off an angry reply in the chat right now",
+              "delta": -30,
+              "feedback": "The emotional brain just drove the car. Public and instant — exactly what you'll regret."
+            },
+            {
+              "text": "Post an embarrassing photo of them to get even",
+              "delta": -35,
+              "feedback": "Revenge feels great for four seconds and lights a fire you can't put out."
+            }
+          ]
+        },
+        {
+          "situation": "Heart still pounding. What do you do with the next 90 seconds?",
+          "options": [
+            {
+              "text": "Re-read the post ten times to stay furious",
+              "delta": -25,
+              "feedback": "That's refueling the story — the one thing that keeps the wave going past 90 seconds."
+            },
+            {
+              "text": "Let the surge pass and name it — 'I feel humiliated'",
+              "delta": 20,
+              "feedback": "Naming it turns the volume down, and the body-wave clears on its own.",
+              "best": true
+            },
+            {
+              "text": "Screenshot it and start a side chat to vent hard",
+              "delta": -15,
+              "feedback": "Pulling others in pours gasoline on it and usually gets back to your friend."
+            }
+          ]
+        },
+        {
+          "situation": "Calmer now. You actually want to handle this. Next?",
+          "options": [
+            {
+              "text": "Subtweet them so everyone knows you're mad",
+              "delta": -25,
+              "feedback": "Vague public shots just escalate it and make you look worse."
+            },
+            {
+              "text": "Decide you'll stay quietly bitter about it for weeks",
+              "delta": -20,
+              "feedback": "Bottling it up isn't a pause — it's a slow leak that poisons the friendship."
+            },
+            {
+              "text": "Ask yourself what you really want — probably the photo down",
+              "delta": 20,
+              "feedback": "Aiming at the outcome, not the win, is what a settled brain does.",
+              "best": true
+            }
+          ]
+        },
+        {
+          "situation": "Time to act. How do you close it out?",
+          "options": [
+            {
+              "text": "Message them privately: 'Hey, that one's rough for me — can you take it down?'",
+              "delta": 25,
+              "feedback": "Calm, direct, private. You chose your response on purpose — that's the whole skill.",
+              "best": true
+            },
+            {
+              "text": "Demand a public apology in front of everyone",
+              "delta": -20,
+              "feedback": "Cornering someone publicly makes them defensive, not sorry."
+            },
+            {
+              "text": "Ghost the whole group chat and stew about it",
+              "delta": -15,
+              "feedback": "Disappearing leaves the photo up and the feeling unresolved."
+            }
+          ]
+        }
+      ],
+      "outro": "Same trigger, completely different ending — because you put a pause between the hit and the move."
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "slug": "emotional-discipline",
+  "title": "Emotional discipline",
+  "description": "Doing the thing even when you don't feel like it.",
+  "unit": 5,
+  "sortOrder": 15,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Act from your goals, not your mood — feelings pass, choices stick",
+    "Design around temptation instead of white-knuckling it",
+    "Make the better choice the easy choice; put the cue out of reach",
+    "Trade a small reward now for a bigger one later",
+    "Ride the urge like a wave — cravings peak and fade if you wait"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The thing you don't feel like doing",
+      "body": "It's 9pm. The essay is due tomorrow and you have not started. Your body wants the couch, the phone, literally anything else.\n\n**Emotional discipline** is doing what matters even when you don't feel like it. Not because you're a robot — because you decided this matters more than the mood you happen to be in right now.\n\nHere's the twist: it's way less about willpower than people think.",
+      "image": "/illustrations/inner-flame.svg",
+      "imageAlt": "A steady flame inside a shield representing inner drive"
+    },
+    {
+      "type": "material",
+      "title": "It's strategy, not gritted teeth",
+      "body": "You've heard of the marshmallow test: kids who could wait got two marshmallows instead of one. The waiters tended to do better years later.\n\nBut the real lesson isn't \"some people just have steel willpower.\" The kids who waited didn't stare the marshmallow down. They looked away, sang songs, covered their eyes.\n\nThey didn't out-muscle the temptation. They out-**strategized** it."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Willpower is a fixed trait — you're either born with it or you're not.",
+      "answer": false,
+      "explanation": "Discipline is a skill and a system you build, not a personality you're stuck with. Strategy beats raw willpower every time."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the smartest way to resist the temptation?",
+      "context": "You keep grabbing your phone every time you sit down to study.",
+      "options": [
+        "Stare at it and promise yourself you won't touch it",
+        "Leave it in another room while you work",
+        "Keep it face-up so you can 'practice' ignoring it",
+        "Trust that today you'll just feel more focused"
+      ],
+      "correctIndex": 1,
+      "explanation": "Remove the cue and there's nothing to resist. Designing around temptation beats fighting it in the moment."
+    },
+    {
+      "type": "material",
+      "title": "Willpower runs out",
+      "body": "Willpower is more like a phone battery than a personality trait — it drains as the day goes on. After a long day of decisions, your \"no\" gets weak. That's **decision fatigue**, and it's why you cave at night, not morning.\n\nSo don't rely on heroic restraint. Lean on two things willpower can't drain:\n- **Habits** — choices on autopilot\n- **Environment** — making the right thing the easy thing"
+    },
+    {
+      "type": "categorize",
+      "prompt": "Does this help your discipline or quietly drain it?",
+      "categories": [
+        "Helps discipline",
+        "Drains it"
+      ],
+      "items": [
+        {
+          "text": "Gym clothes laid out the night before",
+          "category": 0
+        },
+        {
+          "text": "Junk food sitting on the counter",
+          "category": 1
+        },
+        {
+          "text": "Phone charging in another room",
+          "category": 0
+        },
+        {
+          "text": "Making 50 small decisions all day",
+          "category": 1
+        },
+        {
+          "text": "Same study spot, same time, every day",
+          "category": 0
+        },
+        {
+          "text": "Relying on a last-minute burst of motivation",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Make the good choice the easy one",
+      "body": "Your environment is constantly nudging you. The trick is to design it so the choice you want is the path of least resistance.\n\n- Want to read more? Phone in a drawer, book on your pillow.\n- Want to skip the late-night snacking? Don't buy the snacks.\n- Want to study? Bag packed, tabs open, desk clear before you even sit down.\n\nYou're not stronger than temptation. You're just not in the room with it."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each strategy to why it actually works.",
+      "pairs": [
+        {
+          "left": "Phone in another room",
+          "right": "Removes the cue"
+        },
+        {
+          "left": "Gym bag packed at the door",
+          "right": "Lowers the effort"
+        },
+        {
+          "left": "\"I'm someone who studies\"",
+          "right": "Reframes your identity"
+        },
+        {
+          "left": "Leaning on a daily habit",
+          "right": "Saves limited willpower"
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Surf the urge",
+      "body": "A craving feels like it'll last forever. It won't. Urges rise, peak, and fade — usually in a few minutes. This is called **urge surfing**: instead of fighting the wave or being knocked over by it, you ride it out and watch it pass.\n\nName it: \"This is just an urge. It'll pass.\" Then do something else for ten minutes.\n\nYou acted from your goal instead of your mood. That's the whole skill."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "You get the urge to bail on studying. Put the urge-surfing moves in order.",
+      "steps": [
+        "Notice the urge and name it: 'just a craving'",
+        "Remind yourself it will peak and pass",
+        "Do something else for ten minutes",
+        "Notice the urge has faded and get back to it"
+      ],
+      "explanation": "You don't have to crush the urge — you just have to outlast it. Most cravings die in minutes if you don't feed them."
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Cravings peak and then ___ if you wait them out instead of acting on them.",
+      "answer": "fade",
+      "accept": [
+        "pass",
+        "disappear"
+      ],
+      "hint": "Like a wave hitting the shore.",
+      "explanation": "Urges are temporary. Ride the wave for a few minutes and it loses its power on its own."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word breaks this rule. Tap it.",
+      "sentence": "Real discipline means letting your mood decide what you do.",
+      "wrongWord": "mood",
+      "correctWord": "goals",
+      "explanation": "Discipline is acting from your goals, not whatever mood you happen to be in."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the core trade discipline asks you to make?",
+      "options": [
+        "A smaller reward now for a bigger one later",
+        "All your fun now, deal with later later",
+        "A bigger reward now over a small one later",
+        "Never enjoying anything at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "Delaying gratification means swapping the small instant hit for the bigger payoff you actually want down the line."
+    },
+    {
+      "type": "decision_path",
+      "title": "The marshmallow moment",
+      "intro": "Big test first thing tomorrow. Your group chat is blowing up about a last-minute night out. Future you is counting on you.",
+      "stat": {
+        "name": "Future you",
+        "emoji": "🔮",
+        "start": 50
+      },
+      "steps": [
+        {
+          "situation": "The invite lands. Your gut screams 'go.' First move?",
+          "options": [
+            {
+              "text": "Put your phone on do-not-disturb in another room",
+              "delta": 20,
+              "feedback": "Cue gone. You can't be tempted by a buzz you never see.",
+              "best": true
+            },
+            {
+              "text": "Keep scrolling the chat to 'see if it's even worth it'",
+              "delta": -15,
+              "feedback": "Staring at the temptation is how you talk yourself into it."
+            },
+            {
+              "text": "White-knuckle it with the chat open, phone in hand",
+              "delta": -10,
+              "feedback": "Pure willpower against a live cue rarely holds."
+            }
+          ]
+        },
+        {
+          "situation": "The urge to bail on studying hits hard anyway. Now what?",
+          "options": [
+            {
+              "text": "Tell yourself you have zero willpower and give up",
+              "delta": -20,
+              "feedback": "Willpower isn't a fixed trait you 'have' — it's a strategy you use."
+            },
+            {
+              "text": "Name it — 'just a craving' — and wait ten minutes",
+              "delta": 20,
+              "feedback": "Urge surfing. You let the wave peak and pass instead of acting on it.",
+              "best": true
+            },
+            {
+              "text": "Fight the urge head-on by thinking about it nonstop",
+              "delta": -10,
+              "feedback": "Focusing on the craving feeds it. Distraction beats confrontation."
+            }
+          ]
+        },
+        {
+          "situation": "You're tired and your 'no' is getting weak. How do you make studying win?",
+          "options": [
+            {
+              "text": "Wait until you magically feel motivated",
+              "delta": -15,
+              "feedback": "Motivation is a mood. It won't reliably show up — habits and systems do."
+            },
+            {
+              "text": "Promise yourself you'll cram it all at 6am",
+              "delta": -10,
+              "feedback": "Pushing it to a tired future-you is a classic way to cave."
+            },
+            {
+              "text": "Lower the effort: notes open, one chapter, ten minutes",
+              "delta": 20,
+              "feedback": "Make the good choice the easy choice and decision fatigue can't sink you.",
+              "best": true
+            }
+          ]
+        },
+        {
+          "situation": "It's done. Why did this actually work?",
+          "options": [
+            {
+              "text": "You designed around the temptation and rode out the urge",
+              "delta": 15,
+              "feedback": "Exactly. Strategy and environment beat heroic restraint.",
+              "best": true
+            },
+            {
+              "text": "You were just born with more willpower today",
+              "delta": -10,
+              "feedback": "Nope — you used a system, not a personality trait."
+            },
+            {
+              "text": "You got lucky and the urge happened to vanish",
+              "delta": -5,
+              "feedback": "It wasn't luck. You made choices that stacked the odds."
+            }
+          ]
+        }
+      ],
+      "outro": "You didn't out-muscle the marshmallow. You out-strategized it — and future you is grateful."
+    }
+  ]
+}

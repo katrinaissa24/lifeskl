@@ -25,7 +25,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const seedPath = join(root, "supabase", "seed.sql");
 
 // Full courses authored as one JSON file per lesson + a course.json (metadata).
-const CONTENT_COURSES = ["personal-finance", "how-to-learn"];
+const CONTENT_COURSES = ["personal-finance", "how-to-learn", "emotional-intelligence"];
 const outDir = join(root, "apps", "web", "src", "lib");
 
 const lessonId = (courseSlug, lessonSlug) => `${courseSlug}__${lessonSlug}`;

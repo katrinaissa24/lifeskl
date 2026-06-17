@@ -1,0 +1,270 @@
+{
+  "slug": "the-long-game",
+  "title": "The long game",
+  "description": "Staying in it when the results just... aren't showing up yet.",
+  "unit": 5,
+  "sortOrder": 14,
+  "xpReward": 25,
+  "summaryPoints": [
+    "Expect a messy middle — effort goes in before results show up",
+    "Track small wins and your system, not just the far-off outcome",
+    "Start the action first; the motivation shows up after you begin",
+    "Treat frustration as a signal to tweak your strategy, not to quit",
+    "Lean on habits and self-compassion when the motivation dips"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The day-three high",
+      "body": "Day one of anything new, you're flying. New gym plan, new language app, new project — the motivation is free and the energy is loud.\n\nThen day twelve hits. You've put in the work and... nothing visible has changed. No abs, no fluent Spanish, no big break.\n\nThis is where most people quit. Not because they failed — because the **results were running late**.",
+      "image": "/illustrations/inner-flame.svg",
+      "imageAlt": "A steady flame inside a shield, representing inner drive"
+    },
+    {
+      "type": "material",
+      "title": "The valley of disappointment",
+      "body": "Effort and results almost never move at the same speed. You pour in work for weeks, and the payoff lags way behind — that gap is the **valley of disappointment**.\n\nThink of bamboo: it spends years growing roots underground with nothing to show, then shoots up feet in a single season.\n\nYou're not stuck. You're building under the surface where you can't see it yet."
+    },
+    {
+      "type": "true_false",
+      "prompt": "If results haven't shown up after weeks of effort, that effort was basically wasted.",
+      "answer": false,
+      "explanation": "Results lag effort — you're building under the surface before anything shows. The work isn't lost, it just hasn't surfaced yet."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each mindset to what it actually does to you.",
+      "pairs": [
+        {
+          "left": "Only watching the outcome",
+          "right": "Makes you quit when it's slow"
+        },
+        {
+          "left": "Tracking small daily wins",
+          "right": "Keeps you going through the lull"
+        },
+        {
+          "left": "Beating yourself up",
+          "right": "Burns you out faster"
+        },
+        {
+          "left": "Self-compassion",
+          "right": "Keeps you in the game longer"
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Fall for the system",
+      "body": "When the outcome is far away, staring at it just makes you anxious. The fix: shift your attention to the **system** — the small daily action you actually control.\n\nYou can't control \"get fluent.\" You can control \"ten minutes today.\"\n\nWin the day, and the outcome takes care of itself. Track progress, not perfection — a streak of small wins beats one flawless week."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "You're three weeks into learning guitar and your fingers still fumble every chord. Best move?",
+      "options": [
+        "Focus on showing up for today's ten minutes of practice",
+        "Wait until you feel motivated again, then practice",
+        "Compare your playing to a video of a pro and feel bad",
+        "Decide guitar just isn't your thing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Controlling the daily system — today's ten minutes — beats fixating on a far-off result you can't rush."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Which of these keeps you going, and which makes you quit?",
+      "categories": [
+        "Keeps you going",
+        "Makes you quit"
+      ],
+      "items": [
+        {
+          "text": "Tracking tiny wins each day",
+          "category": 0
+        },
+        {
+          "text": "Only checking the far-off result",
+          "category": 1
+        },
+        {
+          "text": "Leaning on your habit when motivation dips",
+          "category": 0
+        },
+        {
+          "text": "Calling yourself a failure",
+          "category": 1
+        },
+        {
+          "text": "Being kind to yourself after an off day",
+          "category": 0
+        },
+        {
+          "text": "Demanding perfection every single time",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Action comes first",
+      "body": "Here's the trick nobody tells you: you don't wait for motivation, you **start** and the motivation follows.\n\nFeeling drives action, sure — but action also drives feeling. The first two minutes of a workout are the worst part. Once you're moving, the dread fades and the energy shows up.\n\nSo when you don't feel like it, that's not a stop sign. That's the exact moment to start small."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this advice backwards. Tap it.",
+      "sentence": "Motivation usually shows up before you start the task.",
+      "wrongWord": "before",
+      "correctWord": "after",
+      "explanation": "Action comes first and motivation follows — so start small instead of waiting to feel ready."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "You're frustrated mid-project and want to bail. Put the smarter response in order.",
+      "steps": [
+        "Notice the frustration instead of acting on it",
+        "Read it as a signal that you care and hit an edge",
+        "Tweak your strategy or push a little harder",
+        "Take the next small action anyway"
+      ],
+      "explanation": "Frustration is fuel, not a quit button — it means you care. Use it to adjust, then keep moving."
+    },
+    {
+      "type": "material",
+      "title": "Frustration is fuel",
+      "body": "Frustration feels like a reason to quit. It's actually a sign you **care** and you've hit an edge — the place where growth happens.\n\nSo don't read it as \"I'm failing.\" Read it as \"time to change strategy or push.\" Same energy, pointed forward.\n\nAnd when even that runs low: discipline carries you. Motivation gets you started; **habits keep you going** on the days you feel nothing."
+    },
+    {
+      "type": "slider_estimate",
+      "prompt": "You practice just 15 minutes a day. How many hours is that over a year?",
+      "min": 0,
+      "max": 180,
+      "step": 15,
+      "answer": 90,
+      "tolerance": 15,
+      "unitPrefix": "",
+      "explanation": "15 min × 365 days ≈ 91 hours. Tiny daily reps compound into something huge while you're not watching."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Motivation has totally dried up, but you've shown up daily for a month. What actually carries you now?",
+      "options": [
+        "Waiting for a burst of inspiration to return",
+        "The habit and discipline you've already built",
+        "Hyping yourself up with one big motivational video",
+        "Promising to start fresh next Monday"
+      ],
+      "correctIndex": 1,
+      "explanation": "Motivation gets you started; habits keep you going. On low-feeling days, the routine you built does the carrying."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Name one thing you're in the messy middle of right now. What's one small win you can track this week?",
+      "context": "Something where you've put in effort but the payoff hasn't shown up yet.",
+      "chips": [
+        "A skill",
+        "Fitness",
+        "A creative project",
+        "A goal at school"
+      ],
+      "placeholder": "I'll track...",
+      "explanation": "Naming the small win shifts you from the scary outcome to the system you control today."
+    },
+    {
+      "type": "decision_path",
+      "title": "The plateau",
+      "intro": "You've put weeks into a goal and seen almost nothing change. Your momentum is sitting at 50. Keep it alive.",
+      "stat": {
+        "name": "Momentum",
+        "emoji": "🔥",
+        "start": 50
+      },
+      "steps": [
+        {
+          "situation": "Three weeks in, zero visible progress. The first thought hits.",
+          "options": [
+            {
+              "text": "Remind yourself results lag effort — trust the process",
+              "delta": 20,
+              "feedback": "Exactly. You're building under the surface; the payoff is just running late.",
+              "best": true
+            },
+            {
+              "text": "Declare yourself a failure and spiral",
+              "delta": -30,
+              "feedback": "Beating yourself up only drains the tank faster."
+            },
+            {
+              "text": "Quit and tell yourself it was never going to work",
+              "delta": -40,
+              "feedback": "Quitting in the valley is exactly how most people miss the payoff."
+            }
+          ]
+        },
+        {
+          "situation": "You want proof you're moving. How do you measure it?",
+          "options": [
+            {
+              "text": "Scroll someone fluent and feel hopelessly behind",
+              "delta": -25,
+              "feedback": "Comparing your middle to their highlight reel just kills momentum."
+            },
+            {
+              "text": "Track tiny daily wins — minutes in, reps done",
+              "delta": 20,
+              "feedback": "Progress, not perfection. Small wins are visible proof you're moving.",
+              "best": true
+            },
+            {
+              "text": "Decide nothing counts unless it's a big result",
+              "delta": -20,
+              "feedback": "All-or-nothing makes every normal day feel like a loss."
+            }
+          ]
+        },
+        {
+          "situation": "Frustration boils over — your approach feels like it's barely working.",
+          "options": [
+            {
+              "text": "Rage-quit for the day and skip practice",
+              "delta": -25,
+              "feedback": "Breaking the streak on a hard day is how habits quietly die."
+            },
+            {
+              "text": "Grind the exact same way harder and burn out",
+              "delta": -15,
+              "feedback": "More force on a broken strategy just exhausts you."
+            },
+            {
+              "text": "Take the frustration as a signal and tweak your strategy",
+              "delta": 20,
+              "feedback": "Frustration means you care and hit an edge. Adjust, don't abandon.",
+              "best": true
+            }
+          ]
+        },
+        {
+          "situation": "You're wiped and motivation is gone. Last call.",
+          "options": [
+            {
+              "text": "Rest tonight, then let the habit carry you tomorrow",
+              "delta": 20,
+              "feedback": "Self-compassion plus discipline keeps you in the game long-term.",
+              "best": true
+            },
+            {
+              "text": "Push to total burnout to prove you're tough",
+              "delta": -20,
+              "feedback": "Burnout isn't discipline — it ends the long game early."
+            },
+            {
+              "text": "Wait until motivation magically comes back",
+              "delta": -15,
+              "feedback": "Action comes first; if you wait to feel like it, you'll wait forever."
+            }
+          ]
+        }
+      ],
+      "outro": "The plateau isn't the end — it's the part right before the bamboo shoots up. Trust the process, track the wins, and let your habits carry you through."
+    }
+  ]
+}

@@ -53,6 +53,7 @@ const QUESTION_TYPES = new Set([
   "multiple_choice", "true_false", "fill_blank", "tap_word", "match_pairs",
   "order_steps", "categorize", "budget_builder", "slider_estimate",
   "decision_path", "spot_scam", "priority_matrix", "spaced_planner", "reflect",
+  "mood_meter", "i_statement",
 ]);
 
 const files = fileArgs.length
@@ -228,6 +229,34 @@ for (const file of files) {
         if (b.chips !== undefined && (!Array.isArray(b.chips) || b.chips.some((c) => typeof c !== "string"))) err(`${at}: chips must be an array of strings`);
         break;
       }
+      case "mood_meter": {
+        if (!b.prompt) err(`${at}: missing prompt`);
+        if (!Array.isArray(b.items) || b.items.length < 4 || b.items.length > 8) err(`${at}: needs 4–8 items`);
+        (b.items ?? []).forEach((it, j) => {
+          if (typeof it.text !== "string" || !it.text.trim()) err(`${at}: item ${j} missing text`);
+          if (it.energy !== "high" && it.energy !== "low") err(`${at}: item ${j} energy must be "high" or "low"`);
+          if (typeof it.pleasant !== "boolean") err(`${at}: item ${j} pleasant must be boolean`);
+        });
+        const combos = new Set((b.items ?? []).map((it) => `${it.energy}-${it.pleasant}`));
+        if (combos.size < 4) err(`${at}: items must cover all four mood quadrants (has ${combos.size})`);
+        break;
+      }
+      case "i_statement": {
+        if (!b.prompt) err(`${at}: missing prompt`);
+        if (!Array.isArray(b.slots) || b.slots.length < 2 || b.slots.length > 4) err(`${at}: needs 2–4 slots`);
+        (b.slots ?? []).forEach((s, j) => {
+          if (typeof s.label !== "string" || !s.label.trim()) err(`${at}: slot ${j} missing label`);
+          if (!Array.isArray(s.options) || s.options.length < 2 || s.options.length > 4) err(`${at}: slot ${j} needs 2–4 options`);
+          const oks = (s.options ?? []).filter((o) => o.ok).length;
+          if (oks < 1) err(`${at}: slot ${j} needs at least one ok:true option`);
+          if (oks === (s.options?.length ?? 0)) err(`${at}: slot ${j} needs at least one distractor (ok:false)`);
+          (s.options ?? []).forEach((o, k) => {
+            if (typeof o.text !== "string" || !o.text.trim()) err(`${at}: slot ${j} option ${k} missing text`);
+            if (typeof o.ok !== "boolean") err(`${at}: slot ${j} option ${k} ok must be boolean`);
+          });
+        });
+        break;
+      }
     }
   });
 
@@ -241,6 +270,8 @@ for (const file of files) {
   if ((typeCounts.decision_path ?? 0) > 1) err("at most one decision_path per lesson");
   if ((typeCounts.priority_matrix ?? 0) > 1) err("at most one priority_matrix per lesson");
   if ((typeCounts.spaced_planner ?? 0) > 1) err("at most one spaced_planner per lesson");
+  if ((typeCounts.mood_meter ?? 0) > 1) err("at most one mood_meter per lesson");
+  if ((typeCounts.i_statement ?? 0) > 1) err("at most one i_statement per lesson");
 
   if (errors.length) {
     failed = true;

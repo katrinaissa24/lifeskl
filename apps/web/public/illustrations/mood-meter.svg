@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A 2x2 mood meter grid with four colored quadrants">
+  <!-- Left axis label: "High energy" top, "Low energy" bottom -->
+  <text x="14" y="80" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#4a3f47" text-anchor="middle" transform="rotate(-90 14 80)">High energy</text>
+  <text x="14" y="150" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#4a3f47" text-anchor="middle" transform="rotate(-90 14 150)">Low energy</text>
+  <!-- Top axis labels: "Unpleasant" left, "Pleasant" right -->
+  <text x="118" y="18" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#4a3f47" text-anchor="middle">Unpleasant</text>
+  <text x="230" y="18" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#4a3f47" text-anchor="middle">Pleasant</text>
+  <!-- Top-left: Red quadrant -->
+  <rect x="30" y="25" width="108" height="80" rx="10" fill="#ffd9d9" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <text x="84" y="69" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#181016" text-anchor="middle">Red</text>
+  <!-- Top-right: Yellow quadrant -->
+  <rect x="150" y="25" width="108" height="80" rx="10" fill="#fff0bf" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <text x="204" y="69" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#181016" text-anchor="middle">Yellow</text>
+  <!-- Bottom-left: Blue quadrant -->
+  <rect x="30" y="117" width="108" height="80" rx="10" fill="#d8e3ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <text x="84" y="161" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#181016" text-anchor="middle">Blue</text>
+  <!-- Bottom-right: Green quadrant -->
+  <rect x="150" y="117" width="108" height="80" rx="10" fill="#d2f1de" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <text x="204" y="161" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#181016" text-anchor="middle">Green</text>
+</svg>

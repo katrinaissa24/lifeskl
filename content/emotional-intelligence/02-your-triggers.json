@@ -1,0 +1,173 @@
+{
+  "slug": "your-triggers",
+  "title": "Spot your triggers",
+  "description": "The button that gets pushed — and how to see it coming.",
+  "unit": 1,
+  "sortOrder": 2,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Name a trigger: a word, person, or moment that sets off a bigger reaction than it deserves",
+    "Spot the pattern — what happened right before you flared, and what it made you feel about yourself",
+    "Catch the body's spike (heat, racing heart) as your early warning",
+    "Triggers aren't a flaw — everyone has them, and naming yours takes their power",
+    "The reaction is automatic; the response is yours to choose once you see it coming"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "The button",
+      "body": "Someone says one little thing — \"calm down,\" or \"whatever\" — and suddenly you're way more heated than the moment calls for. That's a **trigger**: a word, look, person, or memory that sets off a reaction bigger than the situation deserves.\n\nIt feels huge because it's not really about right now. It's poking an old, sore spot.",
+      "image": "/illustrations/trigger-spark.svg",
+      "imageAlt": "A lit match touching a fuse, like an emotional trigger catching"
+    },
+    {
+      "type": "material",
+      "title": "Why it lands so hard",
+      "body": "A trigger taps an old sensitivity — usually a feeling like:\n- **disrespected** (\"you don't matter\")\n- **excluded** (\"you're not wanted\")\n- **controlled** (\"you can't choose\")\n- **judged** or **not good enough**\n\nSo when a friend cuts you off mid-sentence, the spark isn't really the interruption. It's the old story it whispers underneath."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What actually makes something a trigger?",
+      "context": "Your sibling rolls their eyes at your idea and you're instantly furious.",
+      "options": [
+        "It sets off a reaction bigger than the moment, tapping an old sore spot",
+        "It only happens to people who are too sensitive",
+        "It's a sign the other person is always the problem",
+        "It means you don't actually have any feelings about it"
+      ],
+      "correctIndex": 0,
+      "explanation": "A trigger hits hard because it pokes an old sensitivity — the size of the reaction is the clue something deeper got touched."
+    },
+    {
+      "type": "true_false",
+      "prompt": "Only weak or overly sensitive people have triggers.",
+      "answer": false,
+      "explanation": "Everyone has triggers — they're part of being human. The skill isn't getting rid of them, it's spotting yours."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each trigger to the deeper need it's poking.",
+      "pairs": [
+        {
+          "left": "Being talked over",
+          "right": "Feeling respected"
+        },
+        {
+          "left": "Left out of the plans",
+          "right": "Feeling included"
+        },
+        {
+          "left": "Told exactly what to do",
+          "right": "Feeling free to choose"
+        },
+        {
+          "left": "Compared to someone else",
+          "right": "Feeling good enough"
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Find your pattern",
+      "body": "Triggers love to repeat. To catch yours, rewind the tape after a flare-up and ask two things:\n\n- **What happened right before?** The actual moment you reacted to.\n- **What did it make me feel about myself?** Small? Ignored? Bossed around?\n\nDo that a few times and you'll see the same sore spot show up again and again."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Common trigger theme, or just a neutral event?",
+      "categories": [
+        "Common trigger",
+        "Neutral event"
+      ],
+      "items": [
+        {
+          "text": "Being interrupted",
+          "category": 0
+        },
+        {
+          "text": "It started raining",
+          "category": 1
+        },
+        {
+          "text": "Feeling rushed",
+          "category": 0
+        },
+        {
+          "text": "Being ignored or left on read",
+          "category": 0
+        },
+        {
+          "text": "The bus arrived on time",
+          "category": 1
+        },
+        {
+          "text": "Something feeling unfair",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "A trigger sets off a reaction that's ___ than the moment actually deserves.",
+      "answer": "bigger",
+      "accept": [
+        "larger"
+      ],
+      "hint": "Think about the size of the reaction.",
+      "explanation": "The oversized reaction is the tell — it's the old sore spot reacting, not just the moment."
+    },
+    {
+      "type": "material",
+      "title": "Your early warning system",
+      "body": "Before your brain even has words, your **body** sounds the alarm. The spike shows up as:\n- a rush of heat in your face or chest\n- a racing or pounding heart\n- a tight jaw, clenched fists, or held breath\n\nThat physical jolt is your early warning. Catch it, and you've got a half-second head start before the reaction takes the wheel."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the earliest warning that you've been triggered?",
+      "options": [
+        "The other person finally apologizing",
+        "A full day passing by",
+        "A body spike — heat, a racing heart, a tight jaw",
+        "Forgetting the whole thing happened"
+      ],
+      "correctIndex": 2,
+      "explanation": "Your body reacts before your thoughts do. That physical spike is the first sign — and your chance to catch the trigger early."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this false. Tap it.",
+      "sentence": "Your first gut reaction to a trigger is chosen in the heat of the moment.",
+      "wrongWord": "chosen",
+      "correctWord": "automatic",
+      "explanation": "The first reaction is automatic — it fires before you decide. The response that comes after is the part you actually get to choose."
+    },
+    {
+      "type": "material",
+      "title": "Name it to tame it",
+      "body": "Once you can say it out loud — \"I get defensive when I feel blamed\" — the trigger loses its grip.\n\nNaming it turns an ambush into something you saw coming. Now you can plan: take a breath, ask a question, step away for a minute. The reaction is automatic. The response is yours — **if** you see the trigger first."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the trigger-handling steps in order.",
+      "steps": [
+        "Notice the body spike — heat, racing heart",
+        "Name the trigger — \"I feel blamed right now\"",
+        "Choose your response instead of reacting"
+      ],
+      "explanation": "Catch the body's signal, name what got poked, then you've got room to choose — not just react."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Name one real trigger of yours, the early body sign you'd feel, and one thing you'll do when you spot it.",
+      "context": "No wrong answers here — this is just for you. The more honest, the more useful.",
+      "chips": [
+        "Being criticized",
+        "Being ignored",
+        "Feeling rushed",
+        "Unfairness",
+        "Being told what to do"
+      ],
+      "placeholder": "When I feel ___, my body ___, so I'll ___",
+      "explanation": "You just turned an automatic ambush into something you can see coming. That's the whole skill — naming it is taming it."
+    }
+  ]
+}

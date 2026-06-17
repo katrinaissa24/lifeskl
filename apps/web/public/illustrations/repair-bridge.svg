@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A cracked bridge being mended">
+  <!-- sky / ground -->
+  <rect x="0" y="158" width="320" height="42" rx="0" fill="#e3f5ec"/>
+  <rect x="0" y="168" width="320" height="32" rx="0" fill="#1f8a5b" opacity="0.18"/>
+
+  <!-- left bank -->
+  <rect x="10" y="140" width="60" height="60" rx="6" fill="#efe9ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- right bank -->
+  <rect x="250" y="140" width="60" height="60" rx="6" fill="#efe9ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- bridge arch — left half -->
+  <path d="M10 158 Q70 80 148 128 L148 158 Z" fill="#fffdf8" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- bridge arch — right half -->
+  <path d="M310 158 Q250 80 172 128 L172 158 Z" fill="#fffdf8" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- bridge road deck — left -->
+  <rect x="10" y="154" width="138" height="10" rx="2" fill="#fffdf8" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- bridge road deck — right -->
+  <rect x="172" y="154" width="138" height="10" rx="2" fill="#fffdf8" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- crack / gap in middle of the arch -->
+  <path d="M148 124 L150 132 L146 138 L151 145 L148 158 L152 158 L155 145 L150 138 L154 132 L152 124 Z" fill="#4a3f47" opacity="0.22"/>
+  <!-- jagged crack outline -->
+  <polyline points="149,122 151,131 147,138 152,145 149,158" stroke="#181016" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="152,122 154,131 150,138 155,145 172,158" stroke="#181016" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- pink patch / bandage across the crack -->
+  <rect x="138" y="126" width="44" height="18" rx="6" fill="#ff6f9c" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- bandage cross lines -->
+  <line x1="138" y1="135" x2="182" y2="135" stroke="#ffe6ee" stroke-width="2" stroke-dasharray="4 3" stroke-linecap="round"/>
+  <line x1="160" y1="126" x2="160" y2="144" stroke="#ffe6ee" stroke-width="2" stroke-dasharray="4 3" stroke-linecap="round"/>
+
+  <!-- purple seam stitching pulling the gap together -->
+  <path d="M148 148 C150 145 152 145 154 148" stroke="#6b46ff" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M146 152 C149 148 153 148 156 152" stroke="#6b46ff" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M144 157 C148 152 154 152 158 157" stroke="#6b46ff" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- stitch dots on sides of seam -->
+  <circle cx="144" cy="148" r="2.5" fill="#6b46ff" stroke="#181016" stroke-width="1.5"/>
+  <circle cx="176" cy="148" r="2.5" fill="#6b46ff" stroke="#181016" stroke-width="1.5"/>
+  <circle cx="142" cy="154" r="2.5" fill="#6b46ff" stroke="#181016" stroke-width="1.5"/>
+  <circle cx="178" cy="154" r="2.5" fill="#6b46ff" stroke="#181016" stroke-width="1.5"/>
+
+  <!-- small hearts above the patch to signal repair/care -->
+  <path d="M155 108 C155 105 159 103 161 106 C163 103 167 105 167 108 C167 112 161 116 161 116 C161 116 155 112 155 108 Z" fill="#ff6f9c" stroke="#181016" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- label -->
+  <text x="160" y="192" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#4a3f47" text-anchor="middle">Repair &amp; Reconnect</text>
+</svg>

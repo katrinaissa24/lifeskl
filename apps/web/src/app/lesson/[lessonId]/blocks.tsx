@@ -6,8 +6,10 @@ import type {
   CategorizeBlock,
   DecisionPathBlock,
   FillBlankBlock,
+  IStatementBlock,
   MatchPairsBlock,
   MaterialBlock,
+  MoodMeterBlock,
   MultipleChoiceBlock,
   OrderStepsBlock,
   PriorityMatrixBlock,
@@ -1280,6 +1282,229 @@ export function ReflectView({
           <ContinueFoot onClick={() => onDone(true)} />
         </>
       )}
+    </div>
+  );
+}
+
+// ----------------------------------------------------------------- mood meter
+
+// RULER mood-meter quadrants. Render order: top-left, top-right, bottom-left,
+// bottom-right. x-axis = pleasantness, y-axis = energy.
+const MM_QUADS = [
+  { name: "Red", sub: "high energy · unpleasant", energy: "high", pleasant: false, cls: "red" },
+  { name: "Yellow", sub: "high energy · pleasant", energy: "high", pleasant: true, cls: "yellow" },
+  { name: "Blue", sub: "low energy · unpleasant", energy: "low", pleasant: false, cls: "blue" },
+  { name: "Green", sub: "low energy · pleasant", energy: "low", pleasant: true, cls: "green" },
+] as const;
+
+export function MoodMeterView({
+  block,
+  meta,
+  onDone,
+}: {
+  block: MoodMeterBlock;
+  meta: string;
+  onDone: (correct: boolean) => void;
+}) {
+  const items = useMemo(() => shuffled(block.items), [block.items]);
+  const [index, setIndex] = useState(0);
+  const [flash, setFlash] = useState<"good" | "bad" | null>(null);
+  const [misses, setMisses] = useState(0);
+  const [locked, setLocked] = useState(false);
+  const [placed, setPlaced] = useState<string[][]>([[], [], [], []]);
+
+  const finished = index >= items.length;
+  const current = finished ? null : items[index];
+  const quadOf = (it: { energy: "high" | "low"; pleasant: boolean }) =>
+    MM_QUADS.findIndex((q) => q.energy === it.energy && q.pleasant === it.pleasant);
+
+  function pick(qi: number) {
+    if (!current || locked) return;
+    const correctQi = quadOf(current);
+    const ok = qi === correctQi;
+    if (!ok) setMisses((n) => n + 1);
+    setPlaced((p) => {
+      const next = p.map((a) => [...a]);
+      next[correctQi].push(current.text);
+      return next;
+    });
+    setFlash(ok ? "good" : "bad");
+    setLocked(true);
+    setTimeout(
+      () => {
+        setFlash(null);
+        setLocked(false);
+        setIndex((i) => i + 1);
+      },
+      ok ? 560 : 1300,
+    );
+  }
+
+  const cell = (qi: number) =>
+    finished ? (
+      <div key={qi} className={`mm-cell ${MM_QUADS[qi].cls} filled`}>
+        <b>{MM_QUADS[qi].name}</b>
+        <div className="mm-chips">
+          {placed[qi].map((t, j) => (
+            <span key={j} className="mm-chip">{t}</span>
+          ))}
+        </div>
+      </div>
+    ) : (
+      <button key={qi} type="button" className={`mm-cell ${MM_QUADS[qi].cls}`} disabled={locked} onClick={() => pick(qi)}>
+        <b>{MM_QUADS[qi].name}</b>
+        <span className="mm-sub">{MM_QUADS[qi].sub}</span>
+      </button>
+    );
+
+  return (
+    <div>
+      <div className="q-meta">{meta} · Mood meter</div>
+      <div className="q-text">{block.prompt}</div>
+
+      {!finished && current && (
+        <div key={index} className={`mm-item ${flash ?? ""}`}>
+          {current.text}
+          {flash === "bad" && (
+            <div className="mm-correction">
+              → {MM_QUADS[quadOf(current)].name} · {MM_QUADS[quadOf(current)].sub}
+            </div>
+          )}
+        </div>
+      )}
+
+      <div className={`mm-grid ${finished ? "done" : ""}`}>
+        <span />
+        <span className="mm-head">Unpleasant</span>
+        <span className="mm-head">Pleasant</span>
+        <span className="mm-rlabel">High energy</span>
+        {cell(0)}
+        {cell(1)}
+        <span className="mm-rlabel">Low energy</span>
+        {cell(2)}
+        {cell(3)}
+      </div>
+
+      {!finished && (
+        <div className="cat-progress">
+          {index + 1} of {items.length}
+          {misses > 0 && ` · ${misses} ${misses === 1 ? "miss" : "misses"}`}
+        </div>
+      )}
+
+      {finished && (
+        <>
+          <Feedback
+            state={misses === 0 ? "good" : "bad"}
+            good="Spot on — every feeling in its quadrant."
+            bad={`Placed — with ${misses} ${misses === 1 ? "slip" : "slips"}.`}
+            detail={block.explanation}
+          />
+          <ContinueFoot onClick={() => onDone(misses === 0)} />
+        </>
+      )}
+    </div>
+  );
+}
+
+// --------------------------------------------------------------- i-statement
+
+export function IStatementView({
+  block,
+  meta,
+  onDone,
+}: {
+  block: IStatementBlock;
+  meta: string;
+  onDone: (correct: boolean) => void;
+}) {
+  // Shuffle each slot's options once; chosen[] holds the picked shuffled index.
+  const slots = useMemo(
+    () => block.slots.map((s) => ({ ...s, options: shuffled(s.options) })),
+    [block.slots],
+  );
+  const [chosen, setChosen] = useState<(number | null)[]>(() => block.slots.map(() => null));
+  const [checked, setChecked] = useState(false);
+
+  const allPicked = chosen.every((c) => c !== null);
+  const correct =
+    checked && chosen.every((c, i) => c !== null && slots[i].options[c].ok);
+
+  function choose(slotIdx: number, optIdx: number) {
+    if (checked) return;
+    setChosen((cur) => {
+      const next = [...cur];
+      next[slotIdx] = optIdx;
+      return next;
+    });
+  }
+
+  const preview = chosen
+    .map((c, i) => (c === null ? null : slots[i].options[c].text))
+    .filter(Boolean)
+    .join(" ");
+
+  return (
+    <div>
+      <div className="q-meta">{meta} · Build the line</div>
+      {block.context && (
+        <p className="material-body" style={{ marginTop: 10 }}>
+          {block.context}
+        </p>
+      )}
+      <div className="q-text">{block.prompt}</div>
+
+      {preview && <div className="is-preview">&ldquo;{preview}&rdquo;</div>}
+
+      <div className="is-slots">
+        {slots.map((s, si) => (
+          <div key={si} className="is-slot">
+            <div className="is-slot-label">{s.label}</div>
+            <div className="is-options">
+              {s.options.map((o, oi) => {
+                const isChosen = chosen[si] === oi;
+                const showResult = checked && isChosen;
+                return (
+                  <button
+                    key={oi}
+                    type="button"
+                    disabled={checked}
+                    onClick={() => choose(si, oi)}
+                    className={[
+                      "is-option",
+                      isChosen ? "sel" : "",
+                      showResult && o.ok ? "good" : "",
+                      showResult && !o.ok ? "bad" : "",
+                    ].join(" ")}
+                  >
+                    {o.text}
+                  </button>
+                );
+              })}
+            </div>
+            {checked && chosen[si] !== null && !s.options[chosen[si] as number].ok && (
+              <div className="is-why">
+                {s.options[chosen[si] as number].why ?? "There's a more emotionally-intelligent option here."}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+
+      {!checked && (
+        <div className="check-foot">
+          <button type="button" className="btn btn-accent btn-block" disabled={!allPicked} onClick={() => setChecked(true)}>
+            Check my statement
+          </button>
+        </div>
+      )}
+      <Feedback
+        state={checked ? (correct ? "good" : "bad") : "idle"}
+        good="That's a clean I-statement — owns the feeling, names the behavior, no blame."
+        bad="Almost — swap the highlighted pick for the one that owns your feeling without attacking them."
+        detail={block.explanation}
+      />
+      {checked && <ContinueFoot onClick={() => onDone(correct)} />}
     </div>
   );
 }

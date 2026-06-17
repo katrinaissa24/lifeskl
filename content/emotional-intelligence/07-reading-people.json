@@ -1,0 +1,248 @@
+{
+  "slug": "reading-people",
+  "title": "Read the room... and the person",
+  "description": "Most of what people mean isn't in their words.",
+  "unit": 3,
+  "sortOrder": 7,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Read body language and tone, not just the words — most of the message lives there",
+    "Trust clusters of cues, not one sign, and watch for changes from someone's normal",
+    "Listen to understand: don't draft your reply while they're still talking",
+    "Reflect back what you heard, then ask instead of assuming you know",
+    "When you're unsure what someone feels, the move is to check — not to mind-read"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "\"I'm fine\"",
+      "body": "Your friend says \"I'm fine\" — but their arms are crossed, their voice is flat, and they won't look at you. The words say one thing. Everything else says the opposite.\n\nWhen they clash, the **body and tone** usually carry the truth. Most of what people actually mean never makes it into their words at all.",
+      "image": "/illustrations/empathy-bridge.svg",
+      "imageAlt": "Two heads connected by a bridge, like seeing another person's side"
+    },
+    {
+      "type": "material",
+      "title": "The quiet channel",
+      "body": "Way more than words, people leak how they feel through:\n- **tone of voice** — warm, sharp, flat, rushed\n- **face** — a tight smile, a furrowed brow\n- **posture** — leaning in, or turned away\n- **eye contact** — steady, or dodging\n- **pace** — clipped answers, long pauses\n\nThis is the channel most people forget to read. Tune into it and you'll catch what someone won't say out loud.",
+      "image": "/illustrations/active-listening.svg",
+      "imageAlt": "An ear catching sound waves"
+    },
+    {
+      "type": "true_false",
+      "prompt": "When someone's words and their tone clash, the words carry most of the emotional message.",
+      "answer": false,
+      "explanation": "It's the other way around — tone and body language carry most of the feeling. A flat \"I'm fine\" tells you more than the word \"fine\" does."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's your best read here?",
+      "context": "You ask a friend how their day went. They say \"good,\" but it comes out flat, they're slumped, and they keep glancing at the door.",
+      "options": [
+        "They're probably not actually good — the tone and posture say something's off",
+        "They're fine — they literally said 'good'",
+        "They're definitely angry at you specifically",
+        "They're bored by the question and nothing's wrong"
+      ],
+      "correctIndex": 0,
+      "explanation": "The flat tone, slump, and glancing away all point the same way. You can't be sure what's wrong, but the cluster says don't take 'good' at face value."
+    },
+    {
+      "type": "material",
+      "title": "Read clusters, not single cues",
+      "body": "One crossed arm? Maybe they're just cold. Don't build a whole story on a single sign.\n\nLook for a **cluster** — several cues pointing the same way. Crossed arms **plus** a flat tone **plus** no eye contact **plus** short answers? Now you've got a real signal. One cue is noise. Three or four lining up is a message.",
+      "image": "/illustrations/body-cues.svg",
+      "imageAlt": "A body outline marked with emotion cues at the chest, jaw, and stomach"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which is the strongest evidence someone's upset?",
+      "options": [
+        "Their arms are crossed",
+        "They sigh once",
+        "Flat tone, no eye contact, one-word answers, and a tight jaw all at once",
+        "They check their phone for a second"
+      ],
+      "correctIndex": 2,
+      "explanation": "Any single cue can mean nothing. Several cues stacking up in the same direction is what makes a read reliable."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this wrong. Tap it.",
+      "sentence": "Trust a single cue and you will read people accurately.",
+      "wrongWord": "accurately",
+      "correctWord": "wrong",
+      "explanation": "One cue means little — read clusters of signals that point the same way, not a single gesture."
+    },
+    {
+      "type": "material",
+      "title": "Watch for the change",
+      "body": "Everyone has a **baseline** — their normal. The real tell is when someone shifts away from it.\n\nA friend who's usually loud in the group chat goes silent for a day. The classmate who always cracks jokes is suddenly short with everyone. The cue isn't the quiet or the snappiness itself — it's the **change** from how they normally are. That shift is your flag that something's up.",
+      "image": "/illustrations/trigger-spark.svg",
+      "imageAlt": "A lit match touching a fuse, like a noticeable change catching your attention"
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each cue to what it most likely signals.",
+      "pairs": [
+        {
+          "left": "Crossed arms and a turned-away body",
+          "right": "Feeling closed off or defensive"
+        },
+        {
+          "left": "A normally chatty friend goes quiet",
+          "right": "Something's bothering them"
+        },
+        {
+          "left": "Leaning in, nodding, steady eye contact",
+          "right": "Engaged and open"
+        },
+        {
+          "left": "Clipped, one-word replies",
+          "right": "Done talking or upset"
+        }
+      ]
+    },
+    {
+      "type": "categorize",
+      "prompt": "Open and engaged, or closed off?",
+      "categories": [
+        "Open body language",
+        "Closed body language"
+      ],
+      "items": [
+        {
+          "text": "Leaning in toward you",
+          "category": 0
+        },
+        {
+          "text": "Arms crossed tight",
+          "category": 1
+        },
+        {
+          "text": "Steady, relaxed eye contact",
+          "category": 0
+        },
+        {
+          "text": "Body angled away from you",
+          "category": 1
+        },
+        {
+          "text": "Nodding while you talk",
+          "category": 0
+        },
+        {
+          "text": "Glancing at the exit",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "The other half: actually listening",
+      "body": "Reading cues is half of it. The other half is **active listening**:\n- **Give them your full attention** — phone down, eyes up\n- **Don't draft your reply while they talk** — you'll miss everything\n- **Reflect it back** — \"sounds like you're slammed right now\"\n- **Ask, don't assume** — \"what's going on?\" beats guessing\n\nMost people wait to talk instead of listening. Do the opposite.",
+      "image": "/illustrations/active-listening.svg",
+      "imageAlt": "An ear catching sound waves"
+    },
+    {
+      "type": "categorize",
+      "prompt": "Real listening, or just waiting to talk?",
+      "categories": [
+        "Active listening",
+        "Waiting to talk"
+      ],
+      "items": [
+        {
+          "text": "\"So you felt left out — is that it?\"",
+          "category": 0
+        },
+        {
+          "text": "Planning your comeback while they speak",
+          "category": 1
+        },
+        {
+          "text": "Putting your phone down to focus",
+          "category": 0
+        },
+        {
+          "text": "Jumping in with your own bigger story",
+          "category": 1
+        },
+        {
+          "text": "Asking \"what happened next?\"",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "prompt": "Reflecting back \"sounds like you're ___\" shows you actually heard them.",
+      "answer": "slammed",
+      "accept": [
+        "overwhelmed",
+        "stressed",
+        "busy"
+      ],
+      "hint": "Echo their feeling in your own words.",
+      "explanation": "Reflecting back proves you were listening, not just waiting your turn — and lets them correct you if you read it wrong."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "You think a friend seems off. What's the move?",
+      "options": [
+        "Decide they're mad at you and start acting cold back",
+        "Say nothing and assume it'll pass",
+        "Check it: \"you seem a bit off — everything okay?\"",
+        "Announce that you know exactly what they're feeling"
+      ],
+      "correctIndex": 2,
+      "explanation": "Reading people isn't mind-reading. A gentle check turns your guess into real information — and shows you noticed and care."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the steps for reading someone in order.",
+      "steps": [
+        "Notice a cue — a flat tone or a turned-away body",
+        "Read the cluster — do several cues point the same way?",
+        "Check it by asking — \"you seem off, everything okay?\""
+      ],
+      "explanation": "Notice, then confirm it's a real cluster, then ask. You never skip straight to assuming you know — you check."
+    },
+    {
+      "type": "mood_meter",
+      "prompt": "Read what the OTHER person is probably feeling, and tap the right quadrant.",
+      "items": [
+        {
+          "text": "Your friend sprints over grinning — they just made the team",
+          "energy": "high",
+          "pleasant": true
+        },
+        {
+          "text": "A classmate sits alone, quiet, staring out the window",
+          "energy": "low",
+          "pleasant": false
+        },
+        {
+          "text": "Someone slams their locker and storms off down the hall",
+          "energy": "high",
+          "pleasant": false
+        },
+        {
+          "text": "A friend is leaned back on the couch, relaxed and chatting easily",
+          "energy": "low",
+          "pleasant": true
+        },
+        {
+          "text": "Your sibling is bouncing in their seat, talking fast about the concert tonight",
+          "energy": "high",
+          "pleasant": true
+        },
+        {
+          "text": "A friend gives slow, flat one-word answers and won't meet your eyes",
+          "energy": "low",
+          "pleasant": false
+        }
+      ],
+      "explanation": "Same skill as reading yourself, aimed outward: energy (high or low) plus pleasantness (good or bad) places where someone's probably at — so you know how to meet them."
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "slug": "respecting-differences",
+  "title": "Read the room & respect differences",
+  "description": "The same move that kills in one room bombs in another.",
+  "unit": 3,
+  "sortOrder": 9,
+  "xpReward": 20,
+  "summaryPoints": [
+    "Read a room's emotional tone before you act, not after",
+    "Scan energy, who's talking vs quiet, body language, and what's left unsaid",
+    "Match the moment — celebratory, tense, focused, or grieving",
+    "Don't assume your normal is everyone's: eye contact, space, and directness vary by person and culture",
+    "When unsure, observe first, mirror the group, and ask instead of assuming"
+  ],
+  "content": [
+    {
+      "type": "material",
+      "title": "Same joke, wrong room",
+      "body": "Your funniest bit lands every time with your group chat. Drop it at a funeral and the floor opens up beneath you.\n\nThe joke didn't change. The **room** did.\n\nReading the room means sensing a group's emotional tone and adjusting to it before you open your mouth. It's not about being fake — it's about noticing where you actually are."
+    },
+    {
+      "type": "material",
+      "title": "Four things to scan",
+      "body": "Walk into any room and you can read it in seconds if you look:\n- **Energy** — hyped, flat, tense, or calm?\n- **Who's talking** — and who went quiet?\n- **Body language** — leaning in, or arms crossed and checked out?\n- **What's NOT said** — the thing everyone's avoiding\n\nThe vibe is always broadcasting. Most people just forget to tune in.",
+      "image": "/illustrations/empathy-bridge.svg",
+      "imageAlt": "Two heads connected by a bridge, showing perspective-taking"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which is the clearest signal the room's tone has shifted?",
+      "context": "Mid-conversation, the loud table suddenly goes quiet and a few people glance at the door.",
+      "options": [
+        "The drop in noise and the shared glances",
+        "The clock on the wall",
+        "How many chairs are in the room",
+        "The color of the walls"
+      ],
+      "correctIndex": 0,
+      "explanation": "A sudden quiet plus shared glances is the room telling you something changed — that's exactly the cue to slow down and read it."
+    },
+    {
+      "type": "true_false",
+      "prompt": "One set of social rules fits every person and every culture.",
+      "answer": false,
+      "explanation": "Eye contact, personal space, directness, and humor all vary by person and culture — what's polite in one place is rude in another."
+    },
+    {
+      "type": "material",
+      "title": "Match the moment",
+      "body": "Every room has a mood you can name — and each one asks for something different from you:\n- **Celebratory** — bring energy, hype people up\n- **Tense** — go calm and careful, don't poke\n- **Focused** — keep it short, let them work\n- **Grieving** — soften, listen more than you talk\n\nName the moment first. Then match it. Steamrolling in with the same energy regardless is how you become the person nobody invites back."
+    },
+    {
+      "type": "match_pairs",
+      "prompt": "Match each setting to the tone that fits it.",
+      "pairs": [
+        {
+          "left": "Surprise birthday party",
+          "right": "Bring energy and hype"
+        },
+        {
+          "left": "Friend who just got bad news",
+          "right": "Soften and listen"
+        },
+        {
+          "left": "Group project crunch hour",
+          "right": "Keep it short and focused"
+        },
+        {
+          "left": "Tense argument across the room",
+          "right": "Stay calm, don't poke"
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Read the silence too",
+      "body": "Loud rooms are easy. The skill is reading the quiet ones.\n\nWhen a group goes silent, it's saying something: focus, tension, awkwardness, or grief. The same goes for who **stopped** talking. The friend who's normally loud and suddenly isn't is broadcasting just as much as the one crying.\n\nWhat isn't being said is often the loudest signal in the room."
+    },
+    {
+      "type": "categorize",
+      "prompt": "Reading the room, or ignoring it?",
+      "categories": [
+        "Reading the room",
+        "Ignoring it"
+      ],
+      "items": [
+        {
+          "text": "Lowering your voice when everyone else does",
+          "category": 0
+        },
+        {
+          "text": "Cracking loud jokes while a friend is crying",
+          "category": 1
+        },
+        {
+          "text": "Noticing the group went quiet and pausing",
+          "category": 0
+        },
+        {
+          "text": "Telling a long story when everyone's clearly rushing",
+          "category": 1
+        },
+        {
+          "text": "Matching the calm tone of a tense meeting",
+          "category": 0
+        },
+        {
+          "text": "Hyping up a room that just got sad news",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "type": "material",
+      "title": "Your normal isn't everyone's",
+      "body": "Reading the room isn't just about the group's mood — it's about people too.\n\nEye contact, personal space, directness, formality, and how openly people show emotion all vary. Some friends say exactly what they mean; others hint and expect you to catch it. Some hug hello; others want a foot of space.\n\nThe trap is assuming **your** normal is everyone's. It isn't. Notice the difference instead of judging it."
+    },
+    {
+      "type": "tap_word",
+      "instructions": "One word makes this advice wrong. Tap it.",
+      "sentence": "When you are not sure how someone wants to be treated, just guess.",
+      "wrongWord": "guess",
+      "correctWord": "ask",
+      "explanation": "Norms vary by person and culture — when you are unsure, ask instead of assuming your way is universal."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What's the best move the second you realize you've misread the room?",
+      "context": "You walk in joking loudly, then notice everyone's faces are serious and quiet.",
+      "options": [
+        "Push through louder so it's not awkward",
+        "Pause, drop your energy, and match the room",
+        "Defend the joke and explain why it was funny",
+        "Make another joke to recover"
+      ],
+      "correctIndex": 1,
+      "explanation": "The fastest repair is to stop, adjust your register down to match the room, and read what's actually happening — not to double down."
+    },
+    {
+      "type": "i_statement",
+      "prompt": "You realize you came in too loud for a quiet room. Build a line that resets things without making it weird.",
+      "context": "You barged into a hushed study room cracking jokes and people clearly aren't in that headspace.",
+      "slots": [
+        {
+          "label": "Owning it",
+          "options": [
+            {
+              "text": "Sorry, I read the room wrong",
+              "ok": true
+            },
+            {
+              "text": "Wow, why is everyone so boring",
+              "ok": false,
+              "why": "That blames them for your misread — now you're the problem twice over."
+            }
+          ]
+        },
+        {
+          "label": "Adjusting",
+          "options": [
+            {
+              "text": "I'll keep it down so you can focus",
+              "ok": true
+            },
+            {
+              "text": "but you should lighten up anyway",
+              "ok": false,
+              "why": "That undoes the apology and tells them their tone is wrong, not yours."
+            }
+          ]
+        }
+      ],
+      "explanation": "Owning the misread and adjusting your volume resets the room fast — no defensiveness, no making them wrong for the mood they were already in."
+    },
+    {
+      "type": "material",
+      "title": "Observe, mirror, ask",
+      "body": "Not sure how to act? Don't freeze and don't guess. Run three moves:\n- **Observe** — watch the energy and the cues before you jump in\n- **Mirror** — match the group's register: their volume, pace, formality\n- **Ask** — when you still can't tell, just ask instead of assuming\n\nThis isn't shrinking yourself. It's being considerate and effective instead of steamrolling whatever room you walked into."
+    },
+    {
+      "type": "order_steps",
+      "prompt": "Put the read-the-room steps in order.",
+      "steps": [
+        "Observe the energy, faces, and who's quiet",
+        "Sense the mood — is it hyped, tense, or sad?",
+        "Adjust your tone and energy to match"
+      ],
+      "explanation": "Observe before you sense, sense before you adjust — jumping straight to acting is how you barrel in and misread it."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Think of a room you read wrong recently. What was the cue you missed?",
+      "context": "Everyone misreads a room sometimes — the skill is catching it faster next time.",
+      "chips": [
+        "Quiet that I talked over",
+        "Tense vibe I ignored",
+        "Sad news I joked through",
+        "Rushed energy I missed"
+      ],
+      "placeholder": "The cue I missed was…",
+      "explanation": "Naming the cue you missed trains you to catch it earlier next time — that's how social radar gets sharper."
+    },
+    {
+      "type": "decision_path",
+      "title": "Reading the room",
+      "intro": "Three rooms, three totally different moods. Sense each one and adjust — or barrel in with the same energy and watch it backfire.",
+      "stat": {
+        "name": "Social radar",
+        "emoji": "📡",
+        "start": 50
+      },
+      "steps": [
+        {
+          "situation": "You walk into a party that's already hyped — music loud, everyone dancing and laughing.",
+          "options": [
+            {
+              "text": "Read the high energy and jump in with it",
+              "delta": 20,
+              "feedback": "You matched the celebratory mood — instant fit.",
+              "best": true
+            },
+            {
+              "text": "Pull people aside for a serious deep talk",
+              "delta": -15,
+              "feedback": "Right instinct in another room, wrong moment here. Read the energy first."
+            },
+            {
+              "text": "Stand in the corner judging how loud it is",
+              "delta": -10,
+              "feedback": "Checking out isn't reading the room — it's ignoring it."
+            }
+          ]
+        },
+        {
+          "situation": "Next: your group project, due in an hour, everyone heads-down and stressed.",
+          "options": [
+            {
+              "text": "Crack jokes and play music to lighten things up",
+              "delta": -15,
+              "feedback": "The hyped-party move bombs here — they need focus, not a show."
+            },
+            {
+              "text": "Keep it short, take a task, and let people work",
+              "delta": 20,
+              "feedback": "You read the focused, tense tone and matched it. That's social radar.",
+              "best": true
+            },
+            {
+              "text": "Loudly stress about how behind you all are",
+              "delta": -10,
+              "feedback": "Adding panic to a tense room raises the heat instead of helping."
+            }
+          ]
+        },
+        {
+          "situation": "Last room: a close friend just got bad news and looks crushed.",
+          "options": [
+            {
+              "text": "Hit them with the same party energy from earlier",
+              "delta": -20,
+              "feedback": "Same energy, totally wrong room — this is the exact mismatch to avoid."
+            },
+            {
+              "text": "Rush to fix it with a dozen quick solutions",
+              "delta": -5,
+              "feedback": "Well-meaning, but they need presence more than a checklist right now."
+            },
+            {
+              "text": "Soften, sit with them, and mostly listen",
+              "delta": 20,
+              "feedback": "You matched the grieving moment — quiet presence over performance.",
+              "best": true
+            }
+          ]
+        }
+      ],
+      "outro": "Same you, three rooms, three different moves. Reading the tone and adjusting is the whole skill."
+    }
+  ]
+}

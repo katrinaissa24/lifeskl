@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" role="img" aria-label="A balance scale weighing care and honesty">
+  <!-- base / stand -->
+  <rect x="148" y="170" width="24" height="10" rx="4" fill="#efe9ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="138" y="178" width="44" height="12" rx="5" fill="#efe9ff" stroke="#181016" stroke-width="3" stroke-linejoin="round"/>
+  <!-- vertical pole -->
+  <line x1="160" y1="96" x2="160" y2="170" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <!-- pivot dot -->
+  <circle cx="160" cy="96" r="5" fill="#6b46ff" stroke="#181016" stroke-width="2.5"/>
+  <!-- beam (level) -->
+  <line x1="60" y1="96" x2="260" y2="96" stroke="#181016" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- left chain -->
+  <line x1="80" y1="96" x2="80" y2="124" stroke="#181016" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 4"/>
+  <!-- right chain -->
+  <line x1="240" y1="96" x2="240" y2="124" stroke="#181016" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 4"/>
+  <!-- left pan -->
+  <path d="M50 124 Q80 132 110 124" stroke="#181016" stroke-width="3" stroke-linecap="round" fill="#ffe6ee"/>
+  <line x1="50" y1="124" x2="110" y2="124" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <!-- right pan -->
+  <path d="M210 124 Q240 132 270 124" stroke="#181016" stroke-width="3" stroke-linecap="round" fill="#efe9ff"/>
+  <line x1="210" y1="124" x2="270" y2="124" stroke="#181016" stroke-width="3" stroke-linecap="round"/>
+  <!-- left pan content: heart -->
+  <path d="M80 113 C80 109 74 106 72 110 C70 106 64 109 64 113 C64 118 72 124 72 124 C72 124 80 118 80 113 Z" fill="#ff6f9c" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- right pan content: speech bubble / check mark -->
+  <rect x="228" y="106" width="24" height="18" rx="5" fill="#fff0bf" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M228 124 L234 130 L240 124" fill="#fff0bf" stroke="#181016" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M233 112 L237 116 L244 109" stroke="#181016" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- labels -->
+  <text x="72" y="148" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#4a3f47" text-anchor="middle">care</text>
+  <text x="240" y="148" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#4a3f47" text-anchor="middle">honest</text>
+</svg>
