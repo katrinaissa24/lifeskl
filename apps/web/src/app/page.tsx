@@ -1,17 +1,17 @@
 import Link from "next/link";
 import { LandingDemo } from "@/components/LandingDemo";
 
-// Catalog copy for the marketing page. Deliberately static (aspirational
-// lesson counts, instant static render) — the real course data lives in
-// Supabase and drives /dashboard.
+// Catalog copy for the marketing page. Lesson counts mirror the live bundled
+// catalog (apps/web/src/lib/localCatalog.generated.ts) — update them when a
+// course gains or loses lessons.
 const CATALOG = [
-  { slug: "personal-finance",       title: "Personal Finance",       desc: "Budgeting, saving, credit, investing & taxes.",      meta: "35 lessons" },
-  { slug: "how-to-learn",           title: "How to Learn",           desc: "Study skills, focus, memory & learning anything.",   meta: "35 lessons" },
-  { slug: "emotional-intelligence", title: "Emotional Intelligence", desc: "Self-awareness, empathy, self-control & conflict.",  meta: "35 lessons" },
-  { slug: "health",                 title: "Health & Mind",          desc: "Stress, sleep, anxiety, habits & burnout.",          meta: "35 lessons" },
-  { slug: "relationships",          title: "Relationships",          desc: "Boundaries, conflict, communication & dating.",      meta: "35 lessons" },
-  { slug: "digital",                title: "Digital Life",           desc: "Privacy, scams, passwords & staying safe online.",   meta: "35 lessons" },
-  { slug: "career",                 title: "Career & Work",          desc: "Resumes, interviews, negotiation & email.",          meta: "35 lessons" },
+  { slug: "personal-finance",       title: "Personal Finance",       desc: "Budgeting, saving, credit, investing & taxes.",      meta: "13 lessons" },
+  { slug: "how-to-learn",           title: "How to Learn",           desc: "Study skills, focus, memory & learning anything.",   meta: "17 lessons" },
+  { slug: "emotional-intelligence", title: "Emotional Intelligence", desc: "Self-awareness, empathy, self-control & conflict.",  meta: "21 lessons" },
+  { slug: "health",                 title: "Health & Mind",          desc: "Stress, sleep, anxiety, habits & burnout.",          meta: "2 lessons" },
+  { slug: "relationships",          title: "Relationships",          desc: "Boundaries, conflict, communication & dating.",      meta: "2 lessons" },
+  { slug: "digital",                title: "Digital Life",           desc: "Privacy, scams, passwords & staying safe online.",   meta: "2 lessons" },
+  { slug: "career",                 title: "Career & Work",          desc: "Resumes, interviews, negotiation & email.",          meta: "2 lessons" },
 ];
 
 const TICKER_ITEMS = [

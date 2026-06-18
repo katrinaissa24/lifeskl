@@ -131,38 +131,29 @@ export const LOCAL_COURSES: CourseWithLessons[] = [
     ]
   },
   {
-    "id": "money",
-    "slug": "money",
-    "title": "Money & Finance",
-    "description": "Taxes, budgeting, credit, saving & paychecks.",
-    "emoji": "💰",
+    "id": "health",
+    "slug": "health",
+    "title": "Health & Mind",
+    "description": "Stress, sleep, anxiety, habits & burnout.",
+    "emoji": "🧠",
     "sortOrder": 1,
     "lessons": [
       {
-        "id": "money__reading-a-payslip",
-        "slug": "reading-a-payslip",
-        "title": "Reading a payslip",
-        "description": "Gross, net, and where the rest went.",
+        "id": "health__sleep-debt",
+        "slug": "sleep-debt",
+        "title": "Sleep is a budget too",
+        "description": "Why the weekend lie-in never quite fixes the week.",
         "xpReward": 10,
         "sortOrder": 1,
         "unit": 1
       },
       {
-        "id": "money__minimum-payment-trap",
-        "slug": "minimum-payment-trap",
-        "title": "The minimum payment trap",
-        "description": "Why \"just pay the minimum\" quietly grows your debt.",
+        "id": "health__burnout-signals",
+        "slug": "burnout-signals",
+        "title": "Spotting burnout early",
+        "description": "The warning lights before the engine seizes.",
         "xpReward": 10,
         "sortOrder": 2,
-        "unit": 1
-      },
-      {
-        "id": "money__budget-that-sticks",
-        "slug": "budget-that-sticks",
-        "title": "A budget that sticks",
-        "description": "The 50/30/20 rule, minus the spreadsheet dread.",
-        "xpReward": 15,
-        "sortOrder": 3,
         "unit": 1
       }
     ]
@@ -331,40 +322,12 @@ export const LOCAL_COURSES: CourseWithLessons[] = [
     ]
   },
   {
-    "id": "health",
-    "slug": "health",
-    "title": "Health & Mind",
-    "description": "Burnout, sleep, stress, habits & therapy basics.",
-    "emoji": "🧠",
-    "sortOrder": 2,
-    "lessons": [
-      {
-        "id": "health__sleep-debt",
-        "slug": "sleep-debt",
-        "title": "Sleep is a budget too",
-        "description": "Why the weekend lie-in never quite fixes the week.",
-        "xpReward": 10,
-        "sortOrder": 1,
-        "unit": 1
-      },
-      {
-        "id": "health__burnout-signals",
-        "slug": "burnout-signals",
-        "title": "Spotting burnout early",
-        "description": "The warning lights before the engine seizes.",
-        "xpReward": 10,
-        "sortOrder": 2,
-        "unit": 1
-      }
-    ]
-  },
-  {
     "id": "relationships",
     "slug": "relationships",
     "title": "Relationships",
     "description": "Boundaries, conflict, communication & dating.",
     "emoji": "💬",
-    "sortOrder": 3,
+    "sortOrder": 2,
     "lessons": [
       {
         "id": "relationships__boundaries-101",
@@ -392,7 +355,7 @@ export const LOCAL_COURSES: CourseWithLessons[] = [
     "title": "Digital Life",
     "description": "Privacy, scams, passwords & staying safe online.",
     "emoji": "🔐",
-    "sortOrder": 4,
+    "sortOrder": 3,
     "lessons": [
       {
         "id": "digital__password-hygiene",
@@ -408,6 +371,34 @@ export const LOCAL_COURSES: CourseWithLessons[] = [
         "slug": "spot-the-scam",
         "title": "Spot the scam",
         "description": "Urgency, weird payment, secrecy — the scam triangle.",
+        "xpReward": 10,
+        "sortOrder": 2,
+        "unit": 1
+      }
+    ]
+  },
+  {
+    "id": "career",
+    "slug": "career",
+    "title": "Career & Work",
+    "description": "Resumes, interviews, negotiation & email.",
+    "emoji": "💼",
+    "sortOrder": 4,
+    "lessons": [
+      {
+        "id": "career__six-second-resume",
+        "slug": "six-second-resume",
+        "title": "The six-second resume",
+        "description": "What recruiters actually see before deciding.",
+        "xpReward": 10,
+        "sortOrder": 1,
+        "unit": 1
+      },
+      {
+        "id": "career__salary-talk",
+        "slug": "salary-talk",
+        "title": "Talking salary without sweating",
+        "description": "Anchors, ranges, and the power of a pause.",
         "xpReward": 10,
         "sortOrder": 2,
         "unit": 1
@@ -610,90 +601,6 @@ export const LOCAL_COURSES: CourseWithLessons[] = [
         "xpReward": 25,
         "sortOrder": 21,
         "unit": 7
-      }
-    ]
-  },
-  {
-    "id": "career",
-    "slug": "career",
-    "title": "Career & Work",
-    "description": "Resumes, interviews, negotiation & email.",
-    "emoji": "💼",
-    "sortOrder": 5,
-    "lessons": [
-      {
-        "id": "career__six-second-resume",
-        "slug": "six-second-resume",
-        "title": "The six-second resume",
-        "description": "What recruiters actually see before deciding.",
-        "xpReward": 10,
-        "sortOrder": 1,
-        "unit": 1
-      },
-      {
-        "id": "career__salary-talk",
-        "slug": "salary-talk",
-        "title": "Talking salary without sweating",
-        "description": "Anchors, ranges, and the power of a pause.",
-        "xpReward": 10,
-        "sortOrder": 2,
-        "unit": 1
-      }
-    ]
-  },
-  {
-    "id": "home",
-    "slug": "home",
-    "title": "Home & Repair",
-    "description": "Leases, moving out, fixes & everyday maintenance.",
-    "emoji": "🔧",
-    "sortOrder": 6,
-    "lessons": [
-      {
-        "id": "home__read-the-lease",
-        "slug": "read-the-lease",
-        "title": "Read the lease like a lawyer",
-        "description": "The four clauses that decide your year.",
-        "xpReward": 10,
-        "sortOrder": 1,
-        "unit": 1
-      },
-      {
-        "id": "home__fix-or-call",
-        "slug": "fix-or-call",
-        "title": "Fix it or call it in?",
-        "description": "What's yours, what's the landlord's, and the paper trail.",
-        "xpReward": 10,
-        "sortOrder": 2,
-        "unit": 1
-      }
-    ]
-  },
-  {
-    "id": "cooking",
-    "slug": "cooking",
-    "title": "Cooking & Food",
-    "description": "Real meals, groceries, nutrition & not wasting it.",
-    "emoji": "🍳",
-    "sortOrder": 7,
-    "lessons": [
-      {
-        "id": "cooking__pantry-foundations",
-        "slug": "pantry-foundations",
-        "title": "Stock a pantry like a pro",
-        "description": "Ten staples, dozens of dinners.",
-        "xpReward": 10,
-        "sortOrder": 1,
-        "unit": 1
-      },
-      {
-        "id": "cooking__grocery-math",
-        "slug": "grocery-math",
-        "title": "Grocery math",
-        "description": "Unit prices, store brands, and the hungry-shopper tax.",
-        "xpReward": 10,
-        "sortOrder": 2,
-        "unit": 1
       }
     ]
   }
