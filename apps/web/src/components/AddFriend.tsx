@@ -8,6 +8,7 @@ const MESSAGES: Record<string, string> = {
   exists: "You're already connected (or have a pending request).",
   self: "That's you. 🙂",
   not_found: "No user with that username.",
+  anonymous: "Create a free account to add friends.",
   error: "Something went wrong — try again.",
 };
 
