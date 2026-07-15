@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useState } from "react";
+import { GuestContinue } from "@/components/GuestContinue";
 import { createClient } from "@/lib/supabase/client";
 import { isSupabaseConfigured } from "@/lib/supabase/env";
 
@@ -88,6 +89,8 @@ function LoginFormInner() {
           {pending ? "Logging in…" : "Log in →"}
         </button>
       </form>
+
+      <GuestContinue />
 
       <p className="muted center" style={{ marginTop: 18, fontWeight: 600 }}>
         New here?{" "}

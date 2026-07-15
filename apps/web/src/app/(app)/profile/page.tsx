@@ -34,6 +34,11 @@ export default async function ProfilePage() {
   const user = await getCurrentUser();
   if (!user) redirect("/login");
 
+  // Guests (anonymous sessions) aren't part of the social graph — friends and
+  // friend requests are permanent-account features (enforced in RLS + the
+  // send_friend_request RPC). Swap the add-friend form for a sign-up nudge.
+  const isGuest = user.is_anonymous ?? false;
+
   const [profile, courses, completions, enrolledIds, friends, xpDays] =
     await Promise.all([
       getProfile(user.id),
@@ -98,7 +103,19 @@ export default async function ProfilePage() {
           <Icon name="users" size={20} /> Friends
         </h3>
         <FriendsList friends={friends} />
-        <AddFriend />
+        {isGuest ? (
+          <div className="card card-pad" style={{ marginTop: 8 }}>
+            <p className="muted" style={{ fontWeight: 500 }}>
+              You&apos;re exploring as a guest.{" "}
+              <Link href="/signup" className="accent-word" style={{ fontWeight: 700 }}>
+                Create a free account →
+              </Link>{" "}
+              to add friends and keep your progress.
+            </p>
+          </div>
+        ) : (
+          <AddFriend />
+        )}
       </section>
 
       <div className="level-strip" style={{ marginTop: 26 }}>
