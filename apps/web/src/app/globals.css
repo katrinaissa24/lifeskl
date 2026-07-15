@@ -154,6 +154,27 @@
   .btn-block { width: 100%; }
   .btn:disabled { opacity: .45; cursor: not-allowed; }
 
+  /* "or" separator between the auth form and the guest-continue button. */
+  .or-divider {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 20px 0 16px;
+    color: var(--text-soft);
+    font-weight: 600;
+    font-size: .82rem;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+  }
+  .or-divider::before,
+  .or-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+    opacity: .3;
+  }
+
   /* ========================================================================
      Pieces: logo, chips, badges, progress, cards
      ======================================================================== */
